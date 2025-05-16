@@ -10,7 +10,25 @@ var JSON_game=
 		name:"audiogroup_default",enabled:!0,	}
 	],Sprites:[
 	{
-		pName:"spriteBlock",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxRight:31,bboxBottom:31,playbackspeed:30,TPEntryIndex:[22,28,25,17,31,26,20,23,21,24,18,32,27,29,30,19],sequence:
+		pName:"Sprite21",width:64,height:64,transparent:!1,smooth:!1,preload:!1,playbackspeed:30,TPEntryIndex:[86],sequence:
+		{
+			pName:"Sprite21",playback:1,playbackSpeed:30,playbackSpeedType:0,length:1,xorigin:0,yorigin:0,volume:1,keyframeStore:[],tracks:[
+			{
+				modelName:"GMSpriteFramesTrack",pName:"frames",builtinName:0,traits:0,creationTrack:0,tags:[],ownedResourceModels:[],tracks:[],keyframeStore:[
+				{
+					key:0,length:1,stretch:!1,disabled:!1,channels:
+					{
+						0:
+						{
+							imageIndex:0						}
+					}
+				}
+				]			}
+			],sequenceEvents:[],momentsKeystore:[]		}
+	}
+	,
+	{
+		pName:"spriteBlock",width:32,height:32,bboxMode:2,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxRight:31,bboxBottom:31,playbackspeed:30,TPEntryIndex:[27,33,30,22,36,31,25,28,26,29,23,37,32,34,35,24],sequence:
 		{
 			pName:"spriteBlock",playback:1,playbackSpeed:30,playbackSpeedType:0,length:16,xorigin:16,yorigin:16,volume:1,keyframeStore:[],tracks:[
 			{
@@ -160,10 +178,13 @@ var JSON_game=
 				}
 				]			}
 			],sequenceEvents:[],momentsKeystore:[]		}
+		,nineslice:
+		{
+			nLeft:0,nTop:0,nRight:0,nBottom:0,nEnabled:!1,nTilemode:[0,0,0,0,0]		}
 	}
 	,
 	{
-		pName:"spriteBlockSingle",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxRight:31,bboxBottom:31,playbackspeed:30,TPEntryIndex:[33],sequence:
+		pName:"spriteBlockSingle",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxRight:31,bboxBottom:31,playbackspeed:30,TPEntryIndex:[38],sequence:
 		{
 			pName:"spriteBlockSingle",playback:1,playbackSpeed:30,playbackSpeedType:0,length:1,xorigin:16,yorigin:16,volume:1,keyframeStore:[],tracks:[
 			{
@@ -181,7 +202,25 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spriteClothesHair",width:21,height:14,transparent:!1,smooth:!1,preload:!1,xOrigin:10,yOrigin:7,bboxRight:20,bboxBottom:13,playbackspeed:30,TPEntryIndex:[49],sequence:
+		pName:"spriteBlockTile",width:96,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:48,yOrigin:16,bboxLeft:32,bboxRight:95,bboxBottom:31,playbackspeed:30,TPEntryIndex:[21],sequence:
+		{
+			pName:"spriteBlockTile",playback:1,playbackSpeed:30,playbackSpeedType:0,length:1,xorigin:48,yorigin:16,volume:1,keyframeStore:[],tracks:[
+			{
+				modelName:"GMSpriteFramesTrack",pName:"frames",builtinName:0,traits:0,creationTrack:0,tags:[],ownedResourceModels:[],tracks:[],keyframeStore:[
+				{
+					key:0,length:1,stretch:!1,disabled:!1,channels:
+					{
+						0:
+						{
+							imageIndex:0						}
+					}
+				}
+				]			}
+			],sequenceEvents:[],momentsKeystore:[]		}
+	}
+	,
+	{
+		pName:"spriteClothesHair",width:21,height:14,transparent:!1,smooth:!1,preload:!1,xOrigin:10,yOrigin:7,bboxRight:20,bboxBottom:13,playbackspeed:30,TPEntryIndex:[55],sequence:
 		{
 			pName:"spriteClothesHair",playback:1,playbackSpeed:30,playbackSpeedType:0,length:1,xorigin:10,yorigin:7,volume:1,keyframeStore:[],tracks:[
 			{
@@ -199,7 +238,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spriteClothesWings",width:35,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:18,bboxLeft:1,bboxRight:33,bboxTop:11,bboxBottom:24,playbackspeed:5,TPEntryIndex:[44,47,69,72,71,68,46,43],sequence:
+		pName:"spriteClothesWings",width:35,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:18,bboxLeft:1,bboxRight:33,bboxTop:11,bboxBottom:24,playbackspeed:5,TPEntryIndex:[50,53,75,78,77,74,52,49],sequence:
 		{
 			pName:"spriteClothesWings",playback:1,playbackSpeed:5,playbackSpeedType:0,length:8,xorigin:16,yorigin:18,volume:1,keyframeStore:[],tracks:[
 			{
@@ -280,7 +319,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spriteContainer",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxRight:31,bboxBottom:31,playbackspeed:30,TPEntryIndex:[34,37],sequence:
+		pName:"spriteContainer",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxRight:31,bboxBottom:31,playbackspeed:30,TPEntryIndex:[39,43],sequence:
 		{
 			pName:"spriteContainer",playback:1,playbackSpeed:30,playbackSpeedType:0,length:2,xorigin:16,yorigin:16,volume:1,keyframeStore:[],tracks:[
 			{
@@ -307,7 +346,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spriteItemEntrance",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:15,bboxLeft:2,bboxRight:29,bboxTop:1,bboxBottom:30,playbackspeed:30,TPEntryIndex:[42,36],sequence:
+		pName:"spriteItemEntrance",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:15,bboxLeft:2,bboxRight:29,bboxTop:1,bboxBottom:30,playbackspeed:30,TPEntryIndex:[48,42],sequence:
 		{
 			pName:"spriteItemEntrance",playback:1,playbackSpeed:30,playbackSpeedType:0,length:2,xorigin:16,yorigin:15,volume:1,keyframeStore:[],tracks:[
 			{
@@ -334,7 +373,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spriteItemFist",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:5,bboxRight:28,bboxTop:12,bboxBottom:20,playbackspeed:30,TPEntryIndex:[70],sequence:
+		pName:"spriteItemFist",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:5,bboxRight:28,bboxTop:12,bboxBottom:20,playbackspeed:30,TPEntryIndex:[76],sequence:
 		{
 			pName:"spriteItemFist",playback:1,playbackSpeed:30,playbackSpeedType:0,length:1,xorigin:16,yorigin:16,volume:1,keyframeStore:[],tracks:[
 			{
@@ -352,7 +391,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spriteItemSeed",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:1,bboxRight:30,bboxTop:1,bboxBottom:31,playbackspeed:30,TPEntryIndex:[35],sequence:
+		pName:"spriteItemSeed",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:1,bboxRight:30,bboxTop:1,bboxBottom:31,playbackspeed:30,TPEntryIndex:[40],sequence:
 		{
 			pName:"spriteItemSeed",playback:1,playbackSpeed:30,playbackSpeedType:0,length:1,xorigin:16,yorigin:16,volume:1,keyframeStore:[],tracks:[
 			{
@@ -370,9 +409,9 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spriteItemTree",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:32,bboxLeft:2,bboxRight:28,bboxTop:3,bboxBottom:31,playbackspeed:30,TPEntryIndex:[73,48,38],sequence:
+		pName:"spriteItemTree",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:32,bboxLeft:1,bboxRight:30,bboxTop:1,bboxBottom:31,playbackspeed:30,TPEntryIndex:[41,79,54,44],sequence:
 		{
-			pName:"spriteItemTree",playback:1,playbackSpeed:30,playbackSpeedType:0,length:3,xorigin:16,yorigin:32,volume:1,keyframeStore:[],tracks:[
+			pName:"spriteItemTree",playback:1,playbackSpeed:30,playbackSpeedType:0,length:4,xorigin:16,yorigin:32,volume:1,keyframeStore:[],tracks:[
 			{
 				modelName:"GMSpriteFramesTrack",pName:"frames",builtinName:0,traits:0,creationTrack:0,tags:[],ownedResourceModels:[],tracks:[],keyframeStore:[
 				{
@@ -401,12 +440,21 @@ var JSON_game=
 							imageIndex:2						}
 					}
 				}
+				,
+				{
+					key:3,length:1,stretch:!1,disabled:!1,channels:
+					{
+						0:
+						{
+							imageIndex:3						}
+					}
+				}
 				]			}
 			],sequenceEvents:[],momentsKeystore:[]		}
 	}
 	,
 	{
-		pName:"spriteItemWrench",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:3,bboxRight:28,bboxTop:7,bboxBottom:26,playbackspeed:30,TPEntryIndex:[40],sequence:
+		pName:"spriteItemWrench",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:3,bboxRight:28,bboxTop:7,bboxBottom:26,playbackspeed:30,TPEntryIndex:[46],sequence:
 		{
 			pName:"spriteItemWrench",playback:1,playbackSpeed:30,playbackSpeedType:0,length:1,xorigin:16,yorigin:16,volume:1,keyframeStore:[],tracks:[
 			{
@@ -424,7 +472,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spritePlayerHead",width:19,transparent:!1,smooth:!1,preload:!1,xOrigin:9,yOrigin:8,bboxRight:17,bboxBottom:14,playbackspeed:30,TPEntryIndex:[65,51,59,55,61,52,54,63,58,60,57,62,56,64,50,53],sequence:
+		pName:"spritePlayerHead",width:19,transparent:!1,smooth:!1,preload:!1,xOrigin:9,yOrigin:8,bboxRight:17,bboxBottom:14,playbackspeed:30,TPEntryIndex:[71,57,65,61,67,58,60,69,64,66,63,68,62,70,56,59],sequence:
 		{
 			pName:"spritePlayerHead",playback:1,playbackSpeed:30,playbackSpeedType:0,length:16,xorigin:9,yorigin:8,volume:1,keyframeStore:[],tracks:[
 			{
@@ -577,7 +625,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spritePlayerHeadSingle",width:19,transparent:!1,smooth:!1,preload:!1,xOrigin:9,yOrigin:8,bboxRight:17,bboxBottom:14,playbackspeed:30,TPEntryIndex:[66],sequence:
+		pName:"spritePlayerHeadSingle",width:19,transparent:!1,smooth:!1,preload:!1,xOrigin:9,yOrigin:8,bboxRight:17,bboxBottom:14,playbackspeed:30,TPEntryIndex:[72],sequence:
 		{
 			pName:"spritePlayerHeadSingle",playback:1,playbackSpeed:30,playbackSpeedType:0,length:1,xorigin:9,yorigin:8,volume:1,keyframeStore:[],tracks:[
 			{
@@ -595,7 +643,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spritePlayerLeftArm",width:8,height:6,transparent:!1,smooth:!1,preload:!1,xOrigin:1,yOrigin:4,bboxRight:7,bboxTop:1,bboxBottom:5,playbackspeed:30,TPEntryIndex:[77],sequence:
+		pName:"spritePlayerLeftArm",width:8,height:6,transparent:!1,smooth:!1,preload:!1,xOrigin:1,yOrigin:4,bboxRight:7,bboxTop:1,bboxBottom:5,playbackspeed:30,TPEntryIndex:[83],sequence:
 		{
 			pName:"spritePlayerLeftArm",playback:1,playbackSpeed:30,playbackSpeedType:0,length:1,xorigin:1,yorigin:4,volume:1,keyframeStore:[],tracks:[
 			{
@@ -613,7 +661,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spritePlayerLeftLeg",width:6,height:8,transparent:!1,smooth:!1,preload:!1,xOrigin:2,yOrigin:2,bboxRight:5,bboxTop:1,bboxBottom:7,playbackspeed:30,TPEntryIndex:[75],sequence:
+		pName:"spritePlayerLeftLeg",width:6,height:8,transparent:!1,smooth:!1,preload:!1,xOrigin:2,yOrigin:2,bboxRight:5,bboxTop:1,bboxBottom:7,playbackspeed:30,TPEntryIndex:[81],sequence:
 		{
 			pName:"spritePlayerLeftLeg",playback:1,playbackSpeed:30,playbackSpeedType:0,length:1,xorigin:2,yorigin:2,volume:1,keyframeStore:[],tracks:[
 			{
@@ -631,7 +679,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spritePlayerMask",width:17,height:28,transparent:!1,smooth:!1,preload:!1,xOrigin:8,yOrigin:14,bboxLeft:3,bboxRight:13,bboxTop:1,bboxBottom:24,playbackspeed:30,TPEntryIndex:[67],sequence:
+		pName:"spritePlayerMask",width:17,height:28,transparent:!1,smooth:!1,preload:!1,xOrigin:8,yOrigin:14,bboxLeft:3,bboxRight:13,bboxTop:1,bboxBottom:24,playbackspeed:30,TPEntryIndex:[73],sequence:
 		{
 			pName:"spritePlayerMask",playback:1,playbackSpeed:30,playbackSpeedType:0,length:1,xorigin:8,yorigin:14,volume:1,keyframeStore:[],tracks:[
 			{
@@ -649,7 +697,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spritePlayerPunch",width:29,height:18,transparent:!1,smooth:!1,preload:!1,xOrigin:1,yOrigin:10,bboxRight:28,bboxBottom:16,playbackspeed:30,TPEntryIndex:[41],sequence:
+		pName:"spritePlayerPunch",width:29,height:18,transparent:!1,smooth:!1,preload:!1,xOrigin:1,yOrigin:10,bboxRight:28,bboxBottom:16,playbackspeed:30,TPEntryIndex:[47],sequence:
 		{
 			pName:"spritePlayerPunch",playback:1,playbackSpeed:30,playbackSpeedType:0,length:1,xorigin:1,yorigin:10,volume:1,keyframeStore:[],tracks:[
 			{
@@ -667,7 +715,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spritePlayerRightArm",width:8,height:6,transparent:!1,smooth:!1,preload:!1,xOrigin:1,yOrigin:3,bboxRight:7,bboxTop:1,bboxBottom:5,playbackspeed:30,TPEntryIndex:[78],sequence:
+		pName:"spritePlayerRightArm",width:8,height:6,transparent:!1,smooth:!1,preload:!1,xOrigin:1,yOrigin:3,bboxRight:7,bboxTop:1,bboxBottom:5,playbackspeed:30,TPEntryIndex:[84],sequence:
 		{
 			pName:"spritePlayerRightArm",playback:1,playbackSpeed:30,playbackSpeedType:0,length:1,xorigin:1,yorigin:3,volume:1,keyframeStore:[],tracks:[
 			{
@@ -685,7 +733,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spritePlayerRightLeg",width:6,height:8,transparent:!1,smooth:!1,preload:!1,xOrigin:2,yOrigin:2,bboxRight:5,bboxTop:1,bboxBottom:7,playbackspeed:30,TPEntryIndex:[76],sequence:
+		pName:"spritePlayerRightLeg",width:6,height:8,transparent:!1,smooth:!1,preload:!1,xOrigin:2,yOrigin:2,bboxRight:5,bboxTop:1,bboxBottom:7,playbackspeed:30,TPEntryIndex:[82],sequence:
 		{
 			pName:"spritePlayerRightLeg",playback:1,playbackSpeed:30,playbackSpeedType:0,length:1,xorigin:2,yorigin:2,volume:1,keyframeStore:[],tracks:[
 			{
@@ -703,7 +751,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spritePlayerTorso",width:11,height:8,transparent:!1,smooth:!1,preload:!1,xOrigin:5,yOrigin:4,bboxRight:10,bboxBottom:7,playbackspeed:30,TPEntryIndex:[74],sequence:
+		pName:"spritePlayerTorso",width:11,height:8,transparent:!1,smooth:!1,preload:!1,xOrigin:5,yOrigin:4,bboxRight:10,bboxBottom:7,playbackspeed:30,TPEntryIndex:[80],sequence:
 		{
 			pName:"spritePlayerTorso",playback:1,playbackSpeed:30,playbackSpeedType:0,length:1,xorigin:5,yorigin:4,volume:1,keyframeStore:[],tracks:[
 			{
@@ -721,7 +769,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spriteWingsSingle",width:35,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:17,yOrigin:18,bboxLeft:1,bboxRight:33,bboxTop:12,bboxBottom:24,playbackspeed:30,TPEntryIndex:[45],sequence:
+		pName:"spriteWingsSingle",width:35,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:17,yOrigin:18,bboxLeft:1,bboxRight:33,bboxTop:12,bboxBottom:24,playbackspeed:30,TPEntryIndex:[51],sequence:
 		{
 			pName:"spriteWingsSingle",playback:1,playbackSpeed:30,playbackSpeedType:0,length:1,xorigin:17,yorigin:18,volume:1,keyframeStore:[],tracks:[
 			{
@@ -739,8 +787,14 @@ var JSON_game=
 	}
 	],EmbeddedEntries:
 	{
-		"fallbacktexture":0,"pt_shape_circle":9,"pt_shape_cloud":16,"pt_shape_disk":10,"pt_shape_explosion":5,"pt_shape_flare":6,"pt_shape_line":39,"pt_shape_pixel":79,"pt_shape_ring":11,"pt_shape_smoke":7,"pt_shape_snow":13,"pt_shape_spark":8,"pt_shape_sphere":14,"pt_shape_square":12,"pt_shape_star":15,"FONT_builtin":4	}
-	,Backgrounds:[],Paths:[],Shaders:[
+		"fallbacktexture":0,"pt_shape_circle":13,"pt_shape_cloud":20,"pt_shape_disk":14,"pt_shape_explosion":8,"pt_shape_flare":9,"pt_shape_line":45,"pt_shape_pixel":85,"pt_shape_ring":15,"pt_shape_smoke":10,"pt_shape_snow":17,"pt_shape_spark":11,"pt_shape_sphere":18,"pt_shape_square":16,"pt_shape_star":19,"FONT_builtin":6	}
+	,Backgrounds:[
+	{
+		pName:"tilesetBase",transparent:!1,smooth:!1,preload:!1,tilewidth:32,tileheight:32,tilehsep:0,tilevsep:0,tilecolumns:2,frames:1,tilecount:3,spriteindex:3,framelength:66666,framedata:[0,1,2,],TPEntryIndex:12	}
+	,
+	{
+		pName:"tilesetWorld",transparent:!1,smooth:!1,preload:!1,tilewidth:32,tileheight:32,tilehsep:2,tilevsep:2,tilecolumns:2,frames:1,tilecount:3,spriteindex:3,framelength:66666,framedata:[0,1,2,],TPEntryIndex:7	}
+	],Paths:[],Shaders:[
 	{
 		name:"__yy_sdf_shader",Vertex:"#define LOWPREC lowp\n#define	MATRIX_VIEW 					0\n#define	MATRIX_PROJECTION 				1\n#define	MATRIX_WORLD 					2\n#define	MATRIX_WORLD_VIEW 				3\n#define	MATRIX_WORLD_VIEW_PROJECTION 	4\n#define	MATRICES_MAX					5\n\nuniform mat4 gm_Matrices[MATRICES_MAX]; \n\nuniform bool gm_LightingEnabled;\nuniform bool gm_VS_FogEnabled;\nuniform float gm_FogStart;\nuniform float gm_RcpFogRange;\n\n#define MAX_VS_LIGHTS	8\n#define MIRROR_WIN32_LIGHTING_EQUATION\n\n\n//#define	MAX_VS_LIGHTS					8\nuniform vec4   gm_AmbientColour;							// rgb=colour, a=1\nuniform vec4   gm_Lights_Direction[MAX_VS_LIGHTS];		// normalised direction\nuniform vec4   gm_Lights_PosRange[MAX_VS_LIGHTS];			// X,Y,Z position,  W range\nuniform vec4   gm_Lights_Colour[MAX_VS_LIGHTS];			// rgb=colour, a=1\n\nfloat CalcFogFactor(vec4 pos)\n{\n	if (gm_VS_FogEnabled)\n	{\n		vec4 viewpos = gm_Matrices[MATRIX_WORLD_VIEW] * pos;\n		float fogfactor = ((viewpos.z - gm_FogStart) * gm_RcpFogRange);\n		return fogfactor;\n	}\n	else\n	{\n		return 0.0;\n	}\n}\n\nvec4 DoDirLight(vec3 ws_normal, vec4 dir, vec4 diffusecol)\n{\n	float dotresult = dot(ws_normal, dir.xyz);\n	dotresult = min(dotresult, dir.w);			// the w component is 1 if the directional light is active, or 0 if it isn't\n	dotresult = max(0.0, dotresult);\n\n	return dotresult * diffusecol;\n}\n\nvec4 DoPointLight(vec3 ws_pos, vec3 ws_normal, vec4 posrange, vec4 diffusecol)\n{\n	vec3 diffvec = ws_pos - posrange.xyz;\n	float veclen = length(diffvec);\n	diffvec /= veclen;	// normalise\n	float atten;\n	if (posrange.w == 0.0)		// the w component of posrange is 0 if the point light is disabled - if we don't catch it here we might end up generating INFs or NaNs\n	{\n		atten = 0.0;\n	}\n	else\n	{\n#ifdef MIRROR_WIN32_LIGHTING_EQUATION\n	// This is based on the Win32 D3D and OpenGL falloff model, where:\n	// Attenuation = 1.0f / (factor0 + (d * factor1) + (d*d * factor2))\n	// For some reason, factor0 is set to 0.0f while factor1 is set to 1.0f/lightrange (on both D3D and OpenGL)\n	// This'll result in no visible falloff as 1.0f / (d / lightrange) will always be larger than 1.0f (if the vertex is within range)\n	\n		atten = 1.0 / (veclen / posrange.w);\n		if (veclen > posrange.w)\n		{\n			atten = 0.0;\n		}	\n#else\n		atten = clamp( (1.0 - (veclen / posrange.w)), 0.0, 1.0);		// storing 1.0f/range instead would save a rcp\n#endif\n	}\n	float dotresult = dot(ws_normal, diffvec);\n	dotresult = max(0.0, dotresult);\n\n	return dotresult * atten * diffusecol;\n}\n\nvec4 DoLighting(vec4 vertexcolour, vec4 objectspacepos, vec3 objectspacenormal)\n{\n	if (gm_LightingEnabled)\n	{\n		// Normally we'd have the light positions\\directions back-transformed from world to object space\n		// But to keep things simple for the moment we'll just transform the normal to world space\n		vec4 objectspacenormal4 = vec4(objectspacenormal, 0.0);\n		vec3 ws_normal;\n		ws_normal = (gm_Matrices[MATRIX_WORLD] * objectspacenormal4).xyz;\n		ws_normal = normalize(ws_normal);\n\n		vec3 ws_pos;\n		ws_pos = (gm_Matrices[MATRIX_WORLD] * objectspacepos).xyz;\n\n		// Accumulate lighting from different light types\n		vec4 accumcol = vec4(0.0, 0.0, 0.0, 0.0);		\n		for(int i = 0; i < MAX_VS_LIGHTS; i++)\n		{\n			accumcol += DoDirLight(ws_normal, gm_Lights_Direction[i], gm_Lights_Colour[i]);\n		}\n\n		for(int i = 0; i < MAX_VS_LIGHTS; i++)\n		{\n			accumcol += DoPointLight(ws_pos, ws_normal, gm_Lights_PosRange[i], gm_Lights_Colour[i]);\n		}\n\n		accumcol *= vertexcolour;\n		accumcol += gm_AmbientColour;\n		accumcol = min(vec4(1.0, 1.0, 1.0, 1.0), accumcol);\n		accumcol.a = vertexcolour.a;\n		return accumcol;\n	}\n	else\n	{\n		return vertexcolour;\n	}\n}\n\n#define _YY_GLSLES_ 1\n//\n// SDF vertex shader\n//\nattribute vec3 in_Position;                  // (x,y,z)\n//attribute vec3 in_Normal;                  // (x,y,z)     unused in this shader.\nattribute vec4 in_Colour;                    // (r,g,b,a)\nattribute vec2 in_TextureCoord;              // (u,v)\n\nvarying vec2 v_vTexcoord;\nvarying vec4 v_vColour;\n\nvoid main()\n{\n    vec4 object_space_pos = vec4( in_Position.x, in_Position.y, in_Position.z, 1.0);\n    gl_Position = gm_Matrices[MATRIX_WORLD_VIEW_PROJECTION] * object_space_pos;\n    \n    v_vColour = in_Colour;\n    v_vTexcoord = in_TextureCoord;\n}\n",Fragment:"precision mediump float;\n#define LOWPREC lowp\n// Uniforms look like they're shared between vertex and fragment shaders in GLSL, so we have to be careful to avoid name clashes\n\nuniform sampler2D gm_BaseTexture;\n\nuniform bool gm_PS_FogEnabled;\nuniform vec4 gm_FogColour;\nuniform bool gm_AlphaTestEnabled;\nuniform float gm_AlphaRefValue;\n\nvoid DoAlphaTest(vec4 SrcColour)\n{\n	if (gm_AlphaTestEnabled)\n	{\n		if (SrcColour.a <= gm_AlphaRefValue)\n		{\n			discard;\n		}\n	}\n}\n\nvoid DoFog(inout vec4 SrcColour, float fogval)\n{\n	if (gm_PS_FogEnabled)\n	{\n		SrcColour = mix(SrcColour, gm_FogColour, clamp(fogval, 0.0, 1.0)); \n	}\n}\n\n#define _YY_GLSLES_ 1\n//\n// SDF fragment shader\n//\nvarying vec2 v_vTexcoord;\nvarying vec4 v_vColour;\n\nuniform vec2 gm_SDF_Dist_UV;			// the SDF distance value of half a pixel in UV space (takes account of texture size)\n\nvoid main()\n{\n	vec4 texcol = texture2D( gm_BaseTexture, v_vTexcoord );\n		\n	vec2 coordDiffX = dFdx(v_vTexcoord);\n	vec2 coordDiffY = dFdy(v_vTexcoord);\n	vec2 scaledCoordDiffX = coordDiffX * gm_SDF_Dist_UV;\n	vec2 scaledCoordDiffY = coordDiffY * gm_SDF_Dist_UV;\n	float diffXLength = length(scaledCoordDiffX);\n	float diffYLength = length(scaledCoordDiffY);		\n	float spread = (diffXLength + diffYLength) * 0.5;		// get average	\n\n	//float spread = fwidth(texcol.a);	\n	//spread = max(spread * 0.75, 0.001);		\n	\n	texcol.a = smoothstep(0.5 - spread, 0.5 + spread, texcol.a);			\n	\n	vec4 combinedcol = v_vColour * texcol;\n	DoAlphaTest(combinedcol);	\n			\n    gl_FragColor = combinedcol;\n}\n",Attributes:["in_Position","in_Colour","in_TextureCoord"]	}
 	,
@@ -751,7 +805,7 @@ var JSON_game=
 		name:"__yy_sdf_blur_shader",Vertex:"#define LOWPREC lowp\n#define	MATRIX_VIEW 					0\n#define	MATRIX_PROJECTION 				1\n#define	MATRIX_WORLD 					2\n#define	MATRIX_WORLD_VIEW 				3\n#define	MATRIX_WORLD_VIEW_PROJECTION 	4\n#define	MATRICES_MAX					5\n\nuniform mat4 gm_Matrices[MATRICES_MAX]; \n\nuniform bool gm_LightingEnabled;\nuniform bool gm_VS_FogEnabled;\nuniform float gm_FogStart;\nuniform float gm_RcpFogRange;\n\n#define MAX_VS_LIGHTS	8\n#define MIRROR_WIN32_LIGHTING_EQUATION\n\n\n//#define	MAX_VS_LIGHTS					8\nuniform vec4   gm_AmbientColour;							// rgb=colour, a=1\nuniform vec4   gm_Lights_Direction[MAX_VS_LIGHTS];		// normalised direction\nuniform vec4   gm_Lights_PosRange[MAX_VS_LIGHTS];			// X,Y,Z position,  W range\nuniform vec4   gm_Lights_Colour[MAX_VS_LIGHTS];			// rgb=colour, a=1\n\nfloat CalcFogFactor(vec4 pos)\n{\n	if (gm_VS_FogEnabled)\n	{\n		vec4 viewpos = gm_Matrices[MATRIX_WORLD_VIEW] * pos;\n		float fogfactor = ((viewpos.z - gm_FogStart) * gm_RcpFogRange);\n		return fogfactor;\n	}\n	else\n	{\n		return 0.0;\n	}\n}\n\nvec4 DoDirLight(vec3 ws_normal, vec4 dir, vec4 diffusecol)\n{\n	float dotresult = dot(ws_normal, dir.xyz);\n	dotresult = min(dotresult, dir.w);			// the w component is 1 if the directional light is active, or 0 if it isn't\n	dotresult = max(0.0, dotresult);\n\n	return dotresult * diffusecol;\n}\n\nvec4 DoPointLight(vec3 ws_pos, vec3 ws_normal, vec4 posrange, vec4 diffusecol)\n{\n	vec3 diffvec = ws_pos - posrange.xyz;\n	float veclen = length(diffvec);\n	diffvec /= veclen;	// normalise\n	float atten;\n	if (posrange.w == 0.0)		// the w component of posrange is 0 if the point light is disabled - if we don't catch it here we might end up generating INFs or NaNs\n	{\n		atten = 0.0;\n	}\n	else\n	{\n#ifdef MIRROR_WIN32_LIGHTING_EQUATION\n	// This is based on the Win32 D3D and OpenGL falloff model, where:\n	// Attenuation = 1.0f / (factor0 + (d * factor1) + (d*d * factor2))\n	// For some reason, factor0 is set to 0.0f while factor1 is set to 1.0f/lightrange (on both D3D and OpenGL)\n	// This'll result in no visible falloff as 1.0f / (d / lightrange) will always be larger than 1.0f (if the vertex is within range)\n	\n		atten = 1.0 / (veclen / posrange.w);\n		if (veclen > posrange.w)\n		{\n			atten = 0.0;\n		}	\n#else\n		atten = clamp( (1.0 - (veclen / posrange.w)), 0.0, 1.0);		// storing 1.0f/range instead would save a rcp\n#endif\n	}\n	float dotresult = dot(ws_normal, diffvec);\n	dotresult = max(0.0, dotresult);\n\n	return dotresult * atten * diffusecol;\n}\n\nvec4 DoLighting(vec4 vertexcolour, vec4 objectspacepos, vec3 objectspacenormal)\n{\n	if (gm_LightingEnabled)\n	{\n		// Normally we'd have the light positions\\directions back-transformed from world to object space\n		// But to keep things simple for the moment we'll just transform the normal to world space\n		vec4 objectspacenormal4 = vec4(objectspacenormal, 0.0);\n		vec3 ws_normal;\n		ws_normal = (gm_Matrices[MATRIX_WORLD] * objectspacenormal4).xyz;\n		ws_normal = normalize(ws_normal);\n\n		vec3 ws_pos;\n		ws_pos = (gm_Matrices[MATRIX_WORLD] * objectspacepos).xyz;\n\n		// Accumulate lighting from different light types\n		vec4 accumcol = vec4(0.0, 0.0, 0.0, 0.0);		\n		for(int i = 0; i < MAX_VS_LIGHTS; i++)\n		{\n			accumcol += DoDirLight(ws_normal, gm_Lights_Direction[i], gm_Lights_Colour[i]);\n		}\n\n		for(int i = 0; i < MAX_VS_LIGHTS; i++)\n		{\n			accumcol += DoPointLight(ws_pos, ws_normal, gm_Lights_PosRange[i], gm_Lights_Colour[i]);\n		}\n\n		accumcol *= vertexcolour;\n		accumcol += gm_AmbientColour;\n		accumcol = min(vec4(1.0, 1.0, 1.0, 1.0), accumcol);\n		accumcol.a = vertexcolour.a;\n		return accumcol;\n	}\n	else\n	{\n		return vertexcolour;\n	}\n}\n\n#define _YY_GLSLES_ 1\n//\n// Simple passthrough vertex shader\n//\nattribute vec3 in_Position;                  // (x,y,z)\n//attribute vec3 in_Normal;                  // (x,y,z)     unused in this shader.\nattribute vec4 in_Colour;                    // (r,g,b,a)\nattribute vec2 in_TextureCoord;              // (u,v)\n\nvarying vec2 v_vTexcoord;\nvarying vec4 v_vColour;\n\nvoid main()\n{\n    vec4 object_space_pos = vec4( in_Position.x, in_Position.y, in_Position.z, 1.0);\n    gl_Position = gm_Matrices[MATRIX_WORLD_VIEW_PROJECTION] * object_space_pos;\n    \n    v_vColour = in_Colour;\n    v_vTexcoord = in_TextureCoord;\n}\n",Fragment:"precision mediump float;\n#define LOWPREC lowp\n// Uniforms look like they're shared between vertex and fragment shaders in GLSL, so we have to be careful to avoid name clashes\n\nuniform sampler2D gm_BaseTexture;\n\nuniform bool gm_PS_FogEnabled;\nuniform vec4 gm_FogColour;\nuniform bool gm_AlphaTestEnabled;\nuniform float gm_AlphaRefValue;\n\nvoid DoAlphaTest(vec4 SrcColour)\n{\n	if (gm_AlphaTestEnabled)\n	{\n		if (SrcColour.a <= gm_AlphaRefValue)\n		{\n			discard;\n		}\n	}\n}\n\nvoid DoFog(inout vec4 SrcColour, float fogval)\n{\n	if (gm_PS_FogEnabled)\n	{\n		SrcColour = mix(SrcColour, gm_FogColour, clamp(fogval, 0.0, 1.0)); \n	}\n}\n\n#define _YY_GLSLES_ 1\n//\n// SDF (with blur) fragment shader\n//\nvarying vec2 v_vTexcoord;\nvarying vec4 v_vColour;\n\n// SDF values are measured from 0 (at the outer edge) to 1 which is the innermost point that can be represented\nuniform vec2 gm_SDF_Blur_MinMax;			// the range across which to filter the SDF\nuniform vec4 gm_SDF_Blur_Col;				// the colour tint of the blurred text\n\nvoid main()\n{\n	vec4 texcol = texture2D( gm_BaseTexture, v_vTexcoord );	\n	vec4 currcol = gm_SDF_Blur_Col;\n		\n	currcol.a *= smoothstep(gm_SDF_Blur_MinMax.x, gm_SDF_Blur_MinMax.y, texcol.a);		\n	\n	vec4 combinedcol = v_vColour * currcol;\n	DoAlphaTest(combinedcol);	\n\n    gl_FragColor = combinedcol;\n}\n",Attributes:["in_Position","in_Colour","in_TextureCoord"]	}
 	],Fonts:[
 	{
-		pName:"fontChat",size:15,bold:!1,italic:!1,first:32,last:9647,charset:0,antialias:1,fontname:"Jost",ascenderOffset:0,ascender:21,sdfSpread:8,lineHeight:29,TPageEntry:1,scaleX:1,scaleY:1,glyphs:[
+		pName:"fontChat",size:15,bold:!1,italic:!1,first:32,last:9647,charset:0,antialias:1,fontname:"Jost",ascenderOffset:0,ascender:21,sdfSpread:8,lineHeight:29,TPageEntry:3,scaleX:1,scaleY:1,glyphs:[
 		{
 			i:32,c:" ",x:2,y:2,w:6,h:42,shift:6,offset:0		}
 		,
@@ -1042,7 +1096,7 @@ var JSON_game=
 		,],	}
 	,
 	{
-		pName:"fontTest",size:22,bold:!1,italic:!1,first:32,last:9647,charset:0,antialias:1,fontname:"Victor's Pixel Font",ascenderOffset:2,ascender:21,sdfSpread:0,lineHeight:0,TPageEntry:2,scaleX:1,scaleY:1,glyphs:[
+		pName:"fontTest",size:22,bold:!1,italic:!1,first:32,last:9647,charset:0,antialias:1,fontname:"Victor's Pixel Font",ascenderOffset:2,ascender:21,sdfSpread:0,lineHeight:0,TPageEntry:4,scaleX:1,scaleY:1,glyphs:[
 		{
 			i:32,c:" ",x:2,y:2,w:16,h:31,shift:16,offset:0		}
 		,
@@ -1333,7 +1387,7 @@ var JSON_game=
 		,],	}
 	,
 	{
-		pName:"fontTestSmall",size:14,bold:!1,italic:!1,first:32,last:9647,charset:0,antialias:1,fontname:"Victor's Pixel Font",ascenderOffset:2,ascender:13,sdfSpread:0,lineHeight:0,TPageEntry:3,scaleX:1,scaleY:1,glyphs:[
+		pName:"fontTestSmall",size:14,bold:!1,italic:!1,first:32,last:9647,charset:0,antialias:1,fontname:"Victor's Pixel Font",ascenderOffset:2,ascender:13,sdfSpread:0,lineHeight:0,TPageEntry:5,scaleX:1,scaleY:1,glyphs:[
 		{
 			i:32,c:" ",x:2,y:2,w:10,h:21,shift:10,offset:0		}
 		,
@@ -1622,9 +1676,1167 @@ var JSON_game=
 		{
 			i:9647,c:"▯",x:163,y:71,w:12,h:21,shift:18,offset:3		}
 		,],	}
+	,
+	{
+		pName:"fontTitles",size:20,bold:!1,italic:!1,first:32,last:9647,charset:0,antialias:1,fontname:"Lato",ascenderOffset:0,ascender:26,sdfSpread:8,lineHeight:32,TPageEntry:2,scaleX:1,scaleY:1,glyphs:[
+		{
+			i:32,c:" ",x:2,y:2,w:7,h:47,shift:7,offset:0		}
+		,
+		{
+			i:33,c:"!",x:797,y:149,w:21,h:47,shift:8,offset:1		}
+		,
+		{
+			i:34,c:"\"",x:820,y:149,w:25,h:47,shift:11,offset:1,kerning:[44,-3,46,-3,76,-3]		}
+		,
+		{
+			i:35,c:"#",x:847,y:149,w:32,h:47,shift:16,offset:0		}
+		,
+		{
+			i:36,c:"$",x:881,y:149,w:31,h:47,shift:16,offset:0		}
+		,
+		{
+			i:37,c:"%",x:914,y:149,w:37,h:47,shift:22,offset:1		}
+		,
+		{
+			i:38,c:"&",x:953,y:149,w:36,h:47,shift:20,offset:0		}
+		,
+		{
+			i:39,c:"'",x:991,y:149,w:20,h:47,shift:6,offset:1,kerning:[44,-3,46,-3,76,-3]		}
+		,
+		{
+			i:40,c:"(",x:2,y:198,w:23,h:47,shift:7,offset:0		}
+		,
+		{
+			i:41,c:")",x:27,y:198,w:23,h:47,shift:7,offset:0		}
+		,
+		{
+			i:42,c:"*",x:84,y:198,w:26,h:47,shift:11,offset:1,kerning:[76,-3]		}
+		,
+		{
+			i:43,c:"+",x:376,y:198,w:30,h:47,shift:16,offset:1		}
+		,
+		{
+			i:44,c:",",x:112,y:198,w:21,h:47,shift:6,offset:1,kerning:[34,-3,39,-3,80,-2]		}
+		,
+		{
+			i:45,c:"-",x:135,y:198,w:24,h:47,shift:10,offset:1		}
+		,
+		{
+			i:46,c:".",x:161,y:198,w:21,h:47,shift:6,offset:1,kerning:[34,-3,39,-3,80,-2]		}
+		,
+		{
+			i:47,c:"/",x:184,y:198,w:28,h:47,shift:13,offset:0,kerning:[47,-6]		}
+		,
+		{
+			i:48,c:"0",x:214,y:198,w:31,h:47,shift:16,offset:0		}
+		,
+		{
+			i:49,c:"1",x:247,y:198,w:29,h:47,shift:16,offset:1		}
+		,
+		{
+			i:50,c:"2",x:278,y:198,w:30,h:47,shift:16,offset:1		}
+		,
+		{
+			i:51,c:"3",x:310,y:198,w:31,h:47,shift:16,offset:0		}
+		,
+		{
+			i:52,c:"4",x:343,y:198,w:31,h:47,shift:16,offset:0		}
+		,
+		{
+			i:53,c:"5",x:765,y:149,w:30,h:47,shift:16,offset:1		}
+		,
+		{
+			i:54,c:"6",x:52,y:198,w:30,h:47,shift:16,offset:1		}
+		,
+		{
+			i:55,c:"7",x:733,y:149,w:30,h:47,shift:16,offset:1		}
+		,
+		{
+			i:56,c:"8",x:309,y:149,w:30,h:47,shift:16,offset:1		}
+		,
+		{
+			i:57,c:"9",x:34,y:149,w:30,h:47,shift:16,offset:1		}
+		,
+		{
+			i:58,c:":",x:66,y:149,w:21,h:47,shift:7,offset:1		}
+		,
+		{
+			i:59,c:";",x:89,y:149,w:21,h:47,shift:7,offset:1		}
+		,
+		{
+			i:60,c:"<",x:112,y:149,w:27,h:47,shift:16,offset:2		}
+		,
+		{
+			i:61,c:"=",x:141,y:149,w:29,h:47,shift:16,offset:1		}
+		,
+		{
+			i:62,c:">",x:172,y:149,w:28,h:47,shift:16,offset:2		}
+		,
+		{
+			i:63,c:"?",x:202,y:149,w:28,h:47,shift:12,offset:0		}
+		,
+		{
+			i:64,c:"@",x:232,y:149,w:37,h:47,shift:23,offset:1		}
+		,
+		{
+			i:65,c:"A",x:271,y:149,w:36,h:47,shift:19,offset:-1		}
+		,
+		{
+			i:66,c:"B",x:341,y:149,w:31,h:47,shift:18,offset:2		}
+		,
+		{
+			i:67,c:"C",x:658,y:149,w:33,h:47,shift:18,offset:1		}
+		,
+		{
+			i:68,c:"D",x:374,y:149,w:34,h:47,shift:21,offset:2		}
+		,
+		{
+			i:69,c:"E",x:410,y:149,w:29,h:47,shift:16,offset:2		}
+		,
+		{
+			i:70,c:"F",x:441,y:149,w:29,h:47,shift:15,offset:2		}
+		,
+		{
+			i:71,c:"G",x:472,y:149,w:34,h:47,shift:20,offset:1		}
+		,
+		{
+			i:72,c:"H",x:508,y:149,w:33,h:47,shift:21,offset:2		}
+		,
+		{
+			i:73,c:"I",x:543,y:149,w:20,h:47,shift:8,offset:2		}
+		,
+		{
+			i:74,c:"J",x:565,y:149,w:26,h:47,shift:12,offset:0		}
+		,
+		{
+			i:75,c:"K",x:593,y:149,w:33,h:47,shift:19,offset:2		}
+		,
+		{
+			i:76,c:"L",x:628,y:149,w:28,h:47,shift:14,offset:2		}
+		,
+		{
+			i:77,c:"M",x:693,y:149,w:38,h:47,shift:26,offset:2		}
+		,
+		{
+			i:78,c:"N",x:408,y:198,w:33,h:47,shift:21,offset:2		}
+		,
+		{
+			i:79,c:"O",x:443,y:198,w:36,h:47,shift:22,offset:1		}
+		,
+		{
+			i:80,c:"P",x:481,y:198,w:31,h:47,shift:17,offset:2		}
+		,
+		{
+			i:81,c:"Q",x:224,y:247,w:37,h:47,shift:22,offset:1		}
+		,
+		{
+			i:82,c:"R",x:263,y:247,w:32,h:47,shift:17,offset:2		}
+		,
+		{
+			i:83,c:"S",x:297,y:247,w:30,h:47,shift:15,offset:0		}
+		,
+		{
+			i:84,c:"T",x:329,y:247,w:32,h:47,shift:16,offset:0,kerning:[76,-2,98,-3,99,-3,101,-3,103,-3,104,-3,109,-3,110,-3,111,-3,112,-3,113,-3,115,-3,117,-3,122,-2,230,-3,231,-3,232,-3,233,-3,234,-3,235,-3,241,-3,242,-3,243,-3,244,-3,245,-3,246,-3,248,-3,249,-3,250,-3,251,-3,252,-3,254,-3]		}
+		,
+		{
+			i:85,c:"U",x:363,y:247,w:34,h:47,shift:20,offset:1		}
+		,
+		{
+			i:86,c:"V",x:399,y:247,w:36,h:47,shift:19,offset:-1		}
+		,
+		{
+			i:87,c:"W",x:437,y:247,w:45,h:47,shift:28,offset:0		}
+		,
+		{
+			i:88,c:"X",x:484,y:247,w:35,h:47,shift:18,offset:0		}
+		,
+		{
+			i:89,c:"Y",x:521,y:247,w:35,h:47,shift:18,offset:-1,kerning:[76,-3,98,-3,99,-2,101,-3,104,-3,109,-3,110,-3,111,-3,112,-3,115,-3,230,-3,231,-2,232,-3,233,-3,234,-3,235,-3,241,-3,242,-3,243,-3,244,-3,245,-3,246,-3,248,-3,254,-3]		}
+		,
+		{
+			i:90,c:"Z",x:558,y:247,w:32,h:47,shift:16,offset:0		}
+		,
+		{
+			i:91,c:"[",x:592,y:247,w:22,h:47,shift:8,offset:2		}
+		,
+		{
+			i:92,c:"\\",x:616,y:247,w:28,h:47,shift:13,offset:0		}
+		,
+		{
+			i:93,c:"]",x:646,y:247,w:23,h:47,shift:8,offset:0		}
+		,
+		{
+			i:94,c:"^",x:671,y:247,w:30,h:47,shift:16,offset:1		}
+		,
+		{
+			i:95,c:"_",x:703,y:247,w:28,h:47,shift:13,offset:0		}
+		,
+		{
+			i:96,c:"`",x:733,y:247,w:23,h:47,shift:11,offset:1		}
+		,
+		{
+			i:97,c:"a",x:758,y:247,w:29,h:47,shift:14,offset:0,kerning:[84,-3,89,-3,221,-3]		}
+		,
+		{
+			i:98,c:"b",x:789,y:247,w:30,h:47,shift:15,offset:1		}
+		,
+		{
+			i:99,c:"c",x:821,y:247,w:29,h:47,shift:13,offset:0,kerning:[84,-3,89,-3,221,-3]		}
+		,
+		{
+			i:100,c:"d",x:852,y:247,w:30,h:47,shift:15,offset:0,kerning:[84,-3,89,-3,221,-3]		}
+		,
+		{
+			i:101,c:"e",x:884,y:247,w:30,h:47,shift:14,offset:0,kerning:[84,-3,89,-3,221,-3]		}
+		,
+		{
+			i:102,c:"f",x:196,y:247,w:26,h:47,shift:10,offset:0		}
+		,
+		{
+			i:103,c:"g",x:164,y:247,w:30,h:47,shift:14,offset:0,kerning:[84,-3,89,-3,221,-3]		}
+		,
+		{
+			i:104,c:"h",x:133,y:247,w:29,h:47,shift:15,offset:1		}
+		,
+		{
+			i:105,c:"i",x:789,y:198,w:21,h:47,shift:7,offset:1		}
+		,
+		{
+			i:106,c:"j",x:514,y:198,w:24,h:47,shift:7,offset:-2		}
+		,
+		{
+			i:107,c:"k",x:540,y:198,w:30,h:47,shift:14,offset:1		}
+		,
+		{
+			i:108,c:"l",x:572,y:198,w:21,h:47,shift:7,offset:1		}
+		,
+		{
+			i:109,c:"m",x:595,y:198,w:37,h:47,shift:23,offset:1,kerning:[84,-3]		}
+		,
+		{
+			i:110,c:"n",x:634,y:198,w:29,h:47,shift:15,offset:1,kerning:[84,-3]		}
+		,
+		{
+			i:111,c:"o",x:665,y:198,w:31,h:47,shift:16,offset:0,kerning:[84,-3,89,-3,221,-3]		}
+		,
+		{
+			i:112,c:"p",x:698,y:198,w:30,h:47,shift:15,offset:1,kerning:[84,-3]		}
+		,
+		{
+			i:113,c:"q",x:730,y:198,w:30,h:47,shift:15,offset:0,kerning:[84,-3,89,-3,221,-3]		}
+		,
+		{
+			i:114,c:"r",x:762,y:198,w:25,h:47,shift:10,offset:1,kerning:[84,-3]		}
+		,
+		{
+			i:115,c:"s",x:812,y:198,w:27,h:47,shift:12,offset:0,kerning:[84,-3,89,-3,221,-3]		}
+		,
+		{
+			i:116,c:"t",x:105,y:247,w:26,h:47,shift:10,offset:0		}
+		,
+		{
+			i:117,c:"u",x:841,y:198,w:29,h:47,shift:15,offset:1,kerning:[84,-2]		}
+		,
+		{
+			i:118,c:"v",x:872,y:198,w:31,h:47,shift:14,offset:0		}
+		,
+		{
+			i:119,c:"w",x:905,y:198,w:38,h:47,shift:22,offset:0		}
+		,
+		{
+			i:120,c:"x",x:945,y:198,w:31,h:47,shift:14,offset:0		}
+		,
+		{
+			i:121,c:"y",x:978,y:198,w:31,h:47,shift:14,offset:0,kerning:[76,-2]		}
+		,
+		{
+			i:122,c:"z",x:2,y:247,w:28,h:47,shift:12,offset:0,kerning:[84,-2]		}
+		,
+		{
+			i:123,c:"{",x:32,y:247,w:24,h:47,shift:8,offset:0		}
+		,
+		{
+			i:124,c:"|",x:58,y:247,w:19,h:47,shift:7,offset:2		}
+		,
+		{
+			i:125,c:"}",x:79,y:247,w:24,h:47,shift:8,offset:0		}
+		,
+		{
+			i:126,c:"~",x:2,y:149,w:30,h:47,shift:16,offset:1		}
+		,
+		{
+			i:160,c:" ",x:1009,y:100,w:0,h:47,shift:7,offset:0		}
+		,
+		{
+			i:161,c:"¡",x:986,y:100,w:21,h:47,shift:7,offset:1		}
+		,
+		{
+			i:162,c:"¢",x:414,y:51,w:30,h:47,shift:16,offset:1		}
+		,
+		{
+			i:163,c:"£",x:798,y:2,w:32,h:47,shift:16,offset:0		}
+		,
+		{
+			i:164,c:"¤",x:832,y:2,w:30,h:47,shift:16,offset:1		}
+		,
+		{
+			i:165,c:"¥",x:864,y:2,w:32,h:47,shift:16,offset:0		}
+		,
+		{
+			i:166,c:"¦",x:898,y:2,w:19,h:47,shift:7,offset:2		}
+		,
+		{
+			i:167,c:"§",x:919,y:2,w:28,h:47,shift:14,offset:1		}
+		,
+		{
+			i:168,c:"¨",x:949,y:2,w:26,h:47,shift:11,offset:0		}
+		,
+		{
+			i:169,c:"©",x:977,y:2,w:37,h:47,shift:22,offset:1		}
+		,
+		{
+			i:170,c:"ª",x:2,y:51,w:24,h:47,shift:10,offset:1,kerning:[76,-3]		}
+		,
+		{
+			i:171,c:"«",x:28,y:51,w:26,h:47,shift:12,offset:1		}
+		,
+		{
+			i:172,c:"¬",x:80,y:51,w:29,h:47,shift:16,offset:1		}
+		,
+		{
+			i:173,x:388,y:51,w:24,h:47,shift:10,offset:1		}
+		,
+		{
+			i:174,c:"®",x:111,y:51,w:37,h:47,shift:22,offset:1		}
+		,
+		{
+			i:175,c:"¯",x:150,y:51,w:25,h:47,shift:11,offset:1		}
+		,
+		{
+			i:176,c:"°",x:177,y:51,w:27,h:47,shift:11,offset:0		}
+		,
+		{
+			i:177,c:"±",x:206,y:51,w:30,h:47,shift:16,offset:1		}
+		,
+		{
+			i:178,c:"²",x:238,y:51,w:25,h:47,shift:9,offset:0		}
+		,
+		{
+			i:179,c:"³",x:265,y:51,w:25,h:47,shift:9,offset:0		}
+		,
+		{
+			i:180,c:"´",x:292,y:51,w:24,h:47,shift:11,offset:3		}
+		,
+		{
+			i:181,c:"µ",x:318,y:51,w:31,h:47,shift:18,offset:2		}
+		,
+		{
+			i:182,c:"¶",x:351,y:51,w:35,h:47,shift:20,offset:0		}
+		,
+		{
+			i:183,c:"·",x:774,y:2,w:22,h:47,shift:7,offset:1,kerning:[76,-4]		}
+		,
+		{
+			i:184,c:"¸",x:56,y:51,w:22,h:47,shift:11,offset:3		}
+		,
+		{
+			i:185,c:"¹",x:749,y:2,w:23,h:47,shift:9,offset:1		}
+		,
+		{
+			i:186,c:"º",x:332,y:2,w:26,h:47,shift:11,offset:0,kerning:[76,-3]		}
+		,
+		{
+			i:187,c:"»",x:11,y:2,w:27,h:47,shift:12,offset:1		}
+		,
+		{
+			i:188,c:"¼",x:40,y:2,w:36,h:47,shift:20,offset:0		}
+		,
+		{
+			i:189,c:"½",x:78,y:2,w:34,h:47,shift:20,offset:1		}
+		,
+		{
+			i:190,c:"¾",x:114,y:2,w:35,h:47,shift:20,offset:1		}
+		,
+		{
+			i:191,c:"¿",x:151,y:2,w:27,h:47,shift:12,offset:1		}
+		,
+		{
+			i:192,c:"À",x:180,y:2,w:36,h:47,shift:19,offset:-1		}
+		,
+		{
+			i:193,c:"Á",x:218,y:2,w:36,h:47,shift:19,offset:-1		}
+		,
+		{
+			i:194,c:"Â",x:256,y:2,w:36,h:47,shift:19,offset:-1		}
+		,
+		{
+			i:195,c:"Ã",x:294,y:2,w:36,h:47,shift:19,offset:-1		}
+		,
+		{
+			i:196,c:"Ä",x:360,y:2,w:36,h:47,shift:19,offset:-1		}
+		,
+		{
+			i:197,c:"Å",x:683,y:2,w:36,h:47,shift:19,offset:-1		}
+		,
+		{
+			i:198,c:"Æ",x:398,y:2,w:42,h:47,shift:25,offset:-1,kerning:[84,-2,89,-3,221,-3]		}
+		,
+		{
+			i:199,c:"Ç",x:442,y:2,w:33,h:47,shift:18,offset:1		}
+		,
+		{
+			i:200,c:"È",x:477,y:2,w:29,h:47,shift:16,offset:2		}
+		,
+		{
+			i:201,c:"É",x:508,y:2,w:29,h:47,shift:16,offset:2		}
+		,
+		{
+			i:202,c:"Ê",x:539,y:2,w:29,h:47,shift:16,offset:2		}
+		,
+		{
+			i:203,c:"Ë",x:570,y:2,w:29,h:47,shift:16,offset:2		}
+		,
+		{
+			i:204,c:"Ì",x:601,y:2,w:25,h:47,shift:8,offset:-2		}
+		,
+		{
+			i:205,c:"Í",x:628,y:2,w:25,h:47,shift:8,offset:1		}
+		,
+		{
+			i:206,c:"Î",x:655,y:2,w:26,h:47,shift:8,offset:-1		}
+		,
+		{
+			i:207,c:"Ï",x:721,y:2,w:26,h:47,shift:8,offset:-1		}
+		,
+		{
+			i:208,c:"Ð",x:446,y:51,w:37,h:47,shift:21,offset:-1		}
+		,
+		{
+			i:209,c:"Ñ",x:162,y:100,w:33,h:47,shift:21,offset:2		}
+		,
+		{
+			i:210,c:"Ò",x:485,y:51,w:36,h:47,shift:22,offset:1		}
+		,
+		{
+			i:211,c:"Ó",x:260,y:100,w:36,h:47,shift:22,offset:1		}
+		,
+		{
+			i:212,c:"Ô",x:298,y:100,w:36,h:47,shift:22,offset:1		}
+		,
+		{
+			i:213,c:"Õ",x:336,y:100,w:36,h:47,shift:22,offset:1		}
+		,
+		{
+			i:214,c:"Ö",x:374,y:100,w:36,h:47,shift:22,offset:1		}
+		,
+		{
+			i:215,c:"×",x:412,y:100,w:30,h:47,shift:16,offset:1		}
+		,
+		{
+			i:216,c:"Ø",x:444,y:100,w:36,h:47,shift:22,offset:1		}
+		,
+		{
+			i:217,c:"Ù",x:482,y:100,w:34,h:47,shift:20,offset:1		}
+		,
+		{
+			i:218,c:"Ú",x:518,y:100,w:34,h:47,shift:20,offset:1		}
+		,
+		{
+			i:219,c:"Û",x:554,y:100,w:34,h:47,shift:20,offset:1		}
+		,
+		{
+			i:220,c:"Ü",x:622,y:100,w:34,h:47,shift:20,offset:1		}
+		,
+		{
+			i:221,c:"Ý",x:949,y:100,w:35,h:47,shift:18,offset:-1,kerning:[76,-3,98,-3,99,-2,101,-3,104,-3,109,-3,110,-3,111,-3,112,-3,115,-3,230,-3,231,-2,232,-3,233,-3,234,-3,235,-3,241,-3,242,-3,243,-3,244,-3,245,-3,246,-3,248,-3,254,-3]		}
+		,
+		{
+			i:222,c:"Þ",x:658,y:100,w:31,h:47,shift:17,offset:2		}
+		,
+		{
+			i:223,c:"ß",x:691,y:100,w:31,h:47,shift:16,offset:1		}
+		,
+		{
+			i:224,c:"à",x:724,y:100,w:29,h:47,shift:14,offset:0		}
+		,
+		{
+			i:225,c:"á",x:755,y:100,w:29,h:47,shift:14,offset:0,kerning:[84,-3,89,-3,221,-3]		}
+		,
+		{
+			i:226,c:"â",x:786,y:100,w:29,h:47,shift:14,offset:0,kerning:[89,-3,221,-3]		}
+		,
+		{
+			i:227,c:"ã",x:817,y:100,w:29,h:47,shift:14,offset:0,kerning:[84,-2,89,-3,221,-3]		}
+		,
+		{
+			i:228,c:"ä",x:848,y:100,w:29,h:47,shift:14,offset:0		}
+		,
+		{
+			i:229,c:"å",x:879,y:100,w:29,h:47,shift:14,offset:0,kerning:[84,-3,89,-3,221,-3]		}
+		,
+		{
+			i:230,c:"æ",x:910,y:100,w:37,h:47,shift:22,offset:0,kerning:[84,-3,89,-3,221,-3]		}
+		,
+		{
+			i:231,c:"ç",x:229,y:100,w:29,h:47,shift:13,offset:0,kerning:[84,-3,89,-3,221,-3]		}
+		,
+		{
+			i:232,c:"è",x:590,y:100,w:30,h:47,shift:14,offset:0,kerning:[84,-3]		}
+		,
+		{
+			i:233,c:"é",x:197,y:100,w:30,h:47,shift:14,offset:0,kerning:[84,-3,89,-3,221,-3]		}
+		,
+		{
+			i:234,c:"ê",x:792,y:51,w:30,h:47,shift:14,offset:0,kerning:[84,-3,89,-3,221,-3]		}
+		,
+		{
+			i:235,c:"ë",x:523,y:51,w:30,h:47,shift:14,offset:0,kerning:[84,-3,89,-3,221,-3]		}
+		,
+		{
+			i:236,c:"ì",x:555,y:51,w:23,h:47,shift:7,offset:-1		}
+		,
+		{
+			i:237,c:"í",x:580,y:51,w:24,h:47,shift:7,offset:1		}
+		,
+		{
+			i:238,c:"î",x:606,y:51,w:27,h:47,shift:7,offset:-2		}
+		,
+		{
+			i:239,c:"ï",x:635,y:51,w:25,h:47,shift:7,offset:-1		}
+		,
+		{
+			i:240,c:"ð",x:662,y:51,w:31,h:47,shift:15,offset:0		}
+		,
+		{
+			i:241,c:"ñ",x:695,y:51,w:29,h:47,shift:15,offset:1,kerning:[84,-3,221,-2]		}
+		,
+		{
+			i:242,c:"ò",x:726,y:51,w:31,h:47,shift:16,offset:0,kerning:[84,-3]		}
+		,
+		{
+			i:243,c:"ó",x:759,y:51,w:31,h:47,shift:16,offset:0,kerning:[84,-3,89,-3,221,-3]		}
+		,
+		{
+			i:244,c:"ô",x:824,y:51,w:31,h:47,shift:16,offset:0,kerning:[84,-3,89,-3,221,-3]		}
+		,
+		{
+			i:245,c:"õ",x:129,y:100,w:31,h:47,shift:16,offset:0,kerning:[84,-3,89,-3,221,-3]		}
+		,
+		{
+			i:246,c:"ö",x:857,y:51,w:31,h:47,shift:16,offset:0,kerning:[84,-3,89,-3,221,-3]		}
+		,
+		{
+			i:247,c:"÷",x:890,y:51,w:30,h:47,shift:16,offset:1		}
+		,
+		{
+			i:248,c:"ø",x:922,y:51,w:32,h:47,shift:16,offset:0,kerning:[84,-3,89,-3,221,-3]		}
+		,
+		{
+			i:249,c:"ù",x:956,y:51,w:29,h:47,shift:15,offset:1,kerning:[84,-2]		}
+		,
+		{
+			i:250,c:"ú",x:987,y:51,w:29,h:47,shift:15,offset:1,kerning:[84,-2]		}
+		,
+		{
+			i:251,c:"û",x:2,y:100,w:29,h:47,shift:15,offset:1,kerning:[84,-2]		}
+		,
+		{
+			i:252,c:"ü",x:33,y:100,w:29,h:47,shift:15,offset:1,kerning:[84,-2]		}
+		,
+		{
+			i:253,c:"ý",x:64,y:100,w:31,h:47,shift:14,offset:0,kerning:[76,-2]		}
+		,
+		{
+			i:254,c:"þ",x:97,y:100,w:30,h:47,shift:15,offset:1		}
+		,
+		{
+			i:255,c:"ÿ",x:916,y:247,w:31,h:47,shift:14,offset:0,kerning:[76,-2]		}
+		,
+		{
+			i:9647,c:"▯",x:949,y:247,w:32,h:47,shift:26,offset:5		}
+		,],	}
+	,
+	{
+		pName:"fontTitlesMax",size:40,bold:!1,italic:!1,first:32,last:9647,charset:0,antialias:1,fontname:"Lato",ascenderOffset:0,ascender:53,sdfSpread:8,lineHeight:64,TPageEntry:1,scaleX:1,scaleY:1,glyphs:[
+		{
+			i:32,c:" ",x:2,y:2,w:13,h:79,shift:13,offset:0		}
+		,
+		{
+			i:33,c:"!",x:331,y:407,w:25,h:79,shift:15,offset:3		}
+		,
+		{
+			i:34,c:"\"",x:358,y:407,w:33,h:79,shift:21,offset:2,kerning:[44,-6,46,-6,76,-5]		}
+		,
+		{
+			i:35,c:"#",x:393,y:407,w:46,h:79,shift:31,offset:0		}
+		,
+		{
+			i:36,c:"$",x:441,y:407,w:44,h:79,shift:31,offset:1		}
+		,
+		{
+			i:37,c:"%",x:487,y:407,w:56,h:79,shift:43,offset:2		}
+		,
+		{
+			i:38,c:"&",x:545,y:407,w:54,h:79,shift:38,offset:1		}
+		,
+		{
+			i:39,c:"'",x:601,y:407,w:23,h:79,shift:11,offset:2,kerning:[44,-6,46,-6,76,-5]		}
+		,
+		{
+			i:40,c:"(",x:626,y:407,w:29,h:79,shift:15,offset:1		}
+		,
+		{
+			i:41,c:")",x:657,y:407,w:28,h:79,shift:15,offset:1		}
+		,
+		{
+			i:42,c:"*",x:732,y:407,w:34,h:79,shift:23,offset:2,kerning:[76,-5]		}
+		,
+		{
+			i:43,c:"+",x:141,y:488,w:43,h:79,shift:31,offset:2		}
+		,
+		{
+			i:44,c:",",x:768,y:407,w:25,h:79,shift:12,offset:2,kerning:[34,-6,39,-6,80,-5]		}
+		,
+		{
+			i:45,c:"-",x:795,y:407,w:30,h:79,shift:20,offset:3		}
+		,
+		{
+			i:46,c:".",x:827,y:407,w:25,h:79,shift:13,offset:2,kerning:[34,-6,39,-6,80,-5]		}
+		,
+		{
+			i:47,c:"/",x:854,y:407,w:39,h:79,shift:25,offset:1,kerning:[47,-12]		}
+		,
+		{
+			i:48,c:"0",x:895,y:407,w:45,h:79,shift:31,offset:1		}
+		,
+		{
+			i:49,c:"1",x:942,y:407,w:41,h:79,shift:31,offset:3		}
+		,
+		{
+			i:50,c:"2",x:2,y:488,w:43,h:79,shift:31,offset:2		}
+		,
+		{
+			i:51,c:"3",x:47,y:488,w:44,h:79,shift:31,offset:1		}
+		,
+		{
+			i:52,c:"4",x:93,y:488,w:46,h:79,shift:31,offset:0		}
+		,
+		{
+			i:53,c:"5",x:287,y:407,w:42,h:79,shift:31,offset:2		}
+		,
+		{
+			i:54,c:"6",x:687,y:407,w:43,h:79,shift:31,offset:2		}
+		,
+		{
+			i:55,c:"7",x:242,y:407,w:43,h:79,shift:31,offset:2		}
+		,
+		{
+			i:56,c:"8",x:649,y:326,w:43,h:79,shift:31,offset:2		}
+		,
+		{
+			i:57,c:"9",x:271,y:326,w:43,h:79,shift:31,offset:2		}
+		,
+		{
+			i:58,c:":",x:316,y:326,w:25,h:79,shift:14,offset:2		}
+		,
+		{
+			i:59,c:";",x:343,y:326,w:25,h:79,shift:14,offset:3		}
+		,
+		{
+			i:60,c:"<",x:370,y:326,w:38,h:79,shift:31,offset:4		}
+		,
+		{
+			i:61,c:"=",x:410,y:326,w:41,h:79,shift:31,offset:3		}
+		,
+		{
+			i:62,c:">",x:453,y:326,w:38,h:79,shift:31,offset:5		}
+		,
+		{
+			i:63,c:"?",x:493,y:326,w:38,h:79,shift:24,offset:1		}
+		,
+		{
+			i:64,c:"@",x:533,y:326,w:57,h:79,shift:45,offset:2		}
+		,
+		{
+			i:65,c:"A",x:592,y:326,w:55,h:79,shift:37,offset:-1		}
+		,
+		{
+			i:66,c:"B",x:694,y:326,w:45,h:79,shift:35,offset:4		}
+		,
+		{
+			i:67,c:"C",x:131,y:407,w:49,h:79,shift:35,offset:2		}
+		,
+		{
+			i:68,c:"D",x:741,y:326,w:51,h:79,shift:40,offset:4		}
+		,
+		{
+			i:69,c:"E",x:794,y:326,w:41,h:79,shift:30,offset:4		}
+		,
+		{
+			i:70,c:"F",x:837,y:326,w:41,h:79,shift:30,offset:4		}
+		,
+		{
+			i:71,c:"G",x:880,y:326,w:51,h:79,shift:38,offset:1		}
+		,
+		{
+			i:72,c:"H",x:933,y:326,w:49,h:79,shift:41,offset:4		}
+		,
+		{
+			i:73,c:"I",x:984,y:326,w:24,h:79,shift:16,offset:4		}
+		,
+		{
+			i:74,c:"J",x:2,y:407,w:35,h:79,shift:23,offset:0		}
+		,
+		{
+			i:75,c:"K",x:39,y:407,w:49,h:79,shift:36,offset:4		}
+		,
+		{
+			i:76,c:"L",x:90,y:407,w:39,h:79,shift:28,offset:4		}
+		,
+		{
+			i:77,c:"M",x:182,y:407,w:58,h:79,shift:50,offset:4		}
+		,
+		{
+			i:78,c:"N",x:186,y:488,w:49,h:79,shift:41,offset:4		}
+		,
+		{
+			i:79,c:"O",x:237,y:488,w:56,h:79,shift:43,offset:1		}
+		,
+		{
+			i:80,c:"P",x:295,y:488,w:44,h:79,shift:33,offset:4		}
+		,
+		{
+			i:81,c:"Q",x:291,y:569,w:57,h:79,shift:43,offset:2		}
+		,
+		{
+			i:82,c:"R",x:350,y:569,w:47,h:79,shift:34,offset:4		}
+		,
+		{
+			i:83,c:"S",x:399,y:569,w:43,h:79,shift:29,offset:1		}
+		,
+		{
+			i:84,c:"T",x:444,y:569,w:48,h:79,shift:32,offset:0,kerning:[76,-5,98,-6,99,-5,101,-6,103,-5,104,-6,109,-6,110,-6,111,-6,112,-6,113,-5,115,-6,117,-5,122,-5,230,-6,231,-5,232,-6,233,-6,234,-6,235,-6,241,-6,242,-6,243,-6,244,-6,245,-6,246,-6,248,-6,249,-5,250,-5,251,-5,252,-5,254,-6]		}
+		,
+		{
+			i:85,c:"U",x:494,y:569,w:49,h:79,shift:39,offset:3		}
+		,
+		{
+			i:86,c:"V",x:545,y:569,w:55,h:79,shift:37,offset:-1		}
+		,
+		{
+			i:87,c:"W",x:602,y:569,w:72,h:79,shift:56,offset:0		}
+		,
+		{
+			i:88,c:"X",x:676,y:569,w:52,h:79,shift:36,offset:0		}
+		,
+		{
+			i:89,c:"Y",x:730,y:569,w:52,h:79,shift:34,offset:-1,kerning:[76,-5,98,-6,99,-5,101,-6,104,-6,109,-6,110,-6,111,-6,112,-6,115,-5,230,-6,231,-5,232,-6,233,-6,234,-6,235,-6,241,-6,242,-6,243,-6,244,-6,245,-6,246,-6,248,-6,254,-6]		}
+		,
+		{
+			i:90,c:"Z",x:784,y:569,w:46,h:79,shift:32,offset:1		}
+		,
+		{
+			i:91,c:"[",x:832,y:569,w:28,h:79,shift:17,offset:4		}
+		,
+		{
+			i:92,c:"\\",x:862,y:569,w:39,h:79,shift:25,offset:1		}
+		,
+		{
+			i:93,c:"]",x:903,y:569,w:28,h:79,shift:17,offset:1		}
+		,
+		{
+			i:94,c:"^",x:933,y:569,w:43,h:79,shift:31,offset:2		}
+		,
+		{
+			i:95,c:"_",x:978,y:569,w:38,h:79,shift:25,offset:1		}
+		,
+		{
+			i:96,c:"`",x:2,y:650,w:29,h:79,shift:21,offset:2		}
+		,
+		{
+			i:97,c:"a",x:33,y:650,w:39,h:79,shift:27,offset:1,kerning:[84,-6,89,-6,221,-6]		}
+		,
+		{
+			i:98,c:"b",x:74,y:650,w:42,h:79,shift:30,offset:3		}
+		,
+		{
+			i:99,c:"c",x:118,y:650,w:40,h:79,shift:26,offset:1,kerning:[84,-6,89,-6,221,-6]		}
+		,
+		{
+			i:100,c:"d",x:160,y:650,w:42,h:79,shift:30,offset:1,kerning:[84,-6,89,-6,221,-6]		}
+		,
+		{
+			i:101,c:"e",x:204,y:650,w:42,h:79,shift:28,offset:1,kerning:[84,-6,89,-6,221,-6]		}
+		,
+		{
+			i:102,c:"f",x:255,y:569,w:34,h:79,shift:19,offset:1		}
+		,
+		{
+			i:103,c:"g",x:210,y:569,w:43,h:79,shift:28,offset:1,kerning:[84,-6,89,-5,221,-5]		}
+		,
+		{
+			i:104,c:"h",x:168,y:569,w:40,h:79,shift:30,offset:3		}
+		,
+		{
+			i:105,c:"i",x:710,y:488,w:25,h:79,shift:13,offset:2		}
+		,
+		{
+			i:106,c:"j",x:341,y:488,w:30,h:79,shift:13,offset:-3		}
+		,
+		{
+			i:107,c:"k",x:373,y:488,w:42,h:79,shift:28,offset:3		}
+		,
+		{
+			i:108,c:"l",x:417,y:488,w:23,h:79,shift:13,offset:3		}
+		,
+		{
+			i:109,c:"m",x:442,y:488,w:55,h:79,shift:44,offset:3,kerning:[84,-5]		}
+		,
+		{
+			i:110,c:"n",x:499,y:488,w:40,h:79,shift:30,offset:3,kerning:[84,-5]		}
+		,
+		{
+			i:111,c:"o",x:541,y:488,w:44,h:79,shift:30,offset:1,kerning:[84,-6,89,-6,221,-6]		}
+		,
+		{
+			i:112,c:"p",x:587,y:488,w:42,h:79,shift:30,offset:3,kerning:[84,-5]		}
+		,
+		{
+			i:113,c:"q",x:631,y:488,w:42,h:79,shift:30,offset:1,kerning:[84,-6,89,-6,221,-6]		}
+		,
+		{
+			i:114,c:"r",x:675,y:488,w:33,h:79,shift:20,offset:3,kerning:[84,-5]		}
+		,
+		{
+			i:115,c:"s",x:737,y:488,w:37,h:79,shift:23,offset:1,kerning:[84,-6,89,-6,221,-6]		}
+		,
+		{
+			i:116,c:"t",x:130,y:569,w:36,h:79,shift:20,offset:0		}
+		,
+		{
+			i:117,c:"u",x:776,y:488,w:41,h:79,shift:30,offset:2,kerning:[84,-5]		}
+		,
+		{
+			i:118,c:"v",x:819,y:488,w:44,h:79,shift:28,offset:0		}
+		,
+		{
+			i:119,c:"w",x:865,y:488,w:59,h:79,shift:43,offset:0		}
+		,
+		{
+			i:120,c:"x",x:926,y:488,w:44,h:79,shift:28,offset:0		}
+		,
+		{
+			i:121,c:"y",x:972,y:488,w:44,h:79,shift:28,offset:0,kerning:[76,-5]		}
+		,
+		{
+			i:122,c:"z",x:2,y:569,w:38,h:79,shift:24,offset:1,kerning:[84,-5]		}
+		,
+		{
+			i:123,c:"{",x:42,y:569,w:30,h:79,shift:16,offset:1		}
+		,
+		{
+			i:124,c:"|",x:74,y:569,w:22,h:79,shift:14,offset:4		}
+		,
+		{
+			i:125,c:"}",x:98,y:569,w:30,h:79,shift:16,offset:1		}
+		,
+		{
+			i:126,c:"~",x:226,y:326,w:43,h:79,shift:31,offset:2		}
+		,
+		{
+			i:160,c:" ",x:224,y:326,w:0,h:79,shift:13,offset:0		}
+		,
+		{
+			i:161,c:"¡",x:197,y:326,w:25,h:79,shift:14,offset:3		}
+		,
+		{
+			i:162,c:"¢",x:2,y:164,w:41,h:79,shift:31,offset:3		}
+		,
+		{
+			i:163,c:"£",x:158,y:83,w:46,h:79,shift:31,offset:0		}
+		,
+		{
+			i:164,c:"¤",x:206,y:83,w:42,h:79,shift:31,offset:2		}
+		,
+		{
+			i:165,c:"¥",x:250,y:83,w:47,h:79,shift:31,offset:0		}
+		,
+		{
+			i:166,c:"¦",x:299,y:83,w:22,h:79,shift:14,offset:4		}
+		,
+		{
+			i:167,c:"§",x:323,y:83,w:39,h:79,shift:27,offset:2		}
+		,
+		{
+			i:168,c:"¨",x:364,y:83,w:35,h:79,shift:21,offset:1		}
+		,
+		{
+			i:169,c:"©",x:401,y:83,w:56,h:79,shift:44,offset:2		}
+		,
+		{
+			i:170,c:"ª",x:459,y:83,w:31,h:79,shift:19,offset:2,kerning:[76,-5]		}
+		,
+		{
+			i:171,c:"«",x:492,y:83,w:36,h:79,shift:24,offset:2		}
+		,
+		{
+			i:172,c:"¬",x:559,y:83,w:40,h:79,shift:31,offset:3		}
+		,
+		{
+			i:173,x:977,y:83,w:30,h:79,shift:20,offset:3		}
+		,
+		{
+			i:174,c:"®",x:601,y:83,w:56,h:79,shift:44,offset:2		}
+		,
+		{
+			i:175,c:"¯",x:659,y:83,w:33,h:79,shift:21,offset:2		}
+		,
+		{
+			i:176,c:"°",x:694,y:83,w:36,h:79,shift:22,offset:1		}
+		,
+		{
+			i:177,c:"±",x:732,y:83,w:43,h:79,shift:31,offset:2		}
+		,
+		{
+			i:178,c:"²",x:777,y:83,w:31,h:79,shift:18,offset:1		}
+		,
+		{
+			i:179,c:"³",x:810,y:83,w:31,h:79,shift:18,offset:1		}
+		,
+		{
+			i:180,c:"´",x:843,y:83,w:29,h:79,shift:21,offset:7		}
+		,
+		{
+			i:181,c:"µ",x:874,y:83,w:46,h:79,shift:35,offset:4		}
+		,
+		{
+			i:182,c:"¶",x:922,y:83,w:53,h:79,shift:39,offset:1		}
+		,
+		{
+			i:183,c:"·",x:129,y:83,w:27,h:79,shift:15,offset:2,kerning:[76,-7]		}
+		,
+		{
+			i:184,c:"¸",x:530,y:83,w:27,h:79,shift:21,offset:6		}
+		,
+		{
+			i:185,c:"¹",x:97,y:83,w:30,h:79,shift:18,offset:2		}
+		,
+		{
+			i:186,c:"º",x:485,y:2,w:35,h:79,shift:21,offset:1,kerning:[76,-5]		}
+		,
+		{
+			i:187,c:"»",x:17,y:2,w:36,h:79,shift:24,offset:2		}
+		,
+		{
+			i:188,c:"¼",x:55,y:2,w:53,h:79,shift:39,offset:1		}
+		,
+		{
+			i:189,c:"½",x:110,y:2,w:52,h:79,shift:39,offset:1		}
+		,
+		{
+			i:190,c:"¾",x:164,y:2,w:52,h:79,shift:40,offset:2		}
+		,
+		{
+			i:191,c:"¿",x:218,y:2,w:37,h:79,shift:24,offset:2		}
+		,
+		{
+			i:192,c:"À",x:257,y:2,w:55,h:79,shift:37,offset:-1		}
+		,
+		{
+			i:193,c:"Á",x:314,y:2,w:55,h:79,shift:37,offset:-1		}
+		,
+		{
+			i:194,c:"Â",x:371,y:2,w:55,h:79,shift:37,offset:-1		}
+		,
+		{
+			i:195,c:"Ã",x:428,y:2,w:55,h:79,shift:37,offset:-1		}
+		,
+		{
+			i:196,c:"Ä",x:522,y:2,w:55,h:79,shift:37,offset:-1		}
+		,
+		{
+			i:197,c:"Å",x:2,y:83,w:55,h:79,shift:37,offset:-1		}
+		,
+		{
+			i:198,c:"Æ",x:579,y:2,w:65,h:79,shift:49,offset:-1,kerning:[84,-5,89,-5,221,-5]		}
+		,
+		{
+			i:199,c:"Ç",x:646,y:2,w:49,h:79,shift:35,offset:2		}
+		,
+		{
+			i:200,c:"È",x:697,y:2,w:41,h:79,shift:30,offset:4		}
+		,
+		{
+			i:201,c:"É",x:740,y:2,w:41,h:79,shift:30,offset:4		}
+		,
+		{
+			i:202,c:"Ê",x:783,y:2,w:41,h:79,shift:30,offset:4		}
+		,
+		{
+			i:203,c:"Ë",x:826,y:2,w:41,h:79,shift:30,offset:4		}
+		,
+		{
+			i:204,c:"Ì",x:869,y:2,w:33,h:79,shift:16,offset:-4		}
+		,
+		{
+			i:205,c:"Í",x:904,y:2,w:33,h:79,shift:16,offset:3		}
+		,
+		{
+			i:206,c:"Î",x:939,y:2,w:36,h:79,shift:16,offset:-2		}
+		,
+		{
+			i:207,c:"Ï",x:59,y:83,w:36,h:79,shift:16,offset:-2		}
+		,
+		{
+			i:208,c:"Ð",x:45,y:164,w:56,h:79,shift:41,offset:-1		}
+		,
+		{
+			i:209,c:"Ñ",x:48,y:245,w:49,h:79,shift:41,offset:4		}
+		,
+		{
+			i:210,c:"Ò",x:103,y:164,w:56,h:79,shift:43,offset:1		}
+		,
+		{
+			i:211,c:"Ó",x:185,y:245,w:56,h:79,shift:43,offset:1		}
+		,
+		{
+			i:212,c:"Ô",x:243,y:245,w:56,h:79,shift:43,offset:1		}
+		,
+		{
+			i:213,c:"Õ",x:301,y:245,w:56,h:79,shift:43,offset:1		}
+		,
+		{
+			i:214,c:"Ö",x:359,y:245,w:56,h:79,shift:43,offset:1		}
+		,
+		{
+			i:215,c:"×",x:417,y:245,w:42,h:79,shift:31,offset:2		}
+		,
+		{
+			i:216,c:"Ø",x:461,y:245,w:56,h:79,shift:43,offset:1		}
+		,
+		{
+			i:217,c:"Ù",x:519,y:245,w:49,h:79,shift:39,offset:3		}
+		,
+		{
+			i:218,c:"Ú",x:570,y:245,w:49,h:79,shift:39,offset:3		}
+		,
+		{
+			i:219,c:"Û",x:621,y:245,w:49,h:79,shift:39,offset:3		}
+		,
+		{
+			i:220,c:"Ü",x:716,y:245,w:49,h:79,shift:39,offset:3		}
+		,
+		{
+			i:221,c:"Ý",x:143,y:326,w:52,h:79,shift:34,offset:-1,kerning:[76,-5,98,-6,99,-5,101,-6,104,-6,109,-6,110,-6,111,-6,112,-6,115,-5,230,-6,231,-5,232,-6,233,-6,234,-6,235,-6,241,-6,242,-6,243,-6,244,-6,245,-6,246,-6,248,-6,254,-6]		}
+		,
+		{
+			i:222,c:"Þ",x:767,y:245,w:44,h:79,shift:33,offset:4		}
+		,
+		{
+			i:223,c:"ß",x:813,y:245,w:44,h:79,shift:32,offset:3		}
+		,
+		{
+			i:224,c:"à",x:859,y:245,w:39,h:79,shift:27,offset:1		}
+		,
+		{
+			i:225,c:"á",x:900,y:245,w:39,h:79,shift:27,offset:1,kerning:[84,-6,89,-6,221,-6]		}
+		,
+		{
+			i:226,c:"â",x:941,y:245,w:39,h:79,shift:27,offset:1,kerning:[89,-6,221,-6]		}
+		,
+		{
+			i:227,c:"ã",x:982,y:245,w:39,h:79,shift:27,offset:1,kerning:[84,-5,89,-5,221,-5]		}
+		,
+		{
+			i:228,c:"ä",x:2,y:326,w:39,h:79,shift:27,offset:1		}
+		,
+		{
+			i:229,c:"å",x:43,y:326,w:39,h:79,shift:27,offset:1,kerning:[84,-6,89,-6,221,-6]		}
+		,
+		{
+			i:230,c:"æ",x:84,y:326,w:57,h:79,shift:43,offset:1,kerning:[84,-6,89,-6,221,-6]		}
+		,
+		{
+			i:231,c:"ç",x:143,y:245,w:40,h:79,shift:26,offset:1,kerning:[84,-6,89,-6,221,-6]		}
+		,
+		{
+			i:232,c:"è",x:672,y:245,w:42,h:79,shift:28,offset:1,kerning:[84,-6]		}
+		,
+		{
+			i:233,c:"é",x:99,y:245,w:42,h:79,shift:28,offset:1,kerning:[84,-6,89,-6,221,-6]		}
+		,
+		{
+			i:234,c:"ê",x:522,y:164,w:42,h:79,shift:28,offset:1,kerning:[84,-5,89,-6,221,-6]		}
+		,
+		{
+			i:235,c:"ë",x:161,y:164,w:42,h:79,shift:28,offset:1,kerning:[84,-5,89,-5,221,-5]		}
+		,
+		{
+			i:236,c:"ì",x:205,y:164,w:29,h:79,shift:13,offset:-2		}
+		,
+		{
+			i:237,c:"í",x:236,y:164,w:30,h:79,shift:13,offset:3		}
+		,
+		{
+			i:238,c:"î",x:268,y:164,w:36,h:79,shift:13,offset:-3		}
+		,
+		{
+			i:239,c:"ï",x:306,y:164,w:34,h:79,shift:13,offset:-2		}
+		,
+		{
+			i:240,c:"ð",x:342,y:164,w:44,h:79,shift:30,offset:1		}
+		,
+		{
+			i:241,c:"ñ",x:388,y:164,w:40,h:79,shift:30,offset:3,kerning:[84,-5,221,-5]		}
+		,
+		{
+			i:242,c:"ò",x:430,y:164,w:44,h:79,shift:30,offset:1,kerning:[84,-6]		}
+		,
+		{
+			i:243,c:"ó",x:476,y:164,w:44,h:79,shift:30,offset:1,kerning:[84,-6,89,-6,221,-6]		}
+		,
+		{
+			i:244,c:"ô",x:566,y:164,w:44,h:79,shift:30,offset:1,kerning:[84,-6,89,-6,221,-6]		}
+		,
+		{
+			i:245,c:"õ",x:2,y:245,w:44,h:79,shift:30,offset:1,kerning:[84,-6,89,-6,221,-6]		}
+		,
+		{
+			i:246,c:"ö",x:612,y:164,w:44,h:79,shift:30,offset:1,kerning:[84,-6,89,-6,221,-6]		}
+		,
+		{
+			i:247,c:"÷",x:658,y:164,w:43,h:79,shift:31,offset:2		}
+		,
+		{
+			i:248,c:"ø",x:703,y:164,w:45,h:79,shift:30,offset:1,kerning:[84,-6,89,-6,221,-6]		}
+		,
+		{
+			i:249,c:"ù",x:750,y:164,w:41,h:79,shift:30,offset:2,kerning:[84,-5]		}
+		,
+		{
+			i:250,c:"ú",x:793,y:164,w:41,h:79,shift:30,offset:2,kerning:[84,-5]		}
+		,
+		{
+			i:251,c:"û",x:836,y:164,w:41,h:79,shift:30,offset:2,kerning:[84,-5]		}
+		,
+		{
+			i:252,c:"ü",x:879,y:164,w:41,h:79,shift:30,offset:2,kerning:[84,-5]		}
+		,
+		{
+			i:253,c:"ý",x:922,y:164,w:44,h:79,shift:28,offset:0,kerning:[76,-5]		}
+		,
+		{
+			i:254,c:"þ",x:968,y:164,w:42,h:79,shift:30,offset:3		}
+		,
+		{
+			i:255,c:"ÿ",x:248,y:650,w:44,h:79,shift:28,offset:0,kerning:[76,-5]		}
+		,
+		{
+			i:9647,c:"▯",x:294,y:650,w:47,h:79,shift:51,offset:10		}
+		,],	}
 	],EmbeddedFonts:[,
 	{
-		pName:"FONT_builtin",size:11,bold:!1,italic:!1,first:32,last:9647,charset:0,antialias:1,fontname:"Roboto Mono",ascenderOffset:0,ascender:0,sdfSpread:0,lineHeight:0,TPageEntry:4,scaleX:1,scaleY:1,glyphs:[
+		pName:"FONT_builtin",size:11,bold:!1,italic:!1,first:32,last:9647,charset:0,antialias:1,fontname:"Roboto Mono",ascenderOffset:0,ascender:0,sdfSpread:0,lineHeight:0,TPageEntry:6,scaleX:1,scaleY:1,glyphs:[
 		{
 			i:32,c:" ",x:2,y:2,w:9,h:19,shift:9,offset:0		}
 		,
@@ -1918,25 +3130,25 @@ var JSON_game=
 	}
 	],GMObjects:[
 	{
-		pName:"objectBlock",solid:!0,parent:-100,spritemask:0,CreateEvent:gml_Object_objectBlock_Create_0,DestroyEvent:gml_Object_objectBlock_Destroy_0,ObjAlarm0:gml_Object_objectBlock_Alarm_0,ObjAlarm1:gml_Object_objectBlock_Alarm_1,UserEvent0:gml_Object_objectBlock_Other_10,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"objectBlock",spriteIndex:1,parent:-100,spritemask:1,CreateEvent:gml_Object_objectBlock_Create_0,DestroyEvent:gml_Object_objectBlock_Destroy_0,ObjAlarm0:gml_Object_objectBlock_Alarm_0,ObjAlarm1:gml_Object_objectBlock_Alarm_1,UserEvent0:gml_Object_objectBlock_Other_10,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"objectCollectable",spriteIndex:-1,visible:!0,parent:-100,spritemask:4,CreateEvent:gml_Object_objectCollectable_Create_0,ObjAlarm1:gml_Object_objectCollectable_Alarm_1,StepNormalEvent:gml_Object_objectCollectable_Step_0,UserEvent0:gml_Object_objectCollectable_Other_10,DrawEvent:gml_Object_objectCollectable_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"objectCollectable",spriteIndex:-1,visible:!0,parent:-100,spritemask:6,CreateEvent:gml_Object_objectCollectable_Create_0,ObjAlarm1:gml_Object_objectCollectable_Alarm_1,StepNormalEvent:gml_Object_objectCollectable_Step_0,UserEvent0:gml_Object_objectCollectable_Other_10,DrawEvent:gml_Object_objectCollectable_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"objectEntrance",spriteIndex:-1,visible:!0,parent:7,spritemask:0,StepNormalEvent:gml_Object_objectEntrance_Step_0,UserEvent0:gml_Object_objectEntrance_Other_10,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"objectEntrance",spriteIndex:-1,visible:!0,parent:7,spritemask:1,StepNormalEvent:gml_Object_objectEntrance_Step_0,UserEvent0:gml_Object_objectEntrance_Other_10,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
 		pName:"objectItem",spriteIndex:-1,visible:!0,parent:-100,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"objectManager",spriteIndex:-1,visible:!0,persistent:!0,parent:-100,CreateEvent:gml_Object_objectManager_Create_0,ObjAlarm0:gml_Object_objectManager_Alarm_0,ObjAlarm1:gml_Object_objectManager_Alarm_1,ObjAlarm2:gml_Object_objectManager_Alarm_2,StepNormalEvent:gml_Object_objectManager_Step_0,StepEndEvent:gml_Object_objectManager_Step_2,StepBeginEvent:gml_Object_objectManager_Step_1,NetworkingEvent:gml_Object_objectManager_Other_68,WebUserInteractionEvent:gml_Object_objectManager_Other_63,EndGameEvent:gml_Object_objectManager_Other_3,DrawGUI:gml_Object_objectManager_Draw_64,DrawEvent:gml_Object_objectManager_Draw_0,KeyPressed_F1:gml_Object_objectManager_KeyPress_112,KeyPressed_F2:gml_Object_objectManager_KeyPress_113,KeyPressed_F4:gml_Object_objectManager_KeyPress_115,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"objectManager",spriteIndex:-1,visible:!0,persistent:!0,parent:-100,CreateEvent:gml_Object_objectManager_Create_0,ObjAlarm0:gml_Object_objectManager_Alarm_0,ObjAlarm1:gml_Object_objectManager_Alarm_1,ObjAlarm2:gml_Object_objectManager_Alarm_2,ObjAlarm3:gml_Object_objectManager_Alarm_3,StepNormalEvent:gml_Object_objectManager_Step_0,StepEndEvent:gml_Object_objectManager_Step_2,StepBeginEvent:gml_Object_objectManager_Step_1,NetworkingEvent:gml_Object_objectManager_Other_68,WebUserInteractionEvent:gml_Object_objectManager_Other_63,EndGameEvent:gml_Object_objectManager_Other_3,WebAsyncEvent:gml_Object_objectManager_Other_62,DrawGUI:gml_Object_objectManager_Draw_64,DrawEvent:gml_Object_objectManager_Draw_0,KeyPressed_F1:gml_Object_objectManager_KeyPress_112,KeyPressed_F2:gml_Object_objectManager_KeyPress_113,KeyPressed_F4:gml_Object_objectManager_KeyPress_115,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"objectPlayer",spriteIndex:10,visible:!0,parent:-100,spritemask:14,CreateEvent:gml_Object_objectPlayer_Create_0,StepNormalEvent:gml_Object_objectPlayer_Step_0,DrawEvent:gml_Object_objectPlayer_Draw_0,TriggerEvents:[],CollisionEvents:[1,gml_Object_objectPlayer_Collision_objectCollectable]	}
+		pName:"objectPlayer",spriteIndex:12,visible:!0,parent:-100,spritemask:16,CreateEvent:gml_Object_objectPlayer_Create_0,StepNormalEvent:gml_Object_objectPlayer_Step_0,StepBeginEvent:gml_Object_objectPlayer_Step_1,DrawEvent:gml_Object_objectPlayer_Draw_0,DrawGUI:gml_Object_objectPlayer_Draw_64,TriggerEvents:[],CollisionEvents:[1,gml_Object_objectPlayer_Collision_objectCollectable]	}
 	,
 	{
-		pName:"objectPlayerDebug",spriteIndex:10,visible:!0,parent:-100,StepNormalEvent:gml_Object_objectPlayerDebug_Step_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"objectPlayerDebug",spriteIndex:12,visible:!0,parent:-100,StepNormalEvent:gml_Object_objectPlayerDebug_Step_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
 		pName:"objectSemiSolid",spriteIndex:-1,visible:!0,TriggerEvents:[],CollisionEvents:[]	}
@@ -1945,10 +3157,13 @@ var JSON_game=
 		pName:"objectSolid",spriteIndex:-1,visible:!0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"objectTree",spriteIndex:-1,visible:!0,parent:7,spritemask:0,DestroyEvent:gml_Object_objectTree_Destroy_0,ObjAlarm0:gml_Object_objectTree_Alarm_0,ObjAlarm1:gml_Object_objectTree_Alarm_1,StepNormalEvent:gml_Object_objectTree_Step_0,UserEvent0:gml_Object_objectTree_Other_10,DrawEvent:gml_Object_objectTree_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"objectTree",spriteIndex:-1,visible:!0,parent:7,spritemask:1,DestroyEvent:gml_Object_objectTree_Destroy_0,ObjAlarm0:gml_Object_objectTree_Alarm_0,ObjAlarm1:gml_Object_objectTree_Alarm_1,StepNormalEvent:gml_Object_objectTree_Step_0,UserEvent0:gml_Object_objectTree_Other_10,DrawEvent:gml_Object_objectTree_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
+	,
+	{
+		pName:"objectWindow",spriteIndex:-1,visible:!0,parent:-100,CreateEvent:gml_Object_objectWindow_Create_0,DrawGUI:gml_Object_objectWindow_Draw_64,TriggerEvents:[],CollisionEvents:[]	}
 	],AnimCurves:[],Sequences:[],FiltersAndEffectDefs:[],PSEmitters:[],ParticleSystems:[],GMRooms:[
 	{
-		pName:"Room1",width:3200,height:3200,speed:0,colour:0,LayerCount:2,showColour:!1,enableViews:!0,backgrounds:[],views:[
+		pName:"Room1",width:3264,height:3264,speed:0,colour:0,LayerCount:3,showColour:!1,enableViews:!0,backgrounds:[],views:[
 		{
 			visible:!0,yview:400,hview:360,wport:1280,hport:720,hborder:320,vborder:180,hspeed:3,vspeed:3		}
 		,
@@ -1977,251 +3192,275 @@ var JSON_game=
 			x:0,y:0,index:4,id:100000,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		],tiles:[],layers:[
 		{
-			pName:"Instances",id:0,type:2,depth:0,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:1,iinstIDs:[100000]		}
+			pName:"Tiles_1",id:0,type:4,depth:0,x:0,y:0,hspeed:0,vspeed:0,visible:0,effectEnabled:1,effectType:"",effectProperties:[],tcount:10404,tMapWidth:102,tMapHeight:102,tIndex:1,ttiles:[g_RUN|10403,0]		}
 		,
 		{
-			pName:"Background",id:1,type:1,depth:100,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],bvisible:!0,bforeground:!1,bindex:-1,bhtiled:!1,bvtiled:!1,bstretch:!1,bblend:-678590,bimage_index:0,bimage_speed:15		}
+			pName:"Instances",id:1,type:2,depth:100,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:1,iinstIDs:[100000]		}
+		,
+		{
+			pName:"Background",id:2,type:1,depth:200,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],bvisible:!0,bforeground:!1,bindex:-1,bhtiled:!1,bvtiled:!1,bstretch:!1,bblend:-678590,bimage_index:0,bimage_speed:15		}
 		]	}
 	],RoomOrder:[0],TPageEntries:[
 	{
 		x:0,y:0,w:64,h:64,XOffset:0,YOffset:0,CropWidth:64,CropHeight:64,ow:64,oh:64,tp:0	}
 	,
 	{
-		x:2,y:2,w:512,h:512,XOffset:0,YOffset:0,CropWidth:512,CropHeight:512,ow:512,oh:512,tp:1	}
+		x:2,y:2,w:1024,h:1024,XOffset:0,YOffset:0,CropWidth:1024,CropHeight:1024,ow:1024,oh:1024,tp:1	}
 	,
 	{
-		x:2,y:518,w:256,h:256,XOffset:0,YOffset:0,CropWidth:256,CropHeight:256,ow:256,oh:256,tp:1	}
+		x:2,y:1030,w:1024,h:512,XOffset:0,YOffset:0,CropWidth:1024,CropHeight:512,ow:1024,oh:512,tp:1	}
 	,
 	{
-		x:2,y:778,w:256,h:128,XOffset:0,YOffset:0,CropWidth:256,CropHeight:128,ow:256,oh:128,tp:1	}
+		x:1030,y:2,w:512,h:512,XOffset:0,YOffset:0,CropWidth:512,CropHeight:512,ow:512,oh:512,tp:1	}
 	,
 	{
-		x:264,y:520,w:256,h:128,XOffset:0,YOffset:0,CropWidth:256,CropHeight:128,ow:256,oh:128,tp:1	}
+		x:1030,y:518,w:256,h:256,XOffset:0,YOffset:0,CropWidth:256,CropHeight:256,ow:256,oh:256,tp:1	}
 	,
 	{
-		x:264,y:656,w:64,h:64,XOffset:0,YOffset:0,CropWidth:64,CropHeight:64,ow:64,oh:64,tp:1	}
+		x:1030,y:778,w:256,h:128,XOffset:0,YOffset:0,CropWidth:256,CropHeight:128,ow:256,oh:128,tp:1	}
 	,
 	{
-		x:336,y:656,w:64,h:64,XOffset:0,YOffset:0,CropWidth:64,CropHeight:64,ow:64,oh:64,tp:1	}
+		x:1032,y:912,w:256,h:128,XOffset:0,YOffset:0,CropWidth:256,CropHeight:128,ow:256,oh:128,tp:1	}
 	,
 	{
-		x:264,y:728,w:64,h:64,XOffset:0,YOffset:0,CropWidth:64,CropHeight:64,ow:64,oh:64,tp:1	}
+		x:1032,y:1048,w:72,h:72,XOffset:0,YOffset:0,CropWidth:72,CropHeight:72,ow:72,oh:72,tp:1	}
 	,
 	{
-		x:408,y:656,w:64,h:64,XOffset:0,YOffset:0,CropWidth:64,CropHeight:64,ow:64,oh:64,tp:1	}
+		x:1112,y:1048,w:64,h:64,XOffset:0,YOffset:0,CropWidth:64,CropHeight:64,ow:64,oh:64,tp:1	}
 	,
 	{
-		x:336,y:728,w:62,h:62,XOffset:1,YOffset:1,CropWidth:62,CropHeight:62,ow:64,oh:64,tp:1	}
+		x:1032,y:1128,w:64,h:64,XOffset:0,YOffset:0,CropWidth:64,CropHeight:64,ow:64,oh:64,tp:1	}
 	,
 	{
-		x:264,y:800,w:62,h:62,XOffset:1,YOffset:1,CropWidth:62,CropHeight:62,ow:64,oh:64,tp:1	}
+		x:1184,y:1048,w:64,h:64,XOffset:0,YOffset:0,CropWidth:64,CropHeight:64,ow:64,oh:64,tp:1	}
 	,
 	{
-		x:406,y:728,w:62,h:62,XOffset:1,YOffset:1,CropWidth:62,CropHeight:62,ow:64,oh:64,tp:1	}
+		x:1112,y:1120,w:64,h:64,XOffset:0,YOffset:0,CropWidth:64,CropHeight:64,ow:64,oh:64,tp:1	}
 	,
 	{
-		x:336,y:798,w:62,h:62,XOffset:1,YOffset:1,CropWidth:62,CropHeight:62,ow:64,oh:64,tp:1	}
+		x:1032,y:1200,w:64,h:64,XOffset:0,YOffset:0,CropWidth:64,CropHeight:64,ow:64,oh:64,tp:1	}
 	,
 	{
-		x:264,y:870,w:60,h:64,XOffset:2,YOffset:0,CropWidth:60,CropHeight:64,ow:64,oh:64,tp:1	}
+		x:1184,y:1120,w:62,h:62,XOffset:1,YOffset:1,CropWidth:62,CropHeight:62,ow:64,oh:64,tp:1	}
 	,
 	{
-		x:406,y:798,w:61,h:61,XOffset:2,YOffset:2,CropWidth:61,CropHeight:61,ow:64,oh:64,tp:1	}
+		x:1104,y:1192,w:62,h:62,XOffset:1,YOffset:1,CropWidth:62,CropHeight:62,ow:64,oh:64,tp:1	}
 	,
 	{
-		x:334,y:868,w:62,h:60,XOffset:1,YOffset:1,CropWidth:62,CropHeight:60,ow:64,oh:64,tp:1	}
+		x:1032,y:1272,w:62,h:62,XOffset:1,YOffset:1,CropWidth:62,CropHeight:62,ow:64,oh:64,tp:1	}
 	,
 	{
-		x:4,y:912,w:57,h:57,XOffset:3,YOffset:4,CropWidth:57,CropHeight:57,ow:64,oh:64,tp:1	}
+		x:1184,y:1190,w:62,h:62,XOffset:1,YOffset:1,CropWidth:62,CropHeight:62,ow:64,oh:64,tp:1	}
 	,
 	{
-		x:478,y:654,w:32,h:32,XOffset:0,YOffset:0,CropWidth:32,CropHeight:32,ow:32,oh:32,tp:1	}
+		x:1104,y:1262,w:60,h:64,XOffset:2,YOffset:0,CropWidth:60,CropHeight:64,ow:64,oh:64,tp:1	}
 	,
 	{
-		x:474,y:726,w:32,h:32,XOffset:0,YOffset:0,CropWidth:32,CropHeight:32,ow:32,oh:32,tp:1	}
+		x:1032,y:1342,w:61,h:61,XOffset:2,YOffset:2,CropWidth:61,CropHeight:61,ow:64,oh:64,tp:1	}
 	,
 	{
-		x:139,y:910,w:32,h:32,XOffset:0,YOffset:0,CropWidth:32,CropHeight:32,ow:32,oh:32,tp:1	}
+		x:1174,y:1260,w:62,h:60,XOffset:1,YOffset:1,CropWidth:62,CropHeight:60,ow:64,oh:64,tp:1	}
 	,
 	{
-		x:473,y:796,w:32,h:32,XOffset:0,YOffset:0,CropWidth:32,CropHeight:32,ow:32,oh:32,tp:1	}
+		x:1102,y:1334,w:57,h:57,XOffset:3,YOffset:4,CropWidth:57,CropHeight:57,ow:64,oh:64,tp:1	}
 	,
 	{
-		x:404,y:865,w:32,h:32,XOffset:0,YOffset:0,CropWidth:32,CropHeight:32,ow:32,oh:32,tp:1	}
+		x:1030,y:1409,w:64,h:32,XOffset:32,YOffset:0,CropWidth:64,CropHeight:32,ow:96,oh:32,tp:1	}
 	,
 	{
-		x:330,y:934,w:32,h:32,XOffset:0,YOffset:0,CropWidth:32,CropHeight:32,ow:32,oh:32,tp:1	}
+		x:1254,y:1046,w:32,h:32,XOffset:0,YOffset:0,CropWidth:32,CropHeight:32,ow:32,oh:32,tp:1	}
 	,
 	{
-		x:67,y:910,w:32,h:32,XOffset:0,YOffset:0,CropWidth:32,CropHeight:32,ow:32,oh:32,tp:1	}
+		x:1252,y:1118,w:32,h:32,XOffset:0,YOffset:0,CropWidth:32,CropHeight:32,ow:32,oh:32,tp:1	}
 	,
 	{
-		x:2,y:975,w:32,h:32,XOffset:0,YOffset:0,CropWidth:32,CropHeight:32,ow:32,oh:32,tp:1	}
+		x:1135,y:1398,w:32,h:32,XOffset:0,YOffset:0,CropWidth:32,CropHeight:32,ow:32,oh:32,tp:1	}
 	,
 	{
-		x:478,y:690,w:32,h:32,XOffset:0,YOffset:0,CropWidth:32,CropHeight:32,ow:32,oh:32,tp:1	}
+		x:1242,y:1258,w:32,h:32,XOffset:0,YOffset:0,CropWidth:32,CropHeight:32,ow:32,oh:32,tp:1	}
 	,
 	{
-		x:473,y:832,w:32,h:32,XOffset:0,YOffset:0,CropWidth:32,CropHeight:32,ow:32,oh:32,tp:1	}
+		x:1170,y:1326,w:32,h:32,XOffset:0,YOffset:0,CropWidth:32,CropHeight:32,ow:32,oh:32,tp:1	}
 	,
 	{
-		x:402,y:901,w:32,h:32,XOffset:0,YOffset:0,CropWidth:32,CropHeight:32,ow:32,oh:32,tp:1	}
+		x:1099,y:1397,w:32,h:32,XOffset:0,YOffset:0,CropWidth:32,CropHeight:32,ow:32,oh:32,tp:1	}
 	,
 	{
-		x:67,y:970,w:32,h:32,XOffset:0,YOffset:0,CropWidth:32,CropHeight:32,ow:32,oh:32,tp:1	}
+		x:1030,y:1445,w:32,h:32,XOffset:0,YOffset:0,CropWidth:32,CropHeight:32,ow:32,oh:32,tp:1	}
 	,
 	{
-		x:103,y:910,w:32,h:32,XOffset:0,YOffset:0,CropWidth:32,CropHeight:32,ow:32,oh:32,tp:1	}
+		x:1254,y:1082,w:32,h:32,XOffset:0,YOffset:0,CropWidth:32,CropHeight:32,ow:32,oh:32,tp:1	}
 	,
 	{
-		x:440,y:868,w:32,h:32,XOffset:0,YOffset:0,CropWidth:32,CropHeight:32,ow:32,oh:32,tp:1	}
+		x:1242,y:1294,w:32,h:32,XOffset:0,YOffset:0,CropWidth:32,CropHeight:32,ow:32,oh:32,tp:1	}
 	,
 	{
-		x:366,y:934,w:32,h:32,XOffset:0,YOffset:0,CropWidth:32,CropHeight:32,ow:32,oh:32,tp:1	}
+		x:1252,y:1154,w:32,h:32,XOffset:0,YOffset:0,CropWidth:32,CropHeight:32,ow:32,oh:32,tp:1	}
 	,
 	{
-		x:103,y:970,w:32,h:32,XOffset:0,YOffset:0,CropWidth:32,CropHeight:32,ow:32,oh:32,tp:1	}
+		x:1165,y:1362,w:32,h:32,XOffset:0,YOffset:0,CropWidth:32,CropHeight:32,ow:32,oh:32,tp:1	}
 	,
 	{
-		x:139,y:910,w:32,h:32,XOffset:0,YOffset:0,CropWidth:32,CropHeight:32,ow:32,oh:32,tp:1	}
+		x:1098,y:1433,w:32,h:32,XOffset:0,YOffset:0,CropWidth:32,CropHeight:32,ow:32,oh:32,tp:1	}
 	,
 	{
-		x:476,y:868,w:32,h:32,XOffset:0,YOffset:0,CropWidth:32,CropHeight:32,ow:32,oh:32,tp:1	}
+		x:1030,y:1481,w:32,h:32,XOffset:0,YOffset:0,CropWidth:32,CropHeight:32,ow:32,oh:32,tp:1	}
 	,
 	{
-		x:438,y:904,w:30,h:31,XOffset:1,YOffset:1,CropWidth:30,CropHeight:31,ow:32,oh:32,tp:1	}
+		x:1206,y:1326,w:32,h:32,XOffset:0,YOffset:0,CropWidth:32,CropHeight:32,ow:32,oh:32,tp:1	}
 	,
 	{
-		x:474,y:762,w:28,h:30,XOffset:2,YOffset:1,CropWidth:28,CropHeight:30,ow:32,oh:32,tp:1	}
+		x:1252,y:1190,w:32,h:32,XOffset:0,YOffset:0,CropWidth:32,CropHeight:32,ow:32,oh:32,tp:1	}
 	,
 	{
-		x:139,y:970,w:28,h:28,XOffset:2,YOffset:2,CropWidth:28,CropHeight:28,ow:32,oh:32,tp:1	}
+		x:1201,y:1362,w:32,h:32,XOffset:0,YOffset:0,CropWidth:32,CropHeight:32,ow:32,oh:32,tp:1	}
 	,
 	{
-		x:175,y:910,w:27,h:29,XOffset:2,YOffset:3,CropWidth:27,CropHeight:29,ow:32,oh:32,tp:1	}
+		x:1135,y:1398,w:32,h:32,XOffset:0,YOffset:0,CropWidth:32,CropHeight:32,ow:32,oh:32,tp:1	}
 	,
 	{
-		x:69,y:948,w:62,h:10,XOffset:1,YOffset:27,CropWidth:62,CropHeight:10,ow:64,oh:64,tp:1	}
+		x:1066,y:1469,w:32,h:32,XOffset:0,YOffset:0,CropWidth:32,CropHeight:32,ow:32,oh:32,tp:1	}
 	,
 	{
-		x:472,y:904,w:26,h:20,XOffset:3,YOffset:7,CropWidth:26,CropHeight:20,ow:32,oh:32,tp:1	}
+		x:1030,y:1517,w:30,h:31,XOffset:1,YOffset:1,CropWidth:30,CropHeight:31,ow:32,oh:32,tp:1	}
 	,
 	{
-		x:402,y:937,w:29,h:17,XOffset:0,YOffset:0,CropWidth:29,CropHeight:17,ow:29,oh:18,tp:1	}
+		x:1030,y:1517,w:30,h:31,XOffset:1,YOffset:1,CropWidth:30,CropHeight:31,ow:32,oh:32,tp:1	}
 	,
 	{
-		x:38,y:975,w:16,h:30,XOffset:8,YOffset:1,CropWidth:16,CropHeight:30,ow:32,oh:32,tp:1	}
+		x:1242,y:1330,w:28,h:30,XOffset:2,YOffset:1,CropWidth:28,CropHeight:30,ow:32,oh:32,tp:1	}
 	,
 	{
-		x:171,y:970,w:33,h:13,XOffset:1,YOffset:12,CropWidth:33,CropHeight:13,ow:35,oh:32,tp:1	}
+		x:1252,y:1226,w:28,h:28,XOffset:2,YOffset:2,CropWidth:28,CropHeight:28,ow:32,oh:32,tp:1	}
 	,
 	{
-		x:171,y:970,w:33,h:13,XOffset:1,YOffset:12,CropWidth:33,CropHeight:13,ow:35,oh:32,tp:1	}
+		x:1171,y:1398,w:27,h:29,XOffset:2,YOffset:3,CropWidth:27,CropHeight:29,ow:32,oh:32,tp:1	}
 	,
 	{
-		x:171,y:970,w:33,h:13,XOffset:1,YOffset:12,CropWidth:33,CropHeight:13,ow:35,oh:32,tp:1	}
+		x:1136,y:1436,w:62,h:10,XOffset:1,YOffset:27,CropWidth:62,CropHeight:10,ow:64,oh:64,tp:1	}
 	,
 	{
-		x:139,y:1002,w:27,h:12,XOffset:4,YOffset:11,CropWidth:27,CropHeight:12,ow:35,oh:32,tp:1	}
+		x:1066,y:1445,w:26,h:20,XOffset:3,YOffset:7,CropWidth:26,CropHeight:20,ow:32,oh:32,tp:1	}
 	,
 	{
-		x:139,y:1002,w:27,h:12,XOffset:4,YOffset:11,CropWidth:27,CropHeight:12,ow:35,oh:32,tp:1	}
+		x:1102,y:1469,w:29,h:17,XOffset:0,YOffset:0,CropWidth:29,CropHeight:17,ow:29,oh:18,tp:1	}
 	,
 	{
-		x:506,y:762,w:16,h:20,XOffset:8,YOffset:12,CropWidth:16,CropHeight:20,ow:32,oh:32,tp:1	}
+		x:1066,y:1505,w:16,h:30,XOffset:8,YOffset:1,CropWidth:16,CropHeight:30,ow:32,oh:32,tp:1	}
 	,
 	{
-		x:137,y:946,w:21,h:14,XOffset:0,YOffset:0,CropWidth:21,CropHeight:14,ow:21,oh:14,tp:1	}
+		x:2,y:1546,w:33,h:13,XOffset:1,YOffset:12,CropWidth:33,CropHeight:13,ow:35,oh:32,tp:1	}
 	,
 	{
-		x:502,y:904,w:18,h:15,XOffset:0,YOffset:0,CropWidth:18,CropHeight:15,ow:19,oh:16,tp:1	}
+		x:2,y:1546,w:33,h:13,XOffset:1,YOffset:12,CropWidth:33,CropHeight:13,ow:35,oh:32,tp:1	}
 	,
 	{
-		x:472,y:928,w:18,h:15,XOffset:0,YOffset:0,CropWidth:18,CropHeight:15,ow:19,oh:16,tp:1	}
+		x:2,y:1546,w:33,h:13,XOffset:1,YOffset:12,CropWidth:33,CropHeight:13,ow:35,oh:32,tp:1	}
 	,
 	{
-		x:402,y:958,w:18,h:15,XOffset:0,YOffset:0,CropWidth:18,CropHeight:15,ow:19,oh:16,tp:1	}
+		x:1237,y:1364,w:27,h:12,XOffset:4,YOffset:11,CropWidth:27,CropHeight:12,ow:35,oh:32,tp:1	}
 	,
 	{
-		x:171,y:987,w:18,h:15,XOffset:0,YOffset:0,CropWidth:18,CropHeight:15,ow:19,oh:16,tp:1	}
+		x:1237,y:1364,w:27,h:12,XOffset:4,YOffset:11,CropWidth:27,CropHeight:12,ow:35,oh:32,tp:1	}
 	,
 	{
-		x:208,y:910,w:18,h:15,XOffset:0,YOffset:0,CropWidth:18,CropHeight:15,ow:19,oh:16,tp:1	}
+		x:1274,y:1330,w:16,h:20,XOffset:8,YOffset:12,CropWidth:16,CropHeight:20,ow:32,oh:32,tp:1	}
 	,
 	{
-		x:208,y:940,w:18,h:15,XOffset:0,YOffset:0,CropWidth:18,CropHeight:15,ow:19,oh:16,tp:1	}
+		x:1204,y:1398,w:21,h:14,XOffset:0,YOffset:0,CropWidth:21,CropHeight:14,ow:21,oh:14,tp:1	}
 	,
 	{
-		x:58,y:1006,w:18,h:15,XOffset:0,YOffset:0,CropWidth:18,CropHeight:15,ow:19,oh:16,tp:1	}
+		x:1102,y:1490,w:18,h:15,XOffset:0,YOffset:0,CropWidth:18,CropHeight:15,ow:19,oh:16,tp:1	}
 	,
 	{
-		x:502,y:923,w:18,h:15,XOffset:0,YOffset:0,CropWidth:18,CropHeight:15,ow:19,oh:16,tp:1	}
+		x:1135,y:1452,w:18,h:15,XOffset:0,YOffset:0,CropWidth:18,CropHeight:15,ow:19,oh:16,tp:1	}
 	,
 	{
-		x:435,y:939,w:18,h:15,XOffset:0,YOffset:0,CropWidth:18,CropHeight:15,ow:19,oh:16,tp:1	}
+		x:1064,y:1539,w:18,h:15,XOffset:0,YOffset:0,CropWidth:18,CropHeight:15,ow:19,oh:16,tp:1	}
 	,
 	{
-		x:424,y:958,w:18,h:15,XOffset:0,YOffset:0,CropWidth:18,CropHeight:15,ow:19,oh:16,tp:1	}
+		x:39,y:1546,w:18,h:15,XOffset:0,YOffset:0,CropWidth:18,CropHeight:15,ow:19,oh:16,tp:1	}
 	,
 	{
-		x:208,y:970,w:18,h:15,XOffset:0,YOffset:0,CropWidth:18,CropHeight:15,ow:19,oh:16,tp:1	}
+		x:1268,y:1364,w:18,h:15,XOffset:0,YOffset:0,CropWidth:18,CropHeight:15,ow:19,oh:16,tp:1	}
 	,
 	{
-		x:170,y:1006,w:18,h:15,XOffset:0,YOffset:0,CropWidth:18,CropHeight:15,ow:19,oh:16,tp:1	}
+		x:1229,y:1398,w:18,h:15,XOffset:0,YOffset:0,CropWidth:18,CropHeight:15,ow:19,oh:16,tp:1	}
 	,
 	{
-		x:230,y:910,w:18,h:15,XOffset:0,YOffset:0,CropWidth:18,CropHeight:15,ow:19,oh:16,tp:1	}
+		x:1124,y:1490,w:18,h:15,XOffset:0,YOffset:0,CropWidth:18,CropHeight:15,ow:19,oh:16,tp:1	}
 	,
 	{
-		x:230,y:940,w:18,h:15,XOffset:0,YOffset:0,CropWidth:18,CropHeight:15,ow:19,oh:16,tp:1	}
+		x:1086,y:1509,w:18,h:15,XOffset:0,YOffset:0,CropWidth:18,CropHeight:15,ow:19,oh:16,tp:1	}
 	,
 	{
-		x:175,y:943,w:18,h:15,XOffset:0,YOffset:0,CropWidth:18,CropHeight:15,ow:19,oh:16,tp:1	}
+		x:1157,y:1452,w:18,h:15,XOffset:0,YOffset:0,CropWidth:18,CropHeight:15,ow:19,oh:16,tp:1	}
 	,
 	{
-		x:80,y:1006,w:18,h:15,XOffset:0,YOffset:0,CropWidth:18,CropHeight:15,ow:19,oh:16,tp:1	}
+		x:61,y:1546,w:18,h:15,XOffset:0,YOffset:0,CropWidth:18,CropHeight:15,ow:19,oh:16,tp:1	}
 	,
 	{
-		x:80,y:1006,w:18,h:15,XOffset:0,YOffset:0,CropWidth:18,CropHeight:15,ow:19,oh:16,tp:1	}
+		x:2,y:1563,w:18,h:15,XOffset:0,YOffset:0,CropWidth:18,CropHeight:15,ow:19,oh:16,tp:1	}
 	,
 	{
-		x:509,y:786,w:11,h:24,XOffset:3,YOffset:1,CropWidth:11,CropHeight:24,ow:17,oh:28,tp:1	}
+		x:1204,y:1416,w:18,h:15,XOffset:0,YOffset:0,CropWidth:18,CropHeight:15,ow:19,oh:16,tp:1	}
 	,
 	{
-		x:2,y:1011,w:24,h:9,XOffset:3,YOffset:15,CropWidth:24,CropHeight:9,ow:35,oh:32,tp:1	}
+		x:1251,y:1383,w:18,h:15,XOffset:0,YOffset:0,CropWidth:18,CropHeight:15,ow:19,oh:16,tp:1	}
 	,
 	{
-		x:2,y:1011,w:24,h:9,XOffset:3,YOffset:15,CropWidth:24,CropHeight:9,ow:35,oh:32,tp:1	}
+		x:1146,y:1471,w:18,h:15,XOffset:0,YOffset:0,CropWidth:18,CropHeight:15,ow:19,oh:16,tp:1	}
 	,
 	{
-		x:494,y:942,w:24,h:9,XOffset:5,YOffset:12,CropWidth:24,CropHeight:9,ow:32,oh:32,tp:1	}
+		x:1108,y:1509,w:18,h:15,XOffset:0,YOffset:0,CropWidth:18,CropHeight:15,ow:19,oh:16,tp:1	}
 	,
 	{
-		x:446,y:958,w:22,h:9,XOffset:5,YOffset:15,CropWidth:22,CropHeight:9,ow:35,oh:32,tp:1	}
+		x:1086,y:1528,w:18,h:15,XOffset:0,YOffset:0,CropWidth:18,CropHeight:15,ow:19,oh:16,tp:1	}
 	,
 	{
-		x:446,y:958,w:22,h:9,XOffset:5,YOffset:15,CropWidth:22,CropHeight:9,ow:35,oh:32,tp:1	}
+		x:1086,y:1528,w:18,h:15,XOffset:0,YOffset:0,CropWidth:18,CropHeight:15,ow:19,oh:16,tp:1	}
 	,
 	{
-		x:510,y:726,w:10,h:10,XOffset:11,YOffset:22,CropWidth:10,CropHeight:10,ow:32,oh:32,tp:1	}
+		x:1278,y:1258,w:11,h:24,XOffset:3,YOffset:1,CropWidth:11,CropHeight:24,ow:17,oh:28,tp:1	}
 	,
 	{
-		x:38,y:1009,w:11,h:8,XOffset:0,YOffset:0,CropWidth:11,CropHeight:8,ow:11,oh:8,tp:1	}
+		x:1179,y:1452,w:24,h:9,XOffset:3,YOffset:15,CropWidth:24,CropHeight:9,ow:35,oh:32,tp:1	}
 	,
 	{
-		x:206,y:929,w:6,h:7,XOffset:0,YOffset:1,CropWidth:6,CropHeight:7,ow:6,oh:8,tp:1	}
+		x:1179,y:1452,w:24,h:9,XOffset:3,YOffset:15,CropWidth:24,CropHeight:9,ow:35,oh:32,tp:1	}
 	,
 	{
-		x:230,y:970,w:6,h:7,XOffset:0,YOffset:1,CropWidth:6,CropHeight:7,ow:6,oh:8,tp:1	}
+		x:83,y:1546,w:24,h:9,XOffset:5,YOffset:12,CropWidth:24,CropHeight:9,ow:32,oh:32,tp:1	}
 	,
 	{
-		x:193,y:987,w:8,h:5,XOffset:0,YOffset:1,CropWidth:8,CropHeight:5,ow:8,oh:6,tp:1	}
+		x:24,y:1565,w:22,h:9,XOffset:5,YOffset:15,CropWidth:22,CropHeight:9,ow:35,oh:32,tp:1	}
 	,
 	{
-		x:192,y:1006,w:8,h:5,XOffset:0,YOffset:1,CropWidth:8,CropHeight:5,ow:8,oh:6,tp:1	}
+		x:24,y:1565,w:22,h:9,XOffset:5,YOffset:15,CropWidth:22,CropHeight:9,ow:35,oh:32,tp:1	}
 	,
 	{
-		x:60,y:977,w:1,h:1,XOffset:31,YOffset:31,CropWidth:1,CropHeight:1,ow:64,oh:64,tp:1	}
+		x:2,y:1582,w:10,h:10,XOffset:11,YOffset:22,CropWidth:10,CropHeight:10,ow:32,oh:32,tp:1	}
+	,
+	{
+		x:1226,y:1417,w:11,h:8,XOffset:0,YOffset:0,CropWidth:11,CropHeight:8,ow:11,oh:8,tp:1	}
+	,
+	{
+		x:1172,y:1190,w:6,h:7,XOffset:0,YOffset:1,CropWidth:6,CropHeight:7,ow:6,oh:8,tp:1	}
+	,
+	{
+		x:1237,y:1380,w:6,h:7,XOffset:0,YOffset:1,CropWidth:6,CropHeight:7,ow:6,oh:8,tp:1	}
+	,
+	{
+		x:1274,y:1354,w:8,h:5,XOffset:0,YOffset:1,CropWidth:8,CropHeight:5,ow:8,oh:6,tp:1	}
+	,
+	{
+		x:1273,y:1383,w:8,h:5,XOffset:0,YOffset:1,CropWidth:8,CropHeight:5,ow:8,oh:6,tp:1	}
+	,
+	{
+		x:1253,y:1404,w:1,h:1,XOffset:31,YOffset:31,CropWidth:1,CropHeight:1,ow:64,oh:64,tp:1	}
+	,
+	{
+		x:1102,y:1126,w:1,h:1,XOffset:0,YOffset:0,CropWidth:1,CropHeight:1,ow:64,oh:64,tp:1	}
 	],Textures:["GrowtopiaGM_texture_0.png","GrowtopiaGM_texture_1.png"],TexturesBlocks:[
 	{
 		MipsToGenerate:0	}
@@ -2233,13 +3472,13 @@ var JSON_game=
 		pName:"__YY__0fallbacktexture.png_YYG_AUTO_GEN_TEX_GROUP_NAME_",TextureIDs:[0],SpriteIDs:[],SpineSpriteIDs:[],FontIDs:[],TilesetIDs:[]	}
 	,
 	{
-		pName:"Default",TextureIDs:[1],SpriteIDs:[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19],SpineSpriteIDs:[],FontIDs:[0],TilesetIDs:[]	}
+		pName:"Default",TextureIDs:[1],SpriteIDs:[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21],SpineSpriteIDs:[],FontIDs:[],TilesetIDs:[0,1]	}
 	],FeatureFlags:
 	{
 		"filt+fx":"filt+fx","gx_mod_wallpaper":"gx_mod_wallpaper","nullish":"nullish","login_sso":"login_sso","operagx-yyc":"operagx-yyc","mqtt":"mqtt","audio-fx":"audio-fx","intellisense":"intellisense","test":"test","custom_env":"custom_env","filt+fx":"filt+fx","gx_mod_wallpaper":"gx_mod_wallpaper","gx_mod_gamestrip":"gx_mod_gamestrip","live_wallpaper_subscription":"live_wallpaper_subscription","code-editor":"code-editor","strip_unused_assets":"strip_unused_assets","update-process":"update-process","package-manager":"package-manager","prefab-library":"prefab-library","svg":"svg"	}
 	,Options:
 	{
-		debugMode:!1,AssetCompilerMajorVersion:2,AssetCompilerMinorVersion:0,AssetCompilerBuildVersion:0,GameSpeed:60,DrawColour:4294967295,xscreensize:1280,yscreensize:720,gameId:0,gameGuid:"47b341f1-019f-42be-b6dc-b68f015e45c4",fullScreen:!1,interpolatePixels:!1,showCursor:!0,scale:1,allowFullScreenKey:!0,freezeOnLostFocus:!1,showLoadingBar:!1,displayErrors:!1,writeErrors:!1,abortErrors:!1,variableErrors:!0,outputDebugToConsole:!0,WebGL:2,WebGLPreserveDrawingBuffer:0,CollisionCompatibility:!0,UseNewAudio:!0,GameDir:"html5game",Config:"Default",ViewColour:0,CreateEventOrder:!1,UseParticles:!0,UseBuiltinFont:!0,LocalRunAlert:!0,crc:0,ProjectName:"GrowtopiaGM",md5:[207,191,1,0,0,0,0,0,0,0,0,0,0,0,0,0],MajorVersion:1,MinorVersion:0,BuildVersion:0,RevisionVersion:0,DisplayName:"Created with GameMaker Studio 2",UseFBExtension:!1,tm:1745540305,AllowStatistics:"True"	}
+		debugMode:!1,AssetCompilerMajorVersion:2,AssetCompilerMinorVersion:0,AssetCompilerBuildVersion:0,GameSpeed:60,DrawColour:4294967295,xscreensize:1280,yscreensize:720,gameId:0,gameGuid:"47b341f1-019f-42be-b6dc-b68f015e45c4",fullScreen:!1,interpolatePixels:!1,showCursor:!0,scale:1,allowFullScreenKey:!0,freezeOnLostFocus:!1,showLoadingBar:!1,displayErrors:!1,writeErrors:!1,abortErrors:!1,variableErrors:!0,outputDebugToConsole:!0,WebGL:1,WebGLPreserveDrawingBuffer:0,CollisionCompatibility:!0,UseNewAudio:!0,GameDir:"html5game",Config:"Default",ViewColour:0,CreateEventOrder:!1,UseParticles:!0,UseBuiltinFont:!0,LocalRunAlert:!0,crc:0,ProjectName:"GrowtopiaGM",md5:[207,191,1,0,0,0,0,0,0,0,0,0,0,0,0,0],MajorVersion:1,MinorVersion:0,BuildVersion:0,RevisionVersion:0,DisplayName:"Created with GameMaker Studio 2",UseFBExtension:!1,tm:1747376270,AllowStatistics:"True"	}
 }
 ;
 
@@ -2367,6 +3606,28 @@ function gml_Script_buffer_send_message_exception(_inst,_other,argument0,argumen
 	}
 }
 
+function gml_GlobalScript_scriptCamera(_inst,_other)
+{
+	(_inst.gmlcamera_get_gui_x_proportion=__yy_method(_inst,gml_Script_camera_get_gui_x_proportion));
+	(_inst.gmlcamera_get_gui_y_proportion=__yy_method(_inst,gml_Script_camera_get_gui_y_proportion));
+}
+
+function gml_Script_camera_get_gui_x_proportion(_inst,_other)
+{
+
+		{
+		return yyInst(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,YYASSET_REF(0x00000004)).gmlCore).gmlCamera).gmlGUIXProportion;
+	}
+}
+
+function gml_Script_camera_get_gui_y_proportion(_inst,_other)
+{
+
+		{
+		return yyInst(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,YYASSET_REF(0x00000004)).gmlCore).gmlCamera).gmlGUIYProportion;
+	}
+}
+
 function gml_GlobalScript_scriptChat(_inst,_other)
 {
 	(_inst.gmlchatSendMessage=__yy_method(_inst,gml_Script_chatSendMessage));
@@ -2403,7 +3664,7 @@ function gml_Script_chatSendMessage(_inst,_other,argument0)
 		var gmlmsg=__yy_gml_object_create(_inst,(global.gml___struct___0=__yy_method(_inst,gml_Script____struct___0_40_chatSendMessage_40_scriptChat)));
 		yyInst(_inst,_other,gmlmsg).gmlmessage=argument0;
 		var gmlpacket=gml_Script_create_network_packet(_inst,_other,"user_chat");
-		yyInst(_inst,_other,gmlpacket).gmldata=gmlmsg;
+		yyInst(_inst,_other,gmlpacket).gmlData=gmlmsg;
 		gml_Script_send_network_packet(_inst,_other,gmlpacket);
 	}
 }
@@ -2452,7 +3713,7 @@ function gml_Script_chatDisplayMessage(_inst,_other,argument0)
 
 								{
 					yyInst(__yy__v2,_other,yyInst(__yy__v2,_other,__yy__v2.gmlCore).gmlChat).gmlCount=(yyInst(__yy__v2,_other,yyInst(__yy__v2,_other,__yy__v2.gmlCore).gmlChat).gmlCount instanceof Long?yyInst(__yy__v2,_other,yyInst(__yy__v2,_other,__yy__v2.gmlCore).gmlChat).gmlCount.add(1):++yyInst(__yy__v2,_other,yyInst(__yy__v2,_other,__yy__v2.gmlCore).gmlChat).gmlCount);
-					variable_struct_set(yyInst(__yy__v2,_other,yyInst(__yy__v2,_other,__yy__v2.gmlCore).gmlChat).gmlMessages,yyfplus("m",__yy_gml_errCheck(string(yyInst(__yy__v2,_other,yyInst(__yy__v2,_other,__yy__v2.gmlCore).gmlChat).gmlCount))),__yy_gml_object_create(__yy__v2,(global.gml___struct___1=__yy_method(__yy__v2,gml_Script____struct___1_40_chatDisplayMessage_40_scriptChat)),(__yy_gml_array_create([""])),((__yy_gml_array_set_owner(720896),__yy_gml_array_create([16777215])))));
+					variable_struct_set(yyInst(__yy__v2,_other,yyInst(__yy__v2,_other,__yy__v2.gmlCore).gmlChat).gmlMessages,yyfplus("m",__yy_gml_errCheck(string(yyInst(__yy__v2,_other,yyInst(__yy__v2,_other,__yy__v2.gmlCore).gmlChat).gmlCount))),__yy_gml_object_create(__yy__v2,(global.gml___struct___1=__yy_method(__yy__v2,gml_Script____struct___1_40_chatDisplayMessage_40_scriptChat)),(__yy_gml_array_create([""])),((__yy_gml_array_set_owner(851968),__yy_gml_array_create([16777215])))));
 					array_set((yythis7=yyInst(__yy__v2,_other,variable_struct_get(yyInst(__yy__v2,_other,yyInst(__yy__v2,_other,__yy__v2.gmlCore).gmlChat).gmlMessages,yyfplus("m",__yy_gml_errCheck(string(yyInst(__yy__v2,_other,yyInst(__yy__v2,_other,__yy__v2.gmlCore).gmlChat).gmlCount))))),yythis7).gmlText,0,argument0);
 					var yythis7;
 					gml_Script_surfaceUpdate(__yy__v2,_inst,1);
@@ -2486,19 +3747,21 @@ function gml_Script_scriptConstants(_inst,_other)
 		{
 
 				{
-			__yy_gml_array_set_owner(1835002);
+			__yy_gml_array_set_owner(2097146);
 			global.gmlcolorValue=__yy_gml_array_check(global.gmlcolorValue,637836633);
-			global.gmlcolorValue[__yy_gml_array_check_index_set(0)]=13907016;
+			global.gmlcolorValue[__yy_gml_array_check_index_set(0)]=12465224;
 		}
 		;
-		global.gmlcolorValue[__yy_gml_array_check_index_set(1)]=7025456;
-		global.gmlcolorValue[__yy_gml_array_check_index_set(2)]=2411257;
+		global.gmlcolorValue[__yy_gml_array_check_index_set(1)]=16737352;
+		global.gmlcolorValue[__yy_gml_array_check_index_set(2)]=7025456;
+		global.gmlcolorValue[__yy_gml_array_check_index_set(3)]=2411257;
 	}
 }
 
 function gml_GlobalScript_scriptDraw(_inst,_other)
 {
 	(_inst.gmldraw_text_shadow=__yy_method(_inst,gml_Script_draw_text_shadow));
+	(_inst.gmldraw_text_shadow2=__yy_method(_inst,gml_Script_draw_text_shadow2));
 	(_inst.gmlchatDraw=__yy_method(_inst,gml_Script_chatDraw));
 	(_inst.gmlsurfaceUpdate=__yy_method(_inst,gml_Script_surfaceUpdate));
 }
@@ -2508,6 +3771,15 @@ function gml_Script_draw_text_shadow(_inst,_other,argument0,argument1,argument2,
 
 		{
 		draw_text_color(yyfplus(__yy_gml_errCheck(argument0),1),yyfplus(__yy_gml_errCheck(argument1),1),argument2,argument4,argument4,argument4,argument4,argument5);
+		draw_text_color(argument0,argument1,argument2,argument3,argument3,argument3,argument3,argument5);
+	}
+}
+
+function gml_Script_draw_text_shadow2(_inst,_other,argument0,argument1,argument2,argument3,argument4,argument5)
+{
+
+		{
+		draw_text_color(argument0,yyfplus(__yy_gml_errCheck(argument1),1),argument2,argument4,argument4,argument4,argument4,argument5);
 		draw_text_color(argument0,argument1,argument2,argument3,argument3,argument3,argument3,argument5);
 	}
 }
@@ -2819,7 +4091,7 @@ function gml_Script_inventoryCreate(_inst,_other)
 {
 
 		{
-		global.gmlInventory=__yy_gml_object_create(_inst,(global.gml___struct___2=__yy_method(_inst,gml_Script____struct___2_40_inventoryCreate_40_scriptInventory)),((__yy_gml_array_set_owner(1179648),__yy_gml_array_create([]))));
+		global.gmlInventory=__yy_gml_object_create(_inst,(global.gml___struct___2=__yy_method(_inst,gml_Script____struct___2_40_inventoryCreate_40_scriptInventory)),((__yy_gml_array_set_owner(1376256),__yy_gml_array_create([]))));
 		variable_struct_set(yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess,1,__yy_gml_object_create(_inst,(global.gml___struct___5=__yy_method(_inst,gml_Script____struct___5_40_inventoryCreate_40_scriptInventory))));
 		variable_struct_set(yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess,2,__yy_gml_object_create(_inst,(global.gml___struct___6=__yy_method(_inst,gml_Script____struct___6_40_inventoryCreate_40_scriptInventory))));
 		variable_struct_set(yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess,3,__yy_gml_object_create(_inst,(global.gml___struct___7=__yy_method(_inst,gml_Script____struct___7_40_inventoryCreate_40_scriptInventory))));
@@ -2864,7 +4136,7 @@ function gml_Script_inventoryAdd(_inst,_other,argument0,argument1)
 				var gmlnewId=yyInst(_inst,_other,global.gmlInventory).gmlCount;
 
 								{
-					__yy_gml_array_set_owner(3932154);
+					__yy_gml_array_set_owner(4325370);
 					yyInst(_inst,_other,global.gmlInventory).gmlItemOrder=__yy_gml_array_check(yyInst(_inst,_other,global.gmlInventory).gmlItemOrder,4130715937);
 					yyInst(_inst,_other,global.gmlInventory).gmlItemOrder[__yy_gml_array_check_index_set(yyfminus(__yy_gml_errCheck(gmlnewId),1))]=argument0;
 				}
@@ -3219,7 +4491,6 @@ function gml_Script_armor_check(_inst,_other,argument0,argument1,argument2)
 								gmlex=__yy__processException(gmlex);
 
 																{
-									show_message(gmlex);
 								}
 							}
 							;
@@ -3390,6 +4661,8 @@ function gml_GlobalScript_scriptItem(_inst,_other)
 	(_inst.gmlgetItemInstance=__yy_method(_inst,gml_Script_getItemInstance));
 	(_inst.gmlgetBlockSubtype=__yy_method(_inst,gml_Script_getBlockSubtype));
 	(_inst.gmlgetItemUsage=__yy_method(_inst,gml_Script_getItemUsage));
+	(_inst.gmlloadSpriteData=__yy_method(_inst,gml_Script_loadSpriteData));
+	(_inst.gmlitemSetProperties=__yy_method(_inst,gml_Script_itemSetProperties));
 	(_inst.gmltemporalItemPopulate=__yy_method(_inst,gml_Script_temporalItemPopulate));
 }
 
@@ -3397,13 +4670,13 @@ function gml_Script_getItemInstance(_inst,_other,argument0)
 {
 
 		{
-		var ___sw26___=argument0;
-		var ___swc27___=-1;
-		if(yyCompareVal(___sw26___,1,g_GMLMathEpsilon,false)==0)
+		var ___sw32___=argument0;
+		var ___swc33___=-1;
+		if(yyCompareVal(___sw32___,1,g_GMLMathEpsilon,false)==0)
 		{
-			___swc27___=0;
+			___swc33___=0;
 		}
-		switch(___swc27___)
+		switch(___swc33___)
 		{
 			case 0:
 			{
@@ -3422,17 +4695,17 @@ function gml_Script_getBlockSubtype(_inst,_other,argument0)
 {
 
 		{
-		var ___sw28___=argument0;
-		var ___swc29___=-1;
-		if(yyCompareVal(___sw28___,0,g_GMLMathEpsilon,false)==0)
+		var ___sw34___=argument0;
+		var ___swc35___=-1;
+		if(yyCompareVal(___sw34___,0,g_GMLMathEpsilon,false)==0)
 		{
-			___swc29___=0;
+			___swc35___=0;
 		}
-		else if(yyCompareVal(___sw28___,3,g_GMLMathEpsilon,false)==0)
+		else if(yyCompareVal(___sw34___,3,g_GMLMathEpsilon,false)==0)
 		{
-			___swc29___=1;
+			___swc35___=1;
 		}
-		switch(___swc29___)
+		switch(___swc35___)
 		{
 			case 0:
 			{
@@ -3453,21 +4726,21 @@ function gml_Script_getItemUsage(_inst,_other,argument0)
 {
 
 		{
-		var ___sw30___=argument0;
-		var ___swc31___=-1;
-		if(yyCompareVal(___sw30___,99,g_GMLMathEpsilon,false)==0)
+		var ___sw36___=argument0;
+		var ___swc37___=-1;
+		if(yyCompareVal(___sw36___,99,g_GMLMathEpsilon,false)==0)
 		{
-			___swc31___=0;
+			___swc37___=0;
 		}
-		else if(yyCompareVal(___sw30___,0,g_GMLMathEpsilon,false)==0||yyCompareVal(___sw30___,1,g_GMLMathEpsilon,false)==0)
+		else if(yyCompareVal(___sw36___,0,g_GMLMathEpsilon,false)==0||yyCompareVal(___sw36___,1,g_GMLMathEpsilon,false)==0)
 		{
-			___swc31___=1;
+			___swc37___=1;
 		}
-		else if(yyCompareVal(___sw30___,3,g_GMLMathEpsilon,false)==0)
+		else if(yyCompareVal(___sw36___,3,g_GMLMathEpsilon,false)==0)
 		{
-			___swc31___=2;
+			___swc37___=2;
 		}
-		switch(___swc31___)
+		switch(___swc37___)
 		{
 			case 0:
 			{
@@ -3483,6 +4756,154 @@ function gml_Script_getItemUsage(_inst,_other,argument0)
 			{
 				return 2;
 				break;
+			}
+		}
+		;
+	}
+}
+
+function gml_Script_loadSpriteData(_inst,_other)
+{
+
+		{
+		var gmltemporalSprite;
+		var gmlspriteWidth;
+		var gmlmaxItem=struct_names_count(global.gmlItems);
+		var gmli=3;
+		for(;yyflessequal(gmli,gmlmaxItem);gmli=(gmli instanceof Long?gmli.add(1):++gmli))
+		{
+
+						{
+				var gmlspriteFilename=yyfplus(__yy_gml_errCheck(string(gmli)),".png");
+				if(yyGetBool(file_exists(gmlspriteFilename)))
+				{
+
+										{
+						gmltemporalSprite=sprite_add(gmlspriteFilename,1,false,false,0,0);
+						gmlspriteWidth=sprite_get_width(gmltemporalSprite);
+						sprite_delete(gmltemporalSprite);
+						(yythis70=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmli)),yythis70).gmlSprite=sprite_add(gmlspriteFilename,yyfdivide(__yy_gml_errCheck(gmlspriteWidth),32),(yythis71=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmli)),yythis71).gmlTransparent,false,(yythis72=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmli)),yythis72).gmlX,(yythis73=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmli)),yythis73).gmlY);
+						var yythis70,yythis71,yythis72,yythis73;
+						(yythis74=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmli)),yythis74).gmlCollectableSprite=sprite_duplicate((yythis75=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmli)),yythis75).gmlSprite);
+						var yythis74,yythis75;
+						sprite_set_offset((yythis76=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmli)),yythis76).gmlCollectableSprite,yyfdivide(__yy_gml_errCheck(sprite_get_width((yythis77=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmli)),yythis77).gmlSprite)),2),yyfdivide(__yy_gml_errCheck(sprite_get_height((yythis78=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmli)),yythis78).gmlSprite)),2));
+						var yythis76,yythis77,yythis78;
+					}
+				}
+				else 
+				{
+
+										{
+						(yythis79=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmli)),yythis79).gmlSprite=(-4);
+						var yythis79;
+						(yythis80=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmli)),yythis80).gmlCollectableSprite=(-4);
+						var yythis80;
+					}
+				}
+				;
+			}
+		}
+		;
+	}
+}
+
+function gml_Script_itemSetProperties(_inst,_other,argument0,argument1,argument2,argument3)
+{
+
+		{
+		var ___sw38___=argument2;
+		var ___swc39___=-1;
+		if(yyCompareVal(___sw38___,0,g_GMLMathEpsilon,false)==0)
+		{
+			___swc39___=0;
+		}
+		else if(yyCompareVal(___sw38___,1,g_GMLMathEpsilon,false)==0)
+		{
+			___swc39___=1;
+		}
+		switch(___swc39___)
+		{
+			case 0:
+			{
+
+								{
+					var ___sw40___=argument3;
+					var ___swc41___=-1;
+					if(yyCompareVal(___sw40___,0,g_GMLMathEpsilon,false)==0)
+					{
+						___swc41___=0;
+					}
+					else if(yyCompareVal(___sw40___,3,g_GMLMathEpsilon,false)==0)
+					{
+						___swc41___=1;
+					}
+					switch(___swc41___)
+					{
+						case 0:
+						{
+
+														{
+								break;
+							}
+							;
+						}
+						case 1:
+						{
+
+														{
+								yyInst(_inst,_other,argument0).sprite_index=(yythis81=yyInst(_inst,_other,variable_struct_get(global.gmlItems,argument1)),yythis81).gmlSprite;
+								var yythis81;
+								yyInst(_inst,_other,yyInst(_inst,_other,argument0).gmlP).gmlSubcategory=(yythis82=yyInst(_inst,_other,variable_struct_get(global.gmlItems,argument1)),yythis82).gmlSubcategory;
+								var yythis82;
+								yyInst(_inst,_other,yyInst(_inst,_other,argument0).gmlP).gmlTresspass=true;
+								if(yyfnotequal((yythis83=yyInst(_inst,_other,variable_struct_get(global.gmlItems,argument1)),yythis83).gmlSubcategory,0))
+								{
+
+																		{
+										yyInst(_inst,_other,argument0).image_xscale=1;
+										var yythis83;
+									}
+								}
+								;
+								break;
+							}
+							;
+						}
+					}
+					;
+				}
+				;
+			}
+			case 1:
+			{
+
+								{
+					var ___sw42___=argument3;
+					var ___swc43___=-1;
+					if(yyCompareVal(___sw42___,0,g_GMLMathEpsilon,false)==0)
+					{
+						___swc43___=0;
+					}
+					switch(___swc43___)
+					{
+						case 0:
+						{
+
+														{
+								yyInst(_inst,_other,argument0).sprite_index=(yythis84=yyInst(_inst,_other,variable_struct_get(global.gmlItems,argument1)),yythis84).gmlSprite;
+								var yythis84;
+								yyInst(_inst,_other,yyInst(_inst,_other,argument0).gmlP).gmlSubcategory=(yythis85=yyInst(_inst,_other,variable_struct_get(global.gmlItems,argument1)),yythis85).gmlSubcategory;
+								var yythis85;
+								yyInst(_inst,_other,yyInst(_inst,_other,argument0).gmlP).gmlSeed=argument1;
+								break;
+							}
+							;
+						}
+					}
+					;
+					break;
+				}
+				;
 			}
 		}
 		;
@@ -3534,8 +4955,8 @@ function gml_Script____struct___11_40_temporalItemPopulate_40_scriptItem(_inst,_
 			var $$args=Array.prototype.slice.call(arguments);
 
 						{
-				_inst.gmlSprite=YYASSET_REF(0x01000006);
-				_inst.gmlCollectableSprite=YYASSET_REF(0x01000006);
+				_inst.gmlSprite=YYASSET_REF(0x01000008);
+				_inst.gmlCollectableSprite=YYASSET_REF(0x01000008);
 				_inst.gmlName="Fist";
 				_inst.gmlRarity=1;
 				_inst.gmlCategory=99;
@@ -3570,8 +4991,8 @@ function gml_Script____struct___12_40_temporalItemPopulate_40_scriptItem(_inst,_
 			var $$args=Array.prototype.slice.call(arguments);
 
 						{
-				_inst.gmlSprite=YYASSET_REF(0x01000009);
-				_inst.gmlCollectableSprite=YYASSET_REF(0x01000009);
+				_inst.gmlSprite=YYASSET_REF(0x0100000B);
+				_inst.gmlCollectableSprite=YYASSET_REF(0x0100000B);
 				_inst.gmlName="Wrench";
 				_inst.gmlRarity=1;
 				_inst.gmlCategory=99;
@@ -3584,235 +5005,13 @@ function gml_Script____struct___12_40_temporalItemPopulate_40_scriptItem(_inst,_
 	}
 }
 
-function gml_Script____struct___13_40_temporalItemPopulate_40_scriptItem(_inst,_other)
-{
-	if((--_inst.__yyCreatedByNew)<0)
-	{
-
-				{
-			yyError("calling a constructor directly - constructors should only be called using new")		}
-	}
-	if(_inst.__yyIsGMLObject)
-	{
-		_inst.__type="gml_Script____struct___13@temporalItemPopulate@scriptItem"	}
-	if(gml_Script____struct___13_40_temporalItemPopulate_40_scriptItem.prototype.__type===undefined)
-	{
-		gml_Script____struct___13_40_temporalItemPopulate_40_scriptItem.prototype.__type="gml_Script____struct___13@temporalItemPopulate@scriptItem"	}
-
-		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___13_40_temporalItemPopulate_40_scriptItem.prototype);
-
-				{
-			var $$args=Array.prototype.slice.call(arguments);
-
-						{
-				_inst.gmlSprite=YYASSET_REF(0x01000000);
-				_inst.gmlCollectableSprite=YYASSET_REF(0x01000001);
-				_inst.gmlName="Block";
-				_inst.gmlRarity=1;
-				_inst.gmlCategory=0;
-				_inst.gmlSubcategory=0;
-				_inst.gmlShowQuantity=true;
-				_inst.gmlAllowDropFromInventory=true;
-				_inst.gmlBonus=$$args[__yy_gml_array_check_index(2+(0),$$args)];
-			}
-		}
-	}
-}
-
-function gml_Script____struct___14_40_temporalItemPopulate_40_scriptItem(_inst,_other)
-{
-	if((--_inst.__yyCreatedByNew)<0)
-	{
-
-				{
-			yyError("calling a constructor directly - constructors should only be called using new")		}
-	}
-	if(_inst.__yyIsGMLObject)
-	{
-		_inst.__type="gml_Script____struct___14@temporalItemPopulate@scriptItem"	}
-	if(gml_Script____struct___14_40_temporalItemPopulate_40_scriptItem.prototype.__type===undefined)
-	{
-		gml_Script____struct___14_40_temporalItemPopulate_40_scriptItem.prototype.__type="gml_Script____struct___14@temporalItemPopulate@scriptItem"	}
-
-		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___14_40_temporalItemPopulate_40_scriptItem.prototype);
-
-				{
-			var $$args=Array.prototype.slice.call(arguments);
-
-						{
-				_inst.gmlSprite=YYASSET_REF(0x01000002);
-				_inst.gmlCollectableSprite=YYASSET_REF(0x01000002);
-				_inst.gmlName="Basic Hair";
-				_inst.gmlRarity=1;
-				_inst.gmlCategory=3;
-				_inst.gmlSubcategory=1;
-				_inst.gmlShowQuantity=false;
-				_inst.gmlAllowDropFromInventory=true;
-				_inst.gmlBonus=$$args[__yy_gml_array_check_index(2+(0),$$args)];
-			}
-		}
-	}
-}
-
-function gml_Script____struct___15_40_temporalItemPopulate_40_scriptItem(_inst,_other)
-{
-	if((--_inst.__yyCreatedByNew)<0)
-	{
-
-				{
-			yyError("calling a constructor directly - constructors should only be called using new")		}
-	}
-	if(_inst.__yyIsGMLObject)
-	{
-		_inst.__type="gml_Script____struct___15@temporalItemPopulate@scriptItem"	}
-	if(gml_Script____struct___15_40_temporalItemPopulate_40_scriptItem.prototype.__type===undefined)
-	{
-		gml_Script____struct___15_40_temporalItemPopulate_40_scriptItem.prototype.__type="gml_Script____struct___15@temporalItemPopulate@scriptItem"	}
-
-		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___15_40_temporalItemPopulate_40_scriptItem.prototype);
-
-				{
-			var $$args=Array.prototype.slice.call(arguments);
-
-						{
-				_inst.gmlSprite=YYASSET_REF(0x01000003);
-				_inst.gmlCollectableSprite=YYASSET_REF(0x01000003);
-				_inst.gmlName="Double Jump Wings";
-				_inst.gmlRarity=1;
-				_inst.gmlCategory=3;
-				_inst.gmlSubcategory=7;
-				_inst.gmlShowQuantity=false;
-				_inst.gmlAllowDropFromInventory=true;
-				_inst.gmlBonus=$$args[__yy_gml_array_check_index(2+(0),$$args)];
-			}
-		}
-	}
-}
-
-function gml_Script____struct___16_40_temporalItemPopulate_40_scriptItem(_inst,_other)
-{
-	if((--_inst.__yyCreatedByNew)<0)
-	{
-
-				{
-			yyError("calling a constructor directly - constructors should only be called using new")		}
-	}
-	if(_inst.__yyIsGMLObject)
-	{
-		_inst.__type="gml_Script____struct___16@temporalItemPopulate@scriptItem"	}
-	if(gml_Script____struct___16_40_temporalItemPopulate_40_scriptItem.prototype.__type===undefined)
-	{
-		gml_Script____struct___16_40_temporalItemPopulate_40_scriptItem.prototype.__type="gml_Script____struct___16@temporalItemPopulate@scriptItem"	}
-
-		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___16_40_temporalItemPopulate_40_scriptItem.prototype);
-
-				{
-			var $$args=Array.prototype.slice.call(arguments);
-
-						{
-				_inst.gmlSprite=YYASSET_REF(0x01000005);
-				_inst.gmlCollectableSprite=YYASSET_REF(0x01000005);
-				_inst.gmlName="Entrance";
-				_inst.gmlRarity=1;
-				_inst.gmlCategory=0;
-				_inst.gmlSubcategory=3;
-				_inst.gmlShowQuantity=true;
-				_inst.gmlAllowDropFromInventory=true;
-				_inst.gmlBonus=$$args[__yy_gml_array_check_index(2+(0),$$args)];
-			}
-		}
-	}
-}
-
-function gml_Script____struct___17_40_temporalItemPopulate_40_scriptItem(_inst,_other)
-{
-	if((--_inst.__yyCreatedByNew)<0)
-	{
-
-				{
-			yyError("calling a constructor directly - constructors should only be called using new")		}
-	}
-	if(_inst.__yyIsGMLObject)
-	{
-		_inst.__type="gml_Script____struct___17@temporalItemPopulate@scriptItem"	}
-	if(gml_Script____struct___17_40_temporalItemPopulate_40_scriptItem.prototype.__type===undefined)
-	{
-		gml_Script____struct___17_40_temporalItemPopulate_40_scriptItem.prototype.__type="gml_Script____struct___17@temporalItemPopulate@scriptItem"	}
-
-		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___17_40_temporalItemPopulate_40_scriptItem.prototype);
-
-				{
-			var $$args=Array.prototype.slice.call(arguments);
-
-						{
-				_inst.gmlSprite=YYASSET_REF(0x01000007);
-				_inst.gmlCollectableSprite=YYASSET_REF(0x01000007);
-				_inst.gmlName="Entrance Seed";
-				_inst.gmlRarity=1;
-				_inst.gmlCategory=1;
-				_inst.gmlSubcategory=0;
-				_inst.gmlShowQuantity=true;
-				_inst.gmlAllowDropFromInventory=true;
-				_inst.gmlBonus=$$args[__yy_gml_array_check_index(2+(0),$$args)];
-			}
-		}
-	}
-}
-
-function gml_Script____struct___18_40_temporalItemPopulate_40_scriptItem(_inst,_other)
-{
-	if((--_inst.__yyCreatedByNew)<0)
-	{
-
-				{
-			yyError("calling a constructor directly - constructors should only be called using new")		}
-	}
-	if(_inst.__yyIsGMLObject)
-	{
-		_inst.__type="gml_Script____struct___18@temporalItemPopulate@scriptItem"	}
-	if(gml_Script____struct___18_40_temporalItemPopulate_40_scriptItem.prototype.__type===undefined)
-	{
-		gml_Script____struct___18_40_temporalItemPopulate_40_scriptItem.prototype.__type="gml_Script____struct___18@temporalItemPopulate@scriptItem"	}
-
-		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___18_40_temporalItemPopulate_40_scriptItem.prototype);
-
-				{
-			var $$args=Array.prototype.slice.call(arguments);
-
-						{
-				_inst.gmlSprite=YYASSET_REF(0x01000008);
-				_inst.gmlCollectableSprite=YYASSET_REF(0x01000008);
-				_inst.gmlName="Entrance Tree";
-				_inst.gmlRarity=1;
-				_inst.gmlCategory=2;
-				_inst.gmlSubcategory=0;
-				_inst.gmlShowQuantity=true;
-				_inst.gmlAllowDropFromInventory=true;
-				_inst.gmlBonus=$$args[__yy_gml_array_check_index(2+(0),$$args)];
-			}
-		}
-	}
-}
-
 function gml_Script_temporalItemPopulate(_inst,_other)
 {
 
 		{
 		global.gmlItems=__yy_gml_object_create(_inst,(global.gml___struct___10=__yy_method(_inst,gml_Script____struct___10_40_temporalItemPopulate_40_scriptItem)));
-		variable_struct_set(global.gmlItems,1,__yy_gml_object_create(_inst,(global.gml___struct___11=__yy_method(_inst,gml_Script____struct___11_40_temporalItemPopulate_40_scriptItem)),((__yy_gml_array_set_owner(3014656),__yy_gml_array_create([])))));
+		variable_struct_set(global.gmlItems,1,__yy_gml_object_create(_inst,(global.gml___struct___11=__yy_method(_inst,gml_Script____struct___11_40_temporalItemPopulate_40_scriptItem)),((__yy_gml_array_set_owner(3342336),__yy_gml_array_create([])))));
 		variable_struct_set(global.gmlItems,2,__yy_gml_object_create(_inst,(global.gml___struct___12=__yy_method(_inst,gml_Script____struct___12_40_temporalItemPopulate_40_scriptItem)),(__yy_gml_array_create([]))));
-		variable_struct_set(global.gmlItems,3,__yy_gml_object_create(_inst,(global.gml___struct___13=__yy_method(_inst,gml_Script____struct___13_40_temporalItemPopulate_40_scriptItem)),(__yy_gml_array_create([]))));
-		variable_struct_set(global.gmlItems,4,__yy_gml_object_create(_inst,(global.gml___struct___14=__yy_method(_inst,gml_Script____struct___14_40_temporalItemPopulate_40_scriptItem)),(__yy_gml_array_create([]))));
-		variable_struct_set(global.gmlItems,5,__yy_gml_object_create(_inst,(global.gml___struct___15=__yy_method(_inst,gml_Script____struct___15_40_temporalItemPopulate_40_scriptItem)),(__yy_gml_array_create(["DoubleJump"]))));
-		variable_struct_set(global.gmlItems,6,__yy_gml_object_create(_inst,(global.gml___struct___16=__yy_method(_inst,gml_Script____struct___16_40_temporalItemPopulate_40_scriptItem)),(__yy_gml_array_create([]))));
-		variable_struct_set(global.gmlItems,7,__yy_gml_object_create(_inst,(global.gml___struct___17=__yy_method(_inst,gml_Script____struct___17_40_temporalItemPopulate_40_scriptItem)),(__yy_gml_array_create([]))));
-		variable_struct_set(global.gmlItems,8,__yy_gml_object_create(_inst,(global.gml___struct___18=__yy_method(_inst,gml_Script____struct___18_40_temporalItemPopulate_40_scriptItem)),(__yy_gml_array_create([]))));
 	}
 }
 
@@ -3840,7 +5039,7 @@ function gml_Script_connect_to_server(_inst,_other)
 	}
 }
 
-function gml_Script____struct___20_40____struct___19_40_create_network_packet_40_scriptNetworking(_inst,_other)
+function gml_Script____struct___14_40____struct___13_40_create_network_packet_40_scriptNetworking(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -3850,20 +5049,20 @@ function gml_Script____struct___20_40____struct___19_40_create_network_packet_40
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___20@___struct___19@create_network_packet@scriptNetworking"	}
-	if(gml_Script____struct___20_40____struct___19_40_create_network_packet_40_scriptNetworking.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___14@___struct___13@create_network_packet@scriptNetworking"	}
+	if(gml_Script____struct___14_40____struct___13_40_create_network_packet_40_scriptNetworking.prototype.__type===undefined)
 	{
-		gml_Script____struct___20_40____struct___19_40_create_network_packet_40_scriptNetworking.prototype.__type="gml_Script____struct___20@___struct___19@create_network_packet@scriptNetworking"	}
+		gml_Script____struct___14_40____struct___13_40_create_network_packet_40_scriptNetworking.prototype.__type="gml_Script____struct___14@___struct___13@create_network_packet@scriptNetworking"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___20_40____struct___19_40_create_network_packet_40_scriptNetworking.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___14_40____struct___13_40_create_network_packet_40_scriptNetworking.prototype);
 
 				{
 		}
 	}
 }
 
-function gml_Script____struct___19_40_create_network_packet_40_scriptNetworking(_inst,_other)
+function gml_Script____struct___13_40_create_network_packet_40_scriptNetworking(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -3873,20 +5072,20 @@ function gml_Script____struct___19_40_create_network_packet_40_scriptNetworking(
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___19@create_network_packet@scriptNetworking"	}
-	if(gml_Script____struct___19_40_create_network_packet_40_scriptNetworking.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___13@create_network_packet@scriptNetworking"	}
+	if(gml_Script____struct___13_40_create_network_packet_40_scriptNetworking.prototype.__type===undefined)
 	{
-		gml_Script____struct___19_40_create_network_packet_40_scriptNetworking.prototype.__type="gml_Script____struct___19@create_network_packet@scriptNetworking"	}
+		gml_Script____struct___13_40_create_network_packet_40_scriptNetworking.prototype.__type="gml_Script____struct___13@create_network_packet@scriptNetworking"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___19_40_create_network_packet_40_scriptNetworking.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___13_40_create_network_packet_40_scriptNetworking.prototype);
 
 				{
 			var $$args=Array.prototype.slice.call(arguments);
 
 						{
-				_inst.id=$$args[__yy_gml_array_check_index(2+(0),$$args)];
-				_inst.gmldata=__yy_gml_object_create(_inst,(global.gml___struct___20=__yy_method(_inst,gml_Script____struct___20_40____struct___19_40_create_network_packet_40_scriptNetworking)));
+				_inst.gmlId=$$args[__yy_gml_array_check_index(2+(0),$$args)];
+				_inst.gmlData=__yy_gml_object_create(_inst,(global.gml___struct___14=__yy_method(_inst,gml_Script____struct___14_40____struct___13_40_create_network_packet_40_scriptNetworking)));
 			}
 		}
 	}
@@ -3896,7 +5095,7 @@ function gml_Script_create_network_packet(_inst,_other,argument0)
 {
 
 		{
-		return __yy_gml_object_create(_inst,(global.gml___struct___19=__yy_method(_inst,gml_Script____struct___19_40_create_network_packet_40_scriptNetworking)),argument0);
+		return __yy_gml_object_create(_inst,(global.gml___struct___13=__yy_method(_inst,gml_Script____struct___13_40_create_network_packet_40_scriptNetworking)),argument0);
 	}
 }
 
@@ -3919,7 +5118,7 @@ function gml_Script_serialize_network_packet(_inst,_other,argument0)
 	}
 }
 
-function gml_Script____struct___22_40____struct___21_40_server_responses_40_scriptNetworking(_inst,_other)
+function gml_Script____struct___16_40____struct___15_40_server_responses_40_scriptNetworking(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -3929,20 +5128,20 @@ function gml_Script____struct___22_40____struct___21_40_server_responses_40_scri
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___22@___struct___21@server_responses@scriptNetworking"	}
-	if(gml_Script____struct___22_40____struct___21_40_server_responses_40_scriptNetworking.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___16@___struct___15@server_responses@scriptNetworking"	}
+	if(gml_Script____struct___16_40____struct___15_40_server_responses_40_scriptNetworking.prototype.__type===undefined)
 	{
-		gml_Script____struct___22_40____struct___21_40_server_responses_40_scriptNetworking.prototype.__type="gml_Script____struct___22@___struct___21@server_responses@scriptNetworking"	}
+		gml_Script____struct___16_40____struct___15_40_server_responses_40_scriptNetworking.prototype.__type="gml_Script____struct___16@___struct___15@server_responses@scriptNetworking"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___22_40____struct___21_40_server_responses_40_scriptNetworking.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___16_40____struct___15_40_server_responses_40_scriptNetworking.prototype);
 
 				{
 		}
 	}
 }
 
-function gml_Script____struct___21_40_server_responses_40_scriptNetworking(_inst,_other)
+function gml_Script____struct___15_40_server_responses_40_scriptNetworking(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -3952,13 +5151,13 @@ function gml_Script____struct___21_40_server_responses_40_scriptNetworking(_inst
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___21@server_responses@scriptNetworking"	}
-	if(gml_Script____struct___21_40_server_responses_40_scriptNetworking.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___15@server_responses@scriptNetworking"	}
+	if(gml_Script____struct___15_40_server_responses_40_scriptNetworking.prototype.__type===undefined)
 	{
-		gml_Script____struct___21_40_server_responses_40_scriptNetworking.prototype.__type="gml_Script____struct___21@server_responses@scriptNetworking"	}
+		gml_Script____struct___15_40_server_responses_40_scriptNetworking.prototype.__type="gml_Script____struct___15@server_responses@scriptNetworking"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___21_40_server_responses_40_scriptNetworking.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___15_40_server_responses_40_scriptNetworking.prototype);
 
 				{
 			var $$args=Array.prototype.slice.call(arguments);
@@ -3966,13 +5165,13 @@ function gml_Script____struct___21_40_server_responses_40_scriptNetworking(_inst
 						{
 				_inst.gmlinstance=$$args[__yy_gml_array_check_index(2+(0),$$args)];
 				_inst.gmlusername=$$args[__yy_gml_array_check_index(2+(1),$$args)];
-				_inst.gmlplayer_data=__yy_gml_object_create(_inst,(global.gml___struct___22=__yy_method(_inst,gml_Script____struct___22_40____struct___21_40_server_responses_40_scriptNetworking)));
+				_inst.gmlplayer_data=__yy_gml_object_create(_inst,(global.gml___struct___16=__yy_method(_inst,gml_Script____struct___16_40____struct___15_40_server_responses_40_scriptNetworking)));
 			}
 		}
 	}
 }
 
-function gml_Script____struct___24_40____struct___23_40_server_responses_40_scriptNetworking(_inst,_other)
+function gml_Script____struct___18_40____struct___17_40_server_responses_40_scriptNetworking(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -3982,20 +5181,20 @@ function gml_Script____struct___24_40____struct___23_40_server_responses_40_scri
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___24@___struct___23@server_responses@scriptNetworking"	}
-	if(gml_Script____struct___24_40____struct___23_40_server_responses_40_scriptNetworking.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___18@___struct___17@server_responses@scriptNetworking"	}
+	if(gml_Script____struct___18_40____struct___17_40_server_responses_40_scriptNetworking.prototype.__type===undefined)
 	{
-		gml_Script____struct___24_40____struct___23_40_server_responses_40_scriptNetworking.prototype.__type="gml_Script____struct___24@___struct___23@server_responses@scriptNetworking"	}
+		gml_Script____struct___18_40____struct___17_40_server_responses_40_scriptNetworking.prototype.__type="gml_Script____struct___18@___struct___17@server_responses@scriptNetworking"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___24_40____struct___23_40_server_responses_40_scriptNetworking.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___18_40____struct___17_40_server_responses_40_scriptNetworking.prototype);
 
 				{
 		}
 	}
 }
 
-function gml_Script____struct___23_40_server_responses_40_scriptNetworking(_inst,_other)
+function gml_Script____struct___17_40_server_responses_40_scriptNetworking(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -4005,13 +5204,13 @@ function gml_Script____struct___23_40_server_responses_40_scriptNetworking(_inst
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___23@server_responses@scriptNetworking"	}
-	if(gml_Script____struct___23_40_server_responses_40_scriptNetworking.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___17@server_responses@scriptNetworking"	}
+	if(gml_Script____struct___17_40_server_responses_40_scriptNetworking.prototype.__type===undefined)
 	{
-		gml_Script____struct___23_40_server_responses_40_scriptNetworking.prototype.__type="gml_Script____struct___23@server_responses@scriptNetworking"	}
+		gml_Script____struct___17_40_server_responses_40_scriptNetworking.prototype.__type="gml_Script____struct___17@server_responses@scriptNetworking"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___23_40_server_responses_40_scriptNetworking.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___17_40_server_responses_40_scriptNetworking.prototype);
 
 				{
 			var $$args=Array.prototype.slice.call(arguments);
@@ -4019,7 +5218,7 @@ function gml_Script____struct___23_40_server_responses_40_scriptNetworking(_inst
 						{
 				_inst.gmlinstance=$$args[__yy_gml_array_check_index(2+(0),$$args)];
 				_inst.gmlusername=$$args[__yy_gml_array_check_index(2+(1),$$args)];
-				_inst.gmlplayer_data=__yy_gml_object_create(_inst,(global.gml___struct___24=__yy_method(_inst,gml_Script____struct___24_40____struct___23_40_server_responses_40_scriptNetworking)));
+				_inst.gmlplayer_data=__yy_gml_object_create(_inst,(global.gml___struct___18=__yy_method(_inst,gml_Script____struct___18_40____struct___17_40_server_responses_40_scriptNetworking)));
 			}
 		}
 	}
@@ -4029,41 +5228,53 @@ function gml_Script_server_responses(_inst,_other,argument0)
 {
 
 		{
-		var ___sw34___=yyInst(_inst,_other,argument0).gmlId;
-		var ___swc35___=-1;
-		if(yyCompareVal(___sw34___,"ping",g_GMLMathEpsilon,false)==0)
+		var ___sw50___=yyInst(_inst,_other,argument0).gmlId;
+		var ___swc51___=-1;
+		if(yyCompareVal(___sw50___,"ping",g_GMLMathEpsilon,false)==0)
 		{
-			___swc35___=0;
+			___swc51___=0;
 		}
-		else if(yyCompareVal(___sw34___,"player_location",g_GMLMathEpsilon,false)==0)
+		else if(yyCompareVal(___sw50___,"player_location",g_GMLMathEpsilon,false)==0)
 		{
-			___swc35___=1;
+			___swc51___=1;
 		}
-		else if(yyCompareVal(___sw34___,"chat_message",g_GMLMathEpsilon,false)==0)
+		else if(yyCompareVal(___sw50___,"player_put_block",g_GMLMathEpsilon,false)==0)
 		{
-			___swc35___=2;
+			___swc51___=2;
 		}
-		else if(yyCompareVal(___sw34___,"player_enter",g_GMLMathEpsilon,false)==0)
+		else if(yyCompareVal(___sw50___,"player_punch_block",g_GMLMathEpsilon,false)==0)
 		{
-			___swc35___=3;
+			___swc51___=3;
 		}
-		else if(yyCompareVal(___sw34___,"player_leave",g_GMLMathEpsilon,false)==0)
+		else if(yyCompareVal(___sw50___,"chat_message",g_GMLMathEpsilon,false)==0)
 		{
-			___swc35___=4;
+			___swc51___=4;
 		}
-		else if(yyCompareVal(___sw34___,"player_enum",g_GMLMathEpsilon,false)==0)
+		else if(yyCompareVal(___sw50___,"player_enter",g_GMLMathEpsilon,false)==0)
 		{
-			___swc35___=5;
+			___swc51___=5;
 		}
-		else if(yyCompareVal(___sw34___,"user_login",g_GMLMathEpsilon,false)==0)
+		else if(yyCompareVal(___sw50___,"player_leave",g_GMLMathEpsilon,false)==0)
 		{
-			___swc35___=6;
+			___swc51___=6;
 		}
-		else if(yyCompareVal(___sw34___,"user_registration",g_GMLMathEpsilon,false)==0)
+		else if(yyCompareVal(___sw50___,"player_enum",g_GMLMathEpsilon,false)==0)
 		{
-			___swc35___=7;
+			___swc51___=7;
 		}
-		switch(___swc35___)
+		else if(yyCompareVal(___sw50___,"world_request_enter",g_GMLMathEpsilon,false)==0)
+		{
+			___swc51___=8;
+		}
+		else if(yyCompareVal(___sw50___,"user_login",g_GMLMathEpsilon,false)==0)
+		{
+			___swc51___=9;
+		}
+		else if(yyCompareVal(___sw50___,"user_registration",g_GMLMathEpsilon,false)==0)
+		{
+			___swc51___=10;
+		}
+		switch(___swc51___)
 		{
 			case 0:
 			{
@@ -4087,8 +5298,8 @@ function gml_Script_server_responses(_inst,_other,argument0)
 					{
 
 												{
-							var gmlobj=(yythis60=yyInst(_inst,_other,variable_struct_get(global.gmlplayers,string(gmlnetwork_id))),yythis60).gmlinstance;
-							var yythis60;
+							var gmlobj=(yythis100=yyInst(_inst,_other,variable_struct_get(global.gmlplayers,string(gmlnetwork_id))),yythis100).gmlinstance;
+							var yythis100;
 							if(yyGetBool(instance_exists(gmlobj)))
 							{
 
@@ -4161,12 +5372,276 @@ function gml_Script_server_responses(_inst,_other,argument0)
 			{
 
 								{
-					gml_Script_chatDisplayMessage(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,argument0).gmlData).gmlChatMessage);
+					var gmltype="",gmlpos=yyfplus(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,argument0).gmlData).gmlPos),101),gmlblock_id=yyInst(_inst,_other,yyInst(_inst,_other,argument0).gmlData).gmlBlockId;
+					var gmlX=gml_Script_world_sequence_to_xposition(_inst,_other,gmlpos);
+					var gmlY=gml_Script_world_sequence_to_yposition(_inst,_other,gmlpos);
+					show_debug_message(string("put on {0}, {1} blockid {2}",gmlX,gmlY,gmlblock_id));
+					if(yyGetBool(struct_exists(global.gmlItems,gmlblock_id)))
+					{
+
+												{
+							var ___sw52___=(yythis101=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlblock_id)),yythis101).gmlCategory;
+							var ___swc53___=-1;
+							if(yyCompareVal(___sw52___,0,g_GMLMathEpsilon,false)==0)
+							{
+								___swc53___=0;
+							}
+							else if(yyCompareVal(___sw52___,1,g_GMLMathEpsilon,false)==0)
+							{
+								___swc53___=1;
+							}
+							switch(___swc53___)
+							{
+								case 0:
+								{
+
+																		{
+										var ___sw54___=(yythis102=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlblock_id)),yythis102).gmlCategory;
+										var ___swc55___=-1;
+										if(yyCompareVal(___sw54___,0,g_GMLMathEpsilon,false)==0)
+										{
+											___swc55___=0;
+										}
+										else if(yyCompareVal(___sw54___,3,g_GMLMathEpsilon,false)==0)
+										{
+											___swc55___=1;
+										}
+										switch(___swc55___)
+										{
+											case 0:
+											{
+
+																								{
+													tilemap_set(global.gmltilemap,2,gmlX,gmlY);
+													var yythis101,yythis102;
+													surface_set_target(yyInst(_inst,_other,YYASSET_REF(0x00000004)).gmlblock_surface);
+													draw_sprite(_inst,(yythis103=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlblock_id)),yythis103).gmlSprite,0,yyftime(__yy_gml_errCheck(gmlX),32),yyftime(__yy_gml_errCheck(gmlY),32));
+													var yythis103;
+													surface_reset_target();
+													break;
+												}
+												;
+											}
+											case 1:
+											{
+
+																								{
+													var gmlinst=instance_create_layer(yyfplus(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gmlX),32)),16),yyfplus(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gmlY),32)),16),"Instances",gml_Script_getBlockSubtype(_inst,_other,(yythis104=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlblock_id)),yythis104).gmlSubcategory));
+													var yythis104;
+													gml_Script_itemSetProperties(_inst,_other,gmlinst,gmlblock_id,(yythis105=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlblock_id)),yythis105).gmlCategory,(yythis106=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlblock_id)),yythis106).gmlSubcategory);
+													var yythis105,yythis106;
+													break;
+												}
+												;
+											}
+										}
+										;
+										break;
+									}
+									;
+								}
+								case 1:
+								{
+
+																		{
+										var gmlinst=instance_create_layer(yyfplus(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gmlX),32)),16),yyfplus(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gmlY),32)),16),"Instances",YYASSET_REF(0x00000009));
+										gml_Script_itemSetProperties(_inst,_other,gmlinst,gmlblock_id,(yythis107=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlblock_id)),yythis107).gmlCategory,(yythis108=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlblock_id)),yythis108).gmlSubcategory);
+										var yythis107,yythis108;
+										break;
+									}
+									;
+								}
+							}
+							;
+						}
+					}
+					;
 					break;
 				}
 				;
 			}
 			case 3:
+			{
+
+								{
+					var gmltype="",gmlpos=yyfplus(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,argument0).gmlData).gmlPos),101);
+					var gmlX=gml_Script_world_sequence_to_xposition(_inst,_other,gmlpos);
+					var gmlY=gml_Script_world_sequence_to_yposition(_inst,_other,gmlpos);
+
+										{
+						var __yy__v6=GetWithArray(global.gmlmy_player);
+						for(var __yy__v7 in __yy__v6)
+						{
+							if(!__yy__v6.hasOwnProperty(__yy__v7))continue;
+							var __yy__v8=__yy__v6[__yy__v7];
+
+														{
+								var gmllist=ds_list_create();
+								var gmlblock=instance_place(__yy__v8,yyfplus(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gmlX),32)),16),yyfplus(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gmlY),32)),16),((__yy_gml_array_set_owner(3997696),__yy_gml_array_create([global.gmltilemap,YYASSET_REF(0x00000000)]))));
+								if(yyfnotequal(gmlblock,(-4)))
+								{
+
+																		{
+										if(yyGetBool(layer_tilemap_exists("Tiles_1",gmlblock)))
+										{
+
+																						{
+												gmltype="tile";
+											}
+										}
+										else 
+										{
+
+																						{
+												gmltype="object";
+											}
+										}
+										;
+									}
+								}
+								;
+								var gmldestroy_trigger=false;
+								if(yyfequal(gmltype,"object"))
+								{
+
+																		{
+										if((yyGetBool(yyInst(__yy__v8,_other,yyInst(__yy__v8,_other,gmlblock).gmlP).gmlReady))&&(yyGetBool(!yyGetBool(yyInst(__yy__v8,_other,yyInst(__yy__v8,_other,gmlblock).gmlP).gmlImmune))))
+										{
+
+																						{
+												yyInst(__yy__v8,_other,yyInst(__yy__v8,_other,gmlblock).gmlP).gmlHealth=(yyInst(__yy__v8,_other,yyInst(__yy__v8,_other,gmlblock).gmlP).gmlHealth instanceof Long?yyInst(__yy__v8,_other,yyInst(__yy__v8,_other,gmlblock).gmlP).gmlHealth.subtract(1):--yyInst(__yy__v8,_other,yyInst(__yy__v8,_other,gmlblock).gmlP).gmlHealth);
+												if(yyflessequal(yyInst(__yy__v8,_other,yyInst(__yy__v8,_other,gmlblock).gmlP).gmlHealth,0))
+												{
+
+																										{
+														gmldestroy_trigger=true;
+
+																												{
+															var __yy__v9=GetWithArray(gmlblock);
+															for(var __yy__v10 in __yy__v9)
+															{
+																if(!__yy__v9.hasOwnProperty(__yy__v10))continue;
+																var __yy__v11=__yy__v9[__yy__v10];
+
+																																{
+																	instance_destroy(__yy__v11);
+																}
+															}
+														}
+														;
+													}
+												}
+												else 
+												{
+
+																										{
+
+																												{
+															var __yy__v12=GetWithArray(gmlblock);
+															for(var __yy__v13 in __yy__v12)
+															{
+																if(!__yy__v12.hasOwnProperty(__yy__v13))continue;
+																var __yy__v14=__yy__v12[__yy__v13];
+
+																																{
+																	__yy_gml_array_set_owner(3997690);
+																	__yy__v14.alarm=__yy_gml_array_check(__yy__v14.alarm,1679055395);
+																	__yy__v14.alarm[__yy_gml_array_check_index_set(1)]=yyftime(8,__yy_gml_errCheck(g_pBuiltIn.get_room_speed()));
+																}
+															}
+														}
+														;
+													}
+												}
+												;
+											}
+										}
+										;
+									}
+								}
+								else 
+								{
+									if(yyfequal(gmltype,"tile"))
+									{
+
+																				{
+											tilemap_set(global.gmltilemap,0,yyInst(__yy__v8,_other,yyInst(__yy__v8,_other,__yy__v8.gmlP).gmlPosition).gmlMouseGridX,yyInst(__yy__v8,_other,yyInst(__yy__v8,_other,__yy__v8.gmlP).gmlPosition).gmlMouseGridY);
+											if(yyGetBool(surface_exists(yyInst(__yy__v8,_other,YYASSET_REF(0x00000004)).gmlblock_surface)))
+											{
+
+																								{
+													surface_set_target(yyInst(__yy__v8,_other,YYASSET_REF(0x00000004)).gmlblock_surface);
+													gpu_set_blendmode(3);
+													draw_set_color(16777215);
+													draw_rectangle(yyftime(__yy_gml_errCheck(yyInst(__yy__v8,_other,yyInst(__yy__v8,_other,__yy__v8.gmlP).gmlPosition).gmlMouseGridX),32),yyftime(__yy_gml_errCheck(yyInst(__yy__v8,_other,yyInst(__yy__v8,_other,__yy__v8.gmlP).gmlPosition).gmlMouseGridY),32),yyfplus(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(yyInst(__yy__v8,_other,yyInst(__yy__v8,_other,__yy__v8.gmlP).gmlPosition).gmlMouseGridX),32)),32),yyfplus(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(yyInst(__yy__v8,_other,yyInst(__yy__v8,_other,__yy__v8.gmlP).gmlPosition).gmlMouseGridY),32)),32),false);
+													gpu_set_blendmode(0);
+													surface_reset_target();
+												}
+											}
+											;
+											gmldestroy_trigger=true;
+										}
+									}
+								}
+								;
+								if(yyGetBool(gmldestroy_trigger))
+								{
+
+																		{
+										var gmllist=ds_list_create();
+										collision_rectangle_list(__yy__v8,yyftime(__yy_gml_errCheck(yyInst(__yy__v8,_other,yyInst(__yy__v8,_other,__yy__v8.gmlP).gmlPosition).gmlMouseGridX),32),yyftime(__yy_gml_errCheck(yyfminus(__yy_gml_errCheck(yyInst(__yy__v8,_other,yyInst(__yy__v8,_other,__yy__v8.gmlP).gmlPosition).gmlMouseGridY),1)),32),yyfplus(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(yyInst(__yy__v8,_other,yyInst(__yy__v8,_other,__yy__v8.gmlP).gmlPosition).gmlMouseGridX),32)),32),yyfplus(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(yyfminus(__yy_gml_errCheck(yyInst(__yy__v8,_other,yyInst(__yy__v8,_other,__yy__v8.gmlP).gmlPosition).gmlMouseGridY),1)),32)),32),YYASSET_REF(0x00000005),true,false,gmllist,false);
+										var gmli=0;
+										for(;yyfless(gmli,ds_list_size(gmllist));gmli=(gmli instanceof Long?gmli.add(1):++gmli))
+										{
+
+																						{
+												var gmlinst=ds_list_find_value(gmllist,gmli);
+												if(yyGetBool(instance_exists(gmlinst)))
+												{
+
+																										{
+
+																												{
+															var __yy__v15=GetWithArray(gmlinst);
+															for(var __yy__v16 in __yy__v15)
+															{
+																if(!__yy__v15.hasOwnProperty(__yy__v16))continue;
+																var __yy__v17=__yy__v15[__yy__v16];
+
+																																{
+																	yyInst(__yy__v17,_other,yyInst(__yy__v17,_other,gmlinst).gmlP).gmlNoGravity=false;
+																}
+															}
+														}
+														;
+													}
+												}
+												;
+											}
+										}
+										;
+									}
+								}
+								;
+							}
+						}
+					}
+					;
+					break;
+				}
+				;
+			}
+			case 4:
+			{
+
+								{
+					gml_Script_display_emoticon(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,argument0).gmlData).gmlChatMessage,real(yyInst(_inst,_other,yyInst(_inst,_other,argument0).gmlData).gmlNetworkId));
+					gml_Script_chatDisplayMessage(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,argument0).gmlData).gmlChatMessage);
+					break;
+				}
+				;
+			}
+			case 5:
 			{
 
 								{
@@ -4183,15 +5658,15 @@ function gml_Script_server_responses(_inst,_other,argument0)
 									var gmlobj=instance_create_layer((-4),(-4),"Instances",YYASSET_REF(0x00000005));
 									yyInst(_inst,_other,gmlobj).gmluid=gmlnetwork_id;
 									yyInst(_inst,_other,gmlobj).gmlplayer_name=yyInst(_inst,_other,yyInst(_inst,_other,argument0).gmlData).gmlUsername;
-									variable_struct_set(global.gmlplayers,string(gmlnetwork_id),__yy_gml_object_create(_inst,(global.gml___struct___21=__yy_method(_inst,gml_Script____struct___21_40_server_responses_40_scriptNetworking)),gmlobj,yyInst(_inst,_other,yyInst(_inst,_other,argument0).gmlData).gmlUsername));
+									variable_struct_set(global.gmlplayers,string(gmlnetwork_id),__yy_gml_object_create(_inst,(global.gml___struct___15=__yy_method(_inst,gml_Script____struct___15_40_server_responses_40_scriptNetworking)),gmlobj,yyInst(_inst,_other,yyInst(_inst,_other,argument0).gmlData).gmlUsername));
 									if((yyGetBool(yyfnotequal(yyInst(_inst,_other,yyInst(_inst,_other,argument0).gmlData).gmlArmorData,g_pBuiltIn.pointer_null)))&&(yyGetBool(yyfnotequal(yyInst(_inst,_other,yyInst(_inst,_other,argument0).gmlData).gmlArmorData,""))))
 									{
 
 																				{
-											(yythis61=yyInst(_inst,_other,variable_struct_get(global.gmlplayers,string(gmlnetwork_id))),yythis61).gmlplayer_data=json_parse(_inst,yyInst(_inst,_other,yyInst(_inst,_other,argument0).gmlData).gmlArmorData);
-											var yythis61;
-											gml_Script_armor_check(_inst,_other,gmlobj,(yythis62=yyInst(_inst,_other,variable_struct_get(global.gmlplayers,string(gmlnetwork_id))),yythis62).gmlplayer_data,"enter");
-											var yythis62;
+											(yythis109=yyInst(_inst,_other,variable_struct_get(global.gmlplayers,string(gmlnetwork_id))),yythis109).gmlplayer_data=json_parse(_inst,yyInst(_inst,_other,yyInst(_inst,_other,argument0).gmlData).gmlArmorData);
+											var yythis109;
+											gml_Script_armor_check(_inst,_other,gmlobj,(yythis110=yyInst(_inst,_other,variable_struct_get(global.gmlplayers,string(gmlnetwork_id))),yythis110).gmlplayer_data,"enter");
+											var yythis110;
 										}
 									}
 									;
@@ -4205,7 +5680,7 @@ function gml_Script_server_responses(_inst,_other,argument0)
 				}
 				;
 			}
-			case 4:
+			case 6:
 			{
 
 								{
@@ -4218,20 +5693,20 @@ function gml_Script_server_responses(_inst,_other,argument0)
 							{
 
 																{
-									var gmlobj=(yythis63=yyInst(_inst,_other,variable_struct_get(global.gmlplayers,string(gmlnetwork_id))),yythis63).gmlinstance;
-									var yythis63;
+									var gmlobj=(yythis111=yyInst(_inst,_other,variable_struct_get(global.gmlplayers,string(gmlnetwork_id))),yythis111).gmlinstance;
+									var yythis111;
 									if(yyGetBool(instance_exists(gmlobj)))
 									{
 
 																				{
 
 																						{
-												var __yy__v6=GetWithArray(gmlobj);
-												for(var __yy__v7 in __yy__v6)
+												var __yy__v18=GetWithArray(gmlobj);
+												for(var __yy__v19 in __yy__v18)
 												{
-													if(!__yy__v6.hasOwnProperty(__yy__v7))continue;
-													var __yy__v8=__yy__v6[__yy__v7];
-													instance_destroy(__yy__v8)												}
+													if(!__yy__v18.hasOwnProperty(__yy__v19))continue;
+													var __yy__v20=__yy__v18[__yy__v19];
+													instance_destroy(__yy__v20)												}
 											}
 											;
 										}
@@ -4248,7 +5723,7 @@ function gml_Script_server_responses(_inst,_other,argument0)
 				}
 				;
 			}
-			case 5:
+			case 7:
 			{
 
 								{
@@ -4276,7 +5751,7 @@ function gml_Script_server_responses(_inst,_other,argument0)
 													var gmlobj=instance_create_layer((-4),(-4),"Instances",YYASSET_REF(0x00000005));
 													yyInst(_inst,_other,gmlobj).gmluid=gmlnid;
 													yyInst(_inst,_other,gmlobj).gmlplayer_name=yyInst(_inst,_other,gmlplayers_in_room[__yy_gml_array_check_index(gmli,gmlplayers_in_room)]).gmlUsername;
-													variable_struct_set(global.gmlplayers,string(gmlnid),__yy_gml_object_create(_inst,(global.gml___struct___23=__yy_method(_inst,gml_Script____struct___23_40_server_responses_40_scriptNetworking)),gmlobj,yyInst(_inst,_other,gmlplayers_in_room[__yy_gml_array_check_index(gmli,gmlplayers_in_room)]).gmlUsername));
+													variable_struct_set(global.gmlplayers,string(gmlnid),__yy_gml_object_create(_inst,(global.gml___struct___17=__yy_method(_inst,gml_Script____struct___17_40_server_responses_40_scriptNetworking)),gmlobj,yyInst(_inst,_other,gmlplayers_in_room[__yy_gml_array_check_index(gmli,gmlplayers_in_room)]).gmlUsername));
 													if(yyfnotequal(yyInst(_inst,_other,gmlplayers_in_room[__yy_gml_array_check_index(gmli,gmlplayers_in_room)]).gmlArmorData,g_pBuiltIn.pointer_null))
 													{
 
@@ -4301,23 +5776,38 @@ function gml_Script_server_responses(_inst,_other,argument0)
 				}
 				;
 			}
-			case 6:
+			case 8:
 			{
 
 								{
+					_inst.gmlawaiting_request=false;
+					show_debug_message(string("1 {0}",yyInst(_inst,_other,yyInst(_inst,_other,argument0).gmlData).gmlWorldName));
+					show_debug_message(string("2 {0}",yyInst(_inst,_other,yyInst(_inst,_other,argument0).gmlData).gmlWorldData));
+					show_debug_message(string("3 {0}",yyInst(_inst,_other,yyInst(_inst,_other,argument0).gmlData).gmlWorldOwner));
+					gml_Script_world_set_room(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,argument0).gmlData).gmlWorldName,json_parse(_inst,yyInst(_inst,_other,yyInst(_inst,_other,argument0).gmlData).gmlWorldData),yyInst(_inst,_other,yyInst(_inst,_other,argument0).gmlData).gmlWorldOwner);
+					yyInst(_inst,_other,_inst.gmlCore).gmlShowInterface=0;
+					break;
+				}
+				;
+			}
+			case 9:
+			{
+
+								{
+					_inst.gmlawaiting_request=false;
 					if(yyfequal(yyInst(_inst,_other,yyInst(_inst,_other,argument0).gmlData).gmlServerErrorCode,"ok"))
 					{
 
 												{
 							yyInst(_inst,_other,global.gmlserver).gmllogged=true;
 							_inst.gmlplayer_network_id=real(yyInst(_inst,_other,yyInst(_inst,_other,argument0).gmlData).gmlNetworkId);
-							global.gmlmy_player=instance_create_layer(1568,1568,"Instances",YYASSET_REF(0x00000005));
 							global.gmlmy_uid=_inst.gmlplayer_network_id;
-							yyInst(_inst,_other,global.gmlmy_player).gmluid=global.gmlmy_uid;
 							global.gmlmy_username=yyInst(_inst,_other,yyInst(_inst,_other,argument0).gmlData).gmlUsername;
 							global.gmlmy_cloud_data=json_parse(_inst,yyInst(_inst,_other,yyInst(_inst,_other,argument0).gmlData).gmlCloudData);
 							global.gmltime=real(yyInst(_inst,_other,yyInst(_inst,_other,argument0).gmlData).gmlTime);
 							global.gmltime_delta=g_pBuiltIn.get_current_time();
+							yyInst(_inst,_other,_inst.gmlCore).gmlShowInterface=2;
+							global.gmlhttp_index_request=http_get(yyfplus((yyGetBool(global.gmlserver_local)?"http://127.0.0.1/growtopia":"https://comunidadgm.org/growtopia"),"/item/index.json"));
 							if(yyGetBool(struct_exists(yyInst(_inst,_other,argument0).gmlData,"Logging")))
 							{
 
@@ -4347,7 +5837,7 @@ function gml_Script_server_responses(_inst,_other,argument0)
 				}
 				;
 			}
-			case 7:
+			case 10:
 			{
 
 								{
@@ -4427,7 +5917,7 @@ function gml_Script_allowed_room(_inst,_other)
 	}
 }
 
-function gml_Script____struct___25_40_remove_online_players_40_scriptNetworking(_inst,_other)
+function gml_Script____struct___19_40_remove_online_players_40_scriptNetworking(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -4437,13 +5927,13 @@ function gml_Script____struct___25_40_remove_online_players_40_scriptNetworking(
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___25@remove_online_players@scriptNetworking"	}
-	if(gml_Script____struct___25_40_remove_online_players_40_scriptNetworking.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___19@remove_online_players@scriptNetworking"	}
+	if(gml_Script____struct___19_40_remove_online_players_40_scriptNetworking.prototype.__type===undefined)
 	{
-		gml_Script____struct___25_40_remove_online_players_40_scriptNetworking.prototype.__type="gml_Script____struct___25@remove_online_players@scriptNetworking"	}
+		gml_Script____struct___19_40_remove_online_players_40_scriptNetworking.prototype.__type="gml_Script____struct___19@remove_online_players@scriptNetworking"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___25_40_remove_online_players_40_scriptNetworking.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___19_40_remove_online_players_40_scriptNetworking.prototype);
 
 				{
 		}
@@ -4456,18 +5946,18 @@ function gml_Script_remove_online_players(_inst,_other)
 		{
 
 				{
-			var __yy__v9=GetWithArray(_inst.gmlPLAYER);
-			for(var __yy__v10 in __yy__v9)
+			var __yy__v21=GetWithArray(_inst.gmlPLAYER);
+			for(var __yy__v22 in __yy__v21)
 			{
-				if(!__yy__v9.hasOwnProperty(__yy__v10))continue;
-				var __yy__v11=__yy__v9[__yy__v10];
+				if(!__yy__v21.hasOwnProperty(__yy__v22))continue;
+				var __yy__v23=__yy__v21[__yy__v22];
 
 								{
-					if(yyfnotequal(__yy__v11.gmluid,global.gmlmy_uid))
+					if(yyfnotequal(__yy__v23.gmluid,global.gmlmy_uid))
 					{
 
 												{
-							instance_destroy(__yy__v11);
+							instance_destroy(__yy__v23);
 						}
 					}
 					;
@@ -4475,7 +5965,7 @@ function gml_Script_remove_online_players(_inst,_other)
 			}
 		}
 		;
-		global.gmlplayers=__yy_gml_object_create(_inst,(global.gml___struct___25=__yy_method(_inst,gml_Script____struct___25_40_remove_online_players_40_scriptNetworking)));
+		global.gmlplayers=__yy_gml_object_create(_inst,(global.gml___struct___19=__yy_method(_inst,gml_Script____struct___19_40_remove_online_players_40_scriptNetworking)));
 	}
 }
 
@@ -4492,12 +5982,12 @@ function gml_Script_display_emoticon(_inst,_other,argument0,argument1)
 				{
 
 										{
-						if(yyGetBool(instance_exists((yythis64=yyInst(_inst,_other,variable_struct_get(global.gmlplayers,string(argument1))),yythis64).gmlinstance)))
+						if(yyGetBool(instance_exists((yythis112=yyInst(_inst,_other,variable_struct_get(global.gmlplayers,string(argument1))),yythis112).gmlinstance)))
 						{
 
 														{
-								gmlobj=(yythis65=yyInst(_inst,_other,variable_struct_get(global.gmlplayers,string(argument1))),yythis65).gmlinstance;
-								var yythis64,yythis65;
+								gmlobj=(yythis113=yyInst(_inst,_other,variable_struct_get(global.gmlplayers,string(argument1))),yythis113).gmlinstance;
+								var yythis112,yythis113;
 							}
 						}
 						;
@@ -4571,7 +6061,7 @@ function gml_Script_display_emoticon(_inst,_other,argument0,argument1)
 	}
 }
 
-function gml_Script____struct___26_40_user_login_40_scriptNetworking(_inst,_other)
+function gml_Script____struct___20_40_user_login_40_scriptNetworking(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -4581,13 +6071,13 @@ function gml_Script____struct___26_40_user_login_40_scriptNetworking(_inst,_othe
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___26@user_login@scriptNetworking"	}
-	if(gml_Script____struct___26_40_user_login_40_scriptNetworking.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___20@user_login@scriptNetworking"	}
+	if(gml_Script____struct___20_40_user_login_40_scriptNetworking.prototype.__type===undefined)
 	{
-		gml_Script____struct___26_40_user_login_40_scriptNetworking.prototype.__type="gml_Script____struct___26@user_login@scriptNetworking"	}
+		gml_Script____struct___20_40_user_login_40_scriptNetworking.prototype.__type="gml_Script____struct___20@user_login@scriptNetworking"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___26_40_user_login_40_scriptNetworking.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___20_40_user_login_40_scriptNetworking.prototype);
 
 				{
 		}
@@ -4600,18 +6090,18 @@ function gml_Script_user_login(_inst,_other,argument0,argument1)
 		{
 
 				{
-			var gmluser=__yy_gml_object_create(_inst,(global.gml___struct___26=__yy_method(_inst,gml_Script____struct___26_40_user_login_40_scriptNetworking)));
+			var gmluser=__yy_gml_object_create(_inst,(global.gml___struct___20=__yy_method(_inst,gml_Script____struct___20_40_user_login_40_scriptNetworking)));
 			yyInst(_inst,_other,gmluser).gmlusername=argument0;
 			yyInst(_inst,_other,gmluser).gmlpassword=argument1;
 			var gmlpacket=gml_Script_create_network_packet(_inst,_other,"user_login");
-			yyInst(_inst,_other,gmlpacket).gmldata=gmluser;
+			yyInst(_inst,_other,gmlpacket).gmlData=gmluser;
 			gml_Script_send_network_packet(_inst,_other,gmlpacket);
 		}
 		;
 	}
 }
 
-function gml_Script____struct___27_40_user_registration_40_scriptNetworking(_inst,_other)
+function gml_Script____struct___21_40_user_registration_40_scriptNetworking(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -4621,13 +6111,13 @@ function gml_Script____struct___27_40_user_registration_40_scriptNetworking(_ins
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___27@user_registration@scriptNetworking"	}
-	if(gml_Script____struct___27_40_user_registration_40_scriptNetworking.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___21@user_registration@scriptNetworking"	}
+	if(gml_Script____struct___21_40_user_registration_40_scriptNetworking.prototype.__type===undefined)
 	{
-		gml_Script____struct___27_40_user_registration_40_scriptNetworking.prototype.__type="gml_Script____struct___27@user_registration@scriptNetworking"	}
+		gml_Script____struct___21_40_user_registration_40_scriptNetworking.prototype.__type="gml_Script____struct___21@user_registration@scriptNetworking"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___27_40_user_registration_40_scriptNetworking.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___21_40_user_registration_40_scriptNetworking.prototype);
 
 				{
 		}
@@ -4640,12 +6130,12 @@ function gml_Script_user_registration(_inst,_other,argument0,argument1,argument2
 		{
 
 				{
-			var gmluser=__yy_gml_object_create(_inst,(global.gml___struct___27=__yy_method(_inst,gml_Script____struct___27_40_user_registration_40_scriptNetworking)));
+			var gmluser=__yy_gml_object_create(_inst,(global.gml___struct___21=__yy_method(_inst,gml_Script____struct___21_40_user_registration_40_scriptNetworking)));
 			yyInst(_inst,_other,gmluser).gmlusername=argument0;
 			yyInst(_inst,_other,gmluser).gmlpassword=argument1;
 			yyInst(_inst,_other,gmluser).gmlemail=argument2;
 			var gmlpacket=gml_Script_create_network_packet(_inst,_other,"user_registration");
-			yyInst(_inst,_other,gmlpacket).gmldata=gmluser;
+			yyInst(_inst,_other,gmlpacket).gmlData=gmluser;
 			gml_Script_send_network_packet(_inst,_other,gmlpacket);
 		}
 		;
@@ -4657,7 +6147,7 @@ function gml_GlobalScript_scriptRecipes(_inst,_other)
 	(_inst.gmltemporalRecipePopulate=__yy_method(_inst,gml_Script_temporalRecipePopulate));
 }
 
-function gml_Script____struct___29_40____struct___28_40_temporalRecipePopulate_40_scriptRecipes(_inst,_other)
+function gml_Script____struct___23_40____struct___22_40_temporalRecipePopulate_40_scriptRecipes(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -4667,20 +6157,20 @@ function gml_Script____struct___29_40____struct___28_40_temporalRecipePopulate_4
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___29@___struct___28@temporalRecipePopulate@scriptRecipes"	}
-	if(gml_Script____struct___29_40____struct___28_40_temporalRecipePopulate_40_scriptRecipes.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___23@___struct___22@temporalRecipePopulate@scriptRecipes"	}
+	if(gml_Script____struct___23_40____struct___22_40_temporalRecipePopulate_40_scriptRecipes.prototype.__type===undefined)
 	{
-		gml_Script____struct___29_40____struct___28_40_temporalRecipePopulate_40_scriptRecipes.prototype.__type="gml_Script____struct___29@___struct___28@temporalRecipePopulate@scriptRecipes"	}
+		gml_Script____struct___23_40____struct___22_40_temporalRecipePopulate_40_scriptRecipes.prototype.__type="gml_Script____struct___23@___struct___22@temporalRecipePopulate@scriptRecipes"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___29_40____struct___28_40_temporalRecipePopulate_40_scriptRecipes.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___23_40____struct___22_40_temporalRecipePopulate_40_scriptRecipes.prototype);
 
 				{
 		}
 	}
 }
 
-function gml_Script____struct___28_40_temporalRecipePopulate_40_scriptRecipes(_inst,_other)
+function gml_Script____struct___22_40_temporalRecipePopulate_40_scriptRecipes(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -4690,16 +6180,16 @@ function gml_Script____struct___28_40_temporalRecipePopulate_40_scriptRecipes(_i
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___28@temporalRecipePopulate@scriptRecipes"	}
-	if(gml_Script____struct___28_40_temporalRecipePopulate_40_scriptRecipes.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___22@temporalRecipePopulate@scriptRecipes"	}
+	if(gml_Script____struct___22_40_temporalRecipePopulate_40_scriptRecipes.prototype.__type===undefined)
 	{
-		gml_Script____struct___28_40_temporalRecipePopulate_40_scriptRecipes.prototype.__type="gml_Script____struct___28@temporalRecipePopulate@scriptRecipes"	}
+		gml_Script____struct___22_40_temporalRecipePopulate_40_scriptRecipes.prototype.__type="gml_Script____struct___22@temporalRecipePopulate@scriptRecipes"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___28_40_temporalRecipePopulate_40_scriptRecipes.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___22_40_temporalRecipePopulate_40_scriptRecipes.prototype);
 
 				{
-			_inst.gmlR1_2=__yy_gml_object_create(_inst,(global.gml___struct___29=__yy_method(_inst,gml_Script____struct___29_40____struct___28_40_temporalRecipePopulate_40_scriptRecipes)));
+			_inst.gmlR1_2=__yy_gml_object_create(_inst,(global.gml___struct___23=__yy_method(_inst,gml_Script____struct___23_40____struct___22_40_temporalRecipePopulate_40_scriptRecipes)));
 		}
 	}
 }
@@ -4708,7 +6198,7 @@ function gml_Script_temporalRecipePopulate(_inst,_other)
 {
 
 		{
-		global.gmlRecipes=__yy_gml_object_create(_inst,(global.gml___struct___28=__yy_method(_inst,gml_Script____struct___28_40_temporalRecipePopulate_40_scriptRecipes)));
+		global.gmlRecipes=__yy_gml_object_create(_inst,(global.gml___struct___22=__yy_method(_inst,gml_Script____struct___22_40_temporalRecipePopulate_40_scriptRecipes)));
 	}
 }
 
@@ -4721,13 +6211,13 @@ function gml_Script_seedToTree(_inst,_other,argument0)
 {
 
 		{
-		var ___sw38___=argument0;
-		var ___swc39___=-1;
-		if(yyCompareVal(___sw38___,7,g_GMLMathEpsilon,false)==0)
+		var ___sw58___=argument0;
+		var ___swc59___=-1;
+		if(yyCompareVal(___sw58___,7,g_GMLMathEpsilon,false)==0)
 		{
-			___swc39___=0;
+			___swc59___=0;
 		}
-		switch(___swc39___)
+		switch(___swc59___)
 		{
 			case 0:
 			{
@@ -4745,6 +6235,9 @@ function gml_GlobalScript_scriptUtilities(_inst,_other)
 	(_inst.gmlangleCalculation=__yy_method(_inst,gml_Script_angleCalculation));
 	(_inst.gmlrectangleMouseCollision=__yy_method(_inst,gml_Script_rectangleMouseCollision));
 	(_inst.gmlmoveTo=__yy_method(_inst,gml_Script_moveTo));
+	(_inst.gmlfps_fix_speed=__yy_method(_inst,gml_Script_fps_fix_speed));
+	(_inst.gmldec_to_hex=__yy_method(_inst,gml_Script_dec_to_hex));
+	(_inst.gmlis_string_numeric=__yy_method(_inst,gml_Script_is_string_numeric));
 }
 
 function gml_Script_move_snap_grid(_inst,_other,argument0,argument1)
@@ -4797,15 +6290,730 @@ function gml_Script_moveTo(_inst,_other,argument0,argument1,argument2)
 	}
 }
 
+function gml_Script_fps_fix_speed(_inst,_other,argument0)
+{
+
+		{
+		return yyftime(__yy_gml_errCheck(argument0),__yy_gml_errCheck(yyfdivide(__yy_gml_errCheck(g_pBuiltIn.get_room_speed()),60)));
+	}
+}
+
+function gml_Script_dec_to_hex(_inst,_other,argument0,argument1)
+{
+
+		{
+		if(yyfequal(argument1,g_pBuiltIn.undefined))
+		{
+			argument1=1		}
+		;
+	}
+
+		{
+		var gmlhex="";
+		if(yyfless(argument0,0))
+		{
+
+						{
+				argument1=max(argument1,ceil(logn(16,yyftime(2,__yy_gml_errCheck(abs(argument0))))));
+			}
+		}
+		;
+		var gmldig="0123456789ABCDEF";
+		while((yyGetBool((g_yyPrePostObject__=argument1,argument1=(g_yyPrePostObject__ instanceof Long?argument1.subtract(1):--argument1),g_yyPrePostObject__)))||(yyGetBool(argument0))) 
+		{
+
+						{
+				gmlhex=yyfplus(__yy_gml_errCheck(string_char_at(gmldig,yyfplus(__yy_gml_errCheck(yyfbitand(__yy_gml_errCheck(argument0),15)),1))),__yy_gml_errCheck(gmlhex));
+				argument0=yyfbitshiftright(__yy_gml_errCheck(argument0),4);
+			}
+		}
+		;
+		return gmlhex;
+	}
+}
+
+function gml_Script_is_string_numeric(_inst,_other,argument0)
+{
+
+		{
+		try
+		{
+
+						{
+				var gmlnum=real(argument0);
+				return is_real(gmlnum);
+			}
+		}
+		catch(gmle)
+		{
+			gmle=__yy__processException(gmle);
+
+						{
+				return false;
+			}
+		}
+		;
+	}
+}
+
+function gml_GlobalScript_scriptWindows(_inst,_other)
+{
+	(_inst.gmlwindow_create=__yy_method(_inst,gml_Script_window_create));
+	(_inst.gmlwindow_control_add=__yy_method(_inst,gml_Script_window_control_add));
+	(_inst.gmllabel_new=__yy_method(_inst,gml_Script_label_new));
+	(_inst.gmltextbox_new=__yy_method(_inst,gml_Script_textbox_new));
+	(_inst.gmlcheckbox_new=__yy_method(_inst,gml_Script_checkbox_new));
+	(_inst.gmldraw_own_button=__yy_method(_inst,gml_Script_draw_own_button));
+	(_inst.gmltext_round_box=__yy_method(_inst,gml_Script_text_round_box));
+	(_inst.gmltextbox_change=__yy_method(_inst,gml_Script_textbox_change));
+}
+
+function gml_Script_window_create(_inst,_other,argument0,argument1,argument2)
+{
+
+		{
+	}
+}
+
+function gml_Script_window_control_add(_inst,_other)
+{
+
+		{
+	}
+}
+
+function gml_Script_label_new(_inst,_other)
+{
+
+		{
+	}
+}
+
+function gml_Script_textbox_new(_inst,_other)
+{
+
+		{
+	}
+}
+
+function gml_Script_checkbox_new(_inst,_other)
+{
+
+		{
+	}
+}
+
+function gml_Script_draw_own_button(_inst,_other)
+{
+
+		{
+		var $$args=Array.prototype.slice.call(arguments);
+
+				{
+			var gmlanswer,gmlcolor,gmlxx,gmlyy,gmlw,gmlh;
+			gmlanswer=0;
+
+						{
+				__yy_gml_array_set_owner(5963770);
+				gmlcolor=__yy_gml_array_check(gmlcolor,4091683271);
+				gmlcolor[__yy_gml_array_check_index_set(1)]=global.gmlcolorValue[__yy_gml_array_check_index(0,global.gmlcolorValue)];
+			}
+			;
+			gmlcolor[__yy_gml_array_check_index_set(2)]=global.gmlcolorValue[__yy_gml_array_check_index(0,global.gmlcolorValue)];
+			draw_set_halign(1);
+			draw_set_valign(1);
+			gmlxx=__yy_gml_array_check(gmlxx,1392216390);
+			gmlxx[__yy_gml_array_check_index_set(1)]=yyfminus(__yy_gml_errCheck($$args[__yy_gml_array_check_index(2+(0),$$args)]),8);
+			gmlyy=__yy_gml_array_check(gmlyy,4082949986);
+			gmlyy[__yy_gml_array_check_index_set(1)]=yyfminus(__yy_gml_errCheck($$args[__yy_gml_array_check_index(2+(1),$$args)]),8);
+			gmlw=string_width($$args[__yy_gml_array_check_index(2+(2),$$args)]);
+			gmlh=string_height($$args[__yy_gml_array_check_index(2+(2),$$args)]);
+			if(yyGetBool($$args[__yy_gml_array_check_index(2+(3),$$args)]))
+			{
+				gmlw=$$args[__yy_gml_array_check_index(2+(3),$$args)]			}
+			;
+			if(yyGetBool($$args[__yy_gml_array_check_index(2+(4),$$args)]))
+			{
+				gmlh=$$args[__yy_gml_array_check_index(2+(4),$$args)]			}
+			;
+			gmlxx[__yy_gml_array_check_index_set(2)]=yyfplus(__yy_gml_errCheck(yyfplus(__yy_gml_errCheck($$args[__yy_gml_array_check_index(2+(0),$$args)]),__yy_gml_errCheck(gmlw))),8);
+			gmlyy[__yy_gml_array_check_index_set(2)]=yyfplus(__yy_gml_errCheck(yyfplus(__yy_gml_errCheck($$args[__yy_gml_array_check_index(2+(1),$$args)]),__yy_gml_errCheck(gmlh))),8);
+			if(yyGetBool(gml_Script_rectangleMouseCollision(_inst,_other,gmlxx[__yy_gml_array_check_index(1,gmlxx)],gmlyy[__yy_gml_array_check_index(1,gmlyy)],gmlxx[__yy_gml_array_check_index(2,gmlxx)],gmlyy[__yy_gml_array_check_index(2,gmlyy)])))
+			{
+
+								{
+					gmlcolor[__yy_gml_array_check_index_set(1)]=global.gmlcolorValue[__yy_gml_array_check_index(1,global.gmlcolorValue)];
+					gmlcolor[__yy_gml_array_check_index_set(2)]=global.gmlcolorValue[__yy_gml_array_check_index(1,global.gmlcolorValue)];
+					if(yyGetBool(mouse_check_button_released(1)))
+					{
+
+												{
+							mouse_clear(1);
+							gmlanswer=1;
+						}
+					}
+					;
+				}
+			}
+			;
+			draw_rectangle_color(gmlxx[__yy_gml_array_check_index(1,gmlxx)],gmlyy[__yy_gml_array_check_index(1,gmlyy)],gmlxx[__yy_gml_array_check_index(2,gmlxx)],gmlyy[__yy_gml_array_check_index(2,gmlyy)],gmlcolor[__yy_gml_array_check_index(1,gmlcolor)],gmlcolor[__yy_gml_array_check_index(1,gmlcolor)],gmlcolor[__yy_gml_array_check_index(2,gmlcolor)],gmlcolor[__yy_gml_array_check_index(2,gmlcolor)],0);
+			draw_set_color(global.gmlcolorValue[__yy_gml_array_check_index(1,global.gmlcolorValue)]);
+			draw_rectangle(gmlxx[__yy_gml_array_check_index(1,gmlxx)],gmlyy[__yy_gml_array_check_index(1,gmlyy)],gmlxx[__yy_gml_array_check_index(2,gmlxx)],gmlyy[__yy_gml_array_check_index(2,gmlyy)],true);
+			draw_set_color(0);
+			draw_set_alpha(0.5);
+			draw_text(yyfplus(__yy_gml_errCheck(round(yyfplus(__yy_gml_errCheck($$args[__yy_gml_array_check_index(2+(0),$$args)]),__yy_gml_errCheck(yyfdivide(__yy_gml_errCheck(gmlw),2))))),2),yyfplus(__yy_gml_errCheck(round(yyfplus(__yy_gml_errCheck($$args[__yy_gml_array_check_index(2+(1),$$args)]),__yy_gml_errCheck(yyfdivide(__yy_gml_errCheck(gmlh),2))))),2),$$args[__yy_gml_array_check_index(2+(2),$$args)]);
+			draw_set_alpha(1);
+			draw_set_color(16777215);
+			draw_text(round(yyfplus(__yy_gml_errCheck($$args[__yy_gml_array_check_index(2+(0),$$args)]),__yy_gml_errCheck(yyfdivide(__yy_gml_errCheck(gmlw),2)))),round(yyfplus(__yy_gml_errCheck($$args[__yy_gml_array_check_index(2+(1),$$args)]),__yy_gml_errCheck(yyfdivide(__yy_gml_errCheck(gmlh),2)))),$$args[__yy_gml_array_check_index(2+(2),$$args)]);
+			draw_set_halign(0);
+			return gmlanswer;
+		}
+	}
+}
+
+function gml_Script____struct___24_40_text_round_box_40_scriptWindows(_inst,_other)
+{
+	if((--_inst.__yyCreatedByNew)<0)
+	{
+
+				{
+			yyError("calling a constructor directly - constructors should only be called using new")		}
+	}
+	if(_inst.__yyIsGMLObject)
+	{
+		_inst.__type="gml_Script____struct___24@text_round_box@scriptWindows"	}
+	if(gml_Script____struct___24_40_text_round_box_40_scriptWindows.prototype.__type===undefined)
+	{
+		gml_Script____struct___24_40_text_round_box_40_scriptWindows.prototype.__type="gml_Script____struct___24@text_round_box@scriptWindows"	}
+
+		{
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___24_40_text_round_box_40_scriptWindows.prototype);
+
+				{
+			var $$args=Array.prototype.slice.call(arguments);
+
+						{
+				_inst.gmloff=$$args[__yy_gml_array_check_index(2+(0),$$args)];
+				_inst.gmlstr="";
+				_inst.gmlxpos=$$args[__yy_gml_array_check_index(2+(1),$$args)];
+				_inst.gmlypos=$$args[__yy_gml_array_check_index(2+(2),$$args)];
+				_inst.gmlwidth=$$args[__yy_gml_array_check_index(2+(3),$$args)];
+				_inst.gmlheight=$$args[__yy_gml_array_check_index(2+(4),$$args)];
+				_inst.gmlbackgroundcolor=$$args[__yy_gml_array_check_index(2+(5),$$args)];
+				_inst.gmlforegroundcolor=16777215;
+				_inst.gmlalpha=1;
+				_inst.gmlenabled=true;
+				_inst.gmlformat=$$args[__yy_gml_array_check_index(2+(6),$$args)];
+				_inst.gmlcontroltype="textbox";
+				_inst.gmlcontrolid=$$args[__yy_gml_array_check_index(2+(7),$$args)];
+				_inst.gmlttf=$$args[__yy_gml_array_check_index(2+(8),$$args)];
+				_inst.gmlonload=$$args[__yy_gml_array_check_index(2+(9),$$args)];
+				_inst.gmlonclick=$$args[__yy_gml_array_check_index(2+(10),$$args)];
+				_inst.gmlpasswordchar="*";
+				_inst.gmlcursor_pos=0;
+				_inst.gmlsel_start=$$args[__yy_gml_array_check_index(2+(11),$$args)];
+				_inst.gmlsel_end=$$args[__yy_gml_array_check_index(2+(12),$$args)];
+				_inst.gmlsurface=$$args[__yy_gml_array_check_index(2+(13),$$args)];
+				_inst.gmlbackspace_timer=0;
+			}
+		}
+	}
+}
+
+function gml_Script_text_round_box(_inst,_other,argument0,argument1,argument2,argument3,argument4,argument5,argument6,argument7,argument8,argument9,argument10,argument11,argument12,argument13)
+{
+
+		{
+		if(yyfequal(argument7,g_pBuiltIn.undefined))
+		{
+			argument7=YYASSET_REF(0x06000003)		}
+		;
+		if(yyfequal(argument8,g_pBuiltIn.undefined))
+		{
+			argument8=1		}
+		;
+		if(yyfequal(argument9,g_pBuiltIn.undefined))
+		{
+
+						{
+				__yy_gml_array_set_owner(6129543);
+				argument9=(__yy_gml_array_create([]));
+			}
+		}
+		;
+		if(yyfequal(argument10,g_pBuiltIn.undefined))
+		{
+			argument10=""		}
+		;
+		if(yyfequal(argument11,g_pBuiltIn.undefined))
+		{
+
+						{
+				__yy_gml_array_set_owner(6129545);
+				argument11=(__yy_gml_array_create([0,0,0,0]));
+			}
+		}
+		;
+		if(yyfequal(argument12,g_pBuiltIn.undefined))
+		{
+			argument12=""		}
+		;
+		if(yyfequal(argument13,g_pBuiltIn.undefined))
+		{
+			argument13=g_pBuiltIn.pointer_null		}
+		;
+	}
+
+		{
+		var gmlxx,gmlyy,gmlc,gmlresult,gmldstr,gmltmp,gmli,gmlpos,gmlvr;
+
+				{
+			__yy_gml_array_set_owner(6029306);
+			gmlxx=__yy_gml_array_check(gmlxx,1392216390);
+			gmlxx[__yy_gml_array_check_index_set(0)]=argument0;
+		}
+		;
+		gmlyy=__yy_gml_array_check(gmlyy,4082949986);
+		gmlyy[__yy_gml_array_check_index_set(0)]=argument1;
+		gmlresult=0;
+		if(!yyGetBool(variable_struct_exists(global.gmlform,string(argument4))))
+		{
+
+						{
+				variable_struct_set(global.gmlform,string(argument4),__yy_gml_object_create(_inst,(global.gml___struct___24=__yy_method(_inst,gml_Script____struct___24_40_text_round_box_40_scriptWindows)),!yyGetBool(argument6),argument0,argument1,argument2,argument3,global.gmlcolorValue[__yy_gml_array_check_index(1,global.gmlcolorValue)],argument5,argument4,argument7,g_pBuiltIn.undefined,argument13,(-1),(-1),(-1)));
+			}
+		}
+		;
+		var gmlform=variable_struct_get(global.gmlform,string(argument4));
+
+				{
+			__yy_gml_array_set_owner(12058618);
+			global.gmlcolor=__yy_gml_array_check(global.gmlcolor,699035757);
+			global.gmlcolor[__yy_gml_array_check_index_set(1)]=1973790;
+		}
+		;
+		global.gmlcolor[__yy_gml_array_check_index_set(2)]=1644825;
+		global.gmlcolor[__yy_gml_array_check_index_set(3)]=16777215;
+		gmldstr="";
+
+				{
+			__yy_gml_array_set_owner(6029306);
+			gmlxx[__yy_gml_array_check_index_set(1)]=yyfminus(__yy_gml_errCheck(gmlxx[__yy_gml_array_check_index(0,gmlxx)]),__yy_gml_errCheck(yyfdivide(__yy_gml_errCheck(argument2),2)));
+		}
+		;
+		gmlyy[__yy_gml_array_check_index_set(1)]=yyfminus(__yy_gml_errCheck(yyfminus(__yy_gml_errCheck(gmlyy[__yy_gml_array_check_index(0,gmlyy)]),__yy_gml_errCheck(yyfdivide(__yy_gml_errCheck(argument3),2)))),5);
+		gmlxx[__yy_gml_array_check_index_set(2)]=yyfplus(__yy_gml_errCheck(gmlxx[__yy_gml_array_check_index(0,gmlxx)]),__yy_gml_errCheck(yyfdivide(__yy_gml_errCheck(argument2),2)));
+		gmlyy[__yy_gml_array_check_index_set(2)]=yyfplus(__yy_gml_errCheck(yyfplus(__yy_gml_errCheck(gmlyy[__yy_gml_array_check_index(0,gmlyy)]),__yy_gml_errCheck(yyfdivide(__yy_gml_errCheck(argument3),2)))),5);
+		draw_set_font(argument7);
+		_inst.gmlsh=round(string_height("string"));
+		draw_set_alpha(argument8);
+		if(!yyGetBool(surface_exists(yyInst(_inst,_other,gmlform).gmlsurface)))
+		{
+			yyInst(_inst,_other,gmlform).gmlsurface=surface_create(yyfminus(__yy_gml_errCheck(argument2),16),argument3)		}
+		else 
+		{
+			if((yyGetBool(yyfnotequal(surface_get_width(yyInst(_inst,_other,gmlform).gmlsurface),yyfminus(__yy_gml_errCheck(argument2),16))))||(yyGetBool(yyfnotequal(surface_get_height(yyInst(_inst,_other,gmlform).gmlsurface),argument3))))
+			{
+				surface_resize(yyInst(_inst,_other,gmlform).gmlsurface,yyfminus(__yy_gml_errCheck(argument2),16),argument3)			}
+		}
+		;
+		if((yyGetBool(!yyGetBool((yythis135=yyInst(_inst,_other,variable_struct_get(global.gmlform,string(argument4))),yythis135).gmloff)))&&(yyGetBool(yyfequal(argument4,global.gmltextbox_actual))))
+		{
+
+						{
+				var gmlcurrent_str=(yythis136=yyInst(_inst,_other,variable_struct_get(global.gmlform,string(argument4))),yythis136).gmlstr;
+				var yythis135,yythis136;
+				if((yyGetBool(yyfnotequal(g_pBuiltIn.keyboard_string,"")))||(yyGetBool(keyboard_check(8))))
+				{
+
+										{
+						if(yyfequal(argument5,"number"))
+						{
+							g_pBuiltIn.keyboard_string=__yyg_call_method(_inst.gmlstring_digits_periods)(_inst,_other,g_pBuiltIn.keyboard_string)						}
+						;
+						if(yyGetBool(keyboard_check(8)))
+						{
+
+														{
+								if(yyGetBool(keyboard_check_pressed(8)))
+								{
+
+																		{
+										if((yyGetBool(yyfnotequal(yyInst(_inst,_other,gmlform).gmlsel_start,(-1))))&&(yyGetBool(yyfnotequal(yyInst(_inst,_other,gmlform).gmlsel_end,(-1))))&&(yyGetBool(yyfnotequal(yyInst(_inst,_other,gmlform).gmlsel_start,yyInst(_inst,_other,gmlform).gmlsel_end))))
+										{
+
+																						{
+												var gmlsel_min=min(yyInst(_inst,_other,gmlform).gmlsel_start,yyInst(_inst,_other,gmlform).gmlsel_end);
+												var gmlsel_max=max(yyInst(_inst,_other,gmlform).gmlsel_start,yyInst(_inst,_other,gmlform).gmlsel_end);
+												(yythis137=yyInst(_inst,_other,variable_struct_get(global.gmlform,string(argument4))),yythis137).gmlstr=string_delete(gmlcurrent_str,yyfplus(__yy_gml_errCheck(gmlsel_min),1),yyfminus(__yy_gml_errCheck(gmlsel_max),__yy_gml_errCheck(gmlsel_min)));
+												var yythis137;
+												yyInst(_inst,_other,gmlform).gmlcursor_pos=gmlsel_min;
+												yyInst(_inst,_other,gmlform).gmlsel_start=(-1);
+												yyInst(_inst,_other,gmlform).gmlsel_end=(-1);
+											}
+										}
+										else 
+										{
+											if(yyfgreater(yyInst(_inst,_other,gmlform).gmlcursor_pos,0))
+											{
+
+																								{
+													(yythis138=yyInst(_inst,_other,variable_struct_get(global.gmlform,string(argument4))),yythis138).gmlstr=string_delete(gmlcurrent_str,yyInst(_inst,_other,gmlform).gmlcursor_pos,1);
+													var yythis138;
+													yyInst(_inst,_other,gmlform).gmlcursor_pos=(yyInst(_inst,_other,gmlform).gmlcursor_pos instanceof Long?yyInst(_inst,_other,gmlform).gmlcursor_pos.subtract(1):--yyInst(_inst,_other,gmlform).gmlcursor_pos);
+												}
+											}
+										}
+										;
+										yyInst(_inst,_other,gmlform).gmlbackspace_timer=gml_Script_fps_fix_speed(_inst,_other,30);
+									}
+								}
+								else 
+								{
+									if(yyfgreater(yyInst(_inst,_other,gmlform).gmlbackspace_timer,0))
+									{
+
+																				{
+											yyInst(_inst,_other,gmlform).gmlbackspace_timer=(yyInst(_inst,_other,gmlform).gmlbackspace_timer instanceof Long?yyInst(_inst,_other,gmlform).gmlbackspace_timer.subtract(1):--yyInst(_inst,_other,gmlform).gmlbackspace_timer);
+										}
+									}
+									else 
+									{
+										if(yyfgreater(yyInst(_inst,_other,gmlform).gmlcursor_pos,0))
+										{
+
+																						{
+												(yythis139=yyInst(_inst,_other,variable_struct_get(global.gmlform,string(argument4))),yythis139).gmlstr=string_delete(gmlcurrent_str,yyInst(_inst,_other,gmlform).gmlcursor_pos,1);
+												var yythis139;
+												yyInst(_inst,_other,gmlform).gmlcursor_pos=(yyInst(_inst,_other,gmlform).gmlcursor_pos instanceof Long?yyInst(_inst,_other,gmlform).gmlcursor_pos.subtract(1):--yyInst(_inst,_other,gmlform).gmlcursor_pos);
+												yyInst(_inst,_other,gmlform).gmlbackspace_timer=gml_Script_fps_fix_speed(_inst,_other,1);
+											}
+										}
+									}
+								}
+								;
+							}
+						}
+						else 
+						{
+
+														{
+								yyInst(_inst,_other,gmlform).gmlbackspace_timer=0;
+							}
+						}
+						;
+						if(yyfnotequal(g_pBuiltIn.keyboard_string,""))
+						{
+
+														{
+								if((yyGetBool(yyfnotequal(yyInst(_inst,_other,gmlform).gmlsel_start,(-1))))&&(yyGetBool(yyfnotequal(yyInst(_inst,_other,gmlform).gmlsel_end,(-1))))&&(yyGetBool(yyfnotequal(yyInst(_inst,_other,gmlform).gmlsel_start,yyInst(_inst,_other,gmlform).gmlsel_end))))
+								{
+
+																		{
+										var gmlsel_min=min(yyInst(_inst,_other,gmlform).gmlsel_start,yyInst(_inst,_other,gmlform).gmlsel_end);
+										var gmlsel_max=max(yyInst(_inst,_other,gmlform).gmlsel_start,yyInst(_inst,_other,gmlform).gmlsel_end);
+										gmlcurrent_str=string_delete(gmlcurrent_str,yyfplus(__yy_gml_errCheck(gmlsel_min),1),yyfminus(__yy_gml_errCheck(gmlsel_max),__yy_gml_errCheck(gmlsel_min)));
+										yyInst(_inst,_other,gmlform).gmlcursor_pos=gmlsel_min;
+										yyInst(_inst,_other,gmlform).gmlsel_start=(-1);
+										yyInst(_inst,_other,gmlform).gmlsel_end=(-1);
+									}
+								}
+								;
+								var gmlnew_str=string_insert(g_pBuiltIn.keyboard_string,gmlcurrent_str,yyfplus(__yy_gml_errCheck(yyInst(_inst,_other,gmlform).gmlcursor_pos),1));
+								if(yyflessequal(string_width(gmlnew_str),yyfminus(__yy_gml_errCheck(argument2),16)))
+								{
+
+																		{
+										if(yyfgreater(array_length(argument9),0))
+										{
+
+																						{
+												var gmli=0;
+												for(;yyfless(gmli,array_length(argument9));gmli=(gmli instanceof Long?gmli.add(1):++gmli))
+												{
+													var ___sw62___=argument9[__yy_gml_array_check_index(gmli,argument9)];
+													var ___swc63___=-1;
+													if(yyCompareVal(___sw62___,"words",g_GMLMathEpsilon,false)==0)
+													{
+														___swc63___=0;
+													}
+													else if(yyCompareVal(___sw62___,"uppercase",g_GMLMathEpsilon,false)==0)
+													{
+														___swc63___=1;
+													}
+													else if(yyCompareVal(___sw62___,"nospaces",g_GMLMathEpsilon,false)==0)
+													{
+														___swc63___=2;
+													}
+													switch(___swc63___)
+													{
+														case 0:
+														{
+
+																														{
+																gmlnew_str=string_letters(gmlnew_str);
+																break;
+															}
+															;
+														}
+														case 1:
+														{
+
+																														{
+																gmlnew_str=string_upper(gmlnew_str);
+																break;
+															}
+															;
+														}
+														case 2:
+														{
+
+																														{
+																gmlnew_str=string_replace_all(gmlnew_str," ","");
+																break;
+															}
+															;
+														}
+													}
+												}
+												;
+											}
+										}
+										;
+										(yythis140=yyInst(_inst,_other,variable_struct_get(global.gmlform,string(argument4))),yythis140).gmlstr=gmlnew_str;
+										var yythis140;
+										yyInst(_inst,_other,gmlform).gmlcursor_pos=yyfplus(yyInst(_inst,_other,gmlform).gmlcursor_pos,string_length(g_pBuiltIn.keyboard_string));
+									}
+								}
+								;
+								g_pBuiltIn.keyboard_string="";
+							}
+						}
+						;
+					}
+				}
+				;
+				if((yyGetBool(keyboard_check_pressed(37)))&&(yyGetBool(yyfgreater(yyInst(_inst,_other,gmlform).gmlcursor_pos,0))))
+				{
+					yyInst(_inst,_other,gmlform).gmlcursor_pos=(yyInst(_inst,_other,gmlform).gmlcursor_pos instanceof Long?yyInst(_inst,_other,gmlform).gmlcursor_pos.subtract(1):--yyInst(_inst,_other,gmlform).gmlcursor_pos)				}
+				;
+				if((yyGetBool(keyboard_check_pressed(39)))&&(yyGetBool(yyfless(yyInst(_inst,_other,gmlform).gmlcursor_pos,string_length((yythis141=yyInst(_inst,_other,variable_struct_get(global.gmlform,string(argument4))),yythis141).gmlstr)))))
+				{
+					yyInst(_inst,_other,gmlform).gmlcursor_pos=(yyInst(_inst,_other,gmlform).gmlcursor_pos instanceof Long?yyInst(_inst,_other,gmlform).gmlcursor_pos.add(1):++yyInst(_inst,_other,gmlform).gmlcursor_pos)				}
+				;
+				var yythis141;
+				gmlresult=(yythis142=yyInst(_inst,_other,variable_struct_get(global.gmlform,string(argument4))),yythis142).gmlstr;
+				var yythis142;
+			}
+		}
+		;
+		if((yyGetBool(gml_Script_rectangleMouseCollision(_inst,_other,gmlxx[__yy_gml_array_check_index(1,gmlxx)],gmlyy[__yy_gml_array_check_index(1,gmlyy)],gmlxx[__yy_gml_array_check_index(2,gmlxx)],gmlyy[__yy_gml_array_check_index(2,gmlyy)])))&&(yyGetBool(!yyGetBool((yythis143=yyInst(_inst,_other,variable_struct_get(global.gmlform,string(argument4))),yythis143).gmloff))))
+		{
+
+						{
+				draw_set_alpha(yyfminus(__yy_gml_errCheck(argument8),0.04));
+				var yythis143;
+				if(yyGetBool(mouse_check_button_pressed(1)))
+				{
+
+										{
+						if(!yyGetBool((yythis144=yyInst(_inst,_other,variable_struct_get(global.gmlform,string(argument4))),yythis144).gmloff))
+						{
+
+														{
+								gml_Script_textbox_change(_inst,_other,string(argument4));
+								var yythis144;
+								var gmlmx=yyfminus(__yy_gml_errCheck(display_mouse_get_x()),__yy_gml_errCheck(yyfplus(__yy_gml_errCheck(gmlxx[__yy_gml_array_check_index(1,gmlxx)]),14)));
+								yyInst(_inst,_other,gmlform).gmlcursor_pos=0;
+								gmli=1;
+								for(;yyflessequal(gmli,string_length((yythis145=yyInst(_inst,_other,variable_struct_get(global.gmlform,string(argument4))),yythis145).gmlstr));gmli=(gmli instanceof Long?gmli.add(1):++gmli))
+								{
+
+																		{
+										if(yyfgreater(string_width(string_copy((yythis146=yyInst(_inst,_other,variable_struct_get(global.gmlform,string(argument4))),yythis146).gmlstr,1,gmli)),gmlmx))
+										{
+
+																						{
+												yyInst(_inst,_other,gmlform).gmlcursor_pos=yyfminus(__yy_gml_errCheck(gmli),1);
+												var yythis145,yythis146;
+												break;
+											}
+										}
+										;
+										if(yyfequal(gmli,string_length((yythis147=yyInst(_inst,_other,variable_struct_get(global.gmlform,string(argument4))),yythis147).gmlstr)))
+										{
+											yyInst(_inst,_other,gmlform).gmlcursor_pos=gmli										}
+										;
+										var yythis147;
+									}
+								}
+								;
+								yyInst(_inst,_other,gmlform).gmlsel_start=(-1);
+								yyInst(_inst,_other,gmlform).gmlsel_end=(-1);
+								g_pBuiltIn.keyboard_string="";
+							}
+						}
+						else 
+						{
+
+														{
+								gmlresult=2;
+							}
+						}
+						;
+					}
+				}
+				;
+				if((yyGetBool(mouse_check_button(1)))&&(yyGetBool(yyfequal(argument4,global.gmltextbox_actual))))
+				{
+
+										{
+						var gmlmx=yyfminus(__yy_gml_errCheck(display_mouse_get_x()),__yy_gml_errCheck(yyfplus(__yy_gml_errCheck(gmlxx[__yy_gml_array_check_index(1,gmlxx)]),14)));
+						var gmlnew_pos=0;
+						gmli=1;
+						for(;yyflessequal(gmli,string_length((yythis148=yyInst(_inst,_other,variable_struct_get(global.gmlform,string(argument4))),yythis148).gmlstr));gmli=(gmli instanceof Long?gmli.add(1):++gmli))
+						{
+
+														{
+								if(yyfgreater(string_width(string_copy((yythis149=yyInst(_inst,_other,variable_struct_get(global.gmlform,string(argument4))),yythis149).gmlstr,1,gmli)),gmlmx))
+								{
+
+																		{
+										gmlnew_pos=yyfminus(__yy_gml_errCheck(gmli),1);
+										var yythis148,yythis149;
+										break;
+									}
+								}
+								;
+								if(yyfequal(gmli,string_length((yythis150=yyInst(_inst,_other,variable_struct_get(global.gmlform,string(argument4))),yythis150).gmlstr)))
+								{
+									gmlnew_pos=gmli								}
+								;
+								var yythis150;
+							}
+						}
+						;
+						if(yyfequal(yyInst(_inst,_other,gmlform).gmlsel_start,(-1)))
+						{
+							yyInst(_inst,_other,gmlform).gmlsel_start=yyInst(_inst,_other,gmlform).gmlcursor_pos						}
+						;
+						yyInst(_inst,_other,gmlform).gmlsel_end=gmlnew_pos;
+						yyInst(_inst,_other,gmlform).gmlcursor_pos=gmlnew_pos;
+					}
+				}
+				;
+			}
+		}
+		;
+		draw_roundrect_color_ext(gmlxx[__yy_gml_array_check_index(1,gmlxx)],gmlyy[__yy_gml_array_check_index(1,gmlyy)],gmlxx[__yy_gml_array_check_index(2,gmlxx)],gmlyy[__yy_gml_array_check_index(2,gmlyy)],8,8,global.gmlcolorValue[__yy_gml_array_check_index(1,global.gmlcolorValue)],global.gmlcolorValue[__yy_gml_array_check_index(1,global.gmlcolorValue)],0);
+		surface_set_target(yyInst(_inst,_other,gmlform).gmlsurface);
+		draw_clear_alpha(0,0);
+		draw_set_color(0);
+		draw_set_halign(0);
+		draw_set_valign(0);
+		if((yyGetBool(yyfequal(argument5,"normal")))||(yyGetBool(yyfequal(argument5,"number"))))
+		{
+
+						{
+				gmldstr=(yythis151=yyInst(_inst,_other,variable_struct_get(global.gmlform,string(argument4))),yythis151).gmlstr;
+				var yythis151;
+			}
+		}
+		else 
+		{
+			if(yyfequal(argument5,"password"))
+			{
+
+								{
+					for(var __yy__v24=0,__yy__v25=yyGetReal(string_length((yythis152=yyInst(_inst,_other,variable_struct_get(global.gmlform,string(argument4))),yythis152).gmlstr));__yy__v24<__yy__v25;__yy__v24++)
+					{
+						gmldstr=yyfplus(gmldstr,"*")					}
+					;
+					var yythis152;
+				}
+			}
+		}
+		;
+		if((yyGetBool(yyfnotequal(yyInst(_inst,_other,gmlform).gmlsel_start,(-1))))&&(yyGetBool(yyfnotequal(yyInst(_inst,_other,gmlform).gmlsel_end,(-1))))&&(yyGetBool(yyfnotequal(yyInst(_inst,_other,gmlform).gmlsel_start,yyInst(_inst,_other,gmlform).gmlsel_end))))
+		{
+
+						{
+				var gmlsel_min=min(yyInst(_inst,_other,gmlform).gmlsel_start,yyInst(_inst,_other,gmlform).gmlsel_end);
+				var gmlsel_max=max(yyInst(_inst,_other,gmlform).gmlsel_start,yyInst(_inst,_other,gmlform).gmlsel_end);
+				var gmlsel_x=string_width(string_copy(gmldstr,1,gmlsel_min));
+				var gmlsel_w=string_width(string_copy(gmldstr,yyfplus(__yy_gml_errCheck(gmlsel_min),1),yyfminus(__yy_gml_errCheck(gmlsel_max),__yy_gml_errCheck(gmlsel_min))));
+				draw_set_color(16759156);
+				draw_rectangle(gmlsel_x,0,yyfplus(__yy_gml_errCheck(gmlsel_x),__yy_gml_errCheck(gmlsel_w)),_inst.gmlh,false);
+			}
+		}
+		;
+		draw_set_color(16777215);
+		if(yyfequal(gmldstr,""))
+		{
+
+						{
+				if(yyfnotequal(argument4,global.gmltextbox_actual))
+				{
+
+										{
+						draw_set_alpha(yyfminus(__yy_gml_errCheck(argument8),0.6));
+						gml_Script_draw_text_shadow(_inst,_other,0,0,argument10,16777215,0,1);
+					}
+				}
+				;
+			}
+		}
+		else 
+		{
+
+						{
+				gml_Script_draw_text_shadow(_inst,_other,0,0,gmldstr,16777215,0,1);
+			}
+		}
+		;
+		if((yyGetBool(!yyGetBool((yythis153=yyInst(_inst,_other,variable_struct_get(global.gmlform,string(argument4))),yythis153).gmloff)))&&(yyGetBool(yyfequal(argument4,global.gmltextbox_actual))))
+		{
+			gml_Script_draw_text_shadow(_inst,_other,string_width(string_copy(gmldstr,1,yyInst(_inst,_other,gmlform).gmlcursor_pos)),0,"|",16777215,0,1)		}
+		;
+		var yythis153;
+		surface_reset_target();
+		draw_surface(yyInst(_inst,_other,gmlform).gmlsurface,yyfplus(__yy_gml_errCheck(gmlxx[__yy_gml_array_check_index(1,gmlxx)]),14),yyfplus(__yy_gml_errCheck(gmlyy[__yy_gml_array_check_index(1,gmlyy)]),8));
+		draw_set_alpha(yyfminus(__yy_gml_errCheck(argument8),0.75));
+		if(!yyGetBool((yythis154=yyInst(_inst,_other,variable_struct_get(global.gmlform,string(argument4))),yythis154).gmloff))
+		{
+			draw_roundrect_color_ext(gmlxx[__yy_gml_array_check_index(1,gmlxx)],gmlyy[__yy_gml_array_check_index(1,gmlyy)],gmlxx[__yy_gml_array_check_index(2,gmlxx)],gmlyy[__yy_gml_array_check_index(2,gmlyy)],8,8,8421504,8421504,0)		}
+		;
+		var yythis154;
+		draw_set_alpha(argument8);
+	}
+}
+
+function gml_Script_textbox_change(_inst,_other,argument0)
+{
+
+		{
+		g_pBuiltIn.keyboard_string=(yythis155=yyInst(_inst,_other,variable_struct_get(global.gmlform,string(argument0))),yythis155).gmlstr;
+		var yythis155;
+		global.gmlgui_keyboard_previous=g_pBuiltIn.keyboard_string;
+		global.gmlkeyboard_id=argument0;
+		global.gmltextbox_actual=argument0;
+	}
+}
+
 function gml_GlobalScript_scriptWorld(_inst,_other)
 {
 	(_inst.gmlworld_update_surface=__yy_method(_inst,gml_Script_world_update_surface));
+	(_inst.gmlworld_get_room=__yy_method(_inst,gml_Script_world_get_room));
+	(_inst.gmlworld_set_room=__yy_method(_inst,gml_Script_world_set_room));
+	(_inst.gmlworld_player_spawn=__yy_method(_inst,gml_Script_world_player_spawn));
 	(_inst.gmlworld_add_instance=__yy_method(_inst,gml_Script_world_add_instance));
 	(_inst.gmlworld_get_chunk=__yy_method(_inst,gml_Script_world_get_chunk));
 	(_inst.gmlworld_get_first_column=__yy_method(_inst,gml_Script_world_get_first_column));
 	(_inst.gmlworld_get_latest_column=__yy_method(_inst,gml_Script_world_get_latest_column));
 	(_inst.gmlworld_get_first_row=__yy_method(_inst,gml_Script_world_get_first_row));
 	(_inst.gmlworld_get_latest_row=__yy_method(_inst,gml_Script_world_get_latest_row));
+	(_inst.gmlworld_sequence_to_xposition=__yy_method(_inst,gml_Script_world_sequence_to_xposition));
+	(_inst.gmlworld_sequence_to_yposition=__yy_method(_inst,gml_Script_world_sequence_to_yposition));
 	(_inst.gmlgenerateWorld=__yy_method(_inst,gml_Script_generateWorld));
 }
 
@@ -4813,20 +7021,193 @@ function gml_Script_world_update_surface(_inst,_other)
 {
 
 		{
+	}
+}
+
+function gml_Script_world_get_room(_inst,_other)
+{
+
+		{
+		if(yyGetBool(variable_global_exists("player_world")))
+		{
+			return global.gmlplayer_world		}
+		else 
+		{
+			return "-4"		}
+		;
+	}
+}
+
+function gml_Script_world_set_room(_inst,_other,argument0,argument1,argument2)
+{
+
+		{
+		var gmllayer_id=layer_get_id("Tiles_1");
+		var gmltilemap_id=layer_tilemap_get_id(gmllayer_id);
+		tilemap_clear(gmltilemap_id,0);
+
+				{
+			var __yy__v26=GetWithArray(YYASSET_REF(0x00000000));
+			for(var __yy__v27 in __yy__v26)
+			{
+				if(!__yy__v26.hasOwnProperty(__yy__v27))continue;
+				var __yy__v28=__yy__v26[__yy__v27];
+				instance_destroy(__yy__v28)			}
+		}
+		;
+
+				{
+			var __yy__v29=GetWithArray(YYASSET_REF(0x00000005));
+			for(var __yy__v30 in __yy__v29)
+			{
+				if(!__yy__v29.hasOwnProperty(__yy__v30))continue;
+				var __yy__v31=__yy__v29[__yy__v30];
+				instance_destroy(__yy__v31)			}
+		}
+		;
+
+				{
+			var __yy__v32=GetWithArray(YYASSET_REF(0x00000003));
+			for(var __yy__v33 in __yy__v32)
+			{
+				if(!__yy__v32.hasOwnProperty(__yy__v33))continue;
+				var __yy__v34=__yy__v32[__yy__v33];
+				instance_destroy(__yy__v34)			}
+		}
+		;
+
+				{
+			var __yy__v35=GetWithArray(YYASSET_REF(0x00000001));
+			for(var __yy__v36 in __yy__v35)
+			{
+				if(!__yy__v35.hasOwnProperty(__yy__v36))continue;
+				var __yy__v37=__yy__v35[__yy__v36];
+				instance_destroy(__yy__v37)			}
+		}
+		;
+		gml_Script_generateWorld(_inst,_other);
+		var gmlw=1;
+		var gmlh=1;
 		_inst.gmlblock_surface=surface_create(g_pBuiltIn.room_width,g_pBuiltIn.room_height);
 		surface_set_target(_inst.gmlblock_surface);
 		draw_clear_alpha(0,0);
 		var gmli=0;
-		for(;yyfless(gmli,instance_number(YYASSET_REF(0x00000000)));gmli=(gmli instanceof Long?gmli.add(1):++gmli))
+		for(;yyfless(gmli,array_length(yyInst(_inst,_other,argument1).gmlBlocks));gmli=(gmli instanceof Long?gmli.add(1):++gmli))
 		{
 
 						{
-				var gmlinst=instance_find(YYASSET_REF(0x00000000),gmli);
-				draw_sprite(_inst,yyInst(_inst,_other,gmlinst).sprite_index,yyInst(_inst,_other,gmlinst).image_index,yyInst(_inst,_other,gmlinst).x,yyInst(_inst,_other,gmlinst).y);
+				if(yyfnotequal(yyInst(_inst,_other,argument1).gmlBlocks[__yy_gml_array_check_index(gmli,yyInst(_inst,_other,argument1).gmlBlocks)],0))
+				{
+
+										{
+						show_debug_message(string("block {0} on {1},{2}",yyInst(_inst,_other,argument1).gmlBlocks[__yy_gml_array_check_index(gmli,yyInst(_inst,_other,argument1).gmlBlocks)],gmlw,gmlh));
+						var gmlitem_data=yyInst(_inst,_other,argument1).gmlBlocks[__yy_gml_array_check_index(gmli,yyInst(_inst,_other,argument1).gmlBlocks)];
+						var ___sw68___=(yythis164=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlitem_data)),yythis164).gmlCategory;
+						var ___swc69___=-1;
+						if(yyCompareVal(___sw68___,0,g_GMLMathEpsilon,false)==0)
+						{
+							___swc69___=0;
+						}
+						else if(yyCompareVal(___sw68___,1,g_GMLMathEpsilon,false)==0)
+						{
+							___swc69___=1;
+						}
+						switch(___swc69___)
+						{
+							case 0:
+							{
+
+																{
+									var ___sw70___=(yythis165=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlitem_data)),yythis165).gmlSubcategory;
+									var ___swc71___=-1;
+									if(yyCompareVal(___sw70___,0,g_GMLMathEpsilon,false)==0)
+									{
+										___swc71___=0;
+									}
+									else if(yyCompareVal(___sw70___,3,g_GMLMathEpsilon,false)==0)
+									{
+										___swc71___=1;
+									}
+									switch(___swc71___)
+									{
+										case 0:
+										{
+
+																						{
+												tilemap_set(global.gmltilemap,2,gmlw,gmlh);
+												var yythis164,yythis165;
+												if(yyGetBool(sprite_exists((yythis166=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlitem_data)),yythis166).gmlSprite)))
+												{
+
+																										{
+														draw_sprite(_inst,(yythis167=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlitem_data)),yythis167).gmlSprite,0,yyftime(__yy_gml_errCheck(gmlw),32),yyftime(__yy_gml_errCheck(gmlh),32));
+														var yythis166,yythis167;
+													}
+												}
+												;
+												break;
+											}
+											;
+										}
+										case 1:
+										{
+
+																						{
+												var gmlinst=instance_create_layer(yyfplus(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gmlw),32)),16),yyfplus(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gmlh),32)),16),"Instances",YYASSET_REF(0x00000002));
+												gml_Script_itemSetProperties(_inst,_other,gmlinst,gmlitem_data,(yythis168=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlitem_data)),yythis168).gmlCategory,(yythis169=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlitem_data)),yythis169).gmlSubcategory);
+												var yythis168,yythis169;
+												break;
+											}
+											;
+										}
+									}
+									;
+									break;
+								}
+								;
+							}
+							case 1:
+							{
+
+																{
+									var gmlinst=instance_create_layer(yyfplus(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gmlw),32)),16),yyfplus(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gmlh),32)),16),"Instances",YYASSET_REF(0x00000009));
+									gml_Script_itemSetProperties(_inst,_other,gmlinst,gmlitem_data,(yythis170=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlitem_data)),yythis170).gmlCategory,(yythis171=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlitem_data)),yythis171).gmlSubcategory);
+									var yythis170,yythis171;
+									break;
+								}
+								;
+							}
+						}
+						;
+					}
+				}
+				;
+				gmlw=(gmlw instanceof Long?gmlw.add(1):++gmlw);
+				if(yyfgreater(gmlw,100))
+				{
+
+										{
+						gmlw=1;
+						gmlh=(gmlh instanceof Long?gmlh.add(1):++gmlh);
+					}
+				}
+				;
 			}
 		}
 		;
 		surface_reset_target();
+		gml_Script_world_player_spawn(_inst,_other,global.gmlmy_uid);
+		global.gmlplayer_world=argument0;
+	}
+}
+
+function gml_Script_world_player_spawn(_inst,_other,argument0)
+{
+
+		{
+		global.gmlmy_uid=argument0;
+		global.gmlmy_player=instance_create_layer(1568,1568,"Instances",YYASSET_REF(0x00000005));
+		yyInst(_inst,_other,global.gmlmy_player).gmluid=global.gmlmy_uid;
 	}
 }
 
@@ -4842,7 +7223,7 @@ function gml_Script_world_get_chunk(_inst,_other,argument0,argument1)
 {
 
 		{
-		return((__yy_gml_array_set_owner(5636096),__yy_gml_array_create([ceil((yyfgreater(argument0,0)?yyfdivide(__yy_gml_errCheck(argument0),__yy_gml_errCheck(window_get_width())):0)),ceil((yyfgreater(argument1,0)?yyfdivide(__yy_gml_errCheck(argument1),__yy_gml_errCheck(window_get_height())):0))])));
+		return((__yy_gml_array_set_owner(6553600),__yy_gml_array_create([ceil((yyfgreater(argument0,0)?yyfdivide(__yy_gml_errCheck(argument0),__yy_gml_errCheck(window_get_width())):0)),ceil((yyfgreater(argument1,0)?yyfdivide(__yy_gml_errCheck(argument1),__yy_gml_errCheck(window_get_height())):0))])));
 	}
 }
 
@@ -4878,7 +7259,23 @@ function gml_Script_world_get_latest_row(_inst,_other)
 	}
 }
 
-function gml_Script____struct___30_40_generateWorld_40_scriptWorld(_inst,_other)
+function gml_Script_world_sequence_to_xposition(_inst,_other,argument0)
+{
+
+		{
+		return yyfplus(__yy_gml_errCheck(yyfmod(__yy_gml_errCheck(yyfminus(__yy_gml_errCheck(argument0),1)),100)),1);
+	}
+}
+
+function gml_Script_world_sequence_to_yposition(_inst,_other,argument0)
+{
+
+		{
+		return floor(yyfdivide(__yy_gml_errCheck(yyfminus(__yy_gml_errCheck(argument0),1)),100));
+	}
+}
+
+function gml_Script____struct___25_40_generateWorld_40_scriptWorld(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -4888,22 +7285,17 @@ function gml_Script____struct___30_40_generateWorld_40_scriptWorld(_inst,_other)
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___30@generateWorld@scriptWorld"	}
-	if(gml_Script____struct___30_40_generateWorld_40_scriptWorld.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___25@generateWorld@scriptWorld"	}
+	if(gml_Script____struct___25_40_generateWorld_40_scriptWorld.prototype.__type===undefined)
 	{
-		gml_Script____struct___30_40_generateWorld_40_scriptWorld.prototype.__type="gml_Script____struct___30@generateWorld@scriptWorld"	}
+		gml_Script____struct___25_40_generateWorld_40_scriptWorld.prototype.__type="gml_Script____struct___25@generateWorld@scriptWorld"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___30_40_generateWorld_40_scriptWorld.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___25_40_generateWorld_40_scriptWorld.prototype);
 
 				{
-			var $$args=Array.prototype.slice.call(arguments);
-
-						{
-				_inst.gmlWidth=3200;
-				_inst.gmlHeight=3200;
-				_inst.gmlChunks=$$args[__yy_gml_array_check_index(2+(0),$$args)];
-			}
+			_inst.gmlWidth=3200;
+			_inst.gmlHeight=3200;
 		}
 	}
 }
@@ -4913,61 +7305,20 @@ function gml_Script_generateWorld(_inst,_other)
 
 		{
 		randomize();
-		global.gmlworld=__yy_gml_object_create(_inst,(global.gml___struct___30=__yy_method(_inst,gml_Script____struct___30_40_generateWorld_40_scriptWorld)),((__yy_gml_array_set_owner(5963776),__yy_gml_array_create([]))));
+		global.gmlworld=__yy_gml_object_create(_inst,(global.gml___struct___25=__yy_method(_inst,gml_Script____struct___25_40_generateWorld_40_scriptWorld)));
 		var gmlxx=0;
 		var gmlyy=0;
 		var gmlw=window_get_width();
 		var gmlh=window_get_height();
-		gmlj=0;
-		for(;yyflessequal(gmlj,yyInst(_inst,_other,global.gmlworld).gmlHeight);gmlj=yyfplus(gmlj,gmlh))
-		{
-
-						{
-				gmli=0;
-				for(;yyflessequal(gmli,yyInst(_inst,_other,global.gmlworld).gmlWidth);gmli=yyfplus(gmli,gmlw))
-				{
-
-										{
-
-												{
-							__yy_gml_array_set_owner(11927546);
-							yyInst(_inst,_other,global.gmlworld).gmlChunks=__yy_gml_array_check(yyInst(_inst,_other,global.gmlworld).gmlChunks,1157393199);
-							yyInst(_inst,_other,global.gmlworld).gmlChunks[__yy_gml_array_check_index_chain(gmlxx,yyInst(_inst,_other,global.gmlworld).gmlChunks)][__yy_gml_array_check_index_set(gmlyy)]=ds_list_create();
-						}
-						;
-						gmlxx=(gmlxx instanceof Long?gmlxx.add(1):++gmlxx);
-					}
-				}
-				;
-				gmlyy=(gmlyy instanceof Long?gmlyy.add(1):++gmlyy);
-			}
-		}
-		;
-		var gmli=50;
-		for(;yyfless(gmli,100);gmli=(gmli instanceof Long?gmli.add(1):++gmli))
-		{
-
-						{
-				var gmlj=0;
-				for(;yyfless(gmlj,100);gmlj=(gmlj instanceof Long?gmlj.add(1):++gmlj))
-				{
-
-										{
-						var gmlinst=instance_create_layer(yyfplus(16,__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gmlj),32))),yyfplus(16,__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gmli),32))),"Instances",YYASSET_REF(0x00000000));
-					}
-				}
-				;
-			}
-		}
-		;
+		var gmllayer_id=layer_get_id("Tiles_1");
+		global.gmltilemap=layer_tilemap_get_id(gmllayer_id);
 		var gmlinst;
 		var gmli=0;
 		for(;yyflessequal(gmli,102);gmli=(gmli instanceof Long?gmli.add(1):++gmli))
 		{
 
 						{
-				gmlinst=instance_create_layer(yyfplus((-16),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gmli),32))),(-16),"Instances",YYASSET_REF(0x00000000));
-				yyInst(_inst,_other,yyInst(_inst,_other,gmlinst).gmlP).gmlImmune=true;
+				tilemap_set(global.gmltilemap,1,gmli,0);
 			}
 		}
 		;
@@ -4976,8 +7327,7 @@ function gml_Script_generateWorld(_inst,_other)
 		{
 
 						{
-				gmlinst=instance_create_layer(yyfplus((-16),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gmli),32))),3248,"Instances",YYASSET_REF(0x00000000));
-				yyInst(_inst,_other,yyInst(_inst,_other,gmlinst).gmlP).gmlImmune=true;
+				tilemap_set(global.gmltilemap,1,gmli,101);
 			}
 		}
 		;
@@ -4986,8 +7336,7 @@ function gml_Script_generateWorld(_inst,_other)
 		{
 
 						{
-				gmlinst=instance_create_layer((-16),yyfplus((-16),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gmli),32))),"Instances",YYASSET_REF(0x00000000));
-				yyInst(_inst,_other,yyInst(_inst,_other,gmlinst).gmlP).gmlImmune=true;
+				tilemap_set(global.gmltilemap,1,0,gmli);
 			}
 		}
 		;
@@ -4996,18 +7345,16 @@ function gml_Script_generateWorld(_inst,_other)
 		{
 
 						{
-				gmlinst=instance_create_layer(3248,yyfplus((-16),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gmli),32))),"Instances",YYASSET_REF(0x00000000));
-				yyInst(_inst,_other,yyInst(_inst,_other,gmlinst).gmlP).gmlImmune=true;
+				tilemap_set(global.gmltilemap,1,101,gmli);
 			}
 		}
 		;
-		instance_activate_object(_inst,YYASSET_REF(0x00000005));
 	}
 }
 
 function gml_Object_objectBlock_Create_0(_inst,_other)
 {
-	_inst.gmlP=__yy_gml_object_create(_inst,(global.gml___struct___31=__yy_method(_inst,gml_Script____struct___31_40_gml_Object_objectBlock_Create_0)));
+	_inst.gmlP=__yy_gml_object_create(_inst,(global.gml___struct___26=__yy_method(_inst,gml_Script____struct___26_40_gml_Object_objectBlock_Create_0)));
 	_inst.gmlrecursiveUpdate=true;
 	yyInst(_inst,_other,_inst.gmlP).gmlHealth=yyInst(_inst,_other,_inst.gmlP).gmlMaxHealth;
 	_inst.image_speed=0;
@@ -5021,7 +7368,7 @@ function gml_Object_objectBlock_Create_0(_inst,_other)
 	;
 }
 
-function gml_Script____struct___31_40_gml_Object_objectBlock_Create_0(_inst,_other)
+function gml_Script____struct___26_40_gml_Object_objectBlock_Create_0(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -5031,13 +7378,13 @@ function gml_Script____struct___31_40_gml_Object_objectBlock_Create_0(_inst,_oth
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___31@gml_Object_objectBlock_Create_0"	}
-	if(gml_Script____struct___31_40_gml_Object_objectBlock_Create_0.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___26@gml_Object_objectBlock_Create_0"	}
+	if(gml_Script____struct___26_40_gml_Object_objectBlock_Create_0.prototype.__type===undefined)
 	{
-		gml_Script____struct___31_40_gml_Object_objectBlock_Create_0.prototype.__type="gml_Script____struct___31@gml_Object_objectBlock_Create_0"	}
+		gml_Script____struct___26_40_gml_Object_objectBlock_Create_0.prototype.__type="gml_Script____struct___26@gml_Object_objectBlock_Create_0"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___31_40_gml_Object_objectBlock_Create_0.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___26_40_gml_Object_objectBlock_Create_0.prototype);
 
 				{
 			_inst.gmlSolid=true;
@@ -5054,111 +7401,6 @@ function gml_Script____struct___31_40_gml_Object_objectBlock_Create_0(_inst,_oth
 
 function gml_Object_objectBlock_Destroy_0(_inst,_other)
 {
-	var gmlinstanceArray;
-
-		{
-		__yy_gml_array_set_owner(65530);
-		gmlinstanceArray=__yy_gml_array_check(gmlinstanceArray,-55);
-		gmlinstanceArray[__yy_gml_array_check_index_set(0)]=instance_place(_inst,yyfminus(__yy_gml_errCheck(_inst.x),16),_inst.y,YYASSET_REF(0x00000000));
-	}
-	;
-	gmlinstanceArray[__yy_gml_array_check_index_set(1)]=instance_place(_inst,yyfplus(__yy_gml_errCheck(_inst.x),16),_inst.y,YYASSET_REF(0x00000000));
-	gmlinstanceArray[__yy_gml_array_check_index_set(2)]=instance_place(_inst,_inst.x,yyfminus(__yy_gml_errCheck(_inst.y),16),YYASSET_REF(0x00000000));
-	gmlinstanceArray[__yy_gml_array_check_index_set(3)]=instance_place(_inst,_inst.x,yyfplus(__yy_gml_errCheck(_inst.y),16),YYASSET_REF(0x00000000));
-	_inst.gmli=0;
-	for(;yyfless(_inst.gmli,array_length(gmlinstanceArray));_inst.gmli=(_inst.gmli instanceof Long?_inst.gmli.add(1):++_inst.gmli))
-	{
-
-				{
-			if(yyfnotequal(gmlinstanceArray[__yy_gml_array_check_index(_inst.gmli,gmlinstanceArray)],(-4)))
-			{
-
-								{
-
-										{
-						var __yy__v12=GetWithArray(gmlinstanceArray[__yy_gml_array_check_index(_inst.gmli,gmlinstanceArray)]);
-						for(var __yy__v13 in __yy__v12)
-						{
-							if(!__yy__v12.hasOwnProperty(__yy__v13))continue;
-							var __yy__v14=__yy__v12[__yy__v13];
-							__yy__v14.alarm=__yy_gml_array_check(__yy__v14.alarm,1679055395);
-							__yy__v14.alarm[__yy_gml_array_check_index_set(0)]=1						}
-					}
-					;
-				}
-			}
-			;
-		}
-	}
-	;
-	if(yyfnotequal(yyInst(_inst,_other,YYASSET_REF(0x00000004)).gmlblock_surface,(-4)))
-	{
-
-				{
-			surface_set_target(yyInst(_inst,_other,YYASSET_REF(0x00000004)).gmlblock_surface);
-			gpu_set_blendmode(3);
-			draw_set_color(16777215);
-			draw_rectangle(yyfminus(__yy_gml_errCheck(_inst.x),16),yyfminus(__yy_gml_errCheck(_inst.y),16),yyfplus(__yy_gml_errCheck(_inst.x),16),yyfplus(__yy_gml_errCheck(_inst.y),16),false);
-			gpu_set_blendmode(0);
-			surface_reset_target();
-		}
-	}
-	;
-	_inst.gmli=1;
-	for(;yyflessequal(_inst.gmli,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlDrop).gmlCount);_inst.gmli=(_inst.gmli instanceof Long?_inst.gmli.add(1):++_inst.gmli))
-	{
-
-				{
-			var gmlrandomChance=irandom_range(1,100);
-			var gmlrandomChancePerUnit=irandom_range(1,100);
-			if((yyGetBool(yyfgreaterequal(gmlrandomChance,1)))&&(yyGetBool(yyflessequal(gmlrandomChance,(yythis72=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlDrop,yyfplus("D",__yy_gml_errCheck(string(_inst.gmli))))),yythis72).gmlProbability))))
-			{
-
-								{
-					var gmlrMin=1,gmlrMax=0;
-					var yythis72;
-					_inst.gmlj=1;
-					for(;yyflessequal(_inst.gmlj,array_length((yythis73=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlDrop,yyfplus("D",__yy_gml_errCheck(string(_inst.gmli))))),yythis73).gmlUnits));_inst.gmlj=(_inst.gmlj instanceof Long?_inst.gmlj.add(1):++_inst.gmlj))
-					{
-
-												{
-							gmlrMax=yyfplus(gmlrMax,(yythis74=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlDrop,yyfplus("D",__yy_gml_errCheck(string(_inst.gmli))))),yythis74).gmlProbabilityPerUnit[__yy_gml_array_check_index(yyfminus(__yy_gml_errCheck(_inst.gmlj),1),(yythis74=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlDrop,yyfplus("D",__yy_gml_errCheck(string(_inst.gmli))))),yythis74).gmlProbabilityPerUnit)]);
-							var yythis73,yythis74;
-							if((yyGetBool(yyfgreaterequal(gmlrandomChancePerUnit,gmlrMin)))&&(yyGetBool(yyflessequal(gmlrandomChancePerUnit,gmlrMax))))
-							{
-
-																{
-									gmlrandomChancePerUnit=(yythis75=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlDrop,yyfplus("D",__yy_gml_errCheck(string(_inst.gmli))))),yythis75).gmlUnits[__yy_gml_array_check_index(yyfminus(__yy_gml_errCheck(_inst.gmlj),1),(yythis75=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlDrop,yyfplus("D",__yy_gml_errCheck(string(_inst.gmli))))),yythis75).gmlUnits)];
-									var yythis75;
-									break;
-								}
-							}
-							;
-							gmlrMin=yyfplus(gmlrMin,(yythis76=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlDrop,yyfplus("D",__yy_gml_errCheck(string(_inst.gmli))))),yythis76).gmlProbabilityPerUnit[__yy_gml_array_check_index(yyfminus(__yy_gml_errCheck(_inst.gmlj),1),(yythis76=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlDrop,yyfplus("D",__yy_gml_errCheck(string(_inst.gmli))))),yythis76).gmlProbabilityPerUnit)]);
-							var yythis76;
-						}
-					}
-					;
-					var gmlnewInstance=instance_create_layer(_inst.x,_inst.y,"Instances",YYASSET_REF(0x00000001));
-					yyInst(_inst,_other,gmlnewInstance).gmlobjectId=(yythis77=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlDrop,yyfplus("D",__yy_gml_errCheck(string(_inst.gmli))))),yythis77).gmlId;
-					var yythis77;
-					yyInst(_inst,_other,gmlnewInstance).gmlquantityItem=gmlrandomChancePerUnit;
-
-										{
-						var __yy__v15=GetWithArray(gmlnewInstance);
-						for(var __yy__v16 in __yy__v15)
-						{
-							if(!__yy__v15.hasOwnProperty(__yy__v16))continue;
-							var __yy__v17=__yy__v15[__yy__v16];
-							event_user(__yy__v17,_inst,0)						}
-					}
-					;
-				}
-			}
-			;
-		}
-	}
-	;
 }
 
 function gml_Object_objectBlock_Alarm_0(_inst,_other)
@@ -5175,7 +7417,7 @@ function gml_Object_objectBlock_Alarm_0(_inst,_other)
 
 										{
 						__yy_gml_array_set_owner(65530);
-						gmlinstanceArray=__yy_gml_array_check(gmlinstanceArray,-66);
+						gmlinstanceArray=__yy_gml_array_check(gmlinstanceArray,-101);
 						gmlinstanceArray[__yy_gml_array_check_index_set(0)]=instance_place(_inst,yyfminus(__yy_gml_errCheck(_inst.x),16),_inst.y,YYASSET_REF(0x00000000));
 					}
 					;
@@ -5193,16 +7435,16 @@ function gml_Object_objectBlock_Alarm_0(_inst,_other)
 																{
 
 																		{
-										var __yy__v18=GetWithArray(gmlinstanceArray[__yy_gml_array_check_index(_inst.gmli,gmlinstanceArray)]);
-										for(var __yy__v19 in __yy__v18)
+										var __yy__v38=GetWithArray(gmlinstanceArray[__yy_gml_array_check_index(_inst.gmli,gmlinstanceArray)]);
+										for(var __yy__v39 in __yy__v38)
 										{
-											if(!__yy__v18.hasOwnProperty(__yy__v19))continue;
-											var __yy__v20=__yy__v18[__yy__v19];
+											if(!__yy__v38.hasOwnProperty(__yy__v39))continue;
+											var __yy__v40=__yy__v38[__yy__v39];
 
 																						{
-												__yy__v20.gmlrecursiveUpdate=false;
-												__yy__v20.alarm=__yy_gml_array_check(__yy__v20.alarm,1416651210);
-												__yy__v20.alarm[__yy_gml_array_check_index_set(0)]=1;
+												__yy__v40.gmlrecursiveUpdate=false;
+												__yy__v40.alarm=__yy_gml_array_check(__yy__v40.alarm,132188206);
+												__yy__v40.alarm[__yy_gml_array_check_index_set(0)]=1;
 											}
 										}
 									}
@@ -5227,7 +7469,12 @@ function gml_Object_objectBlock_Alarm_0(_inst,_other)
 	_inst.SetImageIndexGML(0);
 	if((yyGetBool(gmlbLeft))&&(yyGetBool(gmlbRight))&&(yyGetBool(gmlbTop))&&(yyGetBool(gmlbBottom)))
 	{
-		_inst.SetImageIndexGML(0)	}
+
+				{
+			_inst.SetImageIndexGML(0);
+			ds_list_add(yyInst(_inst,_other,YYASSET_REF(0x00000004)).gmldeactivation_list,_inst.id);
+		}
+	}
 	else 
 	{
 		if((yyGetBool(gmlbLeft))&&(yyGetBool(gmlbRight))&&(yyGetBool(gmlbTop))&&(yyGetBool(!yyGetBool(gmlbBottom))))
@@ -5323,13 +7570,20 @@ function gml_Object_objectBlock_Alarm_0(_inst,_other)
 	{
 
 				{
-			surface_set_target(yyInst(_inst,_other,YYASSET_REF(0x00000004)).gmlblock_surface);
-			gpu_set_blendmode(3);
-			draw_set_color(16777215);
-			draw_rectangle(yyfminus(__yy_gml_errCheck(_inst.x),16),yyfminus(__yy_gml_errCheck(_inst.y),16),yyfplus(__yy_gml_errCheck(_inst.x),15),yyfplus(__yy_gml_errCheck(_inst.y),15),false);
-			gpu_set_blendmode(0);
-			draw_sprite(_inst,_inst.sprite_index,_inst.image_index,_inst.x,_inst.y);
-			surface_reset_target();
+			if(yyfnotequal(_inst.object_index,YYASSET_REF(0x00000002)))
+			{
+
+								{
+					surface_set_target(yyInst(_inst,_other,YYASSET_REF(0x00000004)).gmlblock_surface);
+					gpu_set_blendmode(3);
+					draw_set_color(16777215);
+					draw_rectangle(yyfminus(__yy_gml_errCheck(_inst.x),16),yyfminus(__yy_gml_errCheck(_inst.y),16),yyfplus(__yy_gml_errCheck(_inst.x),15),yyfplus(__yy_gml_errCheck(_inst.y),15),false);
+					gpu_set_blendmode(0);
+					draw_sprite(_inst,_inst.sprite_index,_inst.image_index,_inst.x,_inst.y);
+					surface_reset_target();
+				}
+			}
+			;
 		}
 	}
 	;
@@ -5351,10 +7605,10 @@ function gml_Object_objectBlock_Alarm_1(_inst,_other)
 
 function gml_Object_objectBlock_Other_10(_inst,_other)
 {
-	yyInst(_inst,_other,_inst.gmlP).gmlDrop=__yy_gml_object_create(_inst,(global.gml___struct___32=__yy_method(_inst,gml_Script____struct___32_40_gml_Object_objectBlock_Other_10)),(__yy_gml_array_create([1,2,3,4])),((__yy_gml_array_set_owner(65536),__yy_gml_array_create([25,25,25,25]))));
+	yyInst(_inst,_other,_inst.gmlP).gmlDrop=__yy_gml_object_create(_inst,(global.gml___struct___27=__yy_method(_inst,gml_Script____struct___27_40_gml_Object_objectBlock_Other_10)),(__yy_gml_array_create([1,2,3,4])),((__yy_gml_array_set_owner(65536),__yy_gml_array_create([25,25,25,25]))));
 }
 
-function gml_Script____struct___33_40____struct___32_40_gml_Object_objectBlock_Other_10(_inst,_other)
+function gml_Script____struct___28_40____struct___27_40_gml_Object_objectBlock_Other_10(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -5364,13 +7618,13 @@ function gml_Script____struct___33_40____struct___32_40_gml_Object_objectBlock_O
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___33@___struct___32@gml_Object_objectBlock_Other_10"	}
-	if(gml_Script____struct___33_40____struct___32_40_gml_Object_objectBlock_Other_10.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___28@___struct___27@gml_Object_objectBlock_Other_10"	}
+	if(gml_Script____struct___28_40____struct___27_40_gml_Object_objectBlock_Other_10.prototype.__type===undefined)
 	{
-		gml_Script____struct___33_40____struct___32_40_gml_Object_objectBlock_Other_10.prototype.__type="gml_Script____struct___33@___struct___32@gml_Object_objectBlock_Other_10"	}
+		gml_Script____struct___28_40____struct___27_40_gml_Object_objectBlock_Other_10.prototype.__type="gml_Script____struct___28@___struct___27@gml_Object_objectBlock_Other_10"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___33_40____struct___32_40_gml_Object_objectBlock_Other_10.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___28_40____struct___27_40_gml_Object_objectBlock_Other_10.prototype);
 
 				{
 			var $$args=Array.prototype.slice.call(arguments);
@@ -5385,7 +7639,7 @@ function gml_Script____struct___33_40____struct___32_40_gml_Object_objectBlock_O
 	}
 }
 
-function gml_Script____struct___32_40_gml_Object_objectBlock_Other_10(_inst,_other)
+function gml_Script____struct___27_40_gml_Object_objectBlock_Other_10(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -5395,20 +7649,20 @@ function gml_Script____struct___32_40_gml_Object_objectBlock_Other_10(_inst,_oth
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___32@gml_Object_objectBlock_Other_10"	}
-	if(gml_Script____struct___32_40_gml_Object_objectBlock_Other_10.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___27@gml_Object_objectBlock_Other_10"	}
+	if(gml_Script____struct___27_40_gml_Object_objectBlock_Other_10.prototype.__type===undefined)
 	{
-		gml_Script____struct___32_40_gml_Object_objectBlock_Other_10.prototype.__type="gml_Script____struct___32@gml_Object_objectBlock_Other_10"	}
+		gml_Script____struct___27_40_gml_Object_objectBlock_Other_10.prototype.__type="gml_Script____struct___27@gml_Object_objectBlock_Other_10"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___32_40_gml_Object_objectBlock_Other_10.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___27_40_gml_Object_objectBlock_Other_10.prototype);
 
 				{
 			var $$args=Array.prototype.slice.call(arguments);
 
 						{
 				_inst.gmlCount=1;
-				_inst.gmlD1=__yy_gml_object_create(_inst,(global.gml___struct___33=__yy_method(_inst,gml_Script____struct___33_40____struct___32_40_gml_Object_objectBlock_Other_10)),$$args[__yy_gml_array_check_index(2+(0),$$args)],$$args[__yy_gml_array_check_index(2+(1),$$args)]);
+				_inst.gmlD1=__yy_gml_object_create(_inst,(global.gml___struct___28=__yy_method(_inst,gml_Script____struct___28_40____struct___27_40_gml_Object_objectBlock_Other_10)),$$args[__yy_gml_array_check_index(2+(0),$$args)],$$args[__yy_gml_array_check_index(2+(1),$$args)]);
 			}
 		}
 	}
@@ -5486,8 +7740,8 @@ function gml_Object_objectCollectable_Step_0(_inst,_other)
 
 function gml_Object_objectCollectable_Other_10(_inst,_other)
 {
-	_inst.gmldepictedSprite=(yythis79=yyInst(_inst,_other,variable_struct_get(global.gmlItems,_inst.gmlobjectId)),yythis79).gmlCollectableSprite;
-	var yythis79;
+	_inst.gmldepictedSprite=(yythis173=yyInst(_inst,_other,variable_struct_get(global.gmlItems,_inst.gmlobjectId)),yythis173).gmlCollectableSprite;
+	var yythis173;
 }
 
 function gml_Object_objectCollectable_Draw_0(_inst,_other)
@@ -5500,8 +7754,8 @@ function gml_Object_objectCollectable_Draw_0(_inst,_other)
 	{
 
 				{
-			draw_sprite_ext(_inst,YYASSET_REF(0x01000004),0,_inst.x,yyfplus(__yy_gml_errCheck(_inst.gmlpositionY),__yy_gml_errCheck(_inst.y)),_inst.gmlimageSize,_inst.gmlimageSize,0,16777215,1);
-			draw_sprite_ext(_inst,YYASSET_REF(0x01000004),1,_inst.x,yyfplus(__yy_gml_errCheck(_inst.gmlpositionY),__yy_gml_errCheck(_inst.y)),_inst.gmlimageSize,_inst.gmlimageSize,0,16777215,0.5);
+			draw_sprite_ext(_inst,YYASSET_REF(0x01000006),0,_inst.x,yyfplus(__yy_gml_errCheck(_inst.gmlpositionY),__yy_gml_errCheck(_inst.y)),_inst.gmlimageSize,_inst.gmlimageSize,0,16777215,1);
+			draw_sprite_ext(_inst,YYASSET_REF(0x01000006),1,_inst.x,yyfplus(__yy_gml_errCheck(_inst.gmlpositionY),__yy_gml_errCheck(_inst.y)),_inst.gmlimageSize,_inst.gmlimageSize,0,16777215,0.5);
 		}
 	}
 	;
@@ -5560,12 +7814,12 @@ function gml_Object_objectEntrance_Step_0(_inst,_other)
 
 function gml_Object_objectEntrance_Other_10(_inst,_other)
 {
-	yyInst(_inst,_other,_inst.gmlP).gmlDrop=__yy_gml_object_create(_inst,(global.gml___struct___34=__yy_method(_inst,gml_Script____struct___34_40_gml_Object_objectEntrance_Other_10)),(__yy_gml_array_create([1,2,3,4])),((__yy_gml_array_set_owner(65536),__yy_gml_array_create([25,25,25,25]))));
+	yyInst(_inst,_other,_inst.gmlP).gmlDrop=__yy_gml_object_create(_inst,(global.gml___struct___29=__yy_method(_inst,gml_Script____struct___29_40_gml_Object_objectEntrance_Other_10)),(__yy_gml_array_create([1,2,3,4])),((__yy_gml_array_set_owner(65536),__yy_gml_array_create([25,25,25,25]))));
 	yyInst(_inst,_other,_inst.gmlP).gmlTresspass=true;
 	yyInst(_inst,_other,_inst.gmlP).gmlPrepareToLock=false;
 }
 
-function gml_Script____struct___35_40____struct___34_40_gml_Object_objectEntrance_Other_10(_inst,_other)
+function gml_Script____struct___30_40____struct___29_40_gml_Object_objectEntrance_Other_10(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -5575,13 +7829,13 @@ function gml_Script____struct___35_40____struct___34_40_gml_Object_objectEntranc
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___35@___struct___34@gml_Object_objectEntrance_Other_10"	}
-	if(gml_Script____struct___35_40____struct___34_40_gml_Object_objectEntrance_Other_10.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___30@___struct___29@gml_Object_objectEntrance_Other_10"	}
+	if(gml_Script____struct___30_40____struct___29_40_gml_Object_objectEntrance_Other_10.prototype.__type===undefined)
 	{
-		gml_Script____struct___35_40____struct___34_40_gml_Object_objectEntrance_Other_10.prototype.__type="gml_Script____struct___35@___struct___34@gml_Object_objectEntrance_Other_10"	}
+		gml_Script____struct___30_40____struct___29_40_gml_Object_objectEntrance_Other_10.prototype.__type="gml_Script____struct___30@___struct___29@gml_Object_objectEntrance_Other_10"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___35_40____struct___34_40_gml_Object_objectEntrance_Other_10.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___30_40____struct___29_40_gml_Object_objectEntrance_Other_10.prototype);
 
 				{
 			var $$args=Array.prototype.slice.call(arguments);
@@ -5596,7 +7850,7 @@ function gml_Script____struct___35_40____struct___34_40_gml_Object_objectEntranc
 	}
 }
 
-function gml_Script____struct___34_40_gml_Object_objectEntrance_Other_10(_inst,_other)
+function gml_Script____struct___29_40_gml_Object_objectEntrance_Other_10(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -5606,20 +7860,20 @@ function gml_Script____struct___34_40_gml_Object_objectEntrance_Other_10(_inst,_
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___34@gml_Object_objectEntrance_Other_10"	}
-	if(gml_Script____struct___34_40_gml_Object_objectEntrance_Other_10.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___29@gml_Object_objectEntrance_Other_10"	}
+	if(gml_Script____struct___29_40_gml_Object_objectEntrance_Other_10.prototype.__type===undefined)
 	{
-		gml_Script____struct___34_40_gml_Object_objectEntrance_Other_10.prototype.__type="gml_Script____struct___34@gml_Object_objectEntrance_Other_10"	}
+		gml_Script____struct___29_40_gml_Object_objectEntrance_Other_10.prototype.__type="gml_Script____struct___29@gml_Object_objectEntrance_Other_10"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___34_40_gml_Object_objectEntrance_Other_10.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___29_40_gml_Object_objectEntrance_Other_10.prototype);
 
 				{
 			var $$args=Array.prototype.slice.call(arguments);
 
 						{
 				_inst.gmlCount=1;
-				_inst.gmlD1=__yy_gml_object_create(_inst,(global.gml___struct___35=__yy_method(_inst,gml_Script____struct___35_40____struct___34_40_gml_Object_objectEntrance_Other_10)),$$args[__yy_gml_array_check_index(2+(0),$$args)],$$args[__yy_gml_array_check_index(2+(1),$$args)]);
+				_inst.gmlD1=__yy_gml_object_create(_inst,(global.gml___struct___30=__yy_method(_inst,gml_Script____struct___30_40____struct___29_40_gml_Object_objectEntrance_Other_10)),$$args[__yy_gml_array_check_index(2+(0),$$args)],$$args[__yy_gml_array_check_index(2+(1),$$args)]);
 			}
 		}
 	}
@@ -5627,32 +7881,44 @@ function gml_Script____struct___34_40_gml_Object_objectEntrance_Other_10(_inst,_
 
 function gml_Object_objectManager_Create_0(_inst,_other)
 {
+	network_set_config(0,5000);
+	global.gmlserver_local=false;
+	global.gmlskip_server=false;
+	global.gmlskip_connected_validation=false;
+	global.gmlskip_logged_validation=false;
+
+		{
+		__yy_gml_array_set_owner(65530);
+		_inst.alarm=__yy_gml_array_check(_inst.alarm,1584050178);
+		_inst.alarm[__yy_gml_array_check_index_set(3)]=10;
+	}
+	;
 	show_debug_overlay(false);
 	game_set_speed(60,0);
+	_inst.gmlframe_cap=true;
+	_inst.gmldebug_draw_x=(-4);
+	_inst.gmldebug_draw_y=(-4);
+	_inst.gmldebug_start_offline=false;
 	_inst.gmldebug_start_new_instance_handler=false;
 	_inst.gmldebug_start_disabling_outside_instances=true;
 	_inst.gmldebug_remove_outside_instances=true;
 	if(yyGetBool(_inst.gmldebug_remove_outside_instances))
 	{
-
-				{
-			__yy_gml_array_set_owner(65530);
-			_inst.alarm=__yy_gml_array_check(_inst.alarm,1584050178);
-			_inst.alarm[__yy_gml_array_check_index_set(1)]=90;
-		}
-	}
+		_inst.alarm[__yy_gml_array_check_index_set(1)]=90	}
 	;
 	randomize();
 	gml_Script_scriptConstants(_inst,_other);
 	gml_Script_inventoryCreate(_inst,_other);
 	_inst.depth=(-100);
-	gml_Script_generateWorld(_inst,_other);
+	global.gmlform=__yy_gml_object_create(_inst,(global.gml___struct___31=__yy_method(_inst,gml_Script____struct___31_40_gml_Object_objectManager_Create_0)));
+	global.gmltextbox_actual=(-4);
+	_inst.gmlawaiting_request=false;
 	_inst.gmlblock_surface=(-4);
+	_inst.gmldestroy_list=ds_list_create();
 	global.gmlmy_player=(-4);
 	global.gmlgameStart=false;
-	_inst.alarm=__yy_gml_array_check(_inst.alarm,1584050178);
 	_inst.alarm[__yy_gml_array_check_index_set(0)]=2;
-	_inst.gmlCore=__yy_gml_object_create(_inst,(global.gml___struct___36=__yy_method(_inst,gml_Script____struct___36_40_gml_Object_objectManager_Create_0)),camera_get_view_width(g_pBuiltIn.view_camera[__yy_gml_array_check_index(0,g_pBuiltIn.view_camera)]),camera_get_view_height(g_pBuiltIn.view_camera[__yy_gml_array_check_index(0,g_pBuiltIn.view_camera)]),camera_get_view_width(g_pBuiltIn.view_camera[__yy_gml_array_check_index(0,g_pBuiltIn.view_camera)]),camera_get_view_height(g_pBuiltIn.view_camera[__yy_gml_array_check_index(0,g_pBuiltIn.view_camera)]));
+	_inst.gmlCore=__yy_gml_object_create(_inst,(global.gml___struct___32=__yy_method(_inst,gml_Script____struct___32_40_gml_Object_objectManager_Create_0)),camera_get_view_width(g_pBuiltIn.view_camera[__yy_gml_array_check_index(0,g_pBuiltIn.view_camera)]),camera_get_view_height(g_pBuiltIn.view_camera[__yy_gml_array_check_index(0,g_pBuiltIn.view_camera)]),camera_get_view_width(g_pBuiltIn.view_camera[__yy_gml_array_check_index(0,g_pBuiltIn.view_camera)]),camera_get_view_height(g_pBuiltIn.view_camera[__yy_gml_array_check_index(0,g_pBuiltIn.view_camera)]));
 	camera_set_view_pos(g_pBuiltIn.view_camera[__yy_gml_array_check_index(0,g_pBuiltIn.view_camera)],yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlX,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlY);
 	_inst.gmldraggingChat=false;
 	_inst.gmldraggingInventory=false;
@@ -5663,91 +7929,40 @@ function gml_Object_objectManager_Create_0(_inst,_other)
 	gml_Script_temporalItemPopulate(_inst,_other);
 	gml_Script_inventoryAdd(_inst,_other,1,1);
 	gml_Script_inventoryAdd(_inst,_other,2,1);
-	var gmlinst=instance_create_layer(1648,1568,"Instances",YYASSET_REF(0x00000001));
-	yyInst(_inst,_other,gmlinst).gmlobjectId=4;
-	yyInst(_inst,_other,gmlinst).gmlquantityItem=1;
-
-		{
-		var __yy__v21=GetWithArray(gmlinst);
-		for(var __yy__v22 in __yy__v21)
-		{
-			if(!__yy__v21.hasOwnProperty(__yy__v22))continue;
-			var __yy__v23=__yy__v21[__yy__v22];
-			event_user(__yy__v23,_inst,0)		}
-	}
-	;
-	var gmlinst=instance_create_layer(1680,1568,"Instances",YYASSET_REF(0x00000001));
-	yyInst(_inst,_other,gmlinst).gmlobjectId=5;
-	yyInst(_inst,_other,gmlinst).gmlquantityItem=1;
-
-		{
-		var __yy__v24=GetWithArray(gmlinst);
-		for(var __yy__v25 in __yy__v24)
-		{
-			if(!__yy__v24.hasOwnProperty(__yy__v25))continue;
-			var __yy__v26=__yy__v24[__yy__v25];
-			event_user(__yy__v26,_inst,0)		}
-	}
-	;
-	var gmlinst=instance_create_layer(1712,1568,"Instances",YYASSET_REF(0x00000001));
-	yyInst(_inst,_other,gmlinst).gmlobjectId=6;
-	yyInst(_inst,_other,gmlinst).gmlquantityItem=5;
-
-		{
-		var __yy__v27=GetWithArray(gmlinst);
-		for(var __yy__v28 in __yy__v27)
-		{
-			if(!__yy__v27.hasOwnProperty(__yy__v28))continue;
-			var __yy__v29=__yy__v27[__yy__v28];
-			event_user(__yy__v29,_inst,0)		}
-	}
-	;
-	var gmlinst=instance_create_layer(1744,1568,"Instances",YYASSET_REF(0x00000001));
-	yyInst(_inst,_other,gmlinst).gmlobjectId=7;
-	yyInst(_inst,_other,gmlinst).gmlquantityItem=5;
-
-		{
-		var __yy__v30=GetWithArray(gmlinst);
-		for(var __yy__v31 in __yy__v30)
-		{
-			if(!__yy__v30.hasOwnProperty(__yy__v31))continue;
-			var __yy__v32=__yy__v30[__yy__v31];
-			event_user(__yy__v32,_inst,0)		}
-	}
-	;
 	_inst.gmlsurfaceUpdateChat=true;
-	_inst.gmlsurfaceChat=surface_create(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlGUIW,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlGUIH);
+	_inst.gmlsurfaceChat=surface_create(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlGUIW,90);
 	gml_Script_chatDisplayMessage(_inst,_other,"Welcome to the game!");
 	gml_Script_chatDisplayMessage(_inst,_other,"Press ENTER to send a message (Beta)");
-	network_set_config(0,5000);
-	global.gmlserver_local=false;
-	global.gmlskip_server=false;
-	global.gmlskip_connected_validation=false;
-	global.gmlskip_logged_validation=false;
-	global.gmlserver=__yy_gml_object_create(_inst,(global.gml___struct___40=__yy_method(_inst,gml_Script____struct___40_40_gml_Object_objectManager_Create_0)));
+	global.gmlhttp_index_request=(-4);
+	global.gmlhttp_item_image_download=ds_list_create();
+	global.gmlhttp_item_image_download_current=0;
+	global.gmlserver=__yy_gml_object_create(_inst,(global.gml___struct___36=__yy_method(_inst,gml_Script____struct___36_40_gml_Object_objectManager_Create_0)));
 	yyInst(_inst,_other,global.gmlserver).gmlconnection_retry=false;
 	yyInst(_inst,_other,global.gmlserver).gmlconnected=false;
 	yyInst(_inst,_other,global.gmlserver).gmllogged=false;
 	yyInst(_inst,_other,global.gmlserver).gmlconnection_break=false;
+	yyInst(_inst,_other,global.gmlserver).gmlsession_id="";
 	global.gmlblock=false;
-	_inst.gmlonline_player_data=__yy_gml_object_create(_inst,(global.gml___struct___41=__yy_method(_inst,gml_Script____struct___41_40_gml_Object_objectManager_Create_0)));
-	_inst.gmllocal_player_data=__yy_gml_object_create(_inst,(global.gml___struct___42=__yy_method(_inst,gml_Script____struct___42_40_gml_Object_objectManager_Create_0)));
+	_inst.gmlonline_player_data=__yy_gml_object_create(_inst,(global.gml___struct___37=__yy_method(_inst,gml_Script____struct___37_40_gml_Object_objectManager_Create_0)));
+	_inst.gmllocal_player_data=__yy_gml_object_create(_inst,(global.gml___struct___38=__yy_method(_inst,gml_Script____struct___38_40_gml_Object_objectManager_Create_0)));
 	global.gmlmy_uid=0;
-	global.gmlplayers=__yy_gml_object_create(_inst,(global.gml___struct___43=__yy_method(_inst,gml_Script____struct___43_40_gml_Object_objectManager_Create_0)));
+	global.gmlplayers=__yy_gml_object_create(_inst,(global.gml___struct___39=__yy_method(_inst,gml_Script____struct___39_40_gml_Object_objectManager_Create_0)));
 	global.gmlcurrent_room="-4";
 	gml_Script_connect_to_server(_inst,_other);
+	_inst.gmlchat_message_request=(-4);
 	_inst.gmllogin_username_request=(-4);
 	_inst.gmllogin_password_request=(-4);
 	_inst.gmlregistry_username_request=(-4);
 	_inst.gmlregistry_password_request=(-4);
 	_inst.gmlregistry_email_request=(-4);
+	_inst.gmluser_registry=false;
 	_inst.gmldialog_username="";
 	_inst.gmldialog_password="";
 	_inst.gmldialog_email="";
 	_inst.gmldelta_count=0;
 	_inst.gmldelta_tick=30;
 	_inst.gmldelta_count_ping=0;
-	_inst.gmldelta_ping=15000;
+	_inst.gmldelta_ping=2000;
 	_inst.gmlping=0;
 	_inst.gmlping_response_received=true;
 	_inst.gmlinventory_data="";
@@ -5758,9 +7973,10 @@ function gml_Object_objectManager_Create_0(_inst,_other)
 	_inst.gmlchat_selected_emote=0;
 	_inst.gmlchat_emotes=false;
 	_inst.gmlchat_delay=4;
+	_inst.gmldeactivation_list=ds_list_create();
 }
 
-function gml_Script____struct___37_40____struct___36_40_gml_Object_objectManager_Create_0(_inst,_other)
+function gml_Script____struct___31_40_gml_Object_objectManager_Create_0(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -5770,13 +7986,36 @@ function gml_Script____struct___37_40____struct___36_40_gml_Object_objectManager
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___37@___struct___36@gml_Object_objectManager_Create_0"	}
-	if(gml_Script____struct___37_40____struct___36_40_gml_Object_objectManager_Create_0.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___31@gml_Object_objectManager_Create_0"	}
+	if(gml_Script____struct___31_40_gml_Object_objectManager_Create_0.prototype.__type===undefined)
 	{
-		gml_Script____struct___37_40____struct___36_40_gml_Object_objectManager_Create_0.prototype.__type="gml_Script____struct___37@___struct___36@gml_Object_objectManager_Create_0"	}
+		gml_Script____struct___31_40_gml_Object_objectManager_Create_0.prototype.__type="gml_Script____struct___31@gml_Object_objectManager_Create_0"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___37_40____struct___36_40_gml_Object_objectManager_Create_0.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___31_40_gml_Object_objectManager_Create_0.prototype);
+
+				{
+		}
+	}
+}
+
+function gml_Script____struct___33_40____struct___32_40_gml_Object_objectManager_Create_0(_inst,_other)
+{
+	if((--_inst.__yyCreatedByNew)<0)
+	{
+
+				{
+			yyError("calling a constructor directly - constructors should only be called using new")		}
+	}
+	if(_inst.__yyIsGMLObject)
+	{
+		_inst.__type="gml_Script____struct___33@___struct___32@gml_Object_objectManager_Create_0"	}
+	if(gml_Script____struct___33_40____struct___32_40_gml_Object_objectManager_Create_0.prototype.__type===undefined)
+	{
+		gml_Script____struct___33_40____struct___32_40_gml_Object_objectManager_Create_0.prototype.__type="gml_Script____struct___33@___struct___32@gml_Object_objectManager_Create_0"	}
+
+		{
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___33_40____struct___32_40_gml_Object_objectManager_Create_0.prototype);
 
 				{
 			var $$args=Array.prototype.slice.call(arguments);
@@ -5789,6 +8028,8 @@ function gml_Script____struct___37_40____struct___36_40_gml_Object_objectManager
 				_inst.gmlH=$$args[__yy_gml_array_check_index(2+(3),$$args)];
 				_inst.gmlGUIW=1280;
 				_inst.gmlGUIH=720;
+				_inst.gmlGUIXProportion=0;
+				_inst.gmlGUIYProportion=0;
 				_inst.gmlPreviousX=0;
 				_inst.gmlPreviousY=0;
 				_inst.gmlX=0;
@@ -5800,7 +8041,7 @@ function gml_Script____struct___37_40____struct___36_40_gml_Object_objectManager
 	}
 }
 
-function gml_Script____struct___39_40____struct___38_40____struct___36_40_gml_Object_objectManager_Create_0(_inst,_other)
+function gml_Script____struct___35_40____struct___34_40____struct___32_40_gml_Object_objectManager_Create_0(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -5810,20 +8051,20 @@ function gml_Script____struct___39_40____struct___38_40____struct___36_40_gml_Ob
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___39@___struct___38@___struct___36@gml_Object_objectManager_Create_0"	}
-	if(gml_Script____struct___39_40____struct___38_40____struct___36_40_gml_Object_objectManager_Create_0.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___35@___struct___34@___struct___32@gml_Object_objectManager_Create_0"	}
+	if(gml_Script____struct___35_40____struct___34_40____struct___32_40_gml_Object_objectManager_Create_0.prototype.__type===undefined)
 	{
-		gml_Script____struct___39_40____struct___38_40____struct___36_40_gml_Object_objectManager_Create_0.prototype.__type="gml_Script____struct___39@___struct___38@___struct___36@gml_Object_objectManager_Create_0"	}
+		gml_Script____struct___35_40____struct___34_40____struct___32_40_gml_Object_objectManager_Create_0.prototype.__type="gml_Script____struct___35@___struct___34@___struct___32@gml_Object_objectManager_Create_0"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___39_40____struct___38_40____struct___36_40_gml_Object_objectManager_Create_0.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___35_40____struct___34_40____struct___32_40_gml_Object_objectManager_Create_0.prototype);
 
 				{
 		}
 	}
 }
 
-function gml_Script____struct___38_40____struct___36_40_gml_Object_objectManager_Create_0(_inst,_other)
+function gml_Script____struct___34_40____struct___32_40_gml_Object_objectManager_Create_0(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -5833,19 +8074,49 @@ function gml_Script____struct___38_40____struct___36_40_gml_Object_objectManager
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___38@___struct___36@gml_Object_objectManager_Create_0"	}
-	if(gml_Script____struct___38_40____struct___36_40_gml_Object_objectManager_Create_0.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___34@___struct___32@gml_Object_objectManager_Create_0"	}
+	if(gml_Script____struct___34_40____struct___32_40_gml_Object_objectManager_Create_0.prototype.__type===undefined)
 	{
-		gml_Script____struct___38_40____struct___36_40_gml_Object_objectManager_Create_0.prototype.__type="gml_Script____struct___38@___struct___36@gml_Object_objectManager_Create_0"	}
+		gml_Script____struct___34_40____struct___32_40_gml_Object_objectManager_Create_0.prototype.__type="gml_Script____struct___34@___struct___32@gml_Object_objectManager_Create_0"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___38_40____struct___36_40_gml_Object_objectManager_Create_0.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___34_40____struct___32_40_gml_Object_objectManager_Create_0.prototype);
 
 				{
 			_inst.gmlCount=0;
-			_inst.gmlMessages=__yy_gml_object_create(_inst,(global.gml___struct___39=__yy_method(_inst,gml_Script____struct___39_40____struct___38_40____struct___36_40_gml_Object_objectManager_Create_0)));
+			_inst.gmlMessages=__yy_gml_object_create(_inst,(global.gml___struct___35=__yy_method(_inst,gml_Script____struct___35_40____struct___34_40____struct___32_40_gml_Object_objectManager_Create_0)));
 			_inst.gmlScroll=0;
 			_inst.gmlSurface=(-4);
+		}
+	}
+}
+
+function gml_Script____struct___32_40_gml_Object_objectManager_Create_0(_inst,_other)
+{
+	if((--_inst.__yyCreatedByNew)<0)
+	{
+
+				{
+			yyError("calling a constructor directly - constructors should only be called using new")		}
+	}
+	if(_inst.__yyIsGMLObject)
+	{
+		_inst.__type="gml_Script____struct___32@gml_Object_objectManager_Create_0"	}
+	if(gml_Script____struct___32_40_gml_Object_objectManager_Create_0.prototype.__type===undefined)
+	{
+		gml_Script____struct___32_40_gml_Object_objectManager_Create_0.prototype.__type="gml_Script____struct___32@gml_Object_objectManager_Create_0"	}
+
+		{
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___32_40_gml_Object_objectManager_Create_0.prototype);
+
+				{
+			var $$args=Array.prototype.slice.call(arguments);
+
+						{
+				_inst.gmlShowInterface=0;
+				_inst.gmlCamera=__yy_gml_object_create(_inst,(global.gml___struct___33=__yy_method(_inst,gml_Script____struct___33_40____struct___32_40_gml_Object_objectManager_Create_0)),$$args[__yy_gml_array_check_index(2+(0),$$args)],$$args[__yy_gml_array_check_index(2+(1),$$args)],$$args[__yy_gml_array_check_index(2+(2),$$args)],$$args[__yy_gml_array_check_index(2+(3),$$args)]);
+				_inst.gmlChat=__yy_gml_object_create(_inst,(global.gml___struct___34=__yy_method(_inst,gml_Script____struct___34_40____struct___32_40_gml_Object_objectManager_Create_0)));
+			}
 		}
 	}
 }
@@ -5869,17 +8140,11 @@ function gml_Script____struct___36_40_gml_Object_objectManager_Create_0(_inst,_o
 		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___36_40_gml_Object_objectManager_Create_0.prototype);
 
 				{
-			var $$args=Array.prototype.slice.call(arguments);
-
-						{
-				_inst.gmlCamera=__yy_gml_object_create(_inst,(global.gml___struct___37=__yy_method(_inst,gml_Script____struct___37_40____struct___36_40_gml_Object_objectManager_Create_0)),$$args[__yy_gml_array_check_index(2+(0),$$args)],$$args[__yy_gml_array_check_index(2+(1),$$args)],$$args[__yy_gml_array_check_index(2+(2),$$args)],$$args[__yy_gml_array_check_index(2+(3),$$args)]);
-				_inst.gmlChat=__yy_gml_object_create(_inst,(global.gml___struct___38=__yy_method(_inst,gml_Script____struct___38_40____struct___36_40_gml_Object_objectManager_Create_0)));
-			}
 		}
 	}
 }
 
-function gml_Script____struct___40_40_gml_Object_objectManager_Create_0(_inst,_other)
+function gml_Script____struct___37_40_gml_Object_objectManager_Create_0(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -5889,20 +8154,20 @@ function gml_Script____struct___40_40_gml_Object_objectManager_Create_0(_inst,_o
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___40@gml_Object_objectManager_Create_0"	}
-	if(gml_Script____struct___40_40_gml_Object_objectManager_Create_0.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___37@gml_Object_objectManager_Create_0"	}
+	if(gml_Script____struct___37_40_gml_Object_objectManager_Create_0.prototype.__type===undefined)
 	{
-		gml_Script____struct___40_40_gml_Object_objectManager_Create_0.prototype.__type="gml_Script____struct___40@gml_Object_objectManager_Create_0"	}
+		gml_Script____struct___37_40_gml_Object_objectManager_Create_0.prototype.__type="gml_Script____struct___37@gml_Object_objectManager_Create_0"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___40_40_gml_Object_objectManager_Create_0.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___37_40_gml_Object_objectManager_Create_0.prototype);
 
 				{
 		}
 	}
 }
 
-function gml_Script____struct___41_40_gml_Object_objectManager_Create_0(_inst,_other)
+function gml_Script____struct___38_40_gml_Object_objectManager_Create_0(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -5912,36 +8177,13 @@ function gml_Script____struct___41_40_gml_Object_objectManager_Create_0(_inst,_o
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___41@gml_Object_objectManager_Create_0"	}
-	if(gml_Script____struct___41_40_gml_Object_objectManager_Create_0.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___38@gml_Object_objectManager_Create_0"	}
+	if(gml_Script____struct___38_40_gml_Object_objectManager_Create_0.prototype.__type===undefined)
 	{
-		gml_Script____struct___41_40_gml_Object_objectManager_Create_0.prototype.__type="gml_Script____struct___41@gml_Object_objectManager_Create_0"	}
+		gml_Script____struct___38_40_gml_Object_objectManager_Create_0.prototype.__type="gml_Script____struct___38@gml_Object_objectManager_Create_0"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___41_40_gml_Object_objectManager_Create_0.prototype);
-
-				{
-		}
-	}
-}
-
-function gml_Script____struct___42_40_gml_Object_objectManager_Create_0(_inst,_other)
-{
-	if((--_inst.__yyCreatedByNew)<0)
-	{
-
-				{
-			yyError("calling a constructor directly - constructors should only be called using new")		}
-	}
-	if(_inst.__yyIsGMLObject)
-	{
-		_inst.__type="gml_Script____struct___42@gml_Object_objectManager_Create_0"	}
-	if(gml_Script____struct___42_40_gml_Object_objectManager_Create_0.prototype.__type===undefined)
-	{
-		gml_Script____struct___42_40_gml_Object_objectManager_Create_0.prototype.__type="gml_Script____struct___42@gml_Object_objectManager_Create_0"	}
-
-		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___42_40_gml_Object_objectManager_Create_0.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___38_40_gml_Object_objectManager_Create_0.prototype);
 
 				{
 			_inst.gmlInBattle=false;
@@ -5951,7 +8193,7 @@ function gml_Script____struct___42_40_gml_Object_objectManager_Create_0(_inst,_o
 	}
 }
 
-function gml_Script____struct___43_40_gml_Object_objectManager_Create_0(_inst,_other)
+function gml_Script____struct___39_40_gml_Object_objectManager_Create_0(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -5961,13 +8203,13 @@ function gml_Script____struct___43_40_gml_Object_objectManager_Create_0(_inst,_o
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___43@gml_Object_objectManager_Create_0"	}
-	if(gml_Script____struct___43_40_gml_Object_objectManager_Create_0.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___39@gml_Object_objectManager_Create_0"	}
+	if(gml_Script____struct___39_40_gml_Object_objectManager_Create_0.prototype.__type===undefined)
 	{
-		gml_Script____struct___43_40_gml_Object_objectManager_Create_0.prototype.__type="gml_Script____struct___43@gml_Object_objectManager_Create_0"	}
+		gml_Script____struct___39_40_gml_Object_objectManager_Create_0.prototype.__type="gml_Script____struct___39@gml_Object_objectManager_Create_0"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___43_40_gml_Object_objectManager_Create_0.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___39_40_gml_Object_objectManager_Create_0.prototype);
 
 				{
 		}
@@ -5977,7 +8219,15 @@ function gml_Script____struct___43_40_gml_Object_objectManager_Create_0(_inst,_o
 function gml_Object_objectManager_Alarm_0(_inst,_other)
 {
 	global.gmlgameStart=true;
-	gml_Script_world_update_surface(_inst,_other);
+	if(yyGetBool(_inst.gmldebug_start_offline))
+	{
+
+				{
+			gml_Script_generateWorld(_inst,_other);
+			gml_Script_world_player_spawn(_inst,_other,1);
+		}
+	}
+	;
 }
 
 function gml_Object_objectManager_Alarm_1(_inst,_other)
@@ -5998,66 +8248,25 @@ function gml_Object_objectManager_Alarm_2(_inst,_other)
 	instance_activate_object(_inst,YYASSET_REF(0x00000005));
 }
 
+function gml_Object_objectManager_Alarm_3(_inst,_other)
+{
+	var gmlcaption=yyfplus(yyfplus(yyfplus(yyfplus("FPS: ",__yy_gml_errCheck(string(round(g_pBuiltIn.fps)))),"   "),"PLAYERS: "),__yy_gml_errCheck(string(instance_number(YYASSET_REF(0x00000005)))));
+	if(yyGetBool(instance_exists(global.gmlmy_player)))
+	{
+		gmlcaption=yyfplus(gmlcaption,string("   CURSOR: {0}, {1}",yyInst(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,global.gmlmy_player).gmlP).gmlPosition).gmlMouseGridX,yyInst(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,global.gmlmy_player).gmlP).gmlPosition).gmlMouseGridY))	}
+	;
+	window_set_caption(gmlcaption);
+
+		{
+		__yy_gml_array_set_owner(65530);
+		_inst.alarm=__yy_gml_array_check(_inst.alarm,1584050178);
+		_inst.alarm[__yy_gml_array_check_index_set(3)]=10;
+	}
+	;
+}
+
 function gml_Object_objectManager_Step_0(_inst,_other)
 {
-	if(yyfequal(global.gmlmy_player,(-4)))
-	{
-		return 	}
-	;
-	var gmlxx,gmlyy;
-	gmlxx=640;
-	gmlyy=532;
-	if((yyGetBool(gml_Script_rectangleMouseCollision(_inst,_other,yyfminus(__yy_gml_errCheck(gmlxx),200),yyfplus(yyfplus(__yy_gml_errCheck(gmlyy),188),__yy_gml_errCheck(_inst.gmlinventoryY)),yyfplus(__yy_gml_errCheck(gmlxx),200),yyfplus(yyfplus(__yy_gml_errCheck(gmlyy),300),__yy_gml_errCheck(_inst.gmlinventoryY)))))||(yyGetBool(gml_Script_rectangleMouseCollision(_inst,_other,yyfminus(__yy_gml_errCheck(gmlxx),32),yyfplus(yyfplus(__yy_gml_errCheck(gmlyy),150),__yy_gml_errCheck(_inst.gmlinventoryY)),yyfplus(__yy_gml_errCheck(gmlxx),32),yyfplus(yyfplus(__yy_gml_errCheck(gmlyy),184),__yy_gml_errCheck(_inst.gmlinventoryY)))))||(yyGetBool(gml_Script_rectangleMouseCollision(_inst,_other,yyfminus(__yy_gml_errCheck(gmlxx),450),yyfplus(yyfplus(__yy_gml_errCheck(gmlyy),300),__yy_gml_errCheck(_inst.gmlinventoryY)),yyfplus(__yy_gml_errCheck(gmlxx),450),yyfplus(yyfplus(yyfplus(__yy_gml_errCheck(gmlyy),300),325),__yy_gml_errCheck(_inst.gmlinventoryY)))))||(yyGetBool(gml_Script_rectangleMouseCollision(_inst,_other,0,0,yyftime(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlGUIW),0.8),_inst.gmlchatY)))||(yyGetBool(gml_Script_rectangleMouseCollision(_inst,_other,yyfminus(__yy_gml_errCheck(gmlxx),32),yyfplus(4,__yy_gml_errCheck(_inst.gmlchatY)),yyfplus(__yy_gml_errCheck(gmlxx),32),yyfplus(yyfplus(4,__yy_gml_errCheck(_inst.gmlchatY)),34)))))
-	{
-
-				{
-			global.gmltouchAvailable=false;
-		}
-	}
-	;
-	var gmlwheelInput=yyfminus(__yy_gml_errCheck(mouse_wheel_down()),__yy_gml_errCheck(mouse_wheel_up()));
-	if(yyfnotequal(gmlwheelInput,0))
-	{
-
-				{
-			if(yyGetBool(gml_Script_rectangleMouseCollision(_inst,_other,0,0,yyftime(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlGUIW),0.8),90)))
-			{
-
-								{
-					yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlChat).gmlScroll=yyfplus(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlChat).gmlScroll,yyftime(__yy_gml_errCheck(gmlwheelInput),8));
-					_inst.gmlsurfaceUpdateChat=true;
-				}
-			}
-			else 
-			{
-
-								{
-					if((yyGetBool(yyfgreaterequal(yyfplus(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlZoom),__yy_gml_errCheck(gmlwheelInput)),(-7))))&&(yyGetBool(yyflessequal(yyfplus(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlZoom),__yy_gml_errCheck(gmlwheelInput)),10))))
-					{
-
-												{
-							yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlZoom=yyfplus(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlZoom,gmlwheelInput);
-							yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlW=yyfplus(__yy_gml_errCheck(camera_get_view_width(g_pBuiltIn.view_camera[__yy_gml_array_check_index(0,g_pBuiltIn.view_camera)])),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlStaticW),__yy_gml_errCheck(yyftime(0.1,__yy_gml_errCheck(gmlwheelInput))))));
-							yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlH=yyfplus(__yy_gml_errCheck(camera_get_view_height(g_pBuiltIn.view_camera[__yy_gml_array_check_index(0,g_pBuiltIn.view_camera)])),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlStaticH),__yy_gml_errCheck(yyftime(0.1,__yy_gml_errCheck(gmlwheelInput))))));
-							camera_set_view_size(g_pBuiltIn.view_camera[__yy_gml_array_check_index(0,g_pBuiltIn.view_camera)],yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlW,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlH);
-							yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlX=yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,global.gmlmy_player).x),__yy_gml_errCheck(yyfdivide(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlW),2)));
-							yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlY=yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,global.gmlmy_player).y),__yy_gml_errCheck(yyfdivide(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlH),2)));
-							yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlTargetX=yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlX;
-							yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlTargetY=yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlY;
-							camera_set_view_pos(g_pBuiltIn.view_camera[__yy_gml_array_check_index(0,g_pBuiltIn.view_camera)],yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlTargetX,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlTargetY);
-						}
-					}
-					;
-				}
-			}
-			;
-		}
-	}
-	;
-	if(yyGetBool(_inst.gmlsurfaceUpdateChat))
-	{
-		gml_Script_surfaceUpdate(_inst,_other,1)	}
-	;
 	if((yyGetBool(yyInst(_inst,_other,global.gmlserver).gmlconnected))||(yyGetBool(global.gmlskip_connected_validation)))
 	{
 
@@ -6079,6 +8288,7 @@ function gml_Object_objectManager_Step_0(_inst,_other)
 
 																{
 									yyInst(_inst,_other,global.gmlserver).gmlconnected=false;
+									yyInst(_inst,_other,global.gmlserver).gmllogged=false;
 									yyInst(_inst,_other,global.gmlserver).gmlconnection_break=true;
 									global.gmlblock=true;
 								}
@@ -6098,23 +8308,23 @@ function gml_Object_objectManager_Step_0(_inst,_other)
 			{
 
 								{
-					if(yyfnotequal(room_get_name(g_pBuiltIn.get_current_room()),global.gmlcurrent_room))
+					if(yyfnotequal(gml_Script_world_get_room(_inst,_other),global.gmlcurrent_room))
 					{
 
 												{
-							var gmldata=__yy_gml_object_create(_inst,(global.gml___struct___44=__yy_method(_inst,gml_Script____struct___44_40_gml_Object_objectManager_Step_0)));
-							global.gmlcurrent_room=room_get_name(g_pBuiltIn.get_current_room());
+							var gmldata=__yy_gml_object_create(_inst,(global.gml___struct___40=__yy_method(_inst,gml_Script____struct___40_40_gml_Object_objectManager_Step_0)));
+							global.gmlcurrent_room=gml_Script_world_get_room(_inst,_other);
 							var gmlroom_blacklist;
 
 														{
-								__yy_gml_array_set_owner(165811);
+								__yy_gml_array_set_owner(165908);
 								gmlroom_blacklist=(__yy_gml_array_create([]));
 							}
 							;
 							var gmlroom_whitelist;
 
 														{
-								__yy_gml_array_set_owner(165812);
+								__yy_gml_array_set_owner(165909);
 								gmlroom_whitelist=(__yy_gml_array_create([]));
 							}
 							;
@@ -6130,7 +8340,7 @@ function gml_Object_objectManager_Step_0(_inst,_other)
 									{
 
 																				{
-											if(yyfequal(room_get_name(g_pBuiltIn.get_current_room()),gmlroom_blacklist[__yy_gml_array_check_index(gmli,gmlroom_blacklist)]))
+											if(yyfequal(gml_Script_world_get_room(_inst,_other),gmlroom_blacklist[__yy_gml_array_check_index(gmli,gmlroom_blacklist)]))
 											{
 
 																								{
@@ -6156,7 +8366,7 @@ function gml_Object_objectManager_Step_0(_inst,_other)
 										{
 
 																						{
-												if(yyfequal(room_get_name(g_pBuiltIn.get_current_room()),gmlroom_whitelist[__yy_gml_array_check_index(gmli,gmlroom_whitelist)]))
+												if(yyfequal(gml_Script_world_get_room(_inst,_other),gmlroom_whitelist[__yy_gml_array_check_index(gmli,gmlroom_whitelist)]))
 												{
 
 																										{
@@ -6178,7 +8388,7 @@ function gml_Object_objectManager_Step_0(_inst,_other)
 																{
 									yyInst(_inst,_other,gmldata).gmlroom=global.gmlcurrent_room;
 									var gmlpacket=gml_Script_create_network_packet(_inst,_other,"change_room");
-									yyInst(_inst,_other,gmlpacket).gmldata=gmldata;
+									yyInst(_inst,_other,gmlpacket).gmlData=gmldata;
 									gml_Script_send_network_packet(_inst,_other,gmlpacket);
 								}
 							}
@@ -6209,8 +8419,8 @@ function gml_Object_objectManager_Step_0(_inst,_other)
 													{
 
 																												{
-															var gmljson_keys=__yy_gml_object_create(_inst,(global.gml___struct___45=__yy_method(_inst,gml_Script____struct___45_40_gml_Object_objectManager_Step_0)));
-															var gmlobj=__yy_gml_object_create(_inst,(global.gml___struct___46=__yy_method(_inst,gml_Script____struct___46_40_gml_Object_objectManager_Step_0)));
+															var gmljson_keys=__yy_gml_object_create(_inst,(global.gml___struct___41=__yy_method(_inst,gml_Script____struct___41_40_gml_Object_objectManager_Step_0)));
+															var gmlobj=__yy_gml_object_create(_inst,(global.gml___struct___42=__yy_method(_inst,gml_Script____struct___42_40_gml_Object_objectManager_Step_0)));
 															yyInst(_inst,_other,gmljson_keys).x=yyInst(_inst,_other,global.gmlmy_player).x;
 															yyInst(_inst,_other,gmljson_keys).y=yyInst(_inst,_other,global.gmlmy_player).y;
 															var gmldata_items=struct_get_names(_inst.gmllocal_player_data);
@@ -6248,7 +8458,7 @@ function gml_Object_objectManager_Step_0(_inst,_other)
 															;
 															yyInst(_inst,_other,gmljson_keys).gmlplayerdata=json_stringify(_inst,gmlobj);
 															var gmlpacket=gml_Script_create_network_packet(_inst,_other,"player_location");
-															yyInst(_inst,_other,gmlpacket).gmldata=gmljson_keys;
+															yyInst(_inst,_other,gmlpacket).gmlData=gmljson_keys;
 															gml_Script_send_network_packet(_inst,_other,gmlpacket);
 															_inst.gmldelta_count=g_pBuiltIn.get_current_time();
 														}
@@ -6279,9 +8489,67 @@ function gml_Object_objectManager_Step_0(_inst,_other)
 		}
 	}
 	;
+	if(yyfequal(global.gmlmy_player,(-4)))
+	{
+		return 	}
+	;
+	var gmlxx,gmlyy;
+	gmlxx=640;
+	gmlyy=532;
+	if((yyGetBool(gml_Script_rectangleMouseCollision(_inst,_other,yyfminus(__yy_gml_errCheck(gmlxx),200),yyfplus(yyfplus(__yy_gml_errCheck(gmlyy),188),__yy_gml_errCheck(_inst.gmlinventoryY)),yyfplus(__yy_gml_errCheck(gmlxx),200),yyfplus(yyfplus(__yy_gml_errCheck(gmlyy),300),__yy_gml_errCheck(_inst.gmlinventoryY)))))||(yyGetBool(gml_Script_rectangleMouseCollision(_inst,_other,yyfminus(__yy_gml_errCheck(gmlxx),32),yyfplus(yyfplus(__yy_gml_errCheck(gmlyy),150),__yy_gml_errCheck(_inst.gmlinventoryY)),yyfplus(__yy_gml_errCheck(gmlxx),32),yyfplus(yyfplus(__yy_gml_errCheck(gmlyy),184),__yy_gml_errCheck(_inst.gmlinventoryY)))))||(yyGetBool(gml_Script_rectangleMouseCollision(_inst,_other,yyfminus(__yy_gml_errCheck(gmlxx),450),yyfplus(yyfplus(__yy_gml_errCheck(gmlyy),300),__yy_gml_errCheck(_inst.gmlinventoryY)),yyfplus(__yy_gml_errCheck(gmlxx),450),yyfplus(yyfplus(yyfplus(__yy_gml_errCheck(gmlyy),300),325),__yy_gml_errCheck(_inst.gmlinventoryY)))))||(yyGetBool(gml_Script_rectangleMouseCollision(_inst,_other,0,0,yyftime(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlGUIW),0.8),_inst.gmlchatY)))||(yyGetBool(gml_Script_rectangleMouseCollision(_inst,_other,yyfminus(__yy_gml_errCheck(gmlxx),32),yyfplus(4,__yy_gml_errCheck(_inst.gmlchatY)),yyfplus(__yy_gml_errCheck(gmlxx),32),yyfplus(yyfplus(4,__yy_gml_errCheck(_inst.gmlchatY)),34)))))
+	{
+
+				{
+			global.gmltouchAvailable=false;
+		}
+	}
+	;
+	var gmlwheelInput=yyfminus(__yy_gml_errCheck(mouse_wheel_down()),__yy_gml_errCheck(mouse_wheel_up()));
+	if(yyfnotequal(gmlwheelInput,0))
+	{
+
+				{
+			if(yyGetBool(gml_Script_rectangleMouseCollision(_inst,_other,0,0,yyftime(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlGUIW),0.8),90)))
+			{
+
+								{
+					yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlChat).gmlScroll=yyfplus(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlChat).gmlScroll,yyftime(__yy_gml_errCheck(gmlwheelInput),8));
+					_inst.gmlsurfaceUpdateChat=true;
+				}
+			}
+			else 
+			{
+
+								{
+					if((yyGetBool(yyfgreaterequal(yyfplus(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlZoom),__yy_gml_errCheck(gmlwheelInput)),(-3))))&&(yyGetBool(yyflessequal(yyfplus(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlZoom),__yy_gml_errCheck(gmlwheelInput)),6))))
+					{
+
+												{
+							yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlZoom=yyfplus(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlZoom,gmlwheelInput);
+							yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlW=yyfplus(__yy_gml_errCheck(camera_get_view_width(g_pBuiltIn.view_camera[__yy_gml_array_check_index(0,g_pBuiltIn.view_camera)])),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlStaticW),__yy_gml_errCheck(yyftime(0.1,__yy_gml_errCheck(gmlwheelInput))))));
+							yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlH=yyfplus(__yy_gml_errCheck(camera_get_view_height(g_pBuiltIn.view_camera[__yy_gml_array_check_index(0,g_pBuiltIn.view_camera)])),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlStaticH),__yy_gml_errCheck(yyftime(0.1,__yy_gml_errCheck(gmlwheelInput))))));
+							camera_set_view_size(g_pBuiltIn.view_camera[__yy_gml_array_check_index(0,g_pBuiltIn.view_camera)],yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlW,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlH);
+							yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlX=yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,global.gmlmy_player).x),__yy_gml_errCheck(yyfdivide(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlW),2)));
+							yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlY=yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,global.gmlmy_player).y),__yy_gml_errCheck(yyfdivide(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlH),2)));
+							yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlTargetX=yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlX;
+							yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlTargetY=yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlY;
+							camera_set_view_pos(g_pBuiltIn.view_camera[__yy_gml_array_check_index(0,g_pBuiltIn.view_camera)],yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlTargetX,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlTargetY);
+						}
+					}
+					;
+				}
+			}
+			;
+		}
+	}
+	;
+	if(yyGetBool(_inst.gmlsurfaceUpdateChat))
+	{
+		gml_Script_surfaceUpdate(_inst,_other,1)	}
+	;
 }
 
-function gml_Script____struct___44_40_gml_Object_objectManager_Step_0(_inst,_other)
+function gml_Script____struct___40_40_gml_Object_objectManager_Step_0(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -6291,20 +8559,20 @@ function gml_Script____struct___44_40_gml_Object_objectManager_Step_0(_inst,_oth
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___44@gml_Object_objectManager_Step_0"	}
-	if(gml_Script____struct___44_40_gml_Object_objectManager_Step_0.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___40@gml_Object_objectManager_Step_0"	}
+	if(gml_Script____struct___40_40_gml_Object_objectManager_Step_0.prototype.__type===undefined)
 	{
-		gml_Script____struct___44_40_gml_Object_objectManager_Step_0.prototype.__type="gml_Script____struct___44@gml_Object_objectManager_Step_0"	}
+		gml_Script____struct___40_40_gml_Object_objectManager_Step_0.prototype.__type="gml_Script____struct___40@gml_Object_objectManager_Step_0"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___44_40_gml_Object_objectManager_Step_0.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___40_40_gml_Object_objectManager_Step_0.prototype);
 
 				{
 		}
 	}
 }
 
-function gml_Script____struct___45_40_gml_Object_objectManager_Step_0(_inst,_other)
+function gml_Script____struct___41_40_gml_Object_objectManager_Step_0(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -6314,20 +8582,20 @@ function gml_Script____struct___45_40_gml_Object_objectManager_Step_0(_inst,_oth
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___45@gml_Object_objectManager_Step_0"	}
-	if(gml_Script____struct___45_40_gml_Object_objectManager_Step_0.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___41@gml_Object_objectManager_Step_0"	}
+	if(gml_Script____struct___41_40_gml_Object_objectManager_Step_0.prototype.__type===undefined)
 	{
-		gml_Script____struct___45_40_gml_Object_objectManager_Step_0.prototype.__type="gml_Script____struct___45@gml_Object_objectManager_Step_0"	}
+		gml_Script____struct___41_40_gml_Object_objectManager_Step_0.prototype.__type="gml_Script____struct___41@gml_Object_objectManager_Step_0"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___45_40_gml_Object_objectManager_Step_0.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___41_40_gml_Object_objectManager_Step_0.prototype);
 
 				{
 		}
 	}
 }
 
-function gml_Script____struct___46_40_gml_Object_objectManager_Step_0(_inst,_other)
+function gml_Script____struct___42_40_gml_Object_objectManager_Step_0(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -6337,13 +8605,13 @@ function gml_Script____struct___46_40_gml_Object_objectManager_Step_0(_inst,_oth
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___46@gml_Object_objectManager_Step_0"	}
-	if(gml_Script____struct___46_40_gml_Object_objectManager_Step_0.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___42@gml_Object_objectManager_Step_0"	}
+	if(gml_Script____struct___42_40_gml_Object_objectManager_Step_0.prototype.__type===undefined)
 	{
-		gml_Script____struct___46_40_gml_Object_objectManager_Step_0.prototype.__type="gml_Script____struct___46@gml_Object_objectManager_Step_0"	}
+		gml_Script____struct___42_40_gml_Object_objectManager_Step_0.prototype.__type="gml_Script____struct___42@gml_Object_objectManager_Step_0"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___46_40_gml_Object_objectManager_Step_0.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___42_40_gml_Object_objectManager_Step_0.prototype);
 
 				{
 		}
@@ -6362,6 +8630,8 @@ function gml_Object_objectManager_Step_2(_inst,_other)
 	yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlPreviousY=yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlY;
 	yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlX=lerp(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlX,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlTargetX,0.25);
 	yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlY=lerp(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlY,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlTargetY,0.25);
+	yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlGUIXProportion=yyfdivide(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlGUIW),__yy_gml_errCheck(camera_get_view_width(g_pBuiltIn.view_camera[__yy_gml_array_check_index(0,g_pBuiltIn.view_camera)])));
+	yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlGUIYProportion=yyfdivide(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlGUIH),__yy_gml_errCheck(camera_get_view_height(g_pBuiltIn.view_camera[__yy_gml_array_check_index(0,g_pBuiltIn.view_camera)])));
 	camera_set_view_pos(g_pBuiltIn.view_camera[__yy_gml_array_check_index(0,g_pBuiltIn.view_camera)],yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlX,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlY);
 	if(yyGetBool(_inst.gmldebug_start_new_instance_handler))
 	{
@@ -6393,7 +8663,7 @@ function gml_Object_objectManager_Step_2(_inst,_other)
 			var gmlpreviousY=_inst.gmlchatY;
 			global.gmltouchAvailable=false;
 			_inst.gmlchatY=yyfplus(_inst.gmlchatY,yyfminus(__yy_gml_errCheck(device_mouse_y_to_gui(0)),__yy_gml_errCheck(_inst.gmldragY)));
-			_inst.gmlchatY=min(max(0,_inst.gmlchatY),450);
+			_inst.gmlchatY=min(max(0,_inst.gmlchatY),420);
 			if(yyfless(_inst.gmlinventoryY,__yy_gml_errCheck(-__yy_gml_errCheck(yyfminus(640,__yy_gml_errCheck(_inst.gmlchatY))))))
 			{
 				_inst.gmlinventoryY=__yy_gml_errCheck(-__yy_gml_errCheck(yyfminus(640,__yy_gml_errCheck(_inst.gmlchatY))))			}
@@ -6499,6 +8769,13 @@ function gml_Object_objectManager_Step_2(_inst,_other)
 
 function gml_Object_objectManager_Step_1(_inst,_other)
 {
+	if(yyfequal(yyInst(_inst,_other,_inst.gmlCore).gmlShowInterface,2))
+	{
+
+				{
+		}
+	}
+	;
 }
 
 function gml_Object_objectManager_Other_68(_inst,_other)
@@ -6567,6 +8844,121 @@ function gml_Object_objectManager_Other_68(_inst,_other)
 
 function gml_Object_objectManager_Other_63(_inst,_other)
 {
+	if(yyfequal(ds_map_find_value(g_pBuiltIn.get_async_load(),"id"),_inst.gmlchat_message_request))
+	{
+
+				{
+			if(yyfnotequal(ds_map_find_value(g_pBuiltIn.get_async_load(),"result"),""))
+			{
+
+								{
+					var gmlsend_chat=true;
+					if(yyfequal(string_pos("/",ds_map_find_value(g_pBuiltIn.get_async_load(),"result")),1))
+					{
+
+												{
+							gmlsend_chat=false;
+							var gmlargs=string_split(string_copy(ds_map_find_value(g_pBuiltIn.get_async_load(),"result"),2,yyfminus(__yy_gml_errCheck(string_length(ds_map_find_value(g_pBuiltIn.get_async_load(),"result"))),1))," ",true);
+							var ___sw74___=gmlargs[__yy_gml_array_check_index(0,gmlargs)];
+							var ___swc75___=-1;
+							if(yyCompareVal(___sw74___,"spawn",g_GMLMathEpsilon,false)==0)
+							{
+								___swc75___=0;
+							}
+							switch(___swc75___)
+							{
+								case 0:
+								{
+
+																		{
+										if(yyfgreaterequal(array_length(gmlargs),2))
+										{
+
+																						{
+												if(yyGetBool(struct_exists(global.gmlItems,gmlargs[__yy_gml_array_check_index(1,gmlargs)])))
+												{
+
+																										{
+														var gmlquantity=10;
+														if(yyfgreaterequal(array_length(gmlargs),3))
+														{
+
+																														{
+																if(yyGetBool(gml_Script_is_string_numeric(_inst,_other,gmlargs[__yy_gml_array_check_index(2,gmlargs)])))
+																{
+
+																																		{
+																		gmlquantity=real(gmlargs[__yy_gml_array_check_index(2,gmlargs)]);
+																	}
+																}
+																else 
+																{
+
+																																		{
+																		gml_Script_chatSendMessage(_inst,_other,string("{0} is not real",gmlargs[__yy_gml_array_check_index(2,gmlargs)]));
+																	}
+																}
+																;
+															}
+														}
+														;
+														var gmlinst=instance_create_layer(1648,1568,"Instances",YYASSET_REF(0x00000001));
+														yyInst(_inst,_other,gmlinst).gmlobjectId=real(gmlargs[__yy_gml_array_check_index(1,gmlargs)]);
+														yyInst(_inst,_other,gmlinst).gmlquantityItem=gmlquantity;
+
+																												{
+															var __yy__v41=GetWithArray(gmlinst);
+															for(var __yy__v42 in __yy__v41)
+															{
+																if(!__yy__v41.hasOwnProperty(__yy__v42))continue;
+																var __yy__v43=__yy__v41[__yy__v42];
+																event_user(__yy__v43,_inst,0)															}
+														}
+														;
+														gml_Script_chatSendMessage(_inst,_other,string("Item {0} added({1})",string(gmlargs[__yy_gml_array_check_index(1,gmlargs)]),string(gmlquantity)));
+													}
+												}
+												else 
+												{
+
+																										{
+														gml_Script_chatSendMessage(_inst,_other,"Item ID not valid");
+													}
+												}
+												;
+											}
+										}
+										else 
+										{
+
+																						{
+												gml_Script_chatSendMessage(_inst,_other,"Item ID is missing");
+											}
+										}
+										;
+										break;
+									}
+									;
+								}
+							}
+							;
+						}
+					}
+					;
+					if(yyGetBool(gmlsend_chat))
+					{
+
+												{
+							gml_Script_chatSendMessage(_inst,_other,yyfplus(__yy_gml_errCheck(string("<{0}> ",global.gmlmy_username)),__yy_gml_errCheck(ds_map_find_value(g_pBuiltIn.get_async_load(),"result"))));
+						}
+					}
+					;
+				}
+			}
+			;
+		}
+	}
+	;
 	if(yyfequal(ds_map_find_value(g_pBuiltIn.get_async_load(),"id"),_inst.gmllogin_username_request))
 	{
 
@@ -6628,93 +9020,112 @@ function gml_Object_objectManager_Other_3(_inst,_other)
 	;
 }
 
-function gml_Object_objectManager_Draw_64(_inst,_other)
+function gml_Object_objectManager_Other_62(_inst,_other)
 {
-	if(yyfequal(global.gmlmy_player,(-4)))
-	{
-		return 	}
-	;
-	var gmlxx,gmlyy;
-	gmlxx=640;
-	gmlyy=532;
-	draw_set_color(global.gmlcolorValue[__yy_gml_array_check_index(0,global.gmlcolorValue)]);
-	draw_set_alpha(0.7);
-	draw_set_font(YYASSET_REF(0x06000001));
-	draw_set_halign(2);
-	draw_set_valign(1);
-	draw_roundrect_ext(yyfminus(__yy_gml_errCheck(gmlxx),200),yyfplus(yyfplus(__yy_gml_errCheck(gmlyy),188),__yy_gml_errCheck(_inst.gmlinventoryY)),yyfplus(__yy_gml_errCheck(gmlxx),200),yyfplus(yyfplus(__yy_gml_errCheck(gmlyy),300),__yy_gml_errCheck(_inst.gmlinventoryY)),25,25,false);
-	draw_roundrect_ext(yyfminus(__yy_gml_errCheck(gmlxx),32),yyfplus(yyfplus(__yy_gml_errCheck(gmlyy),150),__yy_gml_errCheck(_inst.gmlinventoryY)),yyfplus(__yy_gml_errCheck(gmlxx),32),yyfplus(yyfplus(__yy_gml_errCheck(gmlyy),184),__yy_gml_errCheck(_inst.gmlinventoryY)),25,25,false);
-	if(yyfless(_inst.gmlinventoryY,(-115)))
+	if(yyfequal(ds_map_find_value(g_pBuiltIn.get_async_load(),"id"),global.gmlhttp_index_request))
 	{
 
 				{
-			draw_roundrect_ext(yyfminus(__yy_gml_errCheck(gmlxx),450),yyfplus(yyfplus(__yy_gml_errCheck(gmlyy),300),__yy_gml_errCheck(_inst.gmlinventoryY)),yyfplus(__yy_gml_errCheck(gmlxx),450),yyfplus(yyfplus(yyfplus(__yy_gml_errCheck(gmlyy),300),325),__yy_gml_errCheck(_inst.gmlinventoryY)),25,25,false);
-			_inst.gmlj=0;
-			for(;yyfless(_inst.gmlj,3);_inst.gmlj=(_inst.gmlj instanceof Long?_inst.gmlj.add(1):++_inst.gmlj))
+			var gmlstatus=ds_map_find_value(g_pBuiltIn.get_async_load(),"status");
+			var gmlresult=(yyfequal(gmlstatus,0)?ds_map_find_value(g_pBuiltIn.get_async_load(),"result"):"null");
+			if(yyfequal(gmlstatus,0))
 			{
 
 								{
-					_inst.gmli=0;
-					for(;yyfless(_inst.gmli,9);_inst.gmli=(_inst.gmli instanceof Long?_inst.gmli.add(1):++_inst.gmli))
+					global.gmlItems=__yy_gml_object_create(_inst,(global.gml___struct___43=__yy_method(_inst,gml_Script____struct___43_40_gml_Object_objectManager_Other_62)));
+					gml_Script_temporalItemPopulate(_inst,_other);
+					_inst.gmlitem_count=3;
+					try
 					{
 
 												{
-							var gmlitemPosition=yyfplus(__yy_gml_errCheck(yyftime(10,__yy_gml_errCheck(_inst.gmlj))),__yy_gml_errCheck(_inst.gmli));
-							var gmlx1,gmly1,gmlx2,gmly2;
-							gmlx1=yyfplus(__yy_gml_errCheck(yyfminus(__yy_gml_errCheck(gmlxx),432)),__yy_gml_errCheck(yyftime(96,__yy_gml_errCheck(_inst.gmli))));
-							gmly1=yyfplus(__yy_gml_errCheck(yyfplus(__yy_gml_errCheck(gmlyy),310)),__yy_gml_errCheck(yyftime(104,__yy_gml_errCheck(_inst.gmlj))));
-							gmlx2=yyfplus(__yy_gml_errCheck(yyfminus(__yy_gml_errCheck(gmlxx),336)),__yy_gml_errCheck(yyftime(96,__yy_gml_errCheck(_inst.gmli))));
-							gmly2=yyfplus(__yy_gml_errCheck(yyfplus(__yy_gml_errCheck(gmlyy),406)),__yy_gml_errCheck(yyftime(104,__yy_gml_errCheck(_inst.gmlj))));
-							if(yyfequal((yythis104=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess,yyInst(_inst,_other,yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess).gmlSelected)),yythis104).gmlInventoryPlace,gmlitemPosition))
-							{
-								draw_set_color(global.gmlcolorValue[__yy_gml_array_check_index(2,global.gmlcolorValue)])							}
-							else 
-							{
-								draw_set_color(global.gmlcolorValue[__yy_gml_array_check_index(1,global.gmlcolorValue)])							}
-							;
-							var yythis104;
-							draw_set_alpha(0.75);
-							draw_roundrect_ext(yyfplus(__yy_gml_errCheck(gmlx1),3),yyfplus(__yy_gml_errCheck(gmly1),__yy_gml_errCheck(_inst.gmlinventoryY)),yyfminus(__yy_gml_errCheck(gmlx2),3),yyfplus(__yy_gml_errCheck(gmly2),__yy_gml_errCheck(_inst.gmlinventoryY)),25,25,false);
-							draw_set_alpha(1);
-							if(yyflessequal(gmlitemPosition,yyfminus(__yy_gml_errCheck(array_length(yyInst(_inst,_other,global.gmlInventory).gmlItemOrder)),1)))
+							show_debug_message(gmlresult);
+							var gmldownloadedItems=json_parse(_inst,gmlresult);
+							var gmli=0;
+							for(;yyfless(gmli,array_length(gmldownloadedItems));gmli=(gmli instanceof Long?gmli.add(1):++gmli))
 							{
 
 																{
-									var gmlitemId=gml_Script_inventoryGetId(_inst,_other,gmlitemPosition);
-									try
+									variable_struct_set(global.gmlItems,_inst.gmlitem_count,gmldownloadedItems[__yy_gml_array_check_index(gmli,gmldownloadedItems)]);
+									var ___sw78___=(yythis188=yyInst(_inst,_other,variable_struct_get(global.gmlItems,_inst.gmlitem_count)),yythis188).gmlCategory;
+									var ___swc79___=-1;
+									if(yyCompareVal(___sw78___,0,g_GMLMathEpsilon,false)==0)
 									{
-
-																				{
-											var gmlitemType=(yythis105=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlitemId)),yythis105).gmlCategory;
-											var yythis105;
-										}
+										___swc79___=0;
 									}
-									catch(gmlex)
+									else if(yyCompareVal(___sw78___,1,g_GMLMathEpsilon,false)==0)
 									{
-										gmlex=__yy__processException(gmlex);
+										___swc79___=1;
+									}
+									else if(yyCompareVal(___sw78___,2,g_GMLMathEpsilon,false)==0)
+									{
+										___swc79___=2;
+									}
+									else if(yyCompareVal(___sw78___,3,g_GMLMathEpsilon,false)==0)
+									{
+										___swc79___=3;
+									}
+									switch(___swc79___)
+									{
+										case 0:
+										{
 
-																				{
-											show_message(gmlitemId);
+																						{
+												(yythis189=yyInst(_inst,_other,variable_struct_get(global.gmlItems,_inst.gmlitem_count)),yythis189).gmlShowQuantity=true;
+												var yythis188,yythis189;
+												break;
+											}
+											;
+										}
+										case 1:
+										{
+
+																						{
+												(yythis190=yyInst(_inst,_other,variable_struct_get(global.gmlItems,_inst.gmlitem_count)),yythis190).gmlShowQuantity=true;
+												var yythis190;
+												break;
+											}
+											;
+										}
+										case 2:
+										{
+
+																						{
+												(yythis191=yyInst(_inst,_other,variable_struct_get(global.gmlItems,_inst.gmlitem_count)),yythis191).gmlShowQuantity=true;
+												var yythis191;
+												break;
+											}
+											;
+										}
+										case 3:
+										{
+
+																						{
+												(yythis192=yyInst(_inst,_other,variable_struct_get(global.gmlItems,_inst.gmlitem_count)),yythis192).gmlShowQuantity=false;
+												var yythis192;
+												break;
+											}
+											;
 										}
 									}
 									;
-									var gmlitemUsage=gml_Script_getItemUsage(_inst,_other,gmlitemType);
-									var gmlspriteWidth=sprite_get_width((yythis106=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlitemId)),yythis106).gmlSprite);
-									var yythis106;
-									var gmlspriteHeight=sprite_get_height((yythis107=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlitemId)),yythis107).gmlSprite);
-									var yythis107;
-									draw_sprite_ext(_inst,(yythis108=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlitemId)),yythis108).gmlCollectableSprite,0,yyfplus(__yy_gml_errCheck(gmlx1),__yy_gml_errCheck(yyfdivide(__yy_gml_errCheck(yyfminus(__yy_gml_errCheck(gmlx2),__yy_gml_errCheck(gmlx1))),2))),yyfplus(yyfplus(__yy_gml_errCheck(gmly1),__yy_gml_errCheck(yyfdivide(__yy_gml_errCheck(yyfminus(__yy_gml_errCheck(gmly2),__yy_gml_errCheck(gmly1))),2))),__yy_gml_errCheck(_inst.gmlinventoryY)),2,2,0,16777215,1);
-									var yythis108;
-									if(yyfequal(gmlitemUsage,1))
+									show_debug_message(yyfplus("item data => ",__yy_gml_errCheck(string(gmldownloadedItems[__yy_gml_array_check_index(gmli,gmldownloadedItems)]))));
+									var gmlitemId=0,gmllocalHash="",gmlnetHash="",gmlsetDownload=false;
+									gmlitemId=(yythis193=yyInst(_inst,_other,variable_struct_get(global.gmlItems,_inst.gmlitem_count)),yythis193).gmlId;
+									var yythis193;
+									gmlnetHash=(yythis194=yyInst(_inst,_other,variable_struct_get(global.gmlItems,_inst.gmlitem_count)),yythis194).gmlImageHash;
+									var yythis194;
+									if(yyGetBool(file_exists(yyfplus(__yy_gml_errCheck(string(gmlitemId)),".png"))))
 									{
 
 																				{
-											if(yyGetBool((yythis109=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlitemId)),yythis109).gmlShowQuantity))
+											gmllocalHash=sha1_file(yyfplus(__yy_gml_errCheck(string(gmlitemId)),".png"));
+											if(yyfnotequal(gmllocalHash,gmlnetHash))
 											{
 
 																								{
-													gml_Script_draw_text_shadow(_inst,_other,yyfplus(__yy_gml_errCheck(gmlx1),90),yyfplus(yyfplus(__yy_gml_errCheck(gmly1),84),__yy_gml_errCheck(_inst.gmlinventoryY)),(yythis110=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlItems,gmlitemId)),yythis110).gmlQuantity,16777215,0,1);
-													var yythis109,yythis110;
+													gmlsetDownload=true;
+													show_debug_message(string("Mismatch item {0}   {1} != {2}",gmlitemId,gmllocalHash,gmlnetHash));
 												}
 											}
 											;
@@ -6722,114 +9133,52 @@ function gml_Object_objectManager_Draw_64(_inst,_other)
 									}
 									else 
 									{
-										if(yyfequal(gmlitemUsage,2))
-										{
 
-																						{
-												gml_Script_draw_text_shadow(_inst,_other,yyfplus(__yy_gml_errCheck(gmlx1),90),yyfplus(yyfplus(__yy_gml_errCheck(gmly1),84),__yy_gml_errCheck(_inst.gmlinventoryY)),(yyGetBool((yythis111=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlItems,gmlitemId)),yythis111).gmlEquipped)?"E":""),16777215,0,1);
-												var yythis111;
-											}
+																				{
+											gmlsetDownload=true;
+											show_debug_message(string("Missing item {0}",gmlitemId));
 										}
 									}
 									;
-									if(yyGetBool(gml_Script_rectangleMouseCollision(_inst,_other,gmlx1,yyfplus(__yy_gml_errCheck(gmly1),__yy_gml_errCheck(_inst.gmlinventoryY)),gmlx2,yyfplus(__yy_gml_errCheck(gmly2),__yy_gml_errCheck(_inst.gmlinventoryY)))))
+									if(yyGetBool(gmlsetDownload))
 									{
 
 																				{
-											if(yyGetBool(mouse_check_button_pressed(1)))
-											{
-
-																								{
-													if(yyfequal(gmlitemUsage,3))
-													{
-
-																												{
-															(yythis112=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess,1)),yythis112).gmlInventoryPlace=gmlitemPosition;
-															var yythis112;
-															yyInst(_inst,_other,yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess).gmlSelected=1;
-														}
-													}
-													else 
-													{
-														if(yyfequal(gmlitemUsage,1))
-														{
-
-																														{
-																var gmlupdateQuickAccess=true;
-																var gmlk=2;
-																for(;yyflessequal(gmlk,4);gmlk=(gmlk instanceof Long?gmlk.add(1):++gmlk))
-																{
-
-																																		{
-																		if(yyfequal((yythis113=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess,gmlk)),yythis113).gmlInventoryPlace,gmlitemPosition))
-																		{
-
-																																						{
-																				gmlupdateQuickAccess=false;
-																				var yythis113;
-																				yyInst(_inst,_other,yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess).gmlSelected=gmlk;
-																				break;
-																			}
-																		}
-																		;
-																	}
-																}
-																;
-																if(yyGetBool(gmlupdateQuickAccess))
-																{
-
-																																		{
-																		var gmlfreeSpace=gml_Script_inventoryQuickFreeSpace(_inst,_other);
-																		if(yyfnotequal(gmlfreeSpace,(-4)))
-																		{
-
-																																						{
-																				gml_Script_inventorySetQuick(_inst,_other,gmlfreeSpace,gmlitemPosition);
-																			}
-																		}
-																		else 
-																		{
-
-																																						{
-																				var gmlk=2;
-																				for(;yyflessequal(gmlk,3);gmlk=(gmlk instanceof Long?gmlk.add(1):++gmlk))
-																				{
-																					(yythis114=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess,gmlk)),yythis114).gmlInventoryPlace=gmlitemPosition																				}
-																				;
-																				var yythis114;
-																				gml_Script_inventorySetQuick(_inst,_other,4,gmlitemPosition);
-																			}
-																		}
-																		;
-																	}
-																}
-																;
-															}
-														}
-														else 
-														{
-															if(yyfequal(gmlitemUsage,2))
-															{
-
-																																{
-																	(yythis115=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlItems,gmlitemId)),yythis115).gmlEquipped=!yyGetBool((yythis116=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlItems,gmlitemId)),yythis116).gmlEquipped);
-																	var yythis115,yythis116;
-																	gml_Script_inventoryEquipItem(_inst,_other,gmlitemId,gmlitemPosition,(yythis117=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlItems,gmlitemId)),yythis117).gmlEquipped);
-																	var yythis117;
-																}
-															}
-														}
-													}
-													;
-												}
-											}
-											;
+											show_debug_message(string("added download {0}.png!",gmlitemId));
+											ds_list_add(global.gmlhttp_item_image_download,__yy_gml_object_create(_inst,(global.gml___struct___44=__yy_method(_inst,gml_Script____struct___44_40_gml_Object_objectManager_Other_62)),yyfplus((yyGetBool(global.gmlserver_local)?"http://127.0.0.1/growtopia":"https://comunidadgm.org/growtopia"),__yy_gml_errCheck(string("/item/i/{0}.png",gmlitemId))),string("{0}.png",gmlitemId)));
 										}
 									}
 									;
+									_inst.gmlitem_count=(_inst.gmlitem_count instanceof Long?_inst.gmlitem_count.add(1):++_inst.gmlitem_count);
 								}
 							}
 							;
+							if(yyfgreater(ds_list_size(global.gmlhttp_item_image_download),0))
+							{
+
+																{
+									show_debug_message(string("downloading file {0}",global.gmlhttp_item_image_download_current));
+									(yythis195=yyInst(_inst,_other,ds_list_find_value(global.gmlhttp_item_image_download,global.gmlhttp_item_image_download_current)),yythis195).gmlhttp_event=http_get_file((yythis196=yyInst(_inst,_other,ds_list_find_value(global.gmlhttp_item_image_download,global.gmlhttp_item_image_download_current)),yythis196).gmlroute,(yythis197=yyInst(_inst,_other,ds_list_find_value(global.gmlhttp_item_image_download,global.gmlhttp_item_image_download_current)),yythis197).gmlfilename);
+									var yythis195,yythis196,yythis197;
+								}
+							}
+							else 
+							{
+
+																{
+									yyInst(_inst,_other,_inst.gmlCore).gmlShowInterface=1;
+									gml_Script_loadSpriteData(_inst,_other);
+								}
+							}
+							;
+						}
+					}
+					catch(gmlex)
+					{
+						gmlex=__yy__processException(gmlex);
+
+												{
+							show_message_async("Can't obtain item list");
 						}
 					}
 					;
@@ -6839,79 +9188,38 @@ function gml_Object_objectManager_Draw_64(_inst,_other)
 		}
 	}
 	;
-	draw_set_alpha(1);
-	_inst.gmli=0;
-	for(;yyfless(_inst.gmli,4);_inst.gmli=(_inst.gmli instanceof Long?_inst.gmli.add(1):++_inst.gmli))
+	if((yyGetBool(yyfgreater(ds_list_size(global.gmlhttp_item_image_download),0)))&&(yyGetBool(yyfless(global.gmlhttp_item_image_download_current,ds_list_size(global.gmlhttp_item_image_download)))))
 	{
 
 				{
-			var gmlx1,gmly1,gmlx2,gmly2;
-			gmlx1=yyfplus(__yy_gml_errCheck(yyfminus(__yy_gml_errCheck(gmlxx),192)),__yy_gml_errCheck(yyftime(96,__yy_gml_errCheck(_inst.gmli))));
-			gmly1=yyfplus(__yy_gml_errCheck(gmlyy),196);
-			gmlx2=yyfplus(__yy_gml_errCheck(yyfminus(__yy_gml_errCheck(gmlxx),96)),__yy_gml_errCheck(yyftime(96,__yy_gml_errCheck(_inst.gmli))));
-			gmly2=yyfplus(__yy_gml_errCheck(gmlyy),292);
-			if(yyfequal(yyInst(_inst,_other,yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess).gmlSelected,yyfplus(__yy_gml_errCheck(_inst.gmli),1)))
-			{
-				draw_set_color(global.gmlcolorValue[__yy_gml_array_check_index(2,global.gmlcolorValue)])			}
-			else 
-			{
-				draw_set_color(global.gmlcolorValue[__yy_gml_array_check_index(1,global.gmlcolorValue)])			}
-			;
-			draw_set_alpha(0.75);
-			draw_roundrect_ext(yyfplus(__yy_gml_errCheck(gmlx1),3),yyfplus(__yy_gml_errCheck(gmly1),__yy_gml_errCheck(_inst.gmlinventoryY)),yyfminus(__yy_gml_errCheck(gmlx2),3),yyfplus(__yy_gml_errCheck(gmly2),__yy_gml_errCheck(_inst.gmlinventoryY)),25,25,false);
-			draw_set_alpha(1);
-			if(yyfnotequal((yythis118=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess,yyfplus(__yy_gml_errCheck(_inst.gmli),1))),yythis118).gmlInventoryPlace,(-4)))
+			if(yyfequal(ds_map_find_value(g_pBuiltIn.get_async_load(),"id"),(yythis198=yyInst(_inst,_other,ds_list_find_value(global.gmlhttp_item_image_download,global.gmlhttp_item_image_download_current)),yythis198).gmlhttp_event))
 			{
 
 								{
-					var gmlitemId=gml_Script_inventoryGetId(_inst,_other,(yythis119=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess,yyfplus(__yy_gml_errCheck(_inst.gmli),1))),yythis119).gmlInventoryPlace);
-					var yythis118,yythis119;
-					var gmlitemType=(yythis120=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlitemId)),yythis120).gmlCategory;
-					var yythis120;
-					var gmlitemUsage=gml_Script_getItemUsage(_inst,_other,gmlitemType);
-					var gmlspriteWidth=sprite_get_width((yythis121=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlitemId)),yythis121).gmlSprite);
-					var yythis121;
-					var gmlspriteHeight=sprite_get_height((yythis122=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlitemId)),yythis122).gmlSprite);
-					var yythis122;
-					draw_sprite_ext(_inst,(yythis123=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlitemId)),yythis123).gmlCollectableSprite,0,yyfplus(__yy_gml_errCheck(gmlx1),__yy_gml_errCheck(yyfdivide(__yy_gml_errCheck(yyfminus(__yy_gml_errCheck(gmlx2),__yy_gml_errCheck(gmlx1))),2))),yyfplus(yyfplus(__yy_gml_errCheck(gmly1),__yy_gml_errCheck(yyfdivide(__yy_gml_errCheck(yyfminus(__yy_gml_errCheck(gmly2),__yy_gml_errCheck(gmly1))),2))),__yy_gml_errCheck(_inst.gmlinventoryY)),2,2,0,16777215,1);
-					var yythis123;
-					if(yyfequal(gmlitemUsage,1))
+					var gmlstatus=ds_map_find_value(g_pBuiltIn.get_async_load(),"status");
+					var yythis198;
+					var gmlresult=(yyfequal(gmlstatus,0)?ds_map_find_value(g_pBuiltIn.get_async_load(),"result"):"null");
+					if(yyfequal(gmlstatus,0))
 					{
 
 												{
-							if(yyGetBool((yythis124=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlitemId)),yythis124).gmlShowQuantity))
+							show_debug_message("download complete!");
+							global.gmlhttp_item_image_download_current=(global.gmlhttp_item_image_download_current instanceof Long?global.gmlhttp_item_image_download_current.add(1):++global.gmlhttp_item_image_download_current);
+							if(yyfless(global.gmlhttp_item_image_download_current,ds_list_size(global.gmlhttp_item_image_download)))
 							{
 
 																{
-									gml_Script_draw_text_shadow(_inst,_other,yyfplus(__yy_gml_errCheck(gmlx1),90),yyfplus(yyfplus(__yy_gml_errCheck(gmly1),84),__yy_gml_errCheck(_inst.gmlinventoryY)),(yythis125=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlItems,gmlitemId)),yythis125).gmlQuantity,16777215,0,1);
-									var yythis124,yythis125;
+									show_debug_message(string("downloading file {0}",global.gmlhttp_item_image_download_current));
+									(yythis199=yyInst(_inst,_other,ds_list_find_value(global.gmlhttp_item_image_download,global.gmlhttp_item_image_download_current)),yythis199).gmlhttp_event=http_get_file((yythis200=yyInst(_inst,_other,ds_list_find_value(global.gmlhttp_item_image_download,global.gmlhttp_item_image_download_current)),yythis200).gmlroute,(yythis201=yyInst(_inst,_other,ds_list_find_value(global.gmlhttp_item_image_download,global.gmlhttp_item_image_download_current)),yythis201).gmlfilename);
+									var yythis199,yythis200,yythis201;
 								}
 							}
-							;
-						}
-					}
-					else 
-					{
-						if(yyfequal(gmlitemUsage,2))
-						{
-
-														{
-								gml_Script_draw_text_shadow(_inst,_other,yyfplus(__yy_gml_errCheck(gmlx1),90),yyfplus(yyfplus(__yy_gml_errCheck(gmly1),84),__yy_gml_errCheck(_inst.gmlinventoryY)),(yyGetBool((yythis126=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlItems,gmlitemId)),yythis126).gmlEquipped)?"E":""),16777215,0,1);
-								var yythis126;
-							}
-						}
-					}
-					;
-					if(yyGetBool(gml_Script_rectangleMouseCollision(_inst,_other,gmlx1,yyfplus(__yy_gml_errCheck(gmly1),__yy_gml_errCheck(_inst.gmlinventoryY)),gmlx2,yyfplus(__yy_gml_errCheck(gmly2),__yy_gml_errCheck(_inst.gmlinventoryY)))))
-					{
-
-												{
-							if(yyGetBool(mouse_check_button_pressed(1)))
+							else 
 							{
 
 																{
-									(__temp__=(yythis127=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess,yyfplus(__yy_gml_errCheck(_inst.gmli),1))),yythis127),__yyg_call_method(__temp__.gmlonClick)(__temp__,_other));
-									var yythis127;
+									yyInst(_inst,_other,_inst.gmlCore).gmlShowInterface=1;
+									gml_Script_loadSpriteData(_inst,_other);
 								}
 							}
 							;
@@ -6924,39 +9232,63 @@ function gml_Object_objectManager_Draw_64(_inst,_other)
 		}
 	}
 	;
-	draw_set_alpha(0.7);
-	draw_set_color(global.gmlcolorValue[__yy_gml_array_check_index(0,global.gmlcolorValue)]);
-	draw_roundrect_ext(0,0,yyftime(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlGUIW),0.8),_inst.gmlchatY,25,25,false);
-	draw_roundrect_ext(yyfminus(__yy_gml_errCheck(gmlxx),32),yyfplus(4,__yy_gml_errCheck(_inst.gmlchatY)),yyfplus(__yy_gml_errCheck(gmlxx),32),yyfplus(yyfplus(4,__yy_gml_errCheck(_inst.gmlchatY)),34),25,25,false);
-	draw_set_alpha(1);
-	if(yyGetBool(surface_exists(_inst.gmlsurfaceChat)))
+}
+
+function gml_Script____struct___43_40_gml_Object_objectManager_Other_62(_inst,_other)
+{
+	if((--_inst.__yyCreatedByNew)<0)
 	{
 
 				{
-			draw_surface(_inst.gmlsurfaceChat,1,1);
+			yyError("calling a constructor directly - constructors should only be called using new")		}
+	}
+	if(_inst.__yyIsGMLObject)
+	{
+		_inst.__type="gml_Script____struct___43@gml_Object_objectManager_Other_62"	}
+	if(gml_Script____struct___43_40_gml_Object_objectManager_Other_62.prototype.__type===undefined)
+	{
+		gml_Script____struct___43_40_gml_Object_objectManager_Other_62.prototype.__type="gml_Script____struct___43@gml_Object_objectManager_Other_62"	}
+
+		{
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___43_40_gml_Object_objectManager_Other_62.prototype);
+
+				{
 		}
 	}
-	else 
+}
+
+function gml_Script____struct___44_40_gml_Object_objectManager_Other_62(_inst,_other)
+{
+	if((--_inst.__yyCreatedByNew)<0)
 	{
 
 				{
-			_inst.gmlsurfaceChat=surface_create(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlGUIW,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlGUIH);
-			gml_Script_surfaceUpdate(_inst,_other,1);
-		}
+			yyError("calling a constructor directly - constructors should only be called using new")		}
 	}
-	;
-	if(yyGetBool(keyboard_check_pressed(13)))
+	if(_inst.__yyIsGMLObject)
 	{
+		_inst.__type="gml_Script____struct___44@gml_Object_objectManager_Other_62"	}
+	if(gml_Script____struct___44_40_gml_Object_objectManager_Other_62.prototype.__type===undefined)
+	{
+		gml_Script____struct___44_40_gml_Object_objectManager_Other_62.prototype.__type="gml_Script____struct___44@gml_Object_objectManager_Other_62"	}
+
+		{
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___44_40_gml_Object_objectManager_Other_62.prototype);
 
 				{
-			var gmlmsj=get_string("Message","");
-			gml_Script_chatSendMessage(_inst,_other,yyfplus(__yy_gml_errCheck(string("<{0}> ",global.gmlmy_username)),__yy_gml_errCheck(gmlmsj)));
+			var $$args=Array.prototype.slice.call(arguments);
+
+						{
+				_inst.gmlroute=$$args[__yy_gml_array_check_index(2+(0),$$args)];
+				_inst.gmlfilename=$$args[__yy_gml_array_check_index(2+(1),$$args)];
+				_inst.gmlhttp_event=(-4);
+			}
 		}
 	}
-	;
-	draw_set_halign(1);
-	draw_set_valign(1);
-	draw_set_color(255);
+}
+
+function gml_Object_objectManager_Draw_64(_inst,_other)
+{
 	draw_set_color(16777215);
 	draw_set_alpha(1);
 	draw_set_halign(0);
@@ -6965,6 +9297,7 @@ function gml_Object_objectManager_Draw_64(_inst,_other)
 	{
 
 				{
+			draw_set_font(YYASSET_REF(0x06000000));
 			if(yyGetBool(yyInst(_inst,_other,global.gmlserver).gmllogged))
 			{
 
@@ -6975,8 +9308,51 @@ function gml_Object_objectManager_Draw_64(_inst,_other)
 			{
 
 								{
-					draw_text(16,16,"GROWTOPIA GM - WEB TEST");
-					draw_text(16,48,"[F1] LOG IN  /  [F2] REGISTER");
+					draw_set_font(YYASSET_REF(0x06000004));
+					draw_set_halign(1);
+					draw_set_valign(1);
+					gml_Script_draw_text_shadow(_inst,_other,yyfdivide(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlGUIW),2),yyfminus(__yy_gml_errCheck(yyfdivide(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlGUIH),2)),200),"GrowtopiaGM",16777215,0,1);
+					draw_set_halign(0);
+					draw_set_valign(0);
+					gml_Script_text_round_box(_inst,_other,yyfdivide(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlGUIW),2),280,320,48,"username","normal",true,YYASSET_REF(0x06000003),1,((__yy_gml_array_set_owner(65536),__yy_gml_array_create(["words"]))),"Username");
+					gml_Script_text_round_box(_inst,_other,yyfdivide(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlGUIW),2),380,320,48,"password","password",true,YYASSET_REF(0x06000003),1,(__yy_gml_array_create([])),"Password");
+					if(yyGetBool(_inst.gmluser_registry))
+					{
+						gml_Script_text_round_box(_inst,_other,yyfdivide(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlGUIW),2),480,320,48,"email","normal",true,YYASSET_REF(0x06000003),1,(__yy_gml_array_create(["nospaces"])),"E-mail")					}
+					;
+					draw_set_font(YYASSET_REF(0x06000003));
+					if(yyGetBool(gml_Script_draw_own_button(_inst,_other,yyfminus(__yy_gml_errCheck(yyfdivide(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlGUIW),2)),150),yyfplus(540,__yy_gml_errCheck(yyftime(100,__yy_gml_errCheck(_inst.gmluser_registry)))),(!yyGetBool(_inst.gmluser_registry)?"Get Growtopia ID":"Back"),300,40)))
+					{
+
+												{
+							_inst.gmluser_registry=!yyGetBool(_inst.gmluser_registry);
+						}
+					}
+					;
+					if(yyGetBool(gml_Script_draw_own_button(_inst,_other,yyfminus(__yy_gml_errCheck(yyfdivide(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlGUIW),2)),150),yyfplus(460,__yy_gml_errCheck(yyftime(100,__yy_gml_errCheck(_inst.gmluser_registry)))),(!yyGetBool(_inst.gmluser_registry)?"Login":"Register"),300,48)))
+					{
+
+												{
+							if((yyGetBool(yyfnotequal((yythis234=yyInst(_inst,_other,struct_get_from_hash(global.gmlform,"username")),yythis234).gmlstr,"")))&&(yyGetBool(yyfnotequal((yythis235=yyInst(_inst,_other,struct_get_from_hash(global.gmlform,"password")),yythis235).gmlstr,""))))
+							{
+
+																{
+									_inst.gmlawaiting_request=true;
+									var yythis234,yythis235;
+									if(!yyGetBool(_inst.gmluser_registry))
+									{
+										gml_Script_user_login(_inst,_other,(yythis236=yyInst(_inst,_other,struct_get_from_hash(global.gmlform,"username")),yythis236).gmlstr,(yythis237=yyInst(_inst,_other,struct_get_from_hash(global.gmlform,"password")),yythis237).gmlstr)									}
+									else 
+									{
+										gml_Script_user_registration(_inst,_other,(yythis238=yyInst(_inst,_other,struct_get_from_hash(global.gmlform,"username")),yythis238).gmlstr,(yythis239=yyInst(_inst,_other,struct_get_from_hash(global.gmlform,"password")),yythis239).gmlstr,(yythis240=yyInst(_inst,_other,struct_get_from_hash(global.gmlform,"email")),yythis240).gmlstr)									}
+									;
+									var yythis236,yythis237,yythis238,yythis239,yythis240;
+								}
+							}
+							;
+						}
+					}
+					;
 				}
 			}
 			;
@@ -6986,61 +9362,58 @@ function gml_Object_objectManager_Draw_64(_inst,_other)
 	{
 
 				{
-			draw_text(16,48,"TRYING TO CONNECT TO SERVER...");
+			draw_set_font(YYASSET_REF(0x06000003));
+			draw_set_halign(1);
+			draw_set_valign(1);
+			gml_Script_draw_text_shadow(_inst,_other,yyfdivide(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlGUIW),2),yyfdivide(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlGUIH),2),"TRYING TO CONNECT TO SERVER...",16777215,0,1);
+			draw_set_halign(0);
+			draw_set_valign(0);
 		}
 	}
 	;
-
+	var ___sw82___=yyInst(_inst,_other,_inst.gmlCore).gmlShowInterface;
+	var ___swc83___=-1;
+	if(yyCompareVal(___sw82___,0,g_GMLMathEpsilon,false)==0)
+	{
+		___swc83___=0;
+	}
+	else if(yyCompareVal(___sw82___,1,g_GMLMathEpsilon,false)==0)
+	{
+		___swc83___=1;
+	}
+	else if(yyCompareVal(___sw82___,2,g_GMLMathEpsilon,false)==0)
+	{
+		___swc83___=2;
+	}
+	switch(___swc83___)
+	{
+		case 0:
 		{
 
+						{
+				if(yyfequal(_inst.gmlchat_emotes,1))
 				{
-			if(yyfequal(_inst.gmlchat_emotes,1))
-			{
 
-								{
-					if(!yyGetBool(_inst.gmlchat_delay))
-					{
+										{
+						if(!yyGetBool(_inst.gmlchat_delay))
+						{
 
-												{
-							if(yyGetBool(yyInst(_inst,_other,global.gmlmy_player).gmlpad_destra))
-							{
-
-																{
-									if(yyfless(_inst.gmlchat_slot,8))
-									{
-										_inst.gmlchat_slot=(_inst.gmlchat_slot instanceof Long?_inst.gmlchat_slot.add(1):++_inst.gmlchat_slot)									}
-									;
-									if(yyfequal(_inst.gmlchat_slot,8))
-									{
-
-																				{
-											if(yyfless(_inst.gmlchat_selected_emote,64))
-											{
-												_inst.gmlchat_selected_emote=(_inst.gmlchat_selected_emote instanceof Long?_inst.gmlchat_selected_emote.add(1):++_inst.gmlchat_selected_emote)											}
-											;
-										}
-									}
-									;
-									_inst.gmlchat_delay=7;
-								}
-							}
-							else 
-							{
-								if(yyGetBool(yyInst(_inst,_other,global.gmlmy_player).gmlpad_sinistra))
+														{
+								if(yyGetBool(yyInst(_inst,_other,global.gmlmy_player).gmlpad_destra))
 								{
 
 																		{
-										if(yyfgreater(_inst.gmlchat_slot,0))
+										if(yyfless(_inst.gmlchat_slot,8))
 										{
-											_inst.gmlchat_slot=(_inst.gmlchat_slot instanceof Long?_inst.gmlchat_slot.subtract(1):--_inst.gmlchat_slot)										}
+											_inst.gmlchat_slot=(_inst.gmlchat_slot instanceof Long?_inst.gmlchat_slot.add(1):++_inst.gmlchat_slot)										}
 										;
-										if(yyfequal(_inst.gmlchat_slot,0))
+										if(yyfequal(_inst.gmlchat_slot,8))
 										{
 
 																						{
-												if(yyfgreater(_inst.gmlchat_selected_emote,0))
+												if(yyfless(_inst.gmlchat_selected_emote,64))
 												{
-													_inst.gmlchat_selected_emote=(_inst.gmlchat_selected_emote instanceof Long?_inst.gmlchat_selected_emote.subtract(1):--_inst.gmlchat_selected_emote)												}
+													_inst.gmlchat_selected_emote=(_inst.gmlchat_selected_emote instanceof Long?_inst.gmlchat_selected_emote.add(1):++_inst.gmlchat_selected_emote)												}
 												;
 											}
 										}
@@ -7048,104 +9421,542 @@ function gml_Object_objectManager_Draw_64(_inst,_other)
 										_inst.gmlchat_delay=7;
 									}
 								}
+								else 
+								{
+									if(yyGetBool(yyInst(_inst,_other,global.gmlmy_player).gmlpad_sinistra))
+									{
+
+																				{
+											if(yyfgreater(_inst.gmlchat_slot,0))
+											{
+												_inst.gmlchat_slot=(_inst.gmlchat_slot instanceof Long?_inst.gmlchat_slot.subtract(1):--_inst.gmlchat_slot)											}
+											;
+											if(yyfequal(_inst.gmlchat_slot,0))
+											{
+
+																								{
+													if(yyfgreater(_inst.gmlchat_selected_emote,0))
+													{
+														_inst.gmlchat_selected_emote=(_inst.gmlchat_selected_emote instanceof Long?_inst.gmlchat_selected_emote.subtract(1):--_inst.gmlchat_selected_emote)													}
+													;
+												}
+											}
+											;
+											_inst.gmlchat_delay=7;
+										}
+									}
+								}
+								;
+							}
+						}
+						else 
+						{
+
+														{
+								_inst.gmlchat_delay=(_inst.gmlchat_delay instanceof Long?_inst.gmlchat_delay.subtract(1):--_inst.gmlchat_delay);
+							}
+						}
+						;
+						draw_sprite(_inst,_inst.gmlspr_selezione_battle,0,yyfplus(151,__yy_gml_errCheck(yyftime(16,__yy_gml_errCheck(_inst.gmlchat_slot)))),135);
+						draw_sprite_ext(_inst,_inst.gmlspr_box_gold,0,130,140,2,1,0,16777215,1);
+						_inst.gmli=0;
+						for(;yyfless(_inst.gmli,9);_inst.gmli=(_inst.gmli instanceof Long?_inst.gmli.add(1):++_inst.gmli))
+						{
+
+														{
+								draw_sprite_ext(_inst,_inst.gmlspr_emoticon,yyfplus(__yy_gml_errCheck(_inst.gmlchat_selected_emote),__yy_gml_errCheck(_inst.gmli)),yyfplus(143,__yy_gml_errCheck(yyftime(16,__yy_gml_errCheck(_inst.gmli)))),144,1,1,0,16777215,1);
+							}
+						}
+						;
+					}
+				}
+				else 
+				{
+					if(yyfequal(_inst.gmlchat_emotes,2))
+					{
+
+												{
+							draw_set_font(_inst.gmlfont_hud_min);
+							var gmlbase_x;
+							var gmlbase_y;
+							var gmlw=120;
+							var gmllines=0;
+							var gmlmax_lines=3;
+							if(yyfnotequal(g_pBuiltIn.keyboard_string,""))
+							{
+
+																{
+									do 
+									{
+
+																				{
+											gmllines=yyfminus(__yy_gml_errCheck(yyfdivide(__yy_gml_errCheck(string_height_ext(g_pBuiltIn.keyboard_string,16,gmlw)),__yy_gml_errCheck(string_height(g_pBuiltIn.keyboard_string)))),1);
+											if(yyfgreater(gmllines,gmlmax_lines))
+											{
+												g_pBuiltIn.keyboard_string=string_delete(g_pBuiltIn.keyboard_string,string_length(g_pBuiltIn.keyboard_string),1)											}
+											;
+										}
+									}
+									while(!(yyflessequal(gmllines,gmlmax_lines)));
+								}
 							}
 							;
-						}
-					}
-					else 
-					{
+							var gmlwords=string_split(g_pBuiltIn.keyboard_string," ",true);
+							var gmli=0;
+							for(;yyfless(gmli,array_length(gmlwords));gmli=(gmli instanceof Long?gmli.add(1):++gmli))
+							{
 
-												{
-							_inst.gmlchat_delay=(_inst.gmlchat_delay instanceof Long?_inst.gmlchat_delay.subtract(1):--_inst.gmlchat_delay);
+																{
+									var gmltmp_str=gmlwords[__yy_gml_array_check_index(gmli,gmlwords)];
+									while(yyfgreater(string_width(gmltmp_str),yyfminus(__yy_gml_errCheck(gmlw),8))) 
+									{
+										gmltmp_str=string_delete(gmlwords[__yy_gml_array_check_index(gmli,gmlwords)],string_length(gmlwords[__yy_gml_array_check_index(gmli,gmlwords)]),1)									}
+									;
+									if(yyfnotequal(gmltmp_str,gmlwords[__yy_gml_array_check_index(gmli,gmlwords)]))
+									{
+										g_pBuiltIn.keyboard_string=string_replace(g_pBuiltIn.keyboard_string,gmlwords[__yy_gml_array_check_index(gmli,gmlwords)],gmltmp_str)									}
+									;
+								}
+							}
+							;
+							draw_set_color(255);
+							draw_circle(camera_get_view_x(g_pBuiltIn.view_camera[__yy_gml_array_check_index(0,g_pBuiltIn.view_camera)]),camera_get_view_y(g_pBuiltIn.view_camera[__yy_gml_array_check_index(0,g_pBuiltIn.view_camera)]),40,false);
+							gmlbase_x=850;
+							gmlbase_y=yyfminus(585,__yy_gml_errCheck(yyftime(16,__yy_gml_errCheck(yyfminus(__yy_gml_errCheck(gmllines),1)))));
+							draw_set_color(0);
+							draw_rectangle(yyfminus(yyfminus(__yy_gml_errCheck(gmlbase_x),64),2),yyfminus(yyfminus(__yy_gml_errCheck(gmlbase_y),42),2),yyfplus(yyfplus(__yy_gml_errCheck(gmlbase_x),64),2),yyfplus(yyfplus(yyfplus(yyfminus(__yy_gml_errCheck(gmlbase_y),42),18),2),__yy_gml_errCheck(yyftime(12,__yy_gml_errCheck(gmllines)))),false);
+							draw_set_color(_inst.gmlCOLOR_CHAT_BACKGROUND);
+							draw_rectangle(yyfminus(__yy_gml_errCheck(gmlbase_x),64),yyfminus(__yy_gml_errCheck(gmlbase_y),42),yyfplus(__yy_gml_errCheck(gmlbase_x),64),yyfplus(yyfplus(yyfminus(__yy_gml_errCheck(gmlbase_y),42),18),__yy_gml_errCheck(yyftime(12,__yy_gml_errCheck(gmllines)))),false);
+							draw_set_color(_inst.gmlCOLOR_CHAT_OUTLINE);
+							draw_rectangle(yyfplus(yyfminus(__yy_gml_errCheck(gmlbase_x),64),1),yyfplus(yyfminus(__yy_gml_errCheck(gmlbase_y),42),1),yyfminus(yyfplus(__yy_gml_errCheck(gmlbase_x),64),1),yyfplus(yyfminus(yyfplus(yyfminus(__yy_gml_errCheck(gmlbase_y),42),18),1),__yy_gml_errCheck(yyftime(12,__yy_gml_errCheck(gmllines)))),true);
+							draw_set_alpha(0.75);
+							draw_set_color(16777215);
+							draw_text_ext(yyfplus(yyfplus(yyfminus(__yy_gml_errCheck(gmlbase_x),64),5),1),yyfplus(yyfplus(yyfminus(__yy_gml_errCheck(gmlbase_y),42),3),1),(yyfequal(g_pBuiltIn.keyboard_string,"")?"Escribe algo":g_pBuiltIn.keyboard_string),16,gmlw);
+							draw_set_alpha(1);
+							draw_set_color(0);
+							draw_text_ext(yyfplus(yyfminus(__yy_gml_errCheck(gmlbase_x),64),5),yyfplus(yyfminus(__yy_gml_errCheck(gmlbase_y),42),3),g_pBuiltIn.keyboard_string,16,gmlw);
 						}
 					}
-					;
-					draw_sprite(_inst,_inst.gmlspr_selezione_battle,0,yyfplus(151,__yy_gml_errCheck(yyftime(16,__yy_gml_errCheck(_inst.gmlchat_slot)))),135);
-					draw_sprite_ext(_inst,_inst.gmlspr_box_gold,0,130,140,2,1,0,16777215,1);
-					_inst.gmli=0;
-					for(;yyfless(_inst.gmli,9);_inst.gmli=(_inst.gmli instanceof Long?_inst.gmli.add(1):++_inst.gmli))
-					{
-
-												{
-							draw_sprite_ext(_inst,_inst.gmlspr_emoticon,yyfplus(__yy_gml_errCheck(_inst.gmlchat_selected_emote),__yy_gml_errCheck(_inst.gmli)),yyfplus(143,__yy_gml_errCheck(yyftime(16,__yy_gml_errCheck(_inst.gmli)))),144,1,1,0,16777215,1);
-						}
-					}
-					;
 				}
-			}
-			else 
-			{
-				if(yyfequal(_inst.gmlchat_emotes,2))
+				;
+				if(yyfequal(global.gmlmy_player,(-4)))
+				{
+					return 				}
+				;
+				var gmlxx,gmlyy;
+				gmlxx=640;
+				gmlyy=532;
+				draw_set_color(global.gmlcolorValue[__yy_gml_array_check_index(0,global.gmlcolorValue)]);
+				draw_set_alpha(0.7);
+				draw_set_font(YYASSET_REF(0x06000001));
+				draw_set_halign(2);
+				draw_set_valign(1);
+				draw_roundrect_ext(yyfminus(__yy_gml_errCheck(gmlxx),200),yyfplus(yyfplus(__yy_gml_errCheck(gmlyy),188),__yy_gml_errCheck(_inst.gmlinventoryY)),yyfplus(__yy_gml_errCheck(gmlxx),200),yyfplus(yyfplus(__yy_gml_errCheck(gmlyy),300),__yy_gml_errCheck(_inst.gmlinventoryY)),25,25,false);
+				draw_roundrect_ext(yyfminus(__yy_gml_errCheck(gmlxx),32),yyfplus(yyfplus(__yy_gml_errCheck(gmlyy),150),__yy_gml_errCheck(_inst.gmlinventoryY)),yyfplus(__yy_gml_errCheck(gmlxx),32),yyfplus(yyfplus(__yy_gml_errCheck(gmlyy),184),__yy_gml_errCheck(_inst.gmlinventoryY)),25,25,false);
+				if(yyfless(_inst.gmlinventoryY,(-115)))
 				{
 
 										{
-						draw_set_font(_inst.gmlfont_hud_min);
-						var gmlbase_x;
-						var gmlbase_y;
-						var gmlw=120;
-						var gmllines=0;
-						var gmlmax_lines=3;
-						if(yyfnotequal(g_pBuiltIn.keyboard_string,""))
+						draw_roundrect_ext(yyfminus(__yy_gml_errCheck(gmlxx),450),yyfplus(yyfplus(__yy_gml_errCheck(gmlyy),300),__yy_gml_errCheck(_inst.gmlinventoryY)),yyfplus(__yy_gml_errCheck(gmlxx),450),yyfplus(yyfplus(yyfplus(__yy_gml_errCheck(gmlyy),300),325),__yy_gml_errCheck(_inst.gmlinventoryY)),25,25,false);
+						_inst.gmlj=0;
+						for(;yyfless(_inst.gmlj,3);_inst.gmlj=(_inst.gmlj instanceof Long?_inst.gmlj.add(1):++_inst.gmlj))
 						{
 
 														{
-								do 
+								gmli=0;
+								for(;yyfless(gmli,9);gmli=(gmli instanceof Long?gmli.add(1):++gmli))
 								{
 
 																		{
-										gmllines=yyfminus(__yy_gml_errCheck(yyfdivide(__yy_gml_errCheck(string_height_ext(g_pBuiltIn.keyboard_string,16,gmlw)),__yy_gml_errCheck(string_height(g_pBuiltIn.keyboard_string)))),1);
-										if(yyfgreater(gmllines,gmlmax_lines))
+										var gmlitemPosition=yyfplus(__yy_gml_errCheck(yyftime(10,__yy_gml_errCheck(_inst.gmlj))),__yy_gml_errCheck(gmli));
+										var gmlx1,gmly1,gmlx2,gmly2;
+										gmlx1=yyfplus(__yy_gml_errCheck(yyfminus(__yy_gml_errCheck(gmlxx),432)),__yy_gml_errCheck(yyftime(96,__yy_gml_errCheck(gmli))));
+										gmly1=yyfplus(__yy_gml_errCheck(yyfplus(__yy_gml_errCheck(gmlyy),310)),__yy_gml_errCheck(yyftime(104,__yy_gml_errCheck(_inst.gmlj))));
+										gmlx2=yyfplus(__yy_gml_errCheck(yyfminus(__yy_gml_errCheck(gmlxx),336)),__yy_gml_errCheck(yyftime(96,__yy_gml_errCheck(gmli))));
+										gmly2=yyfplus(__yy_gml_errCheck(yyfplus(__yy_gml_errCheck(gmlyy),406)),__yy_gml_errCheck(yyftime(104,__yy_gml_errCheck(_inst.gmlj))));
+										if(yyfequal((yythis241=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess,yyInst(_inst,_other,yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess).gmlSelected)),yythis241).gmlInventoryPlace,gmlitemPosition))
 										{
-											g_pBuiltIn.keyboard_string=string_delete(g_pBuiltIn.keyboard_string,string_length(g_pBuiltIn.keyboard_string),1)										}
+											draw_set_color(global.gmlcolorValue[__yy_gml_array_check_index(3,global.gmlcolorValue)])										}
+										else 
+										{
+											draw_set_color(global.gmlcolorValue[__yy_gml_array_check_index(2,global.gmlcolorValue)])										}
+										;
+										var yythis241;
+										draw_set_alpha(0.75);
+										draw_roundrect_ext(yyfplus(__yy_gml_errCheck(gmlx1),3),yyfplus(__yy_gml_errCheck(gmly1),__yy_gml_errCheck(_inst.gmlinventoryY)),yyfminus(__yy_gml_errCheck(gmlx2),3),yyfplus(__yy_gml_errCheck(gmly2),__yy_gml_errCheck(_inst.gmlinventoryY)),25,25,false);
+										draw_set_alpha(1);
+										if(yyflessequal(gmlitemPosition,yyfminus(__yy_gml_errCheck(array_length(yyInst(_inst,_other,global.gmlInventory).gmlItemOrder)),1)))
+										{
+
+																						{
+												var gmlitemId=gml_Script_inventoryGetId(_inst,_other,gmlitemPosition);
+												try
+												{
+
+																										{
+														var gmlitemType=(yythis242=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlitemId)),yythis242).gmlCategory;
+														var yythis242;
+													}
+												}
+												catch(gmlex)
+												{
+													gmlex=__yy__processException(gmlex);
+
+																										{
+														show_message(gmlitemId);
+													}
+												}
+												;
+												var gmlitemUsage=gml_Script_getItemUsage(_inst,_other,gmlitemType);
+												var gmlspriteWidth=sprite_get_width((yythis243=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlitemId)),yythis243).gmlSprite);
+												var yythis243;
+												var gmlspriteHeight=sprite_get_height((yythis244=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlitemId)),yythis244).gmlSprite);
+												var yythis244;
+												draw_sprite_ext(_inst,(yythis245=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlitemId)),yythis245).gmlCollectableSprite,0,yyfplus(__yy_gml_errCheck(gmlx1),__yy_gml_errCheck(yyfdivide(__yy_gml_errCheck(yyfminus(__yy_gml_errCheck(gmlx2),__yy_gml_errCheck(gmlx1))),2))),yyfplus(yyfplus(__yy_gml_errCheck(gmly1),__yy_gml_errCheck(yyfdivide(__yy_gml_errCheck(yyfminus(__yy_gml_errCheck(gmly2),__yy_gml_errCheck(gmly1))),2))),__yy_gml_errCheck(_inst.gmlinventoryY)),2,2,0,16777215,1);
+												var yythis245;
+												if(yyfequal(gmlitemUsage,1))
+												{
+
+																										{
+														if(yyGetBool((yythis246=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlitemId)),yythis246).gmlShowQuantity))
+														{
+
+																														{
+																gml_Script_draw_text_shadow(_inst,_other,yyfplus(__yy_gml_errCheck(gmlx1),90),yyfplus(yyfplus(__yy_gml_errCheck(gmly1),84),__yy_gml_errCheck(_inst.gmlinventoryY)),(yythis247=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlItems,gmlitemId)),yythis247).gmlQuantity,16777215,0,1);
+																var yythis246,yythis247;
+															}
+														}
+														;
+													}
+												}
+												else 
+												{
+													if(yyfequal(gmlitemUsage,2))
+													{
+
+																												{
+															gml_Script_draw_text_shadow(_inst,_other,yyfplus(__yy_gml_errCheck(gmlx1),90),yyfplus(yyfplus(__yy_gml_errCheck(gmly1),84),__yy_gml_errCheck(_inst.gmlinventoryY)),(yyGetBool((yythis248=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlItems,gmlitemId)),yythis248).gmlEquipped)?"E":""),16777215,0,1);
+															var yythis248;
+														}
+													}
+												}
+												;
+												if(yyGetBool(gml_Script_rectangleMouseCollision(_inst,_other,gmlx1,yyfplus(__yy_gml_errCheck(gmly1),__yy_gml_errCheck(_inst.gmlinventoryY)),gmlx2,yyfplus(__yy_gml_errCheck(gmly2),__yy_gml_errCheck(_inst.gmlinventoryY)))))
+												{
+
+																										{
+														if(yyGetBool(mouse_check_button_pressed(1)))
+														{
+
+																														{
+																if(yyfequal(gmlitemUsage,3))
+																{
+
+																																		{
+																		(yythis249=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess,1)),yythis249).gmlInventoryPlace=gmlitemPosition;
+																		var yythis249;
+																		yyInst(_inst,_other,yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess).gmlSelected=1;
+																	}
+																}
+																else 
+																{
+																	if(yyfequal(gmlitemUsage,1))
+																	{
+
+																																				{
+																			var gmlupdateQuickAccess=true;
+																			var gmlk=2;
+																			for(;yyflessequal(gmlk,4);gmlk=(gmlk instanceof Long?gmlk.add(1):++gmlk))
+																			{
+
+																																								{
+																					if(yyfequal((yythis250=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess,gmlk)),yythis250).gmlInventoryPlace,gmlitemPosition))
+																					{
+
+																																												{
+																							gmlupdateQuickAccess=false;
+																							var yythis250;
+																							yyInst(_inst,_other,yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess).gmlSelected=gmlk;
+																							break;
+																						}
+																					}
+																					;
+																				}
+																			}
+																			;
+																			if(yyGetBool(gmlupdateQuickAccess))
+																			{
+
+																																								{
+																					var gmlfreeSpace=gml_Script_inventoryQuickFreeSpace(_inst,_other);
+																					if(yyfnotequal(gmlfreeSpace,(-4)))
+																					{
+
+																																												{
+																							gml_Script_inventorySetQuick(_inst,_other,gmlfreeSpace,gmlitemPosition);
+																						}
+																					}
+																					else 
+																					{
+
+																																												{
+																							var gmlk=2;
+																							for(;yyflessequal(gmlk,3);gmlk=(gmlk instanceof Long?gmlk.add(1):++gmlk))
+																							{
+																								(yythis251=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess,gmlk)),yythis251).gmlInventoryPlace=gmlitemPosition																							}
+																							;
+																							var yythis251;
+																							gml_Script_inventorySetQuick(_inst,_other,4,gmlitemPosition);
+																						}
+																					}
+																					;
+																				}
+																			}
+																			;
+																		}
+																	}
+																	else 
+																	{
+																		if(yyfequal(gmlitemUsage,2))
+																		{
+
+																																						{
+																				(yythis252=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlItems,gmlitemId)),yythis252).gmlEquipped=!yyGetBool((yythis253=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlItems,gmlitemId)),yythis253).gmlEquipped);
+																				var yythis252,yythis253;
+																				gml_Script_inventoryEquipItem(_inst,_other,gmlitemId,gmlitemPosition,(yythis254=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlItems,gmlitemId)),yythis254).gmlEquipped);
+																				var yythis254;
+																			}
+																		}
+																	}
+																}
+																;
+															}
+														}
+														;
+													}
+												}
+												;
+											}
+										}
 										;
 									}
 								}
-								while(!(yyflessequal(gmllines,gmlmax_lines)));
+								;
 							}
 						}
 						;
-						var gmlwords=string_split(g_pBuiltIn.keyboard_string," ",true);
-						var gmli=0;
-						for(;yyfless(gmli,array_length(gmlwords));gmli=(gmli instanceof Long?gmli.add(1):++gmli))
+					}
+				}
+				;
+				draw_set_alpha(1);
+				gmli=0;
+				for(;yyfless(gmli,4);gmli=(gmli instanceof Long?gmli.add(1):++gmli))
+				{
+
+										{
+						var gmlx1,gmly1,gmlx2,gmly2;
+						gmlx1=yyfplus(__yy_gml_errCheck(yyfminus(__yy_gml_errCheck(gmlxx),192)),__yy_gml_errCheck(yyftime(96,__yy_gml_errCheck(gmli))));
+						gmly1=yyfplus(__yy_gml_errCheck(gmlyy),196);
+						gmlx2=yyfplus(__yy_gml_errCheck(yyfminus(__yy_gml_errCheck(gmlxx),96)),__yy_gml_errCheck(yyftime(96,__yy_gml_errCheck(gmli))));
+						gmly2=yyfplus(__yy_gml_errCheck(gmlyy),292);
+						if(yyfequal(yyInst(_inst,_other,yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess).gmlSelected,yyfplus(__yy_gml_errCheck(gmli),1)))
+						{
+							draw_set_color(global.gmlcolorValue[__yy_gml_array_check_index(3,global.gmlcolorValue)])						}
+						else 
+						{
+							draw_set_color(global.gmlcolorValue[__yy_gml_array_check_index(2,global.gmlcolorValue)])						}
+						;
+						draw_set_alpha(0.75);
+						draw_roundrect_ext(yyfplus(__yy_gml_errCheck(gmlx1),3),yyfplus(__yy_gml_errCheck(gmly1),__yy_gml_errCheck(_inst.gmlinventoryY)),yyfminus(__yy_gml_errCheck(gmlx2),3),yyfplus(__yy_gml_errCheck(gmly2),__yy_gml_errCheck(_inst.gmlinventoryY)),25,25,false);
+						draw_set_alpha(1);
+						if(yyfnotequal((yythis255=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess,yyfplus(__yy_gml_errCheck(gmli),1))),yythis255).gmlInventoryPlace,(-4)))
 						{
 
 														{
-								var gmltmp_str=gmlwords[__yy_gml_array_check_index(gmli,gmlwords)];
-								while(yyfgreater(string_width(gmltmp_str),yyfminus(__yy_gml_errCheck(gmlw),8))) 
+								var gmlitemId=gml_Script_inventoryGetId(_inst,_other,(yythis256=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess,yyfplus(__yy_gml_errCheck(gmli),1))),yythis256).gmlInventoryPlace);
+								var yythis255,yythis256;
+								var gmlitemType=(yythis257=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlitemId)),yythis257).gmlCategory;
+								var yythis257;
+								var gmlitemUsage=gml_Script_getItemUsage(_inst,_other,gmlitemType);
+								var gmlspriteWidth=sprite_get_width((yythis258=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlitemId)),yythis258).gmlSprite);
+								var yythis258;
+								var gmlspriteHeight=sprite_get_height((yythis259=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlitemId)),yythis259).gmlSprite);
+								var yythis259;
+								draw_sprite_ext(_inst,(yythis260=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlitemId)),yythis260).gmlCollectableSprite,0,yyfplus(__yy_gml_errCheck(gmlx1),__yy_gml_errCheck(yyfdivide(__yy_gml_errCheck(yyfminus(__yy_gml_errCheck(gmlx2),__yy_gml_errCheck(gmlx1))),2))),yyfplus(yyfplus(__yy_gml_errCheck(gmly1),__yy_gml_errCheck(yyfdivide(__yy_gml_errCheck(yyfminus(__yy_gml_errCheck(gmly2),__yy_gml_errCheck(gmly1))),2))),__yy_gml_errCheck(_inst.gmlinventoryY)),2,2,0,16777215,1);
+								var yythis260;
+								if(yyfequal(gmlitemUsage,1))
 								{
-									gmltmp_str=string_delete(gmlwords[__yy_gml_array_check_index(gmli,gmlwords)],string_length(gmlwords[__yy_gml_array_check_index(gmli,gmlwords)]),1)								}
+
+																		{
+										if(yyGetBool((yythis261=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlitemId)),yythis261).gmlShowQuantity))
+										{
+
+																						{
+												gml_Script_draw_text_shadow(_inst,_other,yyfplus(__yy_gml_errCheck(gmlx1),90),yyfplus(yyfplus(__yy_gml_errCheck(gmly1),84),__yy_gml_errCheck(_inst.gmlinventoryY)),(yythis262=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlItems,gmlitemId)),yythis262).gmlQuantity,16777215,0,1);
+												var yythis261,yythis262;
+											}
+										}
+										;
+									}
+								}
+								else 
+								{
+									if(yyfequal(gmlitemUsage,2))
+									{
+
+																				{
+											gml_Script_draw_text_shadow(_inst,_other,yyfplus(__yy_gml_errCheck(gmlx1),90),yyfplus(yyfplus(__yy_gml_errCheck(gmly1),84),__yy_gml_errCheck(_inst.gmlinventoryY)),(yyGetBool((yythis263=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlItems,gmlitemId)),yythis263).gmlEquipped)?"E":""),16777215,0,1);
+											var yythis263;
+										}
+									}
+								}
 								;
-								if(yyfnotequal(gmltmp_str,gmlwords[__yy_gml_array_check_index(gmli,gmlwords)]))
+								if(yyGetBool(gml_Script_rectangleMouseCollision(_inst,_other,gmlx1,yyfplus(__yy_gml_errCheck(gmly1),__yy_gml_errCheck(_inst.gmlinventoryY)),gmlx2,yyfplus(__yy_gml_errCheck(gmly2),__yy_gml_errCheck(_inst.gmlinventoryY)))))
 								{
-									g_pBuiltIn.keyboard_string=string_replace(g_pBuiltIn.keyboard_string,gmlwords[__yy_gml_array_check_index(gmli,gmlwords)],gmltmp_str)								}
+
+																		{
+										if(yyGetBool(mouse_check_button_pressed(1)))
+										{
+
+																						{
+												(__temp__=(yythis264=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess,yyfplus(__yy_gml_errCheck(gmli),1))),yythis264),__yyg_call_method(__temp__.gmlonClick)(__temp__,_other));
+												var yythis264;
+											}
+										}
+										;
+									}
+								}
 								;
 							}
 						}
 						;
-						draw_set_color(255);
-						draw_circle(camera_get_view_x(g_pBuiltIn.view_camera[__yy_gml_array_check_index(0,g_pBuiltIn.view_camera)]),camera_get_view_y(g_pBuiltIn.view_camera[__yy_gml_array_check_index(0,g_pBuiltIn.view_camera)]),40,false);
-						gmlbase_x=850;
-						gmlbase_y=yyfminus(585,__yy_gml_errCheck(yyftime(16,__yy_gml_errCheck(yyfminus(__yy_gml_errCheck(gmllines),1)))));
-						draw_set_color(0);
-						draw_rectangle(yyfminus(yyfminus(__yy_gml_errCheck(gmlbase_x),64),2),yyfminus(yyfminus(__yy_gml_errCheck(gmlbase_y),42),2),yyfplus(yyfplus(__yy_gml_errCheck(gmlbase_x),64),2),yyfplus(yyfplus(yyfplus(yyfminus(__yy_gml_errCheck(gmlbase_y),42),18),2),__yy_gml_errCheck(yyftime(12,__yy_gml_errCheck(gmllines)))),false);
-						draw_set_color(_inst.gmlCOLOR_CHAT_BACKGROUND);
-						draw_rectangle(yyfminus(__yy_gml_errCheck(gmlbase_x),64),yyfminus(__yy_gml_errCheck(gmlbase_y),42),yyfplus(__yy_gml_errCheck(gmlbase_x),64),yyfplus(yyfplus(yyfminus(__yy_gml_errCheck(gmlbase_y),42),18),__yy_gml_errCheck(yyftime(12,__yy_gml_errCheck(gmllines)))),false);
-						draw_set_color(_inst.gmlCOLOR_CHAT_OUTLINE);
-						draw_rectangle(yyfplus(yyfminus(__yy_gml_errCheck(gmlbase_x),64),1),yyfplus(yyfminus(__yy_gml_errCheck(gmlbase_y),42),1),yyfminus(yyfplus(__yy_gml_errCheck(gmlbase_x),64),1),yyfplus(yyfminus(yyfplus(yyfminus(__yy_gml_errCheck(gmlbase_y),42),18),1),__yy_gml_errCheck(yyftime(12,__yy_gml_errCheck(gmllines)))),true);
-						draw_set_alpha(0.75);
-						draw_set_color(16777215);
-						draw_text_ext(yyfplus(yyfplus(yyfminus(__yy_gml_errCheck(gmlbase_x),64),5),1),yyfplus(yyfplus(yyfminus(__yy_gml_errCheck(gmlbase_y),42),3),1),(yyfequal(g_pBuiltIn.keyboard_string,"")?"Escribe algo":g_pBuiltIn.keyboard_string),16,gmlw);
-						draw_set_alpha(1);
-						draw_set_color(0);
-						draw_text_ext(yyfplus(yyfminus(__yy_gml_errCheck(gmlbase_x),64),5),yyfplus(yyfminus(__yy_gml_errCheck(gmlbase_y),42),3),g_pBuiltIn.keyboard_string,16,gmlw);
 					}
 				}
+				;
+				draw_set_alpha(0.7);
+				draw_set_color(global.gmlcolorValue[__yy_gml_array_check_index(0,global.gmlcolorValue)]);
+				draw_roundrect_ext(0,0,yyftime(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlGUIW),0.8),_inst.gmlchatY,25,25,false);
+				draw_roundrect_ext(yyfminus(__yy_gml_errCheck(gmlxx),32),yyfplus(4,__yy_gml_errCheck(_inst.gmlchatY)),yyfplus(__yy_gml_errCheck(gmlxx),32),yyfplus(yyfplus(4,__yy_gml_errCheck(_inst.gmlchatY)),34),25,25,false);
+				draw_set_alpha(1);
+				if(yyGetBool(surface_exists(_inst.gmlsurfaceChat)))
+				{
+
+										{
+						draw_surface(_inst.gmlsurfaceChat,1,1);
+					}
+				}
+				else 
+				{
+
+										{
+						_inst.gmlsurfaceChat=surface_create(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlGUIW,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlGUIH);
+						gml_Script_surfaceUpdate(_inst,_other,1);
+					}
+				}
+				;
+				if(yyGetBool(keyboard_check_pressed(13)))
+				{
+
+										{
+						_inst.gmlchat_message_request=get_string_async("Message","");
+					}
+				}
+				;
+				draw_set_halign(1);
+				draw_set_valign(1);
+				draw_set_color(255);
+				break;
 			}
 			;
 		}
-		;
+		case 1:
+		{
+
+						{
+				draw_set_color(global.gmlcolorValue[__yy_gml_array_check_index(0,global.gmlcolorValue)]);
+				draw_rectangle(0,0,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlGUIW,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlGUIH,false);
+				draw_set_font(YYASSET_REF(0x06000003));
+				gml_Script_draw_text_shadow(_inst,_other,32,225,"Recent visited worlds",16777215,0,1);
+				gml_Script_draw_own_button(_inst,_other,32,290,"NO NAME",260,40);
+				gml_Script_draw_own_button(_inst,_other,324,290,"NO NAME",260,40);
+				gml_Script_draw_own_button(_inst,_other,616,290,"NO NAME",260,40);
+				gml_Script_draw_own_button(_inst,_other,908,290,"NO NAME",260,40);
+				gml_Script_draw_text_shadow(_inst,_other,32,380,"Random popular worlds",16777215,0,1);
+				gml_Script_draw_own_button(_inst,_other,32,445,"NO NAME",260,40);
+				gml_Script_draw_own_button(_inst,_other,324,445,"NO NAME",260,40);
+				gml_Script_draw_own_button(_inst,_other,616,445,"NO NAME",260,40);
+				gml_Script_draw_own_button(_inst,_other,908,445,"NO NAME",260,40);
+				gml_Script_draw_own_button(_inst,_other,32,520,"NO NAME",260,40);
+				gml_Script_draw_own_button(_inst,_other,324,520,"NO NAME",260,40);
+				gml_Script_draw_own_button(_inst,_other,616,520,"NO NAME",260,40);
+				gml_Script_draw_own_button(_inst,_other,908,520,"NO NAME",260,40);
+				draw_set_color(global.gmlcolorValue[__yy_gml_array_check_index(1,global.gmlcolorValue)]);
+				gml_Script_text_round_box(_inst,_other,yyfdivide(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlGUIW),2),72,yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlGUIW),96),72,"world","normal",true,YYASSET_REF(0x06000004),1,((__yy_gml_array_set_owner(65536),__yy_gml_array_create(["words","uppercase"]))));
+				draw_set_font(YYASSET_REF(0x06000004));
+				if(yyGetBool(gml_Script_draw_own_button(_inst,_other,yyfminus(__yy_gml_errCheck(yyfdivide(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlGUIW),2)),150),135,"Enter world",300,80)))
+				{
+
+										{
+						if(!yyGetBool(_inst.gmlawaiting_request))
+						{
+
+														{
+								_inst.gmlawaiting_request=true;
+								var gmljson=__yy_gml_object_create(_inst,(global.gml___struct___45=__yy_method(_inst,gml_Script____struct___45_40_gml_Object_objectManager_Draw_64)),(yythis265=yyInst(_inst,_other,struct_get_from_hash(global.gmlform,"world")),yythis265).gmlstr);
+								var yythis265;
+								var gmlpacket=gml_Script_create_network_packet(_inst,_other,"world_request_enter");
+								yyInst(_inst,_other,gmlpacket).gmlData=gmljson;
+								gml_Script_send_network_packet(_inst,_other,gmlpacket);
+							}
+						}
+						;
+					}
+				}
+				;
+				break;
+			}
+			;
+		}
+		case 2:
+		{
+
+						{
+				draw_set_color(global.gmlcolorValue[__yy_gml_array_check_index(0,global.gmlcolorValue)]);
+				draw_rectangle(0,0,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlGUIW,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlCore).gmlCamera).gmlGUIH,false);
+				break;
+			}
+			;
+		}
 	}
 	;
+}
+
+function gml_Script____struct___45_40_gml_Object_objectManager_Draw_64(_inst,_other)
+{
+	if((--_inst.__yyCreatedByNew)<0)
+	{
+
+				{
+			yyError("calling a constructor directly - constructors should only be called using new")		}
+	}
+	if(_inst.__yyIsGMLObject)
+	{
+		_inst.__type="gml_Script____struct___45@gml_Object_objectManager_Draw_64"	}
+	if(gml_Script____struct___45_40_gml_Object_objectManager_Draw_64.prototype.__type===undefined)
+	{
+		gml_Script____struct___45_40_gml_Object_objectManager_Draw_64.prototype.__type="gml_Script____struct___45@gml_Object_objectManager_Draw_64"	}
+
+		{
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___45_40_gml_Object_objectManager_Draw_64.prototype);
+
+				{
+			var $$args=Array.prototype.slice.call(arguments);
+
+						{
+				_inst.gmlworld_name=$$args[__yy_gml_array_check_index(2+(0),$$args)];
+			}
+		}
+	}
 }
 
 function gml_Object_objectManager_Draw_0(_inst,_other)
@@ -7158,37 +9969,34 @@ function gml_Object_objectManager_Draw_0(_inst,_other)
 		}
 	}
 	;
-	if(yyGetBool(instance_exists(YYASSET_REF(0x00000005))))
-	{
-
-				{
-			draw_set_color(65535);
-			window_set_caption(string(gml_Script_world_get_first_column(_inst,_other)));
-			draw_circle(gml_Script_world_get_first_column(_inst,_other),yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,YYASSET_REF(0x00000005)).y),32),10,false);
-		}
-	}
-	;
+	draw_set_color(16711680);
+	draw_circle(_inst.gmldebug_draw_x,_inst.gmldebug_draw_y,8,false);
 }
 
 function gml_Object_objectManager_KeyPress_112(_inst,_other)
 {
-	_inst.gmllogin_username_request=get_string_async("Username","");
 }
 
 function gml_Object_objectManager_KeyPress_113(_inst,_other)
 {
-	_inst.gmlregistry_username_request=get_string_async("Username","");
 }
 
 function gml_Object_objectManager_KeyPress_115(_inst,_other)
 {
+	(yythis267=yyInst(_inst,_other,struct_get_from_hash(global.gmlform,"world")),yythis267).gmlstr="";
+	var yythis267;
+	yyInst(_inst,_other,_inst.gmlCore).gmlShowInterface=1;
 }
 
 function gml_Object_objectPlayer_Create_0(_inst,_other)
 {
 	gml_Script_world_get_chunk(_inst,_other,_inst.x,_inst.y);
 	_inst.depth=(-1);
-	_inst.gmlP=__yy_gml_object_create(_inst,(global.gml___struct___47=__yy_method(_inst,gml_Script____struct___47_40_gml_Object_objectPlayer_Create_0)),(-20),(-3),(-1),(__yy_gml_array_create([0])),(__yy_gml_array_create([0])),(__yy_gml_array_create([0])),(__yy_gml_array_create([0])),(__yy_gml_array_create([0])),(__yy_gml_array_create([0])),(__yy_gml_array_create([0])),(__yy_gml_array_create([0])),(__yy_gml_array_create([0])),(__yy_gml_array_create([0,0,0])),(__yy_gml_array_create([0,0,0])),((__yy_gml_array_set_owner(65536),__yy_gml_array_create([0,0,0]))));
+	_inst.gmlchat_message_delay=4;
+	_inst.gmlchat_message="";
+	_inst.gmlchat_message_current="";
+	_inst.gmlchat_timeout=0;
+	_inst.gmlP=__yy_gml_object_create(_inst,(global.gml___struct___46=__yy_method(_inst,gml_Script____struct___46_40_gml_Object_objectPlayer_Create_0)),(-20),(-3),(-1),(__yy_gml_array_create([0])),(__yy_gml_array_create([0])),(__yy_gml_array_create([0])),(__yy_gml_array_create([0])),(__yy_gml_array_create([0])),(__yy_gml_array_create([0])),(__yy_gml_array_create([0])),(__yy_gml_array_create([0])),(__yy_gml_array_create([0])),(__yy_gml_array_create([0,0,0])),(__yy_gml_array_create([0,0,0])),((__yy_gml_array_set_owner(65536),__yy_gml_array_create([0,0,0]))));
 	_inst.gmloldObjective=1;
 	_inst.gmlnumAnimation=variable_struct_names_count(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation);
 	_inst.gmlnamesAnimation=variable_struct_get_names(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation);
@@ -7208,23 +10016,23 @@ function gml_Object_objectPlayer_Create_0(_inst,_other)
 	{
 
 				{
-			if(yyfequal((yythis130=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothes,gmli))),yythis130).gmlDepth,(-1)))
+			if(yyfequal((yythis270=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothes,gmli))),yythis270).gmlDepth,(-1)))
 			{
 
 								{
 					_inst.gmlnumClothesBehind=(_inst.gmlnumClothesBehind instanceof Long?_inst.gmlnumClothesBehind.add(1):++_inst.gmlnumClothesBehind);
-					var yythis130;
+					var yythis270;
 					array_insert(_inst.gmlnamesClothesBehind,array_length(_inst.gmlnamesClothesBehind),_inst.gmlnamesClothes[__yy_gml_array_check_index(gmli,_inst.gmlnamesClothes)]);
 				}
 			}
 			else 
 			{
-				if(yyfequal((yythis131=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothes,gmli))),yythis131).gmlDepth,1))
+				if(yyfequal((yythis271=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothes,gmli))),yythis271).gmlDepth,1))
 				{
 
 										{
 						_inst.gmlnumClothesAbove=(_inst.gmlnumClothesAbove instanceof Long?_inst.gmlnumClothesAbove.add(1):++_inst.gmlnumClothesAbove);
-						var yythis131;
+						var yythis271;
 						array_insert(_inst.gmlnamesClothesAbove,array_length(_inst.gmlnamesClothesAbove),_inst.gmlnamesClothes[__yy_gml_array_check_index(gmli,_inst.gmlnamesClothes)]);
 					}
 				}
@@ -7236,7 +10044,7 @@ function gml_Object_objectPlayer_Create_0(_inst,_other)
 	_inst.gmltemporalList=ds_list_create();
 }
 
-function gml_Script____struct___49_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0(_inst,_other)
+function gml_Script____struct___48_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -7246,13 +10054,13 @@ function gml_Script____struct___49_40____struct___48_40____struct___47_40_gml_Ob
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___49@___struct___48@___struct___47@gml_Object_objectPlayer_Create_0"	}
-	if(gml_Script____struct___49_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___48@___struct___47@___struct___46@gml_Object_objectPlayer_Create_0"	}
+	if(gml_Script____struct___48_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.__type===undefined)
 	{
-		gml_Script____struct___49_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.__type="gml_Script____struct___49@___struct___48@___struct___47@gml_Object_objectPlayer_Create_0"	}
+		gml_Script____struct___48_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.__type="gml_Script____struct___48@___struct___47@___struct___46@gml_Object_objectPlayer_Create_0"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___49_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___48_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype);
 
 				{
 			_inst.gmlId=0;
@@ -7269,7 +10077,7 @@ function gml_Script____struct___49_40____struct___48_40____struct___47_40_gml_Ob
 	}
 }
 
-function gml_Script____struct___50_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0(_inst,_other)
+function gml_Script____struct___49_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -7279,13 +10087,13 @@ function gml_Script____struct___50_40____struct___48_40____struct___47_40_gml_Ob
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___50@___struct___48@___struct___47@gml_Object_objectPlayer_Create_0"	}
-	if(gml_Script____struct___50_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___49@___struct___47@___struct___46@gml_Object_objectPlayer_Create_0"	}
+	if(gml_Script____struct___49_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.__type===undefined)
 	{
-		gml_Script____struct___50_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.__type="gml_Script____struct___50@___struct___48@___struct___47@gml_Object_objectPlayer_Create_0"	}
+		gml_Script____struct___49_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.__type="gml_Script____struct___49@___struct___47@___struct___46@gml_Object_objectPlayer_Create_0"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___50_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___49_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype);
 
 				{
 			var $$args=Array.prototype.slice.call(arguments);
@@ -7306,7 +10114,7 @@ function gml_Script____struct___50_40____struct___48_40____struct___47_40_gml_Ob
 	}
 }
 
-function gml_Script____struct___51_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0(_inst,_other)
+function gml_Script____struct___50_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -7316,13 +10124,13 @@ function gml_Script____struct___51_40____struct___48_40____struct___47_40_gml_Ob
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___51@___struct___48@___struct___47@gml_Object_objectPlayer_Create_0"	}
-	if(gml_Script____struct___51_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___50@___struct___47@___struct___46@gml_Object_objectPlayer_Create_0"	}
+	if(gml_Script____struct___50_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.__type===undefined)
 	{
-		gml_Script____struct___51_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.__type="gml_Script____struct___51@___struct___48@___struct___47@gml_Object_objectPlayer_Create_0"	}
+		gml_Script____struct___50_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.__type="gml_Script____struct___50@___struct___47@___struct___46@gml_Object_objectPlayer_Create_0"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___51_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___50_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype);
 
 				{
 			_inst.gmlId=0;
@@ -7339,7 +10147,7 @@ function gml_Script____struct___51_40____struct___48_40____struct___47_40_gml_Ob
 	}
 }
 
-function gml_Script____struct___52_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0(_inst,_other)
+function gml_Script____struct___51_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -7349,13 +10157,13 @@ function gml_Script____struct___52_40____struct___48_40____struct___47_40_gml_Ob
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___52@___struct___48@___struct___47@gml_Object_objectPlayer_Create_0"	}
-	if(gml_Script____struct___52_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___51@___struct___47@___struct___46@gml_Object_objectPlayer_Create_0"	}
+	if(gml_Script____struct___51_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.__type===undefined)
 	{
-		gml_Script____struct___52_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.__type="gml_Script____struct___52@___struct___48@___struct___47@gml_Object_objectPlayer_Create_0"	}
+		gml_Script____struct___51_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.__type="gml_Script____struct___51@___struct___47@___struct___46@gml_Object_objectPlayer_Create_0"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___52_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___51_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype);
 
 				{
 			_inst.gmlId=0;
@@ -7372,7 +10180,7 @@ function gml_Script____struct___52_40____struct___48_40____struct___47_40_gml_Ob
 	}
 }
 
-function gml_Script____struct___53_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0(_inst,_other)
+function gml_Script____struct___52_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -7382,13 +10190,13 @@ function gml_Script____struct___53_40____struct___48_40____struct___47_40_gml_Ob
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___53@___struct___48@___struct___47@gml_Object_objectPlayer_Create_0"	}
-	if(gml_Script____struct___53_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___52@___struct___47@___struct___46@gml_Object_objectPlayer_Create_0"	}
+	if(gml_Script____struct___52_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.__type===undefined)
 	{
-		gml_Script____struct___53_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.__type="gml_Script____struct___53@___struct___48@___struct___47@gml_Object_objectPlayer_Create_0"	}
+		gml_Script____struct___52_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.__type="gml_Script____struct___52@___struct___47@___struct___46@gml_Object_objectPlayer_Create_0"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___53_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___52_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype);
 
 				{
 			_inst.gmlId=0;
@@ -7405,7 +10213,7 @@ function gml_Script____struct___53_40____struct___48_40____struct___47_40_gml_Ob
 	}
 }
 
-function gml_Script____struct___54_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0(_inst,_other)
+function gml_Script____struct___53_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -7415,13 +10223,13 @@ function gml_Script____struct___54_40____struct___48_40____struct___47_40_gml_Ob
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___54@___struct___48@___struct___47@gml_Object_objectPlayer_Create_0"	}
-	if(gml_Script____struct___54_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___53@___struct___47@___struct___46@gml_Object_objectPlayer_Create_0"	}
+	if(gml_Script____struct___53_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.__type===undefined)
 	{
-		gml_Script____struct___54_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.__type="gml_Script____struct___54@___struct___48@___struct___47@gml_Object_objectPlayer_Create_0"	}
+		gml_Script____struct___53_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.__type="gml_Script____struct___53@___struct___47@___struct___46@gml_Object_objectPlayer_Create_0"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___54_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___53_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype);
 
 				{
 			_inst.gmlId=0;
@@ -7438,7 +10246,7 @@ function gml_Script____struct___54_40____struct___48_40____struct___47_40_gml_Ob
 	}
 }
 
-function gml_Script____struct___55_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0(_inst,_other)
+function gml_Script____struct___54_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -7448,13 +10256,13 @@ function gml_Script____struct___55_40____struct___48_40____struct___47_40_gml_Ob
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___55@___struct___48@___struct___47@gml_Object_objectPlayer_Create_0"	}
-	if(gml_Script____struct___55_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___54@___struct___47@___struct___46@gml_Object_objectPlayer_Create_0"	}
+	if(gml_Script____struct___54_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.__type===undefined)
 	{
-		gml_Script____struct___55_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.__type="gml_Script____struct___55@___struct___48@___struct___47@gml_Object_objectPlayer_Create_0"	}
+		gml_Script____struct___54_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.__type="gml_Script____struct___54@___struct___47@___struct___46@gml_Object_objectPlayer_Create_0"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___55_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___54_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype);
 
 				{
 			_inst.gmlId=0;
@@ -7471,7 +10279,7 @@ function gml_Script____struct___55_40____struct___48_40____struct___47_40_gml_Ob
 	}
 }
 
-function gml_Script____struct___56_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0(_inst,_other)
+function gml_Script____struct___55_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -7481,13 +10289,13 @@ function gml_Script____struct___56_40____struct___48_40____struct___47_40_gml_Ob
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___56@___struct___48@___struct___47@gml_Object_objectPlayer_Create_0"	}
-	if(gml_Script____struct___56_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___55@___struct___47@___struct___46@gml_Object_objectPlayer_Create_0"	}
+	if(gml_Script____struct___55_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.__type===undefined)
 	{
-		gml_Script____struct___56_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.__type="gml_Script____struct___56@___struct___48@___struct___47@gml_Object_objectPlayer_Create_0"	}
+		gml_Script____struct___55_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.__type="gml_Script____struct___55@___struct___47@___struct___46@gml_Object_objectPlayer_Create_0"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___56_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___55_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype);
 
 				{
 			var $$args=Array.prototype.slice.call(arguments);
@@ -7508,7 +10316,7 @@ function gml_Script____struct___56_40____struct___48_40____struct___47_40_gml_Ob
 	}
 }
 
-function gml_Script____struct___57_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0(_inst,_other)
+function gml_Script____struct___56_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -7518,13 +10326,13 @@ function gml_Script____struct___57_40____struct___48_40____struct___47_40_gml_Ob
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___57@___struct___48@___struct___47@gml_Object_objectPlayer_Create_0"	}
-	if(gml_Script____struct___57_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___56@___struct___47@___struct___46@gml_Object_objectPlayer_Create_0"	}
+	if(gml_Script____struct___56_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.__type===undefined)
 	{
-		gml_Script____struct___57_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.__type="gml_Script____struct___57@___struct___48@___struct___47@gml_Object_objectPlayer_Create_0"	}
+		gml_Script____struct___56_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.__type="gml_Script____struct___56@___struct___47@___struct___46@gml_Object_objectPlayer_Create_0"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___57_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___56_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype);
 
 				{
 			_inst.gmlId=0;
@@ -7541,7 +10349,7 @@ function gml_Script____struct___57_40____struct___48_40____struct___47_40_gml_Ob
 	}
 }
 
-function gml_Script____struct___58_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0(_inst,_other)
+function gml_Script____struct___57_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -7551,13 +10359,13 @@ function gml_Script____struct___58_40____struct___48_40____struct___47_40_gml_Ob
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___58@___struct___48@___struct___47@gml_Object_objectPlayer_Create_0"	}
-	if(gml_Script____struct___58_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___57@___struct___47@___struct___46@gml_Object_objectPlayer_Create_0"	}
+	if(gml_Script____struct___57_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.__type===undefined)
 	{
-		gml_Script____struct___58_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.__type="gml_Script____struct___58@___struct___48@___struct___47@gml_Object_objectPlayer_Create_0"	}
+		gml_Script____struct___57_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.__type="gml_Script____struct___57@___struct___47@___struct___46@gml_Object_objectPlayer_Create_0"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___58_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___57_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype);
 
 				{
 			_inst.gmlId=0;
@@ -7574,7 +10382,7 @@ function gml_Script____struct___58_40____struct___48_40____struct___47_40_gml_Ob
 	}
 }
 
-function gml_Script____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0(_inst,_other)
+function gml_Script____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -7584,34 +10392,34 @@ function gml_Script____struct___48_40____struct___47_40_gml_Object_objectPlayer_
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___48@___struct___47@gml_Object_objectPlayer_Create_0"	}
-	if(gml_Script____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___47@___struct___46@gml_Object_objectPlayer_Create_0"	}
+	if(gml_Script____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.__type===undefined)
 	{
-		gml_Script____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.__type="gml_Script____struct___48@___struct___47@gml_Object_objectPlayer_Create_0"	}
+		gml_Script____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.__type="gml_Script____struct___47@___struct___46@gml_Object_objectPlayer_Create_0"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype);
 
 				{
 			var $$args=Array.prototype.slice.call(arguments);
 
 						{
-				_inst.gmlHat=__yy_gml_object_create(_inst,(global.gml___struct___49=__yy_method(_inst,gml_Script____struct___49_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0)));
-				_inst.gmlHair=__yy_gml_object_create(_inst,(global.gml___struct___50=__yy_method(_inst,gml_Script____struct___50_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0)),$$args[__yy_gml_array_check_index(2+(0),$$args)]);
-				_inst.gmlFace=__yy_gml_object_create(_inst,(global.gml___struct___51=__yy_method(_inst,gml_Script____struct___51_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0)));
-				_inst.gmlChest=__yy_gml_object_create(_inst,(global.gml___struct___52=__yy_method(_inst,gml_Script____struct___52_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0)));
-				_inst.gmlShirt=__yy_gml_object_create(_inst,(global.gml___struct___53=__yy_method(_inst,gml_Script____struct___53_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0)));
-				_inst.gmlPants=__yy_gml_object_create(_inst,(global.gml___struct___54=__yy_method(_inst,gml_Script____struct___54_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0)));
-				_inst.gmlFeet=__yy_gml_object_create(_inst,(global.gml___struct___55=__yy_method(_inst,gml_Script____struct___55_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0)));
-				_inst.gmlBack=__yy_gml_object_create(_inst,(global.gml___struct___56=__yy_method(_inst,gml_Script____struct___56_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0)),$$args[__yy_gml_array_check_index(2+(1),$$args)],$$args[__yy_gml_array_check_index(2+(2),$$args)]);
-				_inst.gmlHand=__yy_gml_object_create(_inst,(global.gml___struct___57=__yy_method(_inst,gml_Script____struct___57_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0)));
-				_inst.gmlArtifact=__yy_gml_object_create(_inst,(global.gml___struct___58=__yy_method(_inst,gml_Script____struct___58_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0)));
+				_inst.gmlHat=__yy_gml_object_create(_inst,(global.gml___struct___48=__yy_method(_inst,gml_Script____struct___48_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0)));
+				_inst.gmlHair=__yy_gml_object_create(_inst,(global.gml___struct___49=__yy_method(_inst,gml_Script____struct___49_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0)),$$args[__yy_gml_array_check_index(2+(0),$$args)]);
+				_inst.gmlFace=__yy_gml_object_create(_inst,(global.gml___struct___50=__yy_method(_inst,gml_Script____struct___50_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0)));
+				_inst.gmlChest=__yy_gml_object_create(_inst,(global.gml___struct___51=__yy_method(_inst,gml_Script____struct___51_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0)));
+				_inst.gmlShirt=__yy_gml_object_create(_inst,(global.gml___struct___52=__yy_method(_inst,gml_Script____struct___52_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0)));
+				_inst.gmlPants=__yy_gml_object_create(_inst,(global.gml___struct___53=__yy_method(_inst,gml_Script____struct___53_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0)));
+				_inst.gmlFeet=__yy_gml_object_create(_inst,(global.gml___struct___54=__yy_method(_inst,gml_Script____struct___54_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0)));
+				_inst.gmlBack=__yy_gml_object_create(_inst,(global.gml___struct___55=__yy_method(_inst,gml_Script____struct___55_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0)),$$args[__yy_gml_array_check_index(2+(1),$$args)],$$args[__yy_gml_array_check_index(2+(2),$$args)]);
+				_inst.gmlHand=__yy_gml_object_create(_inst,(global.gml___struct___56=__yy_method(_inst,gml_Script____struct___56_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0)));
+				_inst.gmlArtifact=__yy_gml_object_create(_inst,(global.gml___struct___57=__yy_method(_inst,gml_Script____struct___57_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0)));
 			}
 		}
 	}
 }
 
-function gml_Script____struct___61_40____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0(_inst,_other)
+function gml_Script____struct___60_40____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -7621,13 +10429,13 @@ function gml_Script____struct___61_40____struct___60_40____struct___59_40____str
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___61@___struct___60@___struct___59@___struct___47@gml_Object_objectPlayer_Create_0"	}
-	if(gml_Script____struct___61_40____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___60@___struct___59@___struct___58@___struct___46@gml_Object_objectPlayer_Create_0"	}
+	if(gml_Script____struct___60_40____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.__type===undefined)
 	{
-		gml_Script____struct___61_40____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.__type="gml_Script____struct___61@___struct___60@___struct___59@___struct___47@gml_Object_objectPlayer_Create_0"	}
+		gml_Script____struct___60_40____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.__type="gml_Script____struct___60@___struct___59@___struct___58@___struct___46@gml_Object_objectPlayer_Create_0"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___61_40____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___60_40____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype);
 
 				{
 			var $$args=Array.prototype.slice.call(arguments);
@@ -7651,7 +10459,7 @@ function gml_Script____struct___61_40____struct___60_40____struct___59_40____str
 	}
 }
 
-function gml_Script____struct___62_40____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0(_inst,_other)
+function gml_Script____struct___61_40____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -7661,13 +10469,13 @@ function gml_Script____struct___62_40____struct___60_40____struct___59_40____str
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___62@___struct___60@___struct___59@___struct___47@gml_Object_objectPlayer_Create_0"	}
-	if(gml_Script____struct___62_40____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___61@___struct___59@___struct___58@___struct___46@gml_Object_objectPlayer_Create_0"	}
+	if(gml_Script____struct___61_40____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.__type===undefined)
 	{
-		gml_Script____struct___62_40____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.__type="gml_Script____struct___62@___struct___60@___struct___59@___struct___47@gml_Object_objectPlayer_Create_0"	}
+		gml_Script____struct___61_40____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.__type="gml_Script____struct___61@___struct___59@___struct___58@___struct___46@gml_Object_objectPlayer_Create_0"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___62_40____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___61_40____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype);
 
 				{
 			var $$args=Array.prototype.slice.call(arguments);
@@ -7691,7 +10499,7 @@ function gml_Script____struct___62_40____struct___60_40____struct___59_40____str
 	}
 }
 
-function gml_Script____struct___63_40____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0(_inst,_other)
+function gml_Script____struct___62_40____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -7701,13 +10509,13 @@ function gml_Script____struct___63_40____struct___60_40____struct___59_40____str
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___63@___struct___60@___struct___59@___struct___47@gml_Object_objectPlayer_Create_0"	}
-	if(gml_Script____struct___63_40____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___62@___struct___59@___struct___58@___struct___46@gml_Object_objectPlayer_Create_0"	}
+	if(gml_Script____struct___62_40____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.__type===undefined)
 	{
-		gml_Script____struct___63_40____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.__type="gml_Script____struct___63@___struct___60@___struct___59@___struct___47@gml_Object_objectPlayer_Create_0"	}
+		gml_Script____struct___62_40____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.__type="gml_Script____struct___62@___struct___59@___struct___58@___struct___46@gml_Object_objectPlayer_Create_0"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___63_40____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___62_40____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype);
 
 				{
 			var $$args=Array.prototype.slice.call(arguments);
@@ -7731,7 +10539,7 @@ function gml_Script____struct___63_40____struct___60_40____struct___59_40____str
 	}
 }
 
-function gml_Script____struct___64_40____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0(_inst,_other)
+function gml_Script____struct___63_40____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -7741,13 +10549,13 @@ function gml_Script____struct___64_40____struct___60_40____struct___59_40____str
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___64@___struct___60@___struct___59@___struct___47@gml_Object_objectPlayer_Create_0"	}
-	if(gml_Script____struct___64_40____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___63@___struct___59@___struct___58@___struct___46@gml_Object_objectPlayer_Create_0"	}
+	if(gml_Script____struct___63_40____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.__type===undefined)
 	{
-		gml_Script____struct___64_40____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.__type="gml_Script____struct___64@___struct___60@___struct___59@___struct___47@gml_Object_objectPlayer_Create_0"	}
+		gml_Script____struct___63_40____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.__type="gml_Script____struct___63@___struct___59@___struct___58@___struct___46@gml_Object_objectPlayer_Create_0"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___64_40____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___63_40____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype);
 
 				{
 			var $$args=Array.prototype.slice.call(arguments);
@@ -7771,7 +10579,7 @@ function gml_Script____struct___64_40____struct___60_40____struct___59_40____str
 	}
 }
 
-function gml_Script____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0(_inst,_other)
+function gml_Script____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -7781,28 +10589,28 @@ function gml_Script____struct___60_40____struct___59_40____struct___47_40_gml_Ob
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___60@___struct___59@___struct___47@gml_Object_objectPlayer_Create_0"	}
-	if(gml_Script____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___59@___struct___58@___struct___46@gml_Object_objectPlayer_Create_0"	}
+	if(gml_Script____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.__type===undefined)
 	{
-		gml_Script____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.__type="gml_Script____struct___60@___struct___59@___struct___47@gml_Object_objectPlayer_Create_0"	}
+		gml_Script____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.__type="gml_Script____struct___59@___struct___58@___struct___46@gml_Object_objectPlayer_Create_0"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype);
 
 				{
 			var $$args=Array.prototype.slice.call(arguments);
 
 						{
-				_inst.gmlLArm=__yy_gml_object_create(_inst,(global.gml___struct___61=__yy_method(_inst,gml_Script____struct___61_40____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0)),$$args[__yy_gml_array_check_index(2+(0),$$args)],$$args[__yy_gml_array_check_index(2+(1),$$args)],$$args[__yy_gml_array_check_index(2+(2),$$args)]);
-				_inst.gmlRArm=__yy_gml_object_create(_inst,(global.gml___struct___62=__yy_method(_inst,gml_Script____struct___62_40____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0)),$$args[__yy_gml_array_check_index(2+(3),$$args)],$$args[__yy_gml_array_check_index(2+(4),$$args)],$$args[__yy_gml_array_check_index(2+(5),$$args)]);
-				_inst.gmlLLeg=__yy_gml_object_create(_inst,(global.gml___struct___63=__yy_method(_inst,gml_Script____struct___63_40____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0)),$$args[__yy_gml_array_check_index(2+(6),$$args)],$$args[__yy_gml_array_check_index(2+(7),$$args)],$$args[__yy_gml_array_check_index(2+(8),$$args)]);
-				_inst.gmlRLeg=__yy_gml_object_create(_inst,(global.gml___struct___64=__yy_method(_inst,gml_Script____struct___64_40____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0)),$$args[__yy_gml_array_check_index(2+(9),$$args)],$$args[__yy_gml_array_check_index(2+(10),$$args)],$$args[__yy_gml_array_check_index(2+(11),$$args)]);
+				_inst.gmlLArm=__yy_gml_object_create(_inst,(global.gml___struct___60=__yy_method(_inst,gml_Script____struct___60_40____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0)),$$args[__yy_gml_array_check_index(2+(0),$$args)],$$args[__yy_gml_array_check_index(2+(1),$$args)],$$args[__yy_gml_array_check_index(2+(2),$$args)]);
+				_inst.gmlRArm=__yy_gml_object_create(_inst,(global.gml___struct___61=__yy_method(_inst,gml_Script____struct___61_40____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0)),$$args[__yy_gml_array_check_index(2+(3),$$args)],$$args[__yy_gml_array_check_index(2+(4),$$args)],$$args[__yy_gml_array_check_index(2+(5),$$args)]);
+				_inst.gmlLLeg=__yy_gml_object_create(_inst,(global.gml___struct___62=__yy_method(_inst,gml_Script____struct___62_40____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0)),$$args[__yy_gml_array_check_index(2+(6),$$args)],$$args[__yy_gml_array_check_index(2+(7),$$args)],$$args[__yy_gml_array_check_index(2+(8),$$args)]);
+				_inst.gmlRLeg=__yy_gml_object_create(_inst,(global.gml___struct___63=__yy_method(_inst,gml_Script____struct___63_40____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0)),$$args[__yy_gml_array_check_index(2+(9),$$args)],$$args[__yy_gml_array_check_index(2+(10),$$args)],$$args[__yy_gml_array_check_index(2+(11),$$args)]);
 			}
 		}
 	}
 }
 
-function gml_Script____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0(_inst,_other)
+function gml_Script____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -7812,13 +10620,13 @@ function gml_Script____struct___59_40____struct___47_40_gml_Object_objectPlayer_
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___59@___struct___47@gml_Object_objectPlayer_Create_0"	}
-	if(gml_Script____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___58@___struct___46@gml_Object_objectPlayer_Create_0"	}
+	if(gml_Script____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.__type===undefined)
 	{
-		gml_Script____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.__type="gml_Script____struct___59@___struct___47@gml_Object_objectPlayer_Create_0"	}
+		gml_Script____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.__type="gml_Script____struct___58@___struct___46@gml_Object_objectPlayer_Create_0"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype);
 
 				{
 			var $$args=Array.prototype.slice.call(arguments);
@@ -7827,13 +10635,13 @@ function gml_Script____struct___59_40____struct___47_40_gml_Object_objectPlayer_
 				_inst.gmlFace=0;
 				_inst.gmlXScale=1.4;
 				_inst.gmlYScale=1.4;
-				_inst.gmlAnimation=__yy_gml_object_create(_inst,(global.gml___struct___60=__yy_method(_inst,gml_Script____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0)),$$args[__yy_gml_array_check_index(2+(0),$$args)],$$args[__yy_gml_array_check_index(2+(1),$$args)],$$args[__yy_gml_array_check_index(2+(2),$$args)],$$args[__yy_gml_array_check_index(2+(3),$$args)],$$args[__yy_gml_array_check_index(2+(4),$$args)],$$args[__yy_gml_array_check_index(2+(5),$$args)],$$args[__yy_gml_array_check_index(2+(6),$$args)],$$args[__yy_gml_array_check_index(2+(7),$$args)],$$args[__yy_gml_array_check_index(2+(8),$$args)],$$args[__yy_gml_array_check_index(2+(9),$$args)],$$args[__yy_gml_array_check_index(2+(10),$$args)],$$args[__yy_gml_array_check_index(2+(11),$$args)]);
+				_inst.gmlAnimation=__yy_gml_object_create(_inst,(global.gml___struct___59=__yy_method(_inst,gml_Script____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0)),$$args[__yy_gml_array_check_index(2+(0),$$args)],$$args[__yy_gml_array_check_index(2+(1),$$args)],$$args[__yy_gml_array_check_index(2+(2),$$args)],$$args[__yy_gml_array_check_index(2+(3),$$args)],$$args[__yy_gml_array_check_index(2+(4),$$args)],$$args[__yy_gml_array_check_index(2+(5),$$args)],$$args[__yy_gml_array_check_index(2+(6),$$args)],$$args[__yy_gml_array_check_index(2+(7),$$args)],$$args[__yy_gml_array_check_index(2+(8),$$args)],$$args[__yy_gml_array_check_index(2+(9),$$args)],$$args[__yy_gml_array_check_index(2+(10),$$args)],$$args[__yy_gml_array_check_index(2+(11),$$args)]);
 			}
 		}
 	}
 }
 
-function gml_Script____struct___65_40____struct___47_40_gml_Object_objectPlayer_Create_0(_inst,_other)
+function gml_Script____struct___64_40____struct___46_40_gml_Object_objectPlayer_Create_0(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -7843,13 +10651,13 @@ function gml_Script____struct___65_40____struct___47_40_gml_Object_objectPlayer_
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___65@___struct___47@gml_Object_objectPlayer_Create_0"	}
-	if(gml_Script____struct___65_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___64@___struct___46@gml_Object_objectPlayer_Create_0"	}
+	if(gml_Script____struct___64_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.__type===undefined)
 	{
-		gml_Script____struct___65_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.__type="gml_Script____struct___65@___struct___47@gml_Object_objectPlayer_Create_0"	}
+		gml_Script____struct___64_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.__type="gml_Script____struct___64@___struct___46@gml_Object_objectPlayer_Create_0"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___65_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___64_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype);
 
 				{
 			_inst.gmlGridX=0;
@@ -7860,7 +10668,7 @@ function gml_Script____struct___65_40____struct___47_40_gml_Object_objectPlayer_
 	}
 }
 
-function gml_Script____struct___66_40____struct___47_40_gml_Object_objectPlayer_Create_0(_inst,_other)
+function gml_Script____struct___65_40____struct___46_40_gml_Object_objectPlayer_Create_0(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -7870,13 +10678,13 @@ function gml_Script____struct___66_40____struct___47_40_gml_Object_objectPlayer_
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___66@___struct___47@gml_Object_objectPlayer_Create_0"	}
-	if(gml_Script____struct___66_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___65@___struct___46@gml_Object_objectPlayer_Create_0"	}
+	if(gml_Script____struct___65_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.__type===undefined)
 	{
-		gml_Script____struct___66_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.__type="gml_Script____struct___66@___struct___47@gml_Object_objectPlayer_Create_0"	}
+		gml_Script____struct___65_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.__type="gml_Script____struct___65@___struct___46@gml_Object_objectPlayer_Create_0"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___66_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___65_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype);
 
 				{
 			_inst.gmlActive=false;
@@ -7885,7 +10693,7 @@ function gml_Script____struct___66_40____struct___47_40_gml_Object_objectPlayer_
 	}
 }
 
-function gml_Script____struct___67_40____struct___47_40_gml_Object_objectPlayer_Create_0(_inst,_other)
+function gml_Script____struct___66_40____struct___46_40_gml_Object_objectPlayer_Create_0(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -7895,13 +10703,13 @@ function gml_Script____struct___67_40____struct___47_40_gml_Object_objectPlayer_
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___67@___struct___47@gml_Object_objectPlayer_Create_0"	}
-	if(gml_Script____struct___67_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___66@___struct___46@gml_Object_objectPlayer_Create_0"	}
+	if(gml_Script____struct___66_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.__type===undefined)
 	{
-		gml_Script____struct___67_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.__type="gml_Script____struct___67@___struct___47@gml_Object_objectPlayer_Create_0"	}
+		gml_Script____struct___66_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.__type="gml_Script____struct___66@___struct___46@gml_Object_objectPlayer_Create_0"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___67_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___66_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype);
 
 				{
 			_inst.gmlActive=false;
@@ -7914,7 +10722,7 @@ function gml_Script____struct___67_40____struct___47_40_gml_Object_objectPlayer_
 	}
 }
 
-function gml_Script____struct___68_40____struct___47_40_gml_Object_objectPlayer_Create_0(_inst,_other)
+function gml_Script____struct___67_40____struct___46_40_gml_Object_objectPlayer_Create_0(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -7924,13 +10732,13 @@ function gml_Script____struct___68_40____struct___47_40_gml_Object_objectPlayer_
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___68@___struct___47@gml_Object_objectPlayer_Create_0"	}
-	if(gml_Script____struct___68_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___67@___struct___46@gml_Object_objectPlayer_Create_0"	}
+	if(gml_Script____struct___67_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.__type===undefined)
 	{
-		gml_Script____struct___68_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.__type="gml_Script____struct___68@___struct___47@gml_Object_objectPlayer_Create_0"	}
+		gml_Script____struct___67_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.__type="gml_Script____struct___67@___struct___46@gml_Object_objectPlayer_Create_0"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___68_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___67_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype);
 
 				{
 			_inst.gmlDoubleJump=false;
@@ -7938,7 +10746,7 @@ function gml_Script____struct___68_40____struct___47_40_gml_Object_objectPlayer_
 	}
 }
 
-function gml_Script____struct___47_40_gml_Object_objectPlayer_Create_0(_inst,_other)
+function gml_Script____struct___46_40_gml_Object_objectPlayer_Create_0(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -7948,18 +10756,24 @@ function gml_Script____struct___47_40_gml_Object_objectPlayer_Create_0(_inst,_ot
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___47@gml_Object_objectPlayer_Create_0"	}
-	if(gml_Script____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___46@gml_Object_objectPlayer_Create_0"	}
+	if(gml_Script____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.__type===undefined)
 	{
-		gml_Script____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.__type="gml_Script____struct___47@gml_Object_objectPlayer_Create_0"	}
+		gml_Script____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.__type="gml_Script____struct___46@gml_Object_objectPlayer_Create_0"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___47_40_gml_Object_objectPlayer_Create_0.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___46_40_gml_Object_objectPlayer_Create_0.prototype);
 
 				{
 			var $$args=Array.prototype.slice.call(arguments);
 
 						{
+				_inst.gmlLatestPutX=0;
+				_inst.gmlLatestPutY=0;
+				_inst.gmlGridX=0;
+				_inst.gmlGridY=0;
+				_inst.gmlPreviousGridX=0;
+				_inst.gmlPreviousGridY=0;
 				_inst.gmlMax_Jumps=1;
 				_inst.gmlJumps=0;
 				_inst.gmlGravity=0.25;
@@ -7968,12 +10782,13 @@ function gml_Script____struct___47_40_gml_Object_objectPlayer_Create_0(_inst,_ot
 				_inst.gmlXMirror=1;
 				_inst.gmlLastXMirror=1;
 				_inst.gmlMoving=0;
-				_inst.gmlEquip=__yy_gml_object_create(_inst,(global.gml___struct___48=__yy_method(_inst,gml_Script____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0)),$$args[__yy_gml_array_check_index(2+(0),$$args)],$$args[__yy_gml_array_check_index(2+(1),$$args)],$$args[__yy_gml_array_check_index(2+(2),$$args)]);
-				_inst.gmlSprite=__yy_gml_object_create(_inst,(global.gml___struct___59=__yy_method(_inst,gml_Script____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0)),$$args[__yy_gml_array_check_index(2+(3),$$args)],$$args[__yy_gml_array_check_index(2+(4),$$args)],$$args[__yy_gml_array_check_index(2+(5),$$args)],$$args[__yy_gml_array_check_index(2+(6),$$args)],$$args[__yy_gml_array_check_index(2+(7),$$args)],$$args[__yy_gml_array_check_index(2+(8),$$args)],$$args[__yy_gml_array_check_index(2+(9),$$args)],$$args[__yy_gml_array_check_index(2+(10),$$args)],$$args[__yy_gml_array_check_index(2+(11),$$args)],$$args[__yy_gml_array_check_index(2+(12),$$args)],$$args[__yy_gml_array_check_index(2+(13),$$args)],$$args[__yy_gml_array_check_index(2+(14),$$args)]);
-				_inst.gmlPosition=__yy_gml_object_create(_inst,(global.gml___struct___65=__yy_method(_inst,gml_Script____struct___65_40____struct___47_40_gml_Object_objectPlayer_Create_0)));
-				_inst.gmlJumping=__yy_gml_object_create(_inst,(global.gml___struct___66=__yy_method(_inst,gml_Script____struct___66_40____struct___47_40_gml_Object_objectPlayer_Create_0)));
-				_inst.gmlPunching=__yy_gml_object_create(_inst,(global.gml___struct___67=__yy_method(_inst,gml_Script____struct___67_40____struct___47_40_gml_Object_objectPlayer_Create_0)));
-				_inst.gmlSkills=__yy_gml_object_create(_inst,(global.gml___struct___68=__yy_method(_inst,gml_Script____struct___68_40____struct___47_40_gml_Object_objectPlayer_Create_0)));
+				_inst.gmlNoGravity=false;
+				_inst.gmlEquip=__yy_gml_object_create(_inst,(global.gml___struct___47=__yy_method(_inst,gml_Script____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0)),$$args[__yy_gml_array_check_index(2+(0),$$args)],$$args[__yy_gml_array_check_index(2+(1),$$args)],$$args[__yy_gml_array_check_index(2+(2),$$args)]);
+				_inst.gmlSprite=__yy_gml_object_create(_inst,(global.gml___struct___58=__yy_method(_inst,gml_Script____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0)),$$args[__yy_gml_array_check_index(2+(3),$$args)],$$args[__yy_gml_array_check_index(2+(4),$$args)],$$args[__yy_gml_array_check_index(2+(5),$$args)],$$args[__yy_gml_array_check_index(2+(6),$$args)],$$args[__yy_gml_array_check_index(2+(7),$$args)],$$args[__yy_gml_array_check_index(2+(8),$$args)],$$args[__yy_gml_array_check_index(2+(9),$$args)],$$args[__yy_gml_array_check_index(2+(10),$$args)],$$args[__yy_gml_array_check_index(2+(11),$$args)],$$args[__yy_gml_array_check_index(2+(12),$$args)],$$args[__yy_gml_array_check_index(2+(13),$$args)],$$args[__yy_gml_array_check_index(2+(14),$$args)]);
+				_inst.gmlPosition=__yy_gml_object_create(_inst,(global.gml___struct___64=__yy_method(_inst,gml_Script____struct___64_40____struct___46_40_gml_Object_objectPlayer_Create_0)));
+				_inst.gmlJumping=__yy_gml_object_create(_inst,(global.gml___struct___65=__yy_method(_inst,gml_Script____struct___65_40____struct___46_40_gml_Object_objectPlayer_Create_0)));
+				_inst.gmlPunching=__yy_gml_object_create(_inst,(global.gml___struct___66=__yy_method(_inst,gml_Script____struct___66_40____struct___46_40_gml_Object_objectPlayer_Create_0)));
+				_inst.gmlSkills=__yy_gml_object_create(_inst,(global.gml___struct___67=__yy_method(_inst,gml_Script____struct___67_40____struct___46_40_gml_Object_objectPlayer_Create_0)));
 			}
 		}
 	}
@@ -7981,85 +10796,147 @@ function gml_Script____struct___47_40_gml_Object_objectPlayer_Create_0(_inst,_ot
 
 function gml_Object_objectPlayer_Step_0(_inst,_other)
 {
-	var gmlnoFloor=false;
-	var gmlnoFloor,gmlxInput=0,gmlyInput=0,gmltouchInput=0;
+	var gmlnoFloor=true,gmlxInput=0,gmlyInput=0,gmltouchInput=0;
 	if(yyfequal(_inst.gmluid,global.gmlmy_uid))
 	{
 
 				{
+			var gmlnoFloor=!yyGetBool(yyInst(_inst,_other,_inst.gmlP).gmlNoGravity);
 			var gmlxInput=yyfminus(__yy_gml_errCheck(keyboard_check(68)),__yy_gml_errCheck(keyboard_check(65)));
 			var gmlyInput=keyboard_check(87);
 			var gmltouchInput=(yyGetBool(mouse_check_button(1)))&&(yyGetBool(global.gmltouchAvailable));
-			if(yyfless(yyInst(_inst,_other,_inst.gmlP).gmlVSpeed,5))
+			yyInst(_inst,_other,_inst.gmlP).gmlGridX=_inst.x;
+			if(yyfnotequal(yyInst(_inst,_other,_inst.gmlP).gmlGridX,yyInst(_inst,_other,_inst.gmlP).gmlPreviousGridX))
 			{
-				yyInst(_inst,_other,_inst.gmlP).gmlVSpeed=yyfplus(yyInst(_inst,_other,_inst.gmlP).gmlVSpeed,yyInst(_inst,_other,_inst.gmlP).gmlGravity)			}
+				yyInst(_inst,_other,_inst.gmlP).gmlNoGravity=false			}
 			;
-			do 
+			if(!yyGetBool(yyInst(_inst,_other,_inst.gmlP).gmlNoGravity))
 			{
 
 								{
-					_inst.gmlinst=instance_place(_inst,_inst.x,yyfplus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlP).gmlVSpeed)),YYASSET_REF(0x00000000));
-					if(yyfnotequal(_inst.gmlinst,(-4)))
+					if(yyfless(yyInst(_inst,_other,_inst.gmlP).gmlVSpeed,5))
+					{
+						yyInst(_inst,_other,_inst.gmlP).gmlVSpeed=yyfplus(yyInst(_inst,_other,_inst.gmlP).gmlVSpeed,yyInst(_inst,_other,_inst.gmlP).gmlGravity)					}
+					;
+					do 
 					{
 
 												{
-							if(yyfnotequal(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlinst).gmlP).gmlTresspass,true))
+							var gmltype="";
+							_inst.gmlinst=instance_place(_inst,_inst.x,yyfplus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlP).gmlVSpeed)),((__yy_gml_array_set_owner(65536),__yy_gml_array_create([YYASSET_REF(0x00000000),global.gmltilemap]))));
+							if(yyfnotequal(_inst.gmlinst,(-4)))
 							{
 
 																{
-									while(!yyGetBool(place_meeting(_inst,_inst.x,yyfplus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck(yyftime(1,__yy_gml_errCheck((yyfless(yyInst(_inst,_other,_inst.gmlinst).y,_inst.y)?(-1):1))))),YYASSET_REF(0x00000000)))) 
+									if(yyGetBool(layer_tilemap_exists("Tiles_1",_inst.gmlinst)))
 									{
-										_inst.y=yyfplus(_inst.y,yyftime(1,__yy_gml_errCheck((yyfless(yyInst(_inst,_other,_inst.gmlinst).y,_inst.y)?(-1):1))))									}
-									;
-									if(yyfless(yyInst(_inst,_other,_inst.gmlinst).y,_inst.y))
-									{
-										_inst.y=yyfplus(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlinst).y),30)									}
+										var gmltype="tile",gmltresspass=false,gmlyy=yyfplus(__yy_gml_errCheck(gml_Script_move_snap_grid(_inst,_other,yyfplus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlP).gmlVSpeed)),32)),__yy_gml_errCheck((yyfless(yyInst(_inst,_other,_inst.gmlP).gmlVSpeed,0)?(-48):48)))									}
 									else 
 									{
+										var gmltype="object",gmltresspass=yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlinst).gmlP).gmlTresspass,gmlyy=yyInst(_inst,_other,_inst.gmlinst).y									}
+									;
 
-																				{
-											yyInst(_inst,_other,_inst.gmlP).gmlVSpeed=0;
-											yyInst(_inst,_other,_inst.gmlP).gmlJumps=0;
+																		{
+										if(yyfnotequal(gmltresspass,true))
+										{
+
+																						{
+												if(yyfless(yyInst(_inst,_other,_inst.gmlP).gmlVSpeed,0))
+												{
+
+																										{
+														if(yyfequal(gmltype,"tile"))
+														{
+															show_debug_message("ceil()!")														}
+														else 
+														{
+															show_debug_message(string("ceil() on {0} with tresspass {1}!",object_get_name(yyInst(_inst,_other,_inst.gmlinst).object_index),yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlinst).gmlP).gmlTresspass))														}
+														;
+														while(yyGetBool(place_meeting(_inst,_inst.x,yyfplus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlP).gmlVSpeed)),_inst.gmlinst))) 
+														{
+
+																														{
+																_inst.y=(_inst.y instanceof Long?_inst.y.add(1):++_inst.y);
+															}
+														}
+														;
+													}
+												}
+												else 
+												{
+
+																										{
+														var gmlyprev=_inst.y;
+														while(!yyGetBool(place_meeting(_inst,_inst.x,yyfplus(__yy_gml_errCheck(_inst.y),1),_inst.gmlinst))) 
+														{
+
+																														{
+																_inst.y=(_inst.y instanceof Long?_inst.y.add(1):++_inst.y);
+															}
+														}
+														;
+														if(yyfgreater(yyfminus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck(gmlyprev)),0))
+														{
+															show_debug_message(string("change {0}",string(yyfminus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck(gmlyprev)))))														}
+														;
+														yyInst(_inst,_other,_inst.gmlP).gmlVSpeed=0;
+														yyInst(_inst,_other,_inst.gmlP).gmlJumps=0;
+														yyInst(_inst,_other,_inst.gmlP).gmlNoGravity=true;
+													}
+												}
+												;
+												if(yyfequal(gmltype,"object"))
+												{
+
+																										{
+														instance_deactivate_object(_inst,_inst.gmlinst);
+														ds_list_add(_inst.gmltemporalList,_inst.gmlinst);
+													}
+												}
+												;
+											}
 										}
+										else 
+										{
+
+																						{
+												if(yyfequal(gmltype,"object"))
+												{
+
+																										{
+														instance_deactivate_object(_inst,_inst.gmlinst);
+														ds_list_add(_inst.gmltemporalList,_inst.gmlinst);
+													}
+												}
+												;
+											}
+										}
+										;
 									}
 									;
-									var gmlinst2;
-									gmlinst2=instance_place(_inst,_inst.x,yyfplus(__yy_gml_errCheck(_inst.y),1),YYASSET_REF(0x00000000));
-									gmlnoFloor=!yyGetBool((yyGetBool(yyfnotequal(gmlinst2,(-4))))&&(yyGetBool((yyfnotequal(gmlinst2,(-4))?yyfgreater(yyInst(_inst,_other,gmlinst2).y,_inst.y):false))));
-									yyInst(_inst,_other,_inst.gmlP).gmlVSpeed=0;
-									yyInst(_inst,_other,_inst.gmlP).gmlJumps=0;
-									instance_deactivate_object(_inst,_inst.gmlinst);
-									ds_list_add(_inst.gmltemporalList,_inst.gmlinst);
-								}
-							}
-							else 
-							{
-
-																{
-									instance_deactivate_object(_inst,_inst.gmlinst);
-									ds_list_add(_inst.gmltemporalList,_inst.gmlinst);
 								}
 							}
 							;
 						}
 					}
-					;
-				}
-			}
-			while(!(yyfequal(_inst.gmlinst,(-4))));
-			if(yyfgreater(ds_list_size(_inst.gmltemporalList),0))
-			{
-
-								{
-					var gmli=0;
-					for(;yyfless(gmli,ds_list_size(_inst.gmltemporalList));gmli=(gmli instanceof Long?gmli.add(1):++gmli))
+					while(!((yyGetBool(yyfequal(_inst.gmlinst,(-4))))||(yyGetBool(yyfequal(gmltype,"tile")))));
+					if(yyfgreater(ds_list_size(_inst.gmltemporalList),0))
 					{
-						instance_activate_object(_inst,ds_list_find_value(_inst.gmltemporalList,gmli))					}
+
+												{
+							var gmli=0;
+							for(;yyfless(gmli,ds_list_size(_inst.gmltemporalList));gmli=(gmli instanceof Long?gmli.add(1):++gmli))
+							{
+								instance_activate_object(_inst,ds_list_find_value(_inst.gmltemporalList,gmli))							}
+							;
+							ds_list_clear(_inst.gmltemporalList);
+						}
+					}
 					;
-					ds_list_clear(_inst.gmltemporalList);
 				}
 			}
 			;
+			yyInst(_inst,_other,_inst.gmlP).gmlPreviousGridX=yyInst(_inst,_other,_inst.gmlP).gmlGridX;
 		}
 	}
 	;
@@ -8069,8 +10946,50 @@ function gml_Object_objectPlayer_Step_0(_inst,_other)
 				{
 			yyInst(_inst,_other,_inst.gmlP).gmlXMirror=gmlxInput;
 			gml_Script_updateAnimationAngle(_inst,_other);
-			_inst.gmlinst=instance_place(_inst,yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlP).gmlBase_HSpeed),__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlP).gmlXMirror)))),_inst.y,YYASSET_REF(0x00000000));
-			if((yyGetBool(yyfequal(_inst.gmlinst,(-4))))||(yyGetBool((yyfnotequal(_inst.gmlinst,(-4))?yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlinst).gmlP).gmlTresspass:false))))
+			var gmllist=ds_list_create();
+			_inst.gmlinst=instance_place_list(_inst,yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlP).gmlBase_HSpeed),__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlP).gmlXMirror)))),_inst.y,(__yy_gml_array_create([YYASSET_REF(0x00000000),global.gmltilemap])),gmllist,false);
+			var gmlpass=true;
+			if(yyfgreater(ds_list_size(gmllist),0))
+			{
+
+								{
+					var gmli=0;
+					for(;yyfless(gmli,ds_list_size(gmllist));gmli=(gmli instanceof Long?gmli.add(1):++gmli))
+					{
+
+												{
+							if(yyGetBool(layer_tilemap_exists("Tiles_1",ds_list_find_value(gmllist,gmli))))
+							{
+
+																{
+									gmlpass=false;
+									break;
+								}
+							}
+							else 
+							{
+
+																{
+									if(!yyGetBool(yyInst(_inst,_other,(yythis324=yyInst(_inst,_other,ds_list_find_value(gmllist,gmli)),yythis324).gmlP).gmlTresspass))
+									{
+
+																				{
+											gmlpass=false;
+											var yythis324;
+											break;
+										}
+									}
+									;
+								}
+							}
+							;
+						}
+					}
+					;
+				}
+			}
+			;
+			if(yyGetBool(gmlpass))
 			{
 
 								{
@@ -8157,10 +11076,10 @@ function gml_Object_objectPlayer_Step_0(_inst,_other)
 	{
 
 				{
-			(yythis189=yyInst(_inst,_other,struct_get_from_hash(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,"LArm")),yythis189).gmlObjectiveAngle=yyftime((-90),__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlP).gmlXMirror));
-			var yythis189;
-			(yythis190=yyInst(_inst,_other,struct_get_from_hash(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,"RArm")),yythis190).gmlObjectiveAngle=yyftime((-90),__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlP).gmlXMirror));
-			var yythis190;
+			(yythis325=yyInst(_inst,_other,struct_get_from_hash(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,"LArm")),yythis325).gmlObjectiveAngle=yyftime((-90),__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlP).gmlXMirror));
+			var yythis325;
+			(yythis326=yyInst(_inst,_other,struct_get_from_hash(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,"RArm")),yythis326).gmlObjectiveAngle=yyftime((-90),__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlP).gmlXMirror));
+			var yythis326;
 			yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlFace=0;
 			if(yyGetBool(gmlyInput))
 			{
@@ -8170,6 +11089,7 @@ function gml_Object_objectPlayer_Step_0(_inst,_other)
 					{
 
 												{
+							yyInst(_inst,_other,_inst.gmlP).gmlNoGravity=false;
 							yyInst(_inst,_other,_inst.gmlP).gmlVSpeed=(-7);
 							yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlJumping).gmlActive=true;
 							yyInst(_inst,_other,_inst.gmlP).gmlJumps=(yyInst(_inst,_other,_inst.gmlP).gmlJumps instanceof Long?yyInst(_inst,_other,_inst.gmlP).gmlJumps.add(1):++yyInst(_inst,_other,_inst.gmlP).gmlJumps);
@@ -8179,6 +11099,12 @@ function gml_Object_objectPlayer_Step_0(_inst,_other)
 				}
 			}
 			;
+		}
+	}
+	else 
+	{
+
+				{
 		}
 	}
 	;
@@ -8191,20 +11117,20 @@ function gml_Object_objectPlayer_Step_0(_inst,_other)
 			{
 
 								{
-					(yythis191=yyInst(_inst,_other,struct_get_from_hash(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,"LArm")),yythis191).gmlObjectiveAngle=yyftime(65,__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlP).gmlXMirror));
-					var yythis191;
-					(yythis192=yyInst(_inst,_other,struct_get_from_hash(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,"RArm")),yythis192).gmlObjectiveAngle=yyftime(65,__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlP).gmlXMirror));
-					var yythis192;
+					(yythis327=yyInst(_inst,_other,struct_get_from_hash(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,"LArm")),yythis327).gmlObjectiveAngle=yyftime(65,__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlP).gmlXMirror));
+					var yythis327;
+					(yythis328=yyInst(_inst,_other,struct_get_from_hash(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,"RArm")),yythis328).gmlObjectiveAngle=yyftime(65,__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlP).gmlXMirror));
+					var yythis328;
 				}
 			}
 			else 
 			{
 
 								{
-					(yythis193=yyInst(_inst,_other,struct_get_from_hash(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,"LArm")),yythis193).gmlObjectiveAngle=yyftime((-45),__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlP).gmlXMirror));
-					var yythis193;
-					(yythis194=yyInst(_inst,_other,struct_get_from_hash(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,"RArm")),yythis194).gmlObjectiveAngle=yyftime((-45),__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlP).gmlXMirror));
-					var yythis194;
+					(yythis329=yyInst(_inst,_other,struct_get_from_hash(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,"LArm")),yythis329).gmlObjectiveAngle=yyftime((-45),__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlP).gmlXMirror));
+					var yythis329;
+					(yythis330=yyInst(_inst,_other,struct_get_from_hash(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,"RArm")),yythis330).gmlObjectiveAngle=yyftime((-45),__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlP).gmlXMirror));
+					var yythis330;
 				}
 			}
 			;
@@ -8248,19 +11174,19 @@ function gml_Object_objectPlayer_Step_0(_inst,_other)
 			var gmlquantity=0,gmlquantityLimit=200;
 
 						{
-				var __yy__v33=GetWithArray(gmlcollisionId);
-				for(var __yy__v34 in __yy__v33)
+				var __yy__v44=GetWithArray(gmlcollisionId);
+				for(var __yy__v45 in __yy__v44)
 				{
-					if(!__yy__v33.hasOwnProperty(__yy__v34))continue;
-					var __yy__v35=__yy__v33[__yy__v34];
+					if(!__yy__v44.hasOwnProperty(__yy__v45))continue;
+					var __yy__v46=__yy__v44[__yy__v45];
 
 										{
-						if(yyGetBool(variable_struct_exists(yyInst(__yy__v35,_other,global.gmlInventory).gmlItems,__yy__v35.gmlobjectId)))
+						if(yyGetBool(variable_struct_exists(yyInst(__yy__v46,_other,global.gmlInventory).gmlItems,__yy__v46.gmlobjectId)))
 						{
-							gmlquantity=(yythis195=yyInst(__yy__v35,_other,variable_struct_get(yyInst(__yy__v35,_other,global.gmlInventory).gmlItems,__yy__v35.gmlobjectId)),yythis195).gmlQuantity						}
+							gmlquantity=(yythis331=yyInst(__yy__v46,_other,variable_struct_get(yyInst(__yy__v46,_other,global.gmlInventory).gmlItems,__yy__v46.gmlobjectId)),yythis331).gmlQuantity						}
 						;
-						var yythis195;
-						var gmlminQuantity=min(yyInst(__yy__v35,_other,gmlcollisionId).gmlquantityItem,yyfminus(__yy_gml_errCheck(gmlquantityLimit),__yy_gml_errCheck(gmlquantity)));
+						var yythis331;
+						var gmlminQuantity=min(yyInst(__yy__v46,_other,gmlcollisionId).gmlquantityItem,yyfminus(__yy_gml_errCheck(gmlquantityLimit),__yy_gml_errCheck(gmlquantity)));
 						if(yyfgreater(gmlminQuantity,0))
 						{
 
@@ -8269,11 +11195,11 @@ function gml_Object_objectPlayer_Step_0(_inst,_other)
 								{
 
 																		{
-										yyInst(__yy__v35,_other,gmlcollisionId).gmlquantityItem=yyfminus(yyInst(__yy__v35,_other,gmlcollisionId).gmlquantityItem,gmlminQuantity);
-										gml_Script_inventoryAdd(__yy__v35,_inst,__yy__v35.gmlobjectId,gmlminQuantity);
-										if((yyGetBool(!yyGetBool(__yy__v35.gmlcollectedItem)))&&(yyGetBool(!yyGetBool(yyInst(__yy__v35,_other,gmlcollisionId).gmlquantityItem))))
+										yyInst(__yy__v46,_other,gmlcollisionId).gmlquantityItem=yyfminus(yyInst(__yy__v46,_other,gmlcollisionId).gmlquantityItem,gmlminQuantity);
+										gml_Script_inventoryAdd(__yy__v46,_inst,__yy__v46.gmlobjectId,gmlminQuantity);
+										if((yyGetBool(!yyGetBool(__yy__v46.gmlcollectedItem)))&&(yyGetBool(!yyGetBool(yyInst(__yy__v46,_other,gmlcollisionId).gmlquantityItem))))
 										{
-											__yy__v35.gmlcollectedItem=true										}
+											__yy__v46.gmlcollectedItem=true										}
 										;
 									}
 								}
@@ -8293,9 +11219,9 @@ function gml_Object_objectPlayer_Step_0(_inst,_other)
 	{
 
 				{
-			var gmltype=(yythis196=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis196).gmlType;
-			var yythis196;
-			if(!yyGetBool((yythis197=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis197).gmlCurrentDelayStart))
+			var gmltype=(yythis332=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis332).gmlType;
+			var yythis332;
+			if(!yyGetBool((yythis333=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis333).gmlCurrentDelayStart))
 			{
 
 								{
@@ -8304,25 +11230,25 @@ function gml_Object_objectPlayer_Step_0(_inst,_other)
 
 												{
 							var gmlangle,gmlobjective,gmlspd;
-							var yythis197;
-							gmlangle=(yythis198=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis198).gmlAngle;
-							var yythis198;
-							gmlobjective=(yythis199=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis199).gmlObjectiveAngle;
-							var yythis199;
-							gmlspd=(yythis200=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis200).gmlSpeed;
-							var yythis200;
+							var yythis333;
+							gmlangle=(yythis334=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis334).gmlAngle;
+							var yythis334;
+							gmlobjective=(yythis335=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis335).gmlObjectiveAngle;
+							var yythis335;
+							gmlspd=(yythis336=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis336).gmlSpeed;
+							var yythis336;
 							if(yyfnotequal(gmlangle,gmlobjective))
 							{
 
 																{
 									if(yyfgreater(gmlobjective,gmlangle))
 									{
-										(yythis201=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis201).gmlAngle=yyfplus(__yy_gml_errCheck((yythis202=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis202).gmlAngle),__yy_gml_errCheck(min(yyfminus(__yy_gml_errCheck(gmlobjective),__yy_gml_errCheck(gmlangle)),gmlspd)))									}
+										(yythis337=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis337).gmlAngle=yyfplus(__yy_gml_errCheck((yythis338=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis338).gmlAngle),__yy_gml_errCheck(min(yyfminus(__yy_gml_errCheck(gmlobjective),__yy_gml_errCheck(gmlangle)),gmlspd)))									}
 									else 
 									{
-										(yythis203=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis203).gmlAngle=yyfminus(__yy_gml_errCheck((yythis204=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis204).gmlAngle),__yy_gml_errCheck(min(yyfminus(__yy_gml_errCheck(gmlangle),__yy_gml_errCheck(gmlobjective)),gmlspd)))									}
+										(yythis339=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis339).gmlAngle=yyfminus(__yy_gml_errCheck((yythis340=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis340).gmlAngle),__yy_gml_errCheck(min(yyfminus(__yy_gml_errCheck(gmlangle),__yy_gml_errCheck(gmlobjective)),gmlspd)))									}
 									;
-									var yythis201,yythis202,yythis203,yythis204;
+									var yythis337,yythis338,yythis339,yythis340;
 								}
 							}
 							;
@@ -8334,30 +11260,30 @@ function gml_Object_objectPlayer_Step_0(_inst,_other)
 
 												{
 							var gmlxx,gmlyy,gmloindex,gmlox,gmloy,gmlspd;
-							gmlxx=(yythis205=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis205).gmlX;
-							var yythis205;
-							gmlyy=(yythis206=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis206).gmlY;
-							var yythis206;
-							gmloindex=(yythis207=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis207).gmlObjectivePositionIndex;
-							var yythis207;
-							gmlox=(yythis208=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis208).gmlObjectivePositionX[__yy_gml_array_check_index(gmloindex,(yythis208=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis208).gmlObjectivePositionX)];
-							var yythis208;
-							gmloy=(yythis209=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis209).gmlObjectivePositionY[__yy_gml_array_check_index(gmloindex,(yythis209=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis209).gmlObjectivePositionY)];
-							var yythis209;
-							gmlspd=(yythis210=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis210).gmlSpeed;
-							var yythis210;
+							gmlxx=(yythis341=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis341).gmlX;
+							var yythis341;
+							gmlyy=(yythis342=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis342).gmlY;
+							var yythis342;
+							gmloindex=(yythis343=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis343).gmlObjectivePositionIndex;
+							var yythis343;
+							gmlox=(yythis344=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis344).gmlObjectivePositionX[__yy_gml_array_check_index(gmloindex,(yythis344=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis344).gmlObjectivePositionX)];
+							var yythis344;
+							gmloy=(yythis345=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis345).gmlObjectivePositionY[__yy_gml_array_check_index(gmloindex,(yythis345=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis345).gmlObjectivePositionY)];
+							var yythis345;
+							gmlspd=(yythis346=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis346).gmlSpeed;
+							var yythis346;
 							if(yyfnotequal(gmlxx,gmlox))
 							{
 
 																{
 									if(yyfgreater(gmlox,gmlxx))
 									{
-										(yythis211=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis211).gmlX=yyfplus(__yy_gml_errCheck((yythis212=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis212).gmlX),__yy_gml_errCheck(min(yyfminus(__yy_gml_errCheck(gmlox),__yy_gml_errCheck(gmlxx)),gmlspd)))									}
+										(yythis347=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis347).gmlX=yyfplus(__yy_gml_errCheck((yythis348=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis348).gmlX),__yy_gml_errCheck(min(yyfminus(__yy_gml_errCheck(gmlox),__yy_gml_errCheck(gmlxx)),gmlspd)))									}
 									else 
 									{
-										(yythis213=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis213).gmlX=yyfminus(__yy_gml_errCheck((yythis214=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis214).gmlX),__yy_gml_errCheck(min(yyfminus(__yy_gml_errCheck(gmlxx),__yy_gml_errCheck(gmlox)),gmlspd)))									}
+										(yythis349=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis349).gmlX=yyfminus(__yy_gml_errCheck((yythis350=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis350).gmlX),__yy_gml_errCheck(min(yyfminus(__yy_gml_errCheck(gmlxx),__yy_gml_errCheck(gmlox)),gmlspd)))									}
 									;
-									var yythis211,yythis212,yythis213,yythis214;
+									var yythis347,yythis348,yythis349,yythis350;
 								}
 							}
 							;
@@ -8367,12 +11293,12 @@ function gml_Object_objectPlayer_Step_0(_inst,_other)
 																{
 									if(yyfgreater(gmloy,gmlyy))
 									{
-										(yythis215=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis215).gmlY=yyfplus(__yy_gml_errCheck((yythis216=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis216).gmlY),__yy_gml_errCheck(min(yyfminus(__yy_gml_errCheck(gmloy),__yy_gml_errCheck(gmlyy)),gmlspd)))									}
+										(yythis351=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis351).gmlY=yyfplus(__yy_gml_errCheck((yythis352=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis352).gmlY),__yy_gml_errCheck(min(yyfminus(__yy_gml_errCheck(gmloy),__yy_gml_errCheck(gmlyy)),gmlspd)))									}
 									else 
 									{
-										(yythis217=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis217).gmlY=yyfminus(__yy_gml_errCheck((yythis218=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis218).gmlY),__yy_gml_errCheck(min(yyfminus(__yy_gml_errCheck(gmlyy),__yy_gml_errCheck(gmloy)),gmlspd)))									}
+										(yythis353=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis353).gmlY=yyfminus(__yy_gml_errCheck((yythis354=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis354).gmlY),__yy_gml_errCheck(min(yyfminus(__yy_gml_errCheck(gmlyy),__yy_gml_errCheck(gmloy)),gmlspd)))									}
 									;
-									var yythis215,yythis216,yythis217,yythis218;
+									var yythis351,yythis352,yythis353,yythis354;
 								}
 							}
 							;
@@ -8380,27 +11306,27 @@ function gml_Object_objectPlayer_Step_0(_inst,_other)
 							{
 
 																{
-									if(yyGetBool((yythis219=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis219).gmlObjectivePositionCurrentRest))
+									if(yyGetBool((yythis355=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis355).gmlObjectivePositionCurrentRest))
 									{
 
 																				{
-											(yythis220=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis220).gmlObjectivePositionCurrentRest=((yythis220=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis220).gmlObjectivePositionCurrentRest instanceof Long?(yythis220=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis220).gmlObjectivePositionCurrentRest.subtract(1):--(yythis220=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis220).gmlObjectivePositionCurrentRest);
-											var yythis219,yythis220;
+											(yythis356=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis356).gmlObjectivePositionCurrentRest=((yythis356=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis356).gmlObjectivePositionCurrentRest instanceof Long?(yythis356=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis356).gmlObjectivePositionCurrentRest.subtract(1):--(yythis356=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis356).gmlObjectivePositionCurrentRest);
+											var yythis355,yythis356;
 										}
 									}
 									else 
 									{
 
 																				{
-											(yythis221=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis221).gmlObjectivePositionIndex=((yythis221=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis221).gmlObjectivePositionIndex instanceof Long?(yythis221=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis221).gmlObjectivePositionIndex.add(1):++(yythis221=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis221).gmlObjectivePositionIndex);
-											var yythis221;
-											if(yyfgreater((yythis222=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis222).gmlObjectivePositionIndex,yyfminus(__yy_gml_errCheck(array_length((yythis223=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis223).gmlObjectivePositionX)),1)))
+											(yythis357=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis357).gmlObjectivePositionIndex=((yythis357=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis357).gmlObjectivePositionIndex instanceof Long?(yythis357=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis357).gmlObjectivePositionIndex.add(1):++(yythis357=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis357).gmlObjectivePositionIndex);
+											var yythis357;
+											if(yyfgreater((yythis358=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis358).gmlObjectivePositionIndex,yyfminus(__yy_gml_errCheck(array_length((yythis359=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis359).gmlObjectivePositionX)),1)))
 											{
-												(yythis224=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis224).gmlObjectivePositionIndex=0											}
+												(yythis360=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis360).gmlObjectivePositionIndex=0											}
 											;
-											var yythis222,yythis223,yythis224;
-											(yythis225=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis225).gmlObjectivePositionCurrentRest=array_get((yythis226=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis226).gmlObjectivePositionRest,(yythis227=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis227).gmlObjectivePositionIndex);
-											var yythis225,yythis226,yythis227;
+											var yythis358,yythis359,yythis360;
+											(yythis361=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis361).gmlObjectivePositionCurrentRest=array_get((yythis362=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis362).gmlObjectivePositionRest,(yythis363=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis363).gmlObjectivePositionIndex);
+											var yythis361,yythis362,yythis363;
 										}
 									}
 									;
@@ -8416,8 +11342,8 @@ function gml_Object_objectPlayer_Step_0(_inst,_other)
 			{
 
 								{
-					(yythis228=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis228).gmlCurrentDelayStart=((yythis228=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis228).gmlCurrentDelayStart instanceof Long?(yythis228=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis228).gmlCurrentDelayStart.subtract(1):--(yythis228=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis228).gmlCurrentDelayStart);
-					var yythis228;
+					(yythis364=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis364).gmlCurrentDelayStart=((yythis364=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis364).gmlCurrentDelayStart instanceof Long?(yythis364=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis364).gmlCurrentDelayStart.subtract(1):--(yythis364=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation,array_get(_inst.gmlnamesAnimation,gmli))),yythis364).gmlCurrentDelayStart);
+					var yythis364;
 				}
 			}
 			;
@@ -8455,80 +11381,39 @@ function gml_Object_objectPlayer_Step_0(_inst,_other)
 								yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPunching).gmlScaleY=0.2;
 								yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPunching).gmlDuration=12;
 								yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPunching).gmlScaleGrow=yyfdivide(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gmldist),0.75)),__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPunching).gmlDuration));
-								var gmlaBlock=collision_point(_inst,yyfplus(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPosition).gmlMouseGridX),32)),16),yyfplus(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPosition).gmlMouseGridY),32)),16),YYASSET_REF(0x00000000),true,true);
+								var gmlaBlock=instance_place(_inst,yyfplus(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPosition).gmlMouseGridX),32)),16),yyfplus(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPosition).gmlMouseGridY),32)),16),((__yy_gml_array_set_owner(65536),__yy_gml_array_create([global.gmltilemap,YYASSET_REF(0x00000000)]))));
+								show_debug_message(yyfplus(__yy_gml_errCheck(string(gmlaBlock)),__yy_gml_errCheck(string(" on {0}, {1}",string(yyfplus(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPosition).gmlMouseGridX),32)),16)),string(yyfplus(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPosition).gmlMouseGridY),32)),16))))));
+								if(yyGetBool(layer_tilemap_exists("Tiles_1",gmlaBlock)))
+								{
+									gmltype="tile"								}
+								else 
+								{
+									gmltype="object"								}
+								;
 								if(yyfequal(yyInst(_inst,_other,yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess).gmlSelected,1))
 								{
 
 																		{
-										if(yyfequal((yythis229=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess,1)),yythis229).gmlInventoryPlace,0))
+										if(yyfnotequal(gmlaBlock,(-4)))
 										{
 
 																						{
-												if(yyfnotequal(gmlaBlock,(-4)))
+												if(yyfequal((yythis365=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess,1)),yythis365).gmlInventoryPlace,0))
 												{
 
 																										{
 														yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPunching).gmlActive=true;
-														var yythis229;
-														if((yyGetBool(yyInst(_inst,_other,yyInst(_inst,_other,gmlaBlock).gmlP).gmlReady))&&(yyGetBool(!yyGetBool(yyInst(_inst,_other,yyInst(_inst,_other,gmlaBlock).gmlP).gmlImmune))))
-														{
-
-																														{
-																yyInst(_inst,_other,yyInst(_inst,_other,gmlaBlock).gmlP).gmlHealth=(yyInst(_inst,_other,yyInst(_inst,_other,gmlaBlock).gmlP).gmlHealth instanceof Long?yyInst(_inst,_other,yyInst(_inst,_other,gmlaBlock).gmlP).gmlHealth.subtract(1):--yyInst(_inst,_other,yyInst(_inst,_other,gmlaBlock).gmlP).gmlHealth);
-																if(yyflessequal(yyInst(_inst,_other,yyInst(_inst,_other,gmlaBlock).gmlP).gmlHealth,0))
-																{
-
-																																		{
-
-																																				{
-																			var __yy__v36=GetWithArray(gmlaBlock);
-																			for(var __yy__v37 in __yy__v36)
-																			{
-																				if(!__yy__v36.hasOwnProperty(__yy__v37))continue;
-																				var __yy__v38=__yy__v36[__yy__v37];
-																				instance_destroy(__yy__v38)																			}
-																		}
-																		;
-																	}
-																}
-																else 
-																{
-
-																																		{
-
-																																				{
-																			var __yy__v39=GetWithArray(gmlaBlock);
-																			for(var __yy__v40 in __yy__v39)
-																			{
-																				if(!__yy__v39.hasOwnProperty(__yy__v40))continue;
-																				var __yy__v41=__yy__v39[__yy__v40];
-
-																																								{
-																					__yy_gml_array_set_owner(65530);
-																					__yy__v41.alarm=__yy_gml_array_check(__yy__v41.alarm,2599348568);
-																					__yy__v41.alarm[__yy_gml_array_check_index_set(1)]=yyftime(8,__yy_gml_errCheck(g_pBuiltIn.get_room_speed()));
-																				}
-																			}
-																		}
-																		;
-																	}
-																}
-																;
-															}
-														}
-														;
+														var yythis365;
+														var gmlposition=__yy_gml_object_create(_inst,(global.gml___struct___68=__yy_method(_inst,gml_Script____struct___68_40_gml_Object_objectPlayer_Step_0)));
+														yyInst(_inst,_other,gmlposition).gmlpos=yyfplus(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPosition).gmlMouseGridY),1)),100)),__yy_gml_errCheck(yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPosition).gmlMouseGridX),1)));
+														var gmlpacket=gml_Script_create_network_packet(_inst,_other,"player_punch_block");
+														yyInst(_inst,_other,gmlpacket).gmlData=gmlposition;
+														gml_Script_send_network_packet(_inst,_other,gmlpacket);
 													}
 												}
-												;
-											}
-										}
-										else 
-										{
-											if(yyfequal((yythis230=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess,1)),yythis230).gmlInventoryPlace,1))
-											{
-
-																								{
-													if(yyfnotequal(gmlaBlock,(-4)))
+												else 
+												{
+													if(yyfequal((yythis366=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess,1)),yythis366).gmlInventoryPlace,1))
 													{
 
 																												{
@@ -8536,15 +11421,16 @@ function gml_Object_objectPlayer_Step_0(_inst,_other)
 															{
 
 																																{
-																	yyInst(_inst,_other,yyInst(_inst,_other,gmlaBlock).gmlP).gmlPrepareToLock=show_question("Lock entrance? (Beta)");
-																	var yythis230;
+																	var gmlinst=instance_create_layer(yyInst(_inst,_other,gmlaBlock).x,yyInst(_inst,_other,gmlaBlock).y,"Instances",YYASSET_REF(0x0000000A));
+																	var yythis366;
+																	yyInst(_inst,_other,gmlinst).gmlparent=gmlaBlock;
 																}
 															}
 															;
 														}
 													}
-													;
 												}
+												;
 											}
 										}
 										;
@@ -8565,43 +11451,37 @@ function gml_Object_objectPlayer_Step_0(_inst,_other)
 
 																												{
 															var gmlselectedItemId=gml_Script_getSelectedItemId(_inst,_other);
-															if(yyfgreater((yythis231=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlItems,gmlselectedItemId)),yythis231).gmlQuantity,0))
+															if((yyGetBool(yyfgreater((yythis367=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlItems,gmlselectedItemId)),yythis367).gmlQuantity,0)))&&(yyGetBool((yyGetBool(yyfnotequal(yyInst(_inst,_other,_inst.gmlP).gmlLatestPutX,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPosition).gmlMouseGridX)))||(yyGetBool(yyfnotequal(yyInst(_inst,_other,_inst.gmlP).gmlLatestPutY,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPosition).gmlMouseGridY))))))
 															{
 
 																																{
+																	yyInst(_inst,_other,_inst.gmlP).gmlLatestPutX=yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPosition).gmlMouseGridX;
+																	var yythis367;
+																	yyInst(_inst,_other,_inst.gmlP).gmlLatestPutY=yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPosition).gmlMouseGridY;
 																	var gmlblockCreated=false;
-																	var yythis231;
-																	var ___sw42___=(yythis232=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlselectedItemId)),yythis232).gmlCategory;
-																	var ___swc43___=-1;
-																	if(yyCompareVal(___sw42___,0,g_GMLMathEpsilon,false)==0)
+																	var ___sw86___=(yythis368=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlselectedItemId)),yythis368).gmlCategory;
+																	var ___swc87___=-1;
+																	if(yyCompareVal(___sw86___,0,g_GMLMathEpsilon,false)==0)
 																	{
-																		___swc43___=0;
+																		___swc87___=0;
 																	}
-																	else if(yyCompareVal(___sw42___,1,g_GMLMathEpsilon,false)==0)
+																	else if(yyCompareVal(___sw86___,1,g_GMLMathEpsilon,false)==0)
 																	{
-																		___swc43___=1;
+																		___swc87___=1;
 																	}
-																	switch(___swc43___)
+																	switch(___swc87___)
 																	{
 																		case 0:
 																		{
 
 																																						{
-																				var gmlinst=instance_create_layer(yyfplus(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPosition).gmlMouseGridX),32)),16),yyfplus(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPosition).gmlMouseGridY),32)),16),"Instances",gml_Script_getBlockSubtype(_inst,_other,(yythis233=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlselectedItemId)),yythis233).gmlSubcategory));
-																				var yythis232,yythis233;
-																				yyInst(_inst,_other,gmlinst).sprite_index=(yythis234=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlselectedItemId)),yythis234).gmlSprite;
-																				var yythis234;
-																				yyInst(_inst,_other,yyInst(_inst,_other,gmlinst).gmlP).gmlSubcategory=(yythis235=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlselectedItemId)),yythis235).gmlSubcategory;
-																				var yythis235;
-																				if(yyfnotequal((yythis236=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlselectedItemId)),yythis236).gmlSubcategory,0))
-																				{
-
-																																										{
-																						yyInst(_inst,_other,gmlinst).image_xscale=yyInst(_inst,_other,_inst.gmlP).gmlXMirror;
-																						var yythis236;
-																					}
-																				}
-																				;
+																				var gmlposition=__yy_gml_object_create(_inst,(global.gml___struct___69=__yy_method(_inst,gml_Script____struct___69_40_gml_Object_objectPlayer_Step_0)));
+																				var yythis368;
+																				yyInst(_inst,_other,gmlposition).gmlpos=yyfplus(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPosition).gmlMouseGridY),1)),100)),__yy_gml_errCheck(yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPosition).gmlMouseGridX),1)));
+																				yyInst(_inst,_other,gmlposition).gmlblock_id=gmlselectedItemId;
+																				var gmlpacket=gml_Script_create_network_packet(_inst,_other,"player_put_block");
+																				yyInst(_inst,_other,gmlpacket).gmlData=gmlposition;
+																				gml_Script_send_network_packet(_inst,_other,gmlpacket);
 																				gmlblockCreated=true;
 																				break;
 																			}
@@ -8611,24 +11491,39 @@ function gml_Object_objectPlayer_Step_0(_inst,_other)
 																		{
 
 																																						{
-																				var gmlinst=instance_place(_inst,yyfplus(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPosition).gmlMouseGridX),32)),16),yyfplus(yyfplus(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPosition).gmlMouseGridY),32)),16),32),YYASSET_REF(0x00000000));
+																				var gmlinst=instance_place(_inst,yyfplus(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPosition).gmlMouseGridX),32)),16),yyfplus(yyfplus(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPosition).gmlMouseGridY),32)),16),32),(__yy_gml_array_create([global.gmltilemap,YYASSET_REF(0x00000000)])));
 																				if(yyfnotequal(gmlinst,(-4)))
 																				{
 
 																																										{
-																						if(yyfequal(yyInst(_inst,_other,gmlinst).object_index,YYASSET_REF(0x00000000)))
+																						var gmltype,gmlpass;
+																						if(yyGetBool(layer_tilemap_exists("Tiles_1",gmlinst)))
 																						{
 
 																																														{
-																								var gmlselectedItemIdInt=gml_Script_getSelectedItemIdInt(_inst,_other);
-																								var gmlinst=instance_create_layer(yyfplus(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPosition).gmlMouseGridX),32)),16),yyfplus(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPosition).gmlMouseGridY),32)),16),"Instances",YYASSET_REF(0x00000009));
-																								yyInst(_inst,_other,gmlinst).sprite_index=(yythis237=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlselectedItemIdInt)),yythis237).gmlSprite;
-																								var yythis237;
-																								yyInst(_inst,_other,yyInst(_inst,_other,gmlinst).gmlP).gmlSubcategory=(yythis238=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlselectedItemIdInt)),yythis238).gmlSubcategory;
-																								var yythis238;
-																								yyInst(_inst,_other,yyInst(_inst,_other,gmlinst).gmlP).gmlSeed=gmlselectedItemIdInt;
-																								gmlblockCreated=true;
-																								break;
+																								gmltype="tile";
+																								gmlpass=true;
+																							}
+																						}
+																						else 
+																						{
+
+																																														{
+																								gmltype="object";
+																								gmlpass=yyfequal(yyInst(_inst,_other,gmlinst).object_index,YYASSET_REF(0x00000000));
+																							}
+																						}
+																						;
+																						if(yyGetBool(gmlpass))
+																						{
+
+																																														{
+																								var gmlposition=__yy_gml_object_create(_inst,(global.gml___struct___70=__yy_method(_inst,gml_Script____struct___70_40_gml_Object_objectPlayer_Step_0)));
+																								yyInst(_inst,_other,gmlposition).gmlpos=yyfplus(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPosition).gmlMouseGridY),1)),100)),__yy_gml_errCheck(yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPosition).gmlMouseGridX),1)));
+																								yyInst(_inst,_other,gmlposition).gmlblock_id=gmlselectedItemId;
+																								var gmlpacket=gml_Script_create_network_packet(_inst,_other,"player_put_block");
+																								yyInst(_inst,_other,gmlpacket).gmlData=gmlposition;
+																								gml_Script_send_network_packet(_inst,_other,gmlpacket);
 																							}
 																						}
 																						;
@@ -8645,14 +11540,14 @@ function gml_Object_objectPlayer_Step_0(_inst,_other)
 
 																																				{
 																			yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPunching).gmlActive=true;
-																			(yythis239=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlItems,gmlselectedItemId)),yythis239).gmlQuantity=((yythis239=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlItems,gmlselectedItemId)),yythis239).gmlQuantity instanceof Long?(yythis239=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlItems,gmlselectedItemId)),yythis239).gmlQuantity.subtract(1):--(yythis239=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlItems,gmlselectedItemId)),yythis239).gmlQuantity);
-																			var yythis239;
-																			if(yyflessequal((yythis240=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlItems,gmlselectedItemId)),yythis240).gmlQuantity,0))
+																			(yythis369=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlItems,gmlselectedItemId)),yythis369).gmlQuantity=((yythis369=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlItems,gmlselectedItemId)),yythis369).gmlQuantity instanceof Long?(yythis369=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlItems,gmlselectedItemId)),yythis369).gmlQuantity.subtract(1):--(yythis369=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlItems,gmlselectedItemId)),yythis369).gmlQuantity);
+																			var yythis369;
+																			if(yyflessequal((yythis370=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlItems,gmlselectedItemId)),yythis370).gmlQuantity,0))
 																			{
 
 																																								{
 																					variable_struct_remove(yyInst(_inst,_other,global.gmlInventory).gmlItems,string(gmlselectedItemId));
-																					var yythis240;
+																					var yythis370;
 																					var gmlitemPosition,gmli;
 																					gmli=0;
 																					for(;yyfless(gmli,array_length(yyInst(_inst,_other,global.gmlInventory).gmlItemOrder));gmli=(gmli instanceof Long?gmli.add(1):++gmli))
@@ -8677,11 +11572,11 @@ function gml_Object_objectPlayer_Step_0(_inst,_other)
 																					{
 
 																																												{
-																							if(yyfgreater((yythis241=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(gmlarray_names,gmli))),yythis241).gmlInventoryPlace,gmlitemPosition))
+																							if(yyfgreater((yythis371=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(gmlarray_names,gmli))),yythis371).gmlInventoryPlace,gmlitemPosition))
 																							{
-																								(yythis242=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(gmlarray_names,gmli))),yythis242).gmlInventoryPlace=((yythis242=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(gmlarray_names,gmli))),yythis242).gmlInventoryPlace instanceof Long?(yythis242=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(gmlarray_names,gmli))),yythis242).gmlInventoryPlace.subtract(1):--(yythis242=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(gmlarray_names,gmli))),yythis242).gmlInventoryPlace)																							}
+																								(yythis372=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(gmlarray_names,gmli))),yythis372).gmlInventoryPlace=((yythis372=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(gmlarray_names,gmli))),yythis372).gmlInventoryPlace instanceof Long?(yythis372=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(gmlarray_names,gmli))),yythis372).gmlInventoryPlace.subtract(1):--(yythis372=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(gmlarray_names,gmli))),yythis372).gmlInventoryPlace)																							}
 																							;
-																							var yythis241,yythis242;
+																							var yythis371,yythis372;
 																						}
 																					}
 																					;
@@ -8703,16 +11598,16 @@ function gml_Object_objectPlayer_Step_0(_inst,_other)
 																					{
 
 																																												{
-																							if(yyfgreater((yythis243=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess,gmli)),yythis243).gmlInventoryPlace,gmlitemPosition))
+																							if(yyfgreater((yythis373=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess,gmli)),yythis373).gmlInventoryPlace,gmlitemPosition))
 																							{
-																								(yythis244=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess,gmli)),yythis244).gmlInventoryPlace=((yythis244=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess,gmli)),yythis244).gmlInventoryPlace instanceof Long?(yythis244=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess,gmli)),yythis244).gmlInventoryPlace.subtract(1):--(yythis244=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess,gmli)),yythis244).gmlInventoryPlace)																							}
+																								(yythis374=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess,gmli)),yythis374).gmlInventoryPlace=((yythis374=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess,gmli)),yythis374).gmlInventoryPlace instanceof Long?(yythis374=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess,gmli)),yythis374).gmlInventoryPlace.subtract(1):--(yythis374=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess,gmli)),yythis374).gmlInventoryPlace)																							}
 																							;
-																							var yythis243,yythis244;
+																							var yythis373,yythis374;
 																						}
 																					}
 																					;
-																					(yythis245=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess,yyInst(_inst,_other,yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess).gmlSelected)),yythis245).gmlInventoryPlace=(-4);
-																					var yythis245;
+																					(yythis375=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess,yyInst(_inst,_other,yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess).gmlSelected)),yythis375).gmlInventoryPlace=(-4);
+																					var yythis375;
 																					yyInst(_inst,_other,yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess).gmlSelected=1;
 																				}
 																			}
@@ -8779,6 +11674,79 @@ function gml_Object_objectPlayer_Step_0(_inst,_other)
 	;
 }
 
+function gml_Script____struct___68_40_gml_Object_objectPlayer_Step_0(_inst,_other)
+{
+	if((--_inst.__yyCreatedByNew)<0)
+	{
+
+				{
+			yyError("calling a constructor directly - constructors should only be called using new")		}
+	}
+	if(_inst.__yyIsGMLObject)
+	{
+		_inst.__type="gml_Script____struct___68@gml_Object_objectPlayer_Step_0"	}
+	if(gml_Script____struct___68_40_gml_Object_objectPlayer_Step_0.prototype.__type===undefined)
+	{
+		gml_Script____struct___68_40_gml_Object_objectPlayer_Step_0.prototype.__type="gml_Script____struct___68@gml_Object_objectPlayer_Step_0"	}
+
+		{
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___68_40_gml_Object_objectPlayer_Step_0.prototype);
+
+				{
+		}
+	}
+}
+
+function gml_Script____struct___69_40_gml_Object_objectPlayer_Step_0(_inst,_other)
+{
+	if((--_inst.__yyCreatedByNew)<0)
+	{
+
+				{
+			yyError("calling a constructor directly - constructors should only be called using new")		}
+	}
+	if(_inst.__yyIsGMLObject)
+	{
+		_inst.__type="gml_Script____struct___69@gml_Object_objectPlayer_Step_0"	}
+	if(gml_Script____struct___69_40_gml_Object_objectPlayer_Step_0.prototype.__type===undefined)
+	{
+		gml_Script____struct___69_40_gml_Object_objectPlayer_Step_0.prototype.__type="gml_Script____struct___69@gml_Object_objectPlayer_Step_0"	}
+
+		{
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___69_40_gml_Object_objectPlayer_Step_0.prototype);
+
+				{
+		}
+	}
+}
+
+function gml_Script____struct___70_40_gml_Object_objectPlayer_Step_0(_inst,_other)
+{
+	if((--_inst.__yyCreatedByNew)<0)
+	{
+
+				{
+			yyError("calling a constructor directly - constructors should only be called using new")		}
+	}
+	if(_inst.__yyIsGMLObject)
+	{
+		_inst.__type="gml_Script____struct___70@gml_Object_objectPlayer_Step_0"	}
+	if(gml_Script____struct___70_40_gml_Object_objectPlayer_Step_0.prototype.__type===undefined)
+	{
+		gml_Script____struct___70_40_gml_Object_objectPlayer_Step_0.prototype.__type="gml_Script____struct___70@gml_Object_objectPlayer_Step_0"	}
+
+		{
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___70_40_gml_Object_objectPlayer_Step_0.prototype);
+
+				{
+		}
+	}
+}
+
+function gml_Object_objectPlayer_Step_1(_inst,_other)
+{
+}
+
 function gml_Object_objectPlayer_Collision_objectCollectable(_inst,_other)
 {
 }
@@ -8790,21 +11758,21 @@ function gml_Object_objectPlayer_Draw_0(_inst,_other)
 	{
 
 				{
-			if(yyfnotequal((yythis279=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesBehind,gmli))),yythis279).gmlInventoryPlace,0))
+			if(yyfnotequal((yythis409=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesBehind,gmli))),yythis409).gmlInventoryPlace,0))
 			{
 
 								{
-					(yythis280=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesBehind,gmli))),yythis280).gmlImageIndex=yyfplus(__yy_gml_errCheck((yythis281=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesBehind,gmli))),yythis281).gmlImageIndex),__yy_gml_errCheck((yythis282=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesBehind,gmli))),yythis282).gmlImageSpeed));
-					var yythis279,yythis280,yythis281,yythis282;
-					if(yyfgreater(floor((yythis283=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesBehind,gmli))),yythis283).gmlImageIndex),(yythis284=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesBehind,gmli))),yythis284).gmlSubimages))
+					(yythis410=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesBehind,gmli))),yythis410).gmlImageIndex=yyfplus(__yy_gml_errCheck((yythis411=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesBehind,gmli))),yythis411).gmlImageIndex),__yy_gml_errCheck((yythis412=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesBehind,gmli))),yythis412).gmlImageSpeed));
+					var yythis409,yythis410,yythis411,yythis412;
+					if(yyfgreater(floor((yythis413=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesBehind,gmli))),yythis413).gmlImageIndex),(yythis414=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesBehind,gmli))),yythis414).gmlSubimages))
 					{
-						(yythis285=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesBehind,gmli))),yythis285).gmlImageIndex=0					}
+						(yythis415=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesBehind,gmli))),yythis415).gmlImageIndex=0					}
 					;
-					var yythis283,yythis284,yythis285;
-					var gmlitemId=(yythis286=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesBehind,gmli))),yythis286).gmlId;
-					var yythis286;
-					draw_sprite_ext(_inst,(yythis287=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlitemId)),yythis287).gmlSprite,floor((yythis288=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesBehind,gmli))),yythis288).gmlImageIndex),yyfplus(yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck((yythis289=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesBehind,gmli))),yythis289).gmlStaticX)),__yy_gml_errCheck((yythis290=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesBehind,gmli))),yythis290).gmlX)),yyfplus(yyfplus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck((yythis291=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesBehind,gmli))),yythis291).gmlStaticY)),__yy_gml_errCheck((yythis292=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesBehind,gmli))),yythis292).gmlY)),yyftime(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlP).gmlXMirror),__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlXScale)),yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlYScale,0,16777215,1);
-					var yythis287,yythis288,yythis289,yythis290,yythis291,yythis292;
+					var yythis413,yythis414,yythis415;
+					var gmlitemId=(yythis416=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesBehind,gmli))),yythis416).gmlId;
+					var yythis416;
+					draw_sprite_ext(_inst,(yythis417=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlitemId)),yythis417).gmlSprite,floor((yythis418=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesBehind,gmli))),yythis418).gmlImageIndex),yyfplus(yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck((yythis419=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesBehind,gmli))),yythis419).gmlStaticX)),__yy_gml_errCheck((yythis420=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesBehind,gmli))),yythis420).gmlX)),yyfplus(yyfplus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck((yythis421=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesBehind,gmli))),yythis421).gmlStaticY)),__yy_gml_errCheck((yythis422=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesBehind,gmli))),yythis422).gmlY)),yyftime(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlP).gmlXMirror),__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlXScale)),yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlYScale,0,16777215,1);
+					var yythis417,yythis418,yythis419,yythis420,yythis421,yythis422;
 				}
 			}
 			;
@@ -8813,37 +11781,37 @@ function gml_Object_objectPlayer_Draw_0(_inst,_other)
 	;
 	if(!yyGetBool(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPunching).gmlActive))
 	{
-		draw_sprite_ext(_inst,YYASSET_REF(0x0100000C),0,yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck((yyGetBool(yyInst(_inst,_other,_inst.gmlP).gmlXMirror)?7:(-7)))),yyfminus(__yy_gml_errCheck(_inst.y),4),yyftime(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlP).gmlXMirror),__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlXScale)),yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlYScale,yyInst(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation).gmlRArm).gmlAngle,16777215,1)	}
+		draw_sprite_ext(_inst,YYASSET_REF(0x0100000E),0,yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck((yyGetBool(yyInst(_inst,_other,_inst.gmlP).gmlXMirror)?7:(-7)))),yyfminus(__yy_gml_errCheck(_inst.y),4),yyftime(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlP).gmlXMirror),__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlXScale)),yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlYScale,yyInst(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation).gmlRArm).gmlAngle,16777215,1)	}
 	else 
 	{
-		draw_sprite_ext(_inst,YYASSET_REF(0x0100000F),0,yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck((yyGetBool(yyInst(_inst,_other,_inst.gmlP).gmlXMirror)?7:(-7)))),yyfminus(__yy_gml_errCheck(_inst.y),4),yyftime(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPunching).gmlScaleX),__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlXScale)),yyftime(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPunching).gmlScaleY),__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlYScale)),yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPunching).gmlDirection,16777215,1)	}
+		draw_sprite_ext(_inst,YYASSET_REF(0x01000011),0,yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck((yyGetBool(yyInst(_inst,_other,_inst.gmlP).gmlXMirror)?7:(-7)))),yyfminus(__yy_gml_errCheck(_inst.y),4),yyftime(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPunching).gmlScaleX),__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlXScale)),yyftime(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPunching).gmlScaleY),__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlYScale)),yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPunching).gmlDirection,16777215,1)	}
 	;
 	if(yyfgreater(yyInst(_inst,_other,yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess).gmlSelected,1))
 	{
 
 				{
-			var gmlitemStructureId=array_get(yyInst(_inst,_other,global.gmlInventory).gmlItemOrder,(yythis293=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess,yyInst(_inst,_other,yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess).gmlSelected)),yythis293).gmlInventoryPlace);
-			var yythis293;
+			var gmlitemStructureId=array_get(yyInst(_inst,_other,global.gmlInventory).gmlItemOrder,(yythis423=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess,yyInst(_inst,_other,yyInst(_inst,_other,global.gmlInventory).gmlQuickAccess).gmlSelected)),yythis423).gmlInventoryPlace);
+			var yythis423;
 			if(yyGetBool(variable_struct_exists(global.gmlItems,gmlitemStructureId)))
 			{
 
 								{
-					if(yyfgreater((yythis294=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlItems,gmlitemStructureId)),yythis294).gmlQuantity,0))
+					if(yyfgreater((yythis424=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,global.gmlInventory).gmlItems,gmlitemStructureId)),yythis424).gmlQuantity,0))
 					{
 
 												{
-							if(yyGetBool(sprite_exists((yythis295=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlitemStructureId)),yythis295).gmlCollectableSprite)))
+							if(yyGetBool(sprite_exists((yythis425=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlitemStructureId)),yythis425).gmlCollectableSprite)))
 							{
 
 																{
 									if(!yyGetBool(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPunching).gmlActive))
 									{
-										draw_sprite_ext(_inst,(yythis296=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlitemStructureId)),yythis296).gmlCollectableSprite,0,yyfplus(yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck((yyGetBool(yyInst(_inst,_other,_inst.gmlP).gmlXMirror)?7:(-7)))),__yy_gml_errCheck(lengthdir_x(6,gml_Script_angleCalculation(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlXMirror,yyftime(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation).gmlRArm).gmlAngle),__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlP).gmlXMirror)))))),yyfplus(yyfminus(__yy_gml_errCheck(_inst.y),4),__yy_gml_errCheck(lengthdir_y(6,gml_Script_angleCalculation(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlXMirror,yyftime(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation).gmlRArm).gmlAngle),__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlP).gmlXMirror)))))),0.5,0.5,yyftime((-45),__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlP).gmlXMirror)),16777215,1)									}
+										draw_sprite_ext(_inst,(yythis426=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlitemStructureId)),yythis426).gmlCollectableSprite,0,yyfplus(yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck((yyGetBool(yyInst(_inst,_other,_inst.gmlP).gmlXMirror)?7:(-7)))),__yy_gml_errCheck(lengthdir_x(6,gml_Script_angleCalculation(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlXMirror,yyftime(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation).gmlRArm).gmlAngle),__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlP).gmlXMirror)))))),yyfplus(yyfminus(__yy_gml_errCheck(_inst.y),4),__yy_gml_errCheck(lengthdir_y(6,gml_Script_angleCalculation(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlXMirror,yyftime(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation).gmlRArm).gmlAngle),__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlP).gmlXMirror)))))),0.5,0.5,yyftime((-45),__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlP).gmlXMirror)),16777215,1)									}
 									else 
 									{
-										draw_sprite_ext(_inst,(yythis297=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlitemStructureId)),yythis297).gmlCollectableSprite,0,yyfplus(yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck((yyGetBool(yyInst(_inst,_other,_inst.gmlP).gmlXMirror)?7:(-7)))),__yy_gml_errCheck(lengthdir_x(yyftime(28,__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPunching).gmlScaleX)),yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPunching).gmlDirection))),yyfplus(yyfminus(__yy_gml_errCheck(_inst.y),4),__yy_gml_errCheck(lengthdir_y(yyftime(28,__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPunching).gmlScaleX)),yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPunching).gmlDirection))),0.5,0.5,yyftime((-45),__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlP).gmlXMirror)),16777215,1)									}
+										draw_sprite_ext(_inst,(yythis427=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlitemStructureId)),yythis427).gmlCollectableSprite,0,yyfplus(yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck((yyGetBool(yyInst(_inst,_other,_inst.gmlP).gmlXMirror)?7:(-7)))),__yy_gml_errCheck(lengthdir_x(yyftime(28,__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPunching).gmlScaleX)),yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPunching).gmlDirection))),yyfplus(yyfminus(__yy_gml_errCheck(_inst.y),4),__yy_gml_errCheck(lengthdir_y(yyftime(28,__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPunching).gmlScaleX)),yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlPunching).gmlDirection))),0.5,0.5,yyftime((-45),__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlP).gmlXMirror)),16777215,1)									}
 									;
-									var yythis294,yythis295,yythis296,yythis297;
+									var yythis424,yythis425,yythis426,yythis427;
 								}
 							}
 							;
@@ -8856,11 +11824,11 @@ function gml_Object_objectPlayer_Draw_0(_inst,_other)
 		}
 	}
 	;
-	draw_sprite_ext(_inst,YYASSET_REF(0x0100000D),0,yyfplus(__yy_gml_errCheck(_inst.x),5),yyfplus(yyfplus(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation).gmlLLeg).gmlY),__yy_gml_errCheck(_inst.y)),3),yyftime(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlP).gmlXMirror),__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlXScale)),yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlYScale,yyInst(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation).gmlLLeg).gmlAngle,16777215,1);
-	draw_sprite_ext(_inst,YYASSET_REF(0x01000011),0,yyfminus(__yy_gml_errCheck(_inst.x),4),yyfplus(yyfplus(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation).gmlRLeg).gmlY),__yy_gml_errCheck(_inst.y)),3),yyftime(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlP).gmlXMirror),__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlXScale)),yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlYScale,yyInst(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation).gmlRLeg).gmlAngle,16777215,1);
-	draw_sprite_ext(_inst,YYASSET_REF(0x01000012),0,_inst.x,_inst.y,yyftime(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlP).gmlXMirror),__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlXScale)),yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlYScale,0,16777215,1);
-	draw_sprite_ext(_inst,YYASSET_REF(0x0100000A),yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlFace,_inst.x,yyfminus(__yy_gml_errCheck(_inst.y),13),yyftime(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlP).gmlXMirror),__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlXScale)),yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlYScale,0,16777215,1);
-	draw_sprite_ext(_inst,YYASSET_REF(0x01000010),0,yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck((yyGetBool(yyInst(_inst,_other,_inst.gmlP).gmlXMirror)?(-5):5))),yyfminus(__yy_gml_errCheck(_inst.y),3),yyftime(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlXScale),__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlP).gmlXMirror)),yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlYScale,yyInst(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation).gmlLArm).gmlAngle,16777215,1);
+	draw_sprite_ext(_inst,YYASSET_REF(0x0100000F),0,yyfplus(__yy_gml_errCheck(_inst.x),5),yyfplus(yyfplus(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation).gmlLLeg).gmlY),__yy_gml_errCheck(_inst.y)),3),yyftime(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlP).gmlXMirror),__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlXScale)),yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlYScale,yyInst(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation).gmlLLeg).gmlAngle,16777215,1);
+	draw_sprite_ext(_inst,YYASSET_REF(0x01000013),0,yyfminus(__yy_gml_errCheck(_inst.x),4),yyfplus(yyfplus(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation).gmlRLeg).gmlY),__yy_gml_errCheck(_inst.y)),3),yyftime(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlP).gmlXMirror),__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlXScale)),yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlYScale,yyInst(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation).gmlRLeg).gmlAngle,16777215,1);
+	draw_sprite_ext(_inst,YYASSET_REF(0x01000014),0,_inst.x,_inst.y,yyftime(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlP).gmlXMirror),__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlXScale)),yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlYScale,0,16777215,1);
+	draw_sprite_ext(_inst,YYASSET_REF(0x0100000C),yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlFace,_inst.x,yyfminus(__yy_gml_errCheck(_inst.y),13),yyftime(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlP).gmlXMirror),__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlXScale)),yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlYScale,0,16777215,1);
+	draw_sprite_ext(_inst,YYASSET_REF(0x01000012),0,yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck((yyGetBool(yyInst(_inst,_other,_inst.gmlP).gmlXMirror)?(-5):5))),yyfminus(__yy_gml_errCheck(_inst.y),3),yyftime(__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlXScale),__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlP).gmlXMirror)),yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlYScale,yyInst(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlAnimation).gmlLArm).gmlAngle,16777215,1);
 	if(yyGetBool(global.gmltouchAvailable))
 	{
 
@@ -8878,24 +11846,94 @@ function gml_Object_objectPlayer_Draw_0(_inst,_other)
 	{
 
 				{
-			if(yyfnotequal((yythis298=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesAbove,gmli))),yythis298).gmlInventoryPlace,0))
+			if(yyfnotequal((yythis428=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesAbove,gmli))),yythis428).gmlInventoryPlace,0))
 			{
 
 								{
-					(yythis299=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesAbove,gmli))),yythis299).gmlImageIndex=yyfplus(__yy_gml_errCheck((yythis300=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesAbove,gmli))),yythis300).gmlImageIndex),__yy_gml_errCheck((yythis301=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesAbove,gmli))),yythis301).gmlImageSpeed));
-					var yythis298,yythis299,yythis300,yythis301;
-					if(yyfgreater(floor((yythis302=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesAbove,gmli))),yythis302).gmlImageIndex),(yythis303=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesAbove,gmli))),yythis303).gmlSubimages))
+					(yythis429=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesAbove,gmli))),yythis429).gmlImageIndex=yyfplus(__yy_gml_errCheck((yythis430=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesAbove,gmli))),yythis430).gmlImageIndex),__yy_gml_errCheck((yythis431=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesAbove,gmli))),yythis431).gmlImageSpeed));
+					var yythis428,yythis429,yythis430,yythis431;
+					if(yyfgreater(floor((yythis432=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesAbove,gmli))),yythis432).gmlImageIndex),(yythis433=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesAbove,gmli))),yythis433).gmlSubimages))
 					{
-						(yythis304=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesAbove,gmli))),yythis304).gmlImageIndex=0					}
+						(yythis434=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesAbove,gmli))),yythis434).gmlImageIndex=0					}
 					;
-					var yythis302,yythis303,yythis304;
-					var gmlitemId=(yythis305=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesAbove,gmli))),yythis305).gmlId;
-					var yythis305;
-					draw_sprite_ext(_inst,(yythis306=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlitemId)),yythis306).gmlSprite,floor((yythis307=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesAbove,gmli))),yythis307).gmlImageIndex),yyfplus(yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck((yythis308=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesAbove,gmli))),yythis308).gmlStaticX)),__yy_gml_errCheck((yythis309=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesAbove,gmli))),yythis309).gmlX)),yyfplus(yyfplus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck((yythis310=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesAbove,gmli))),yythis310).gmlStaticY)),__yy_gml_errCheck((yythis311=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesAbove,gmli))),yythis311).gmlY)),yyftime(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlP).gmlXMirror),__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlXScale)),yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlYScale,0,16777215,1);
-					var yythis306,yythis307,yythis308,yythis309,yythis310,yythis311;
+					var yythis432,yythis433,yythis434;
+					var gmlitemId=(yythis435=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesAbove,gmli))),yythis435).gmlId;
+					var yythis435;
+					draw_sprite_ext(_inst,(yythis436=yyInst(_inst,_other,variable_struct_get(global.gmlItems,gmlitemId)),yythis436).gmlSprite,floor((yythis437=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesAbove,gmli))),yythis437).gmlImageIndex),yyfplus(yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck((yythis438=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesAbove,gmli))),yythis438).gmlStaticX)),__yy_gml_errCheck((yythis439=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesAbove,gmli))),yythis439).gmlX)),yyfplus(yyfplus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck((yythis440=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesAbove,gmli))),yythis440).gmlStaticY)),__yy_gml_errCheck((yythis441=yyInst(_inst,_other,variable_struct_get(yyInst(_inst,_other,_inst.gmlP).gmlEquip,array_get(_inst.gmlnamesClothesAbove,gmli))),yythis441).gmlY)),yyftime(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlP).gmlXMirror),__yy_gml_errCheck(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlXScale)),yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlSprite).gmlYScale,0,16777215,1);
+					var yythis436,yythis437,yythis438,yythis439,yythis440,yythis441;
 				}
 			}
 			;
+		}
+	}
+	;
+}
+
+function gml_Object_objectPlayer_Draw_64(_inst,_other)
+{
+	if(yyfnotequal(_inst.gmlchat_message,""))
+	{
+
+				{
+			if(yyfgreater(_inst.gmlchat_message_delay,0))
+			{
+				_inst.gmlchat_message_delay=(_inst.gmlchat_message_delay instanceof Long?_inst.gmlchat_message_delay.subtract(1):--_inst.gmlchat_message_delay)			}
+			;
+			if(yyfnotequal(_inst.gmlchat_message_current,_inst.gmlchat_message))
+			{
+
+								{
+					if(yyflessequal(_inst.gmlchat_message_delay,0))
+					{
+
+												{
+							_inst.gmlchat_message_delay=4;
+							_inst.gmlchat_message_current=yyfplus(_inst.gmlchat_message_current,string_copy(_inst.gmlchat_message,yyfplus(__yy_gml_errCheck(string_length(_inst.gmlchat_message_current)),1),1));
+						}
+					}
+					;
+				}
+			}
+			else 
+			{
+
+								{
+					_inst.gmlchat_timeout=(_inst.gmlchat_timeout instanceof Long?_inst.gmlchat_timeout.subtract(1):--_inst.gmlchat_timeout);
+					if(yyflessequal(_inst.gmlchat_timeout,0))
+					{
+
+												{
+							_inst.gmlchat_message="";
+							_inst.gmlchat_message_current="";
+							_inst.gmlchat_message_delay=4;
+						}
+					}
+					;
+				}
+			}
+			;
+			var gmlbase_x;
+			var gmlbase_y;
+			var gmlw=300;
+			var gmllines=0;
+			if(yyfnotequal(_inst.gmlchat_message_current,""))
+			{
+				gmllines=yyfminus(__yy_gml_errCheck(yyfdivide(__yy_gml_errCheck(string_height_ext(_inst.gmlchat_message_current,16,gmlw)),__yy_gml_errCheck(string_height(_inst.gmlchat_message_current)))),1)			}
+			;
+			gmlbase_x=yyftime(__yy_gml_errCheck(yyfminus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck(camera_get_view_x(g_pBuiltIn.view_camera[__yy_gml_array_check_index(0,g_pBuiltIn.view_camera)])))),__yy_gml_errCheck(gml_Script_camera_get_gui_x_proportion(_inst,_other)));
+			gmlbase_y=yyfminus(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(yyfminus(__yy_gml_errCheck(yyfminus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck(camera_get_view_y(g_pBuiltIn.view_camera[__yy_gml_array_check_index(0,g_pBuiltIn.view_camera)])))),__yy_gml_errCheck(yyftime(24,__yy_gml_errCheck(gmllines))))),__yy_gml_errCheck(gml_Script_camera_get_gui_y_proportion(_inst,_other)))),64);
+			draw_set_color(global.gmlcolorValue[__yy_gml_array_check_index(0,global.gmlcolorValue)]);
+			draw_roundrect(yyfminus(__yy_gml_errCheck(gmlbase_x),__yy_gml_errCheck(yyfdivide(__yy_gml_errCheck(gmlw),2))),yyfminus(__yy_gml_errCheck(gmlbase_y),42),yyfplus(__yy_gml_errCheck(gmlbase_x),__yy_gml_errCheck(yyfdivide(__yy_gml_errCheck(gmlw),2))),yyfplus(yyfplus(yyfminus(__yy_gml_errCheck(gmlbase_y),42),18),__yy_gml_errCheck(yyftime(24,__yy_gml_errCheck(gmllines)))),false);
+			draw_set_color(global.gmlcolorValue[__yy_gml_array_check_index(1,global.gmlcolorValue)]);
+			draw_roundrect(yyfplus(yyfminus(__yy_gml_errCheck(gmlbase_x),__yy_gml_errCheck(yyfdivide(__yy_gml_errCheck(gmlw),2))),1),yyfplus(yyfminus(__yy_gml_errCheck(gmlbase_y),42),1),yyfminus(yyfplus(__yy_gml_errCheck(gmlbase_x),__yy_gml_errCheck(yyfdivide(__yy_gml_errCheck(gmlw),2))),1),yyfplus(yyfminus(yyfplus(yyfminus(__yy_gml_errCheck(gmlbase_y),42),18),1),__yy_gml_errCheck(yyftime(24,__yy_gml_errCheck(gmllines)))),true);
+			draw_set_alpha(0.75);
+			draw_set_color(0);
+			draw_set_halign(0);
+			draw_set_valign(0);
+			draw_text_ext(yyfplus(yyfplus(yyfminus(__yy_gml_errCheck(gmlbase_x),__yy_gml_errCheck(yyfdivide(__yy_gml_errCheck(gmlw),2))),5),1),yyfplus(yyfplus(yyfminus(__yy_gml_errCheck(gmlbase_y),42),3),1),_inst.gmlchat_message_current,16,gmlw);
+			draw_set_alpha(1);
+			draw_set_color(16777215);
+			draw_text_ext(yyfplus(yyfminus(__yy_gml_errCheck(gmlbase_x),__yy_gml_errCheck(yyfdivide(__yy_gml_errCheck(gmlw),2))),5),yyfplus(yyfminus(__yy_gml_errCheck(gmlbase_y),42),3),_inst.gmlchat_message_current,16,gmlw);
 		}
 	}
 	;
@@ -8943,11 +11981,11 @@ function gml_Object_objectTree_Other_10(_inst,_other)
 	yyInst(_inst,_other,_inst.gmlP).gmlTresspass=true;
 	yyInst(_inst,_other,_inst.gmlP).gmlMaxHealth=1;
 	yyInst(_inst,_other,_inst.gmlP).gmlReady=false;
-	yyInst(_inst,_other,_inst.gmlP).gmlTime=__yy_gml_object_create(_inst,(global.gml___struct___69=__yy_method(_inst,gml_Script____struct___69_40_gml_Object_objectTree_Other_10)),g_pBuiltIn.get_current_time(),g_pBuiltIn.get_current_time());
-	yyInst(_inst,_other,_inst.gmlP).gmlGrow=__yy_gml_object_create(_inst,(global.gml___struct___70=__yy_method(_inst,gml_Script____struct___70_40_gml_Object_objectTree_Other_10)),(__yy_gml_array_create([1.5,1.35,1.2])),(__yy_gml_array_create([1.5,0.5,1])),(__yy_gml_array_create([0,0.85,1])),((__yy_gml_array_set_owner(65536),__yy_gml_array_create([0,0,0]))));
+	yyInst(_inst,_other,_inst.gmlP).gmlTime=__yy_gml_object_create(_inst,(global.gml___struct___71=__yy_method(_inst,gml_Script____struct___71_40_gml_Object_objectTree_Other_10)),g_pBuiltIn.get_current_time(),g_pBuiltIn.get_current_time());
+	yyInst(_inst,_other,_inst.gmlP).gmlGrow=__yy_gml_object_create(_inst,(global.gml___struct___72=__yy_method(_inst,gml_Script____struct___72_40_gml_Object_objectTree_Other_10)),(__yy_gml_array_create([1.5,1.35,1.2])),(__yy_gml_array_create([1.5,0.5,1])),(__yy_gml_array_create([0,0.85,1])),((__yy_gml_array_set_owner(65536),__yy_gml_array_create([0,0,0]))));
 }
 
-function gml_Script____struct___69_40_gml_Object_objectTree_Other_10(_inst,_other)
+function gml_Script____struct___71_40_gml_Object_objectTree_Other_10(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -8957,13 +11995,13 @@ function gml_Script____struct___69_40_gml_Object_objectTree_Other_10(_inst,_othe
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___69@gml_Object_objectTree_Other_10"	}
-	if(gml_Script____struct___69_40_gml_Object_objectTree_Other_10.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___71@gml_Object_objectTree_Other_10"	}
+	if(gml_Script____struct___71_40_gml_Object_objectTree_Other_10.prototype.__type===undefined)
 	{
-		gml_Script____struct___69_40_gml_Object_objectTree_Other_10.prototype.__type="gml_Script____struct___69@gml_Object_objectTree_Other_10"	}
+		gml_Script____struct___71_40_gml_Object_objectTree_Other_10.prototype.__type="gml_Script____struct___71@gml_Object_objectTree_Other_10"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___69_40_gml_Object_objectTree_Other_10.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___71_40_gml_Object_objectTree_Other_10.prototype);
 
 				{
 			var $$args=Array.prototype.slice.call(arguments);
@@ -8977,7 +12015,7 @@ function gml_Script____struct___69_40_gml_Object_objectTree_Other_10(_inst,_othe
 	}
 }
 
-function gml_Script____struct___70_40_gml_Object_objectTree_Other_10(_inst,_other)
+function gml_Script____struct___72_40_gml_Object_objectTree_Other_10(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -8987,13 +12025,13 @@ function gml_Script____struct___70_40_gml_Object_objectTree_Other_10(_inst,_othe
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___70@gml_Object_objectTree_Other_10"	}
-	if(gml_Script____struct___70_40_gml_Object_objectTree_Other_10.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___72@gml_Object_objectTree_Other_10"	}
+	if(gml_Script____struct___72_40_gml_Object_objectTree_Other_10.prototype.__type===undefined)
 	{
-		gml_Script____struct___70_40_gml_Object_objectTree_Other_10.prototype.__type="gml_Script____struct___70@gml_Object_objectTree_Other_10"	}
+		gml_Script____struct___72_40_gml_Object_objectTree_Other_10.prototype.__type="gml_Script____struct___72@gml_Object_objectTree_Other_10"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___70_40_gml_Object_objectTree_Other_10.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___72_40_gml_Object_objectTree_Other_10.prototype);
 
 				{
 			var $$args=Array.prototype.slice.call(arguments);
@@ -9066,11 +12104,39 @@ function gml_Object_objectTree_Draw_0(_inst,_other)
 			}
 			;
 			draw_set_alpha(yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlGrow).gmlAlpha[__yy_gml_array_check_index(gmli,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlGrow).gmlAlpha)]);
-			draw_sprite_ext(_inst,_inst.sprite_index,gmli,_inst.x,yyfplus(__yy_gml_errCheck(_inst.y),16),yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlGrow).gmlScale[__yy_gml_array_check_index(gmli,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlGrow).gmlScale)],yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlGrow).gmlScale[__yy_gml_array_check_index(gmli,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlGrow).gmlScale)],0,16777215,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlGrow).gmlAlpha[__yy_gml_array_check_index(gmli,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlGrow).gmlAlpha)]);
+			draw_sprite_ext(_inst,_inst.sprite_index,yyfplus(__yy_gml_errCheck(gmli),1),_inst.x,yyfplus(__yy_gml_errCheck(_inst.y),16),yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlGrow).gmlScale[__yy_gml_array_check_index(gmli,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlGrow).gmlScale)],yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlGrow).gmlScale[__yy_gml_array_check_index(gmli,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlGrow).gmlScale)],0,16777215,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlGrow).gmlAlpha[__yy_gml_array_check_index(gmli,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlP).gmlGrow).gmlAlpha)]);
 		}
 	}
 	;
 	draw_set_alpha(1);
+}
+
+function gml_Object_objectWindow_Create_0(_inst,_other)
+{
+	_inst.gmlwidth=100;
+	_inst.gmlheight=100;
+}
+
+function gml_Object_objectWindow_Draw_64(_inst,_other)
+{
+	if(yyGetBool(instance_exists(_inst.gmlparent)))
+	{
+
+				{
+			_inst.gmlbase_x=yyftime(__yy_gml_errCheck(yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlparent).x),__yy_gml_errCheck(camera_get_view_x(g_pBuiltIn.view_camera[__yy_gml_array_check_index(0,g_pBuiltIn.view_camera)])))),__yy_gml_errCheck(gml_Script_camera_get_gui_x_proportion(_inst,_other)));
+			_inst.gmlbase_y=yyftime(__yy_gml_errCheck(yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlparent).y),__yy_gml_errCheck(camera_get_view_y(g_pBuiltIn.view_camera[__yy_gml_array_check_index(0,g_pBuiltIn.view_camera)])))),__yy_gml_errCheck(gml_Script_camera_get_gui_y_proportion(_inst,_other)));
+			draw_set_color(global.gmlcolorValue[__yy_gml_array_check_index(0,global.gmlcolorValue)]);
+			draw_roundrect(_inst.gmlbase_x,_inst.gmlbase_y,yyfplus(__yy_gml_errCheck(_inst.gmlbase_x),__yy_gml_errCheck(_inst.gmlwidth)),yyfplus(__yy_gml_errCheck(_inst.gmlbase_y),__yy_gml_errCheck(_inst.gmlheight)),false);
+		}
+	}
+	else 
+	{
+
+				{
+			instance_destroy(_inst);
+		}
+	}
+	;
 }
 
 function compile_if_weak_ref()
@@ -9154,8 +12220,11 @@ function gmlInitGlobal()
 	global.gml___struct___68=0;
 	global.gml___struct___69=0;
 	global.gml___struct___70=0;
+	global.gml___struct___71=0;
+	global.gml___struct___72=0;
 	gml_GlobalScript_scriptAnimation(global,global);
 	gml_GlobalScript_scriptBuffers(global,global);
+	gml_GlobalScript_scriptCamera(global,global);
 	gml_GlobalScript_scriptChat(global,global);
 	gml_GlobalScript_scriptConfiguration(global,global);
 	gml_GlobalScript_scriptConstants(global,global);
@@ -9166,6 +12235,7 @@ function gmlInitGlobal()
 	gml_GlobalScript_scriptRecipes(global,global);
 	gml_GlobalScript_scriptSeeds(global,global);
 	gml_GlobalScript_scriptUtilities(global,global);
+	gml_GlobalScript_scriptWindows(global,global);
 	gml_GlobalScript_scriptWorld(global,global);
 	global.__yyIsGMLObject=true;
 }
@@ -9175,8 +12245,8 @@ function gmlGameEndScripts()
 }
 Tags=[];
 IDToTagList=[];
-JSON_game.ScriptNames=["gml_GlobalScript_scriptAnimation","gml_Script_updateAnimationAngle","gml_GlobalScript_scriptBuffers","gml_Script_buffer_start","gml_Script_buffer_write_int","gml_Script_buffer_write_string","gml_Script_buffer_send_message","gml_Script_buffer_send_message_all","gml_Script_buffer_send_message_exception","gml_GlobalScript_scriptChat","gml_Script____struct___0@chatSendMessage@scriptChat","gml_Script_chatSendMessage","gml_Script____struct___1@chatDisplayMessage@scriptChat","gml_Script_chatDisplayMessage","gml_GlobalScript_scriptConfiguration","gml_Script_Configuration","gml_GlobalScript_scriptConstants","gml_Script_scriptConstants","gml_GlobalScript_scriptDraw","gml_Script_draw_text_shadow","gml_Script_chatDraw","gml_Script_surfaceUpdate","gml_GlobalScript_scriptInventory","gml_Script____struct___3@___struct___2@inventoryCreate@scriptInventory","gml_Script____struct___4@___struct___2@inventoryCreate@scriptInventory","gml_Script____struct___2@inventoryCreate@scriptInventory","gml_Script_anon@237@___struct___5@inventoryCreate@scriptInventory","gml_Script____struct___5@inventoryCreate@scriptInventory","gml_Script_anon@569@___struct___6@inventoryCreate@scriptInventory","gml_Script____struct___6@inventoryCreate@scriptInventory","gml_Script_anon@695@___struct___7@inventoryCreate@scriptInventory","gml_Script____struct___7@inventoryCreate@scriptInventory","gml_Script_anon@821@___struct___8@inventoryCreate@scriptInventory","gml_Script____struct___8@inventoryCreate@scriptInventory","gml_Script_inventoryCreate","gml_Script____struct___9@inventoryAdd@scriptInventory","gml_Script_inventoryAdd","gml_Script_inventoryEquipItem","gml_Script_armor_check","gml_Script_inventoryQuickFreeSpace","gml_Script_inventoryItemExists","gml_Script_inventorySetQuick","gml_Script_quickEvent","gml_Script_getQuickSlotItemId","gml_Script_getSelectedItemId","gml_Script_getSelectedItemIdInt","gml_Script_inventoryGetPosition","gml_Script_inventoryGetId","gml_GlobalScript_scriptItem","gml_Script_getItemInstance","gml_Script_getBlockSubtype","gml_Script_getItemUsage","gml_Script____struct___10@temporalItemPopulate@scriptItem","gml_Script____struct___11@temporalItemPopulate@scriptItem","gml_Script____struct___12@temporalItemPopulate@scriptItem","gml_Script____struct___13@temporalItemPopulate@scriptItem","gml_Script____struct___14@temporalItemPopulate@scriptItem","gml_Script____struct___15@temporalItemPopulate@scriptItem","gml_Script____struct___16@temporalItemPopulate@scriptItem","gml_Script____struct___17@temporalItemPopulate@scriptItem","gml_Script____struct___18@temporalItemPopulate@scriptItem","gml_Script_temporalItemPopulate","gml_GlobalScript_scriptNetworking","gml_Script_connect_to_server","gml_Script____struct___20@___struct___19@create_network_packet@scriptNetworking","gml_Script____struct___19@create_network_packet@scriptNetworking","gml_Script_create_network_packet","gml_Script_send_network_packet","gml_Script_serialize_network_packet","gml_Script____struct___22@___struct___21@server_responses@scriptNetworking","gml_Script____struct___21@server_responses@scriptNetworking","gml_Script____struct___24@___struct___23@server_responses@scriptNetworking","gml_Script____struct___23@server_responses@scriptNetworking","gml_Script_server_responses","gml_Script_online_value_validate","gml_Script_allowed_room","gml_Script____struct___25@remove_online_players@scriptNetworking","gml_Script_remove_online_players","gml_Script_display_emoticon","gml_Script____struct___26@user_login@scriptNetworking","gml_Script_user_login","gml_Script____struct___27@user_registration@scriptNetworking","gml_Script_user_registration","gml_GlobalScript_scriptRecipes","gml_Script____struct___29@___struct___28@temporalRecipePopulate@scriptRecipes","gml_Script____struct___28@temporalRecipePopulate@scriptRecipes","gml_Script_temporalRecipePopulate","gml_GlobalScript_scriptSeeds","gml_Script_seedToTree","gml_GlobalScript_scriptUtilities","gml_Script_move_snap_grid","gml_Script_angleCalculation","gml_Script_rectangleMouseCollision","gml_Script_moveTo","gml_GlobalScript_scriptWorld","gml_Script_world_update_surface","gml_Script_world_add_instance","gml_Script_world_get_chunk","gml_Script_world_get_first_column","gml_Script_world_get_latest_column","gml_Script_world_get_first_row","gml_Script_world_get_latest_row","gml_Script____struct___30@generateWorld@scriptWorld","gml_Script_generateWorld","gml_Script____struct___31@gml_Object_objectBlock_Create_0","gml_Script____struct___33@___struct___32@gml_Object_objectBlock_Other_10","gml_Script____struct___32@gml_Object_objectBlock_Other_10","gml_Script____struct___35@___struct___34@gml_Object_objectEntrance_Other_10","gml_Script____struct___34@gml_Object_objectEntrance_Other_10","gml_Script____struct___37@___struct___36@gml_Object_objectManager_Create_0","gml_Script____struct___39@___struct___38@___struct___36@gml_Object_objectManager_Create_0","gml_Script____struct___38@___struct___36@gml_Object_objectManager_Create_0","gml_Script____struct___36@gml_Object_objectManager_Create_0","gml_Script____struct___40@gml_Object_objectManager_Create_0","gml_Script____struct___41@gml_Object_objectManager_Create_0","gml_Script____struct___42@gml_Object_objectManager_Create_0","gml_Script____struct___43@gml_Object_objectManager_Create_0","gml_Script____struct___44@gml_Object_objectManager_Step_0","gml_Script____struct___45@gml_Object_objectManager_Step_0","gml_Script____struct___46@gml_Object_objectManager_Step_0","gml_Script____struct___49@___struct___48@___struct___47@gml_Object_objectPlayer_Create_0","gml_Script____struct___50@___struct___48@___struct___47@gml_Object_objectPlayer_Create_0","gml_Script____struct___51@___struct___48@___struct___47@gml_Object_objectPlayer_Create_0","gml_Script____struct___52@___struct___48@___struct___47@gml_Object_objectPlayer_Create_0","gml_Script____struct___53@___struct___48@___struct___47@gml_Object_objectPlayer_Create_0","gml_Script____struct___54@___struct___48@___struct___47@gml_Object_objectPlayer_Create_0","gml_Script____struct___55@___struct___48@___struct___47@gml_Object_objectPlayer_Create_0","gml_Script____struct___56@___struct___48@___struct___47@gml_Object_objectPlayer_Create_0","gml_Script____struct___57@___struct___48@___struct___47@gml_Object_objectPlayer_Create_0","gml_Script____struct___58@___struct___48@___struct___47@gml_Object_objectPlayer_Create_0","gml_Script____struct___48@___struct___47@gml_Object_objectPlayer_Create_0","gml_Script____struct___61@___struct___60@___struct___59@___struct___47@gml_Object_objectPlayer_Create_0","gml_Script____struct___62@___struct___60@___struct___59@___struct___47@gml_Object_objectPlayer_Create_0","gml_Script____struct___63@___struct___60@___struct___59@___struct___47@gml_Object_objectPlayer_Create_0","gml_Script____struct___64@___struct___60@___struct___59@___struct___47@gml_Object_objectPlayer_Create_0","gml_Script____struct___60@___struct___59@___struct___47@gml_Object_objectPlayer_Create_0","gml_Script____struct___59@___struct___47@gml_Object_objectPlayer_Create_0","gml_Script____struct___65@___struct___47@gml_Object_objectPlayer_Create_0","gml_Script____struct___66@___struct___47@gml_Object_objectPlayer_Create_0","gml_Script____struct___67@___struct___47@gml_Object_objectPlayer_Create_0","gml_Script____struct___68@___struct___47@gml_Object_objectPlayer_Create_0","gml_Script____struct___47@gml_Object_objectPlayer_Create_0","gml_Script____struct___69@gml_Object_objectTree_Other_10","gml_Script____struct___70@gml_Object_objectTree_Other_10"];
-JSON_game.Scripts=[gml_GlobalScript_scriptAnimation,gml_Script_updateAnimationAngle,gml_GlobalScript_scriptBuffers,gml_Script_buffer_start,gml_Script_buffer_write_int,gml_Script_buffer_write_string,gml_Script_buffer_send_message,gml_Script_buffer_send_message_all,gml_Script_buffer_send_message_exception,gml_GlobalScript_scriptChat,gml_Script____struct___0_40_chatSendMessage_40_scriptChat,gml_Script_chatSendMessage,gml_Script____struct___1_40_chatDisplayMessage_40_scriptChat,gml_Script_chatDisplayMessage,gml_GlobalScript_scriptConfiguration,gml_Script_Configuration,gml_GlobalScript_scriptConstants,gml_Script_scriptConstants,gml_GlobalScript_scriptDraw,gml_Script_draw_text_shadow,gml_Script_chatDraw,gml_Script_surfaceUpdate,gml_GlobalScript_scriptInventory,gml_Script____struct___3_40____struct___2_40_inventoryCreate_40_scriptInventory,gml_Script____struct___4_40____struct___2_40_inventoryCreate_40_scriptInventory,gml_Script____struct___2_40_inventoryCreate_40_scriptInventory,gml_Script_anon_40_237_40____struct___5_40_inventoryCreate_40_scriptInventory,gml_Script____struct___5_40_inventoryCreate_40_scriptInventory,gml_Script_anon_40_569_40____struct___6_40_inventoryCreate_40_scriptInventory,gml_Script____struct___6_40_inventoryCreate_40_scriptInventory,gml_Script_anon_40_695_40____struct___7_40_inventoryCreate_40_scriptInventory,gml_Script____struct___7_40_inventoryCreate_40_scriptInventory,gml_Script_anon_40_821_40____struct___8_40_inventoryCreate_40_scriptInventory,gml_Script____struct___8_40_inventoryCreate_40_scriptInventory,gml_Script_inventoryCreate,gml_Script____struct___9_40_inventoryAdd_40_scriptInventory,gml_Script_inventoryAdd,gml_Script_inventoryEquipItem,gml_Script_armor_check,gml_Script_inventoryQuickFreeSpace,gml_Script_inventoryItemExists,gml_Script_inventorySetQuick,gml_Script_quickEvent,gml_Script_getQuickSlotItemId,gml_Script_getSelectedItemId,gml_Script_getSelectedItemIdInt,gml_Script_inventoryGetPosition,gml_Script_inventoryGetId,gml_GlobalScript_scriptItem,gml_Script_getItemInstance,gml_Script_getBlockSubtype,gml_Script_getItemUsage,gml_Script____struct___10_40_temporalItemPopulate_40_scriptItem,gml_Script____struct___11_40_temporalItemPopulate_40_scriptItem,gml_Script____struct___12_40_temporalItemPopulate_40_scriptItem,gml_Script____struct___13_40_temporalItemPopulate_40_scriptItem,gml_Script____struct___14_40_temporalItemPopulate_40_scriptItem,gml_Script____struct___15_40_temporalItemPopulate_40_scriptItem,gml_Script____struct___16_40_temporalItemPopulate_40_scriptItem,gml_Script____struct___17_40_temporalItemPopulate_40_scriptItem,gml_Script____struct___18_40_temporalItemPopulate_40_scriptItem,gml_Script_temporalItemPopulate,gml_GlobalScript_scriptNetworking,gml_Script_connect_to_server,gml_Script____struct___20_40____struct___19_40_create_network_packet_40_scriptNetworking,gml_Script____struct___19_40_create_network_packet_40_scriptNetworking,gml_Script_create_network_packet,gml_Script_send_network_packet,gml_Script_serialize_network_packet,gml_Script____struct___22_40____struct___21_40_server_responses_40_scriptNetworking,gml_Script____struct___21_40_server_responses_40_scriptNetworking,gml_Script____struct___24_40____struct___23_40_server_responses_40_scriptNetworking,gml_Script____struct___23_40_server_responses_40_scriptNetworking,gml_Script_server_responses,gml_Script_online_value_validate,gml_Script_allowed_room,gml_Script____struct___25_40_remove_online_players_40_scriptNetworking,gml_Script_remove_online_players,gml_Script_display_emoticon,gml_Script____struct___26_40_user_login_40_scriptNetworking,gml_Script_user_login,gml_Script____struct___27_40_user_registration_40_scriptNetworking,gml_Script_user_registration,gml_GlobalScript_scriptRecipes,gml_Script____struct___29_40____struct___28_40_temporalRecipePopulate_40_scriptRecipes,gml_Script____struct___28_40_temporalRecipePopulate_40_scriptRecipes,gml_Script_temporalRecipePopulate,gml_GlobalScript_scriptSeeds,gml_Script_seedToTree,gml_GlobalScript_scriptUtilities,gml_Script_move_snap_grid,gml_Script_angleCalculation,gml_Script_rectangleMouseCollision,gml_Script_moveTo,gml_GlobalScript_scriptWorld,gml_Script_world_update_surface,gml_Script_world_add_instance,gml_Script_world_get_chunk,gml_Script_world_get_first_column,gml_Script_world_get_latest_column,gml_Script_world_get_first_row,gml_Script_world_get_latest_row,gml_Script____struct___30_40_generateWorld_40_scriptWorld,gml_Script_generateWorld,gml_Script____struct___31_40_gml_Object_objectBlock_Create_0,gml_Script____struct___33_40____struct___32_40_gml_Object_objectBlock_Other_10,gml_Script____struct___32_40_gml_Object_objectBlock_Other_10,gml_Script____struct___35_40____struct___34_40_gml_Object_objectEntrance_Other_10,gml_Script____struct___34_40_gml_Object_objectEntrance_Other_10,gml_Script____struct___37_40____struct___36_40_gml_Object_objectManager_Create_0,gml_Script____struct___39_40____struct___38_40____struct___36_40_gml_Object_objectManager_Create_0,gml_Script____struct___38_40____struct___36_40_gml_Object_objectManager_Create_0,gml_Script____struct___36_40_gml_Object_objectManager_Create_0,gml_Script____struct___40_40_gml_Object_objectManager_Create_0,gml_Script____struct___41_40_gml_Object_objectManager_Create_0,gml_Script____struct___42_40_gml_Object_objectManager_Create_0,gml_Script____struct___43_40_gml_Object_objectManager_Create_0,gml_Script____struct___44_40_gml_Object_objectManager_Step_0,gml_Script____struct___45_40_gml_Object_objectManager_Step_0,gml_Script____struct___46_40_gml_Object_objectManager_Step_0,gml_Script____struct___49_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0,gml_Script____struct___50_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0,gml_Script____struct___51_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0,gml_Script____struct___52_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0,gml_Script____struct___53_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0,gml_Script____struct___54_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0,gml_Script____struct___55_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0,gml_Script____struct___56_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0,gml_Script____struct___57_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0,gml_Script____struct___58_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0,gml_Script____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0,gml_Script____struct___61_40____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0,gml_Script____struct___62_40____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0,gml_Script____struct___63_40____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0,gml_Script____struct___64_40____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0,gml_Script____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0,gml_Script____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0,gml_Script____struct___65_40____struct___47_40_gml_Object_objectPlayer_Create_0,gml_Script____struct___66_40____struct___47_40_gml_Object_objectPlayer_Create_0,gml_Script____struct___67_40____struct___47_40_gml_Object_objectPlayer_Create_0,gml_Script____struct___68_40____struct___47_40_gml_Object_objectPlayer_Create_0,gml_Script____struct___47_40_gml_Object_objectPlayer_Create_0,gml_Script____struct___69_40_gml_Object_objectTree_Other_10,gml_Script____struct___70_40_gml_Object_objectTree_Other_10];
+JSON_game.ScriptNames=["gml_GlobalScript_scriptAnimation","gml_Script_updateAnimationAngle","gml_GlobalScript_scriptBuffers","gml_Script_buffer_start","gml_Script_buffer_write_int","gml_Script_buffer_write_string","gml_Script_buffer_send_message","gml_Script_buffer_send_message_all","gml_Script_buffer_send_message_exception","gml_GlobalScript_scriptCamera","gml_Script_camera_get_gui_x_proportion","gml_Script_camera_get_gui_y_proportion","gml_GlobalScript_scriptChat","gml_Script____struct___0@chatSendMessage@scriptChat","gml_Script_chatSendMessage","gml_Script____struct___1@chatDisplayMessage@scriptChat","gml_Script_chatDisplayMessage","gml_GlobalScript_scriptConfiguration","gml_Script_Configuration","gml_GlobalScript_scriptConstants","gml_Script_scriptConstants","gml_GlobalScript_scriptDraw","gml_Script_draw_text_shadow","gml_Script_draw_text_shadow2","gml_Script_chatDraw","gml_Script_surfaceUpdate","gml_GlobalScript_scriptInventory","gml_Script____struct___3@___struct___2@inventoryCreate@scriptInventory","gml_Script____struct___4@___struct___2@inventoryCreate@scriptInventory","gml_Script____struct___2@inventoryCreate@scriptInventory","gml_Script_anon@237@___struct___5@inventoryCreate@scriptInventory","gml_Script____struct___5@inventoryCreate@scriptInventory","gml_Script_anon@569@___struct___6@inventoryCreate@scriptInventory","gml_Script____struct___6@inventoryCreate@scriptInventory","gml_Script_anon@695@___struct___7@inventoryCreate@scriptInventory","gml_Script____struct___7@inventoryCreate@scriptInventory","gml_Script_anon@821@___struct___8@inventoryCreate@scriptInventory","gml_Script____struct___8@inventoryCreate@scriptInventory","gml_Script_inventoryCreate","gml_Script____struct___9@inventoryAdd@scriptInventory","gml_Script_inventoryAdd","gml_Script_inventoryEquipItem","gml_Script_armor_check","gml_Script_inventoryQuickFreeSpace","gml_Script_inventoryItemExists","gml_Script_inventorySetQuick","gml_Script_quickEvent","gml_Script_getQuickSlotItemId","gml_Script_getSelectedItemId","gml_Script_getSelectedItemIdInt","gml_Script_inventoryGetPosition","gml_Script_inventoryGetId","gml_GlobalScript_scriptItem","gml_Script_getItemInstance","gml_Script_getBlockSubtype","gml_Script_getItemUsage","gml_Script_loadSpriteData","gml_Script_itemSetProperties","gml_Script____struct___10@temporalItemPopulate@scriptItem","gml_Script____struct___11@temporalItemPopulate@scriptItem","gml_Script____struct___12@temporalItemPopulate@scriptItem","gml_Script_temporalItemPopulate","gml_GlobalScript_scriptNetworking","gml_Script_connect_to_server","gml_Script____struct___14@___struct___13@create_network_packet@scriptNetworking","gml_Script____struct___13@create_network_packet@scriptNetworking","gml_Script_create_network_packet","gml_Script_send_network_packet","gml_Script_serialize_network_packet","gml_Script____struct___16@___struct___15@server_responses@scriptNetworking","gml_Script____struct___15@server_responses@scriptNetworking","gml_Script____struct___18@___struct___17@server_responses@scriptNetworking","gml_Script____struct___17@server_responses@scriptNetworking","gml_Script_server_responses","gml_Script_online_value_validate","gml_Script_allowed_room","gml_Script____struct___19@remove_online_players@scriptNetworking","gml_Script_remove_online_players","gml_Script_display_emoticon","gml_Script____struct___20@user_login@scriptNetworking","gml_Script_user_login","gml_Script____struct___21@user_registration@scriptNetworking","gml_Script_user_registration","gml_GlobalScript_scriptRecipes","gml_Script____struct___23@___struct___22@temporalRecipePopulate@scriptRecipes","gml_Script____struct___22@temporalRecipePopulate@scriptRecipes","gml_Script_temporalRecipePopulate","gml_GlobalScript_scriptSeeds","gml_Script_seedToTree","gml_GlobalScript_scriptUtilities","gml_Script_move_snap_grid","gml_Script_angleCalculation","gml_Script_rectangleMouseCollision","gml_Script_moveTo","gml_Script_fps_fix_speed","gml_Script_dec_to_hex","gml_Script_is_string_numeric","gml_GlobalScript_scriptWindows","gml_Script_window_create","gml_Script_window_control_add","gml_Script_label_new","gml_Script_textbox_new","gml_Script_checkbox_new","gml_Script_draw_own_button","gml_Script____struct___24@text_round_box@scriptWindows","gml_Script_text_round_box","gml_Script_textbox_change","gml_GlobalScript_scriptWorld","gml_Script_world_update_surface","gml_Script_world_get_room","gml_Script_world_set_room","gml_Script_world_player_spawn","gml_Script_world_add_instance","gml_Script_world_get_chunk","gml_Script_world_get_first_column","gml_Script_world_get_latest_column","gml_Script_world_get_first_row","gml_Script_world_get_latest_row","gml_Script_world_sequence_to_xposition","gml_Script_world_sequence_to_yposition","gml_Script____struct___25@generateWorld@scriptWorld","gml_Script_generateWorld","gml_Script____struct___26@gml_Object_objectBlock_Create_0","gml_Script____struct___28@___struct___27@gml_Object_objectBlock_Other_10","gml_Script____struct___27@gml_Object_objectBlock_Other_10","gml_Script____struct___30@___struct___29@gml_Object_objectEntrance_Other_10","gml_Script____struct___29@gml_Object_objectEntrance_Other_10","gml_Script____struct___31@gml_Object_objectManager_Create_0","gml_Script____struct___33@___struct___32@gml_Object_objectManager_Create_0","gml_Script____struct___35@___struct___34@___struct___32@gml_Object_objectManager_Create_0","gml_Script____struct___34@___struct___32@gml_Object_objectManager_Create_0","gml_Script____struct___32@gml_Object_objectManager_Create_0","gml_Script____struct___36@gml_Object_objectManager_Create_0","gml_Script____struct___37@gml_Object_objectManager_Create_0","gml_Script____struct___38@gml_Object_objectManager_Create_0","gml_Script____struct___39@gml_Object_objectManager_Create_0","gml_Script____struct___40@gml_Object_objectManager_Step_0","gml_Script____struct___41@gml_Object_objectManager_Step_0","gml_Script____struct___42@gml_Object_objectManager_Step_0","gml_Script____struct___43@gml_Object_objectManager_Other_62","gml_Script____struct___44@gml_Object_objectManager_Other_62","gml_Script____struct___45@gml_Object_objectManager_Draw_64","gml_Script____struct___48@___struct___47@___struct___46@gml_Object_objectPlayer_Create_0","gml_Script____struct___49@___struct___47@___struct___46@gml_Object_objectPlayer_Create_0","gml_Script____struct___50@___struct___47@___struct___46@gml_Object_objectPlayer_Create_0","gml_Script____struct___51@___struct___47@___struct___46@gml_Object_objectPlayer_Create_0","gml_Script____struct___52@___struct___47@___struct___46@gml_Object_objectPlayer_Create_0","gml_Script____struct___53@___struct___47@___struct___46@gml_Object_objectPlayer_Create_0","gml_Script____struct___54@___struct___47@___struct___46@gml_Object_objectPlayer_Create_0","gml_Script____struct___55@___struct___47@___struct___46@gml_Object_objectPlayer_Create_0","gml_Script____struct___56@___struct___47@___struct___46@gml_Object_objectPlayer_Create_0","gml_Script____struct___57@___struct___47@___struct___46@gml_Object_objectPlayer_Create_0","gml_Script____struct___47@___struct___46@gml_Object_objectPlayer_Create_0","gml_Script____struct___60@___struct___59@___struct___58@___struct___46@gml_Object_objectPlayer_Create_0","gml_Script____struct___61@___struct___59@___struct___58@___struct___46@gml_Object_objectPlayer_Create_0","gml_Script____struct___62@___struct___59@___struct___58@___struct___46@gml_Object_objectPlayer_Create_0","gml_Script____struct___63@___struct___59@___struct___58@___struct___46@gml_Object_objectPlayer_Create_0","gml_Script____struct___59@___struct___58@___struct___46@gml_Object_objectPlayer_Create_0","gml_Script____struct___58@___struct___46@gml_Object_objectPlayer_Create_0","gml_Script____struct___64@___struct___46@gml_Object_objectPlayer_Create_0","gml_Script____struct___65@___struct___46@gml_Object_objectPlayer_Create_0","gml_Script____struct___66@___struct___46@gml_Object_objectPlayer_Create_0","gml_Script____struct___67@___struct___46@gml_Object_objectPlayer_Create_0","gml_Script____struct___46@gml_Object_objectPlayer_Create_0","gml_Script____struct___68@gml_Object_objectPlayer_Step_0","gml_Script____struct___69@gml_Object_objectPlayer_Step_0","gml_Script____struct___70@gml_Object_objectPlayer_Step_0","gml_Script____struct___71@gml_Object_objectTree_Other_10","gml_Script____struct___72@gml_Object_objectTree_Other_10"];
+JSON_game.Scripts=[gml_GlobalScript_scriptAnimation,gml_Script_updateAnimationAngle,gml_GlobalScript_scriptBuffers,gml_Script_buffer_start,gml_Script_buffer_write_int,gml_Script_buffer_write_string,gml_Script_buffer_send_message,gml_Script_buffer_send_message_all,gml_Script_buffer_send_message_exception,gml_GlobalScript_scriptCamera,gml_Script_camera_get_gui_x_proportion,gml_Script_camera_get_gui_y_proportion,gml_GlobalScript_scriptChat,gml_Script____struct___0_40_chatSendMessage_40_scriptChat,gml_Script_chatSendMessage,gml_Script____struct___1_40_chatDisplayMessage_40_scriptChat,gml_Script_chatDisplayMessage,gml_GlobalScript_scriptConfiguration,gml_Script_Configuration,gml_GlobalScript_scriptConstants,gml_Script_scriptConstants,gml_GlobalScript_scriptDraw,gml_Script_draw_text_shadow,gml_Script_draw_text_shadow2,gml_Script_chatDraw,gml_Script_surfaceUpdate,gml_GlobalScript_scriptInventory,gml_Script____struct___3_40____struct___2_40_inventoryCreate_40_scriptInventory,gml_Script____struct___4_40____struct___2_40_inventoryCreate_40_scriptInventory,gml_Script____struct___2_40_inventoryCreate_40_scriptInventory,gml_Script_anon_40_237_40____struct___5_40_inventoryCreate_40_scriptInventory,gml_Script____struct___5_40_inventoryCreate_40_scriptInventory,gml_Script_anon_40_569_40____struct___6_40_inventoryCreate_40_scriptInventory,gml_Script____struct___6_40_inventoryCreate_40_scriptInventory,gml_Script_anon_40_695_40____struct___7_40_inventoryCreate_40_scriptInventory,gml_Script____struct___7_40_inventoryCreate_40_scriptInventory,gml_Script_anon_40_821_40____struct___8_40_inventoryCreate_40_scriptInventory,gml_Script____struct___8_40_inventoryCreate_40_scriptInventory,gml_Script_inventoryCreate,gml_Script____struct___9_40_inventoryAdd_40_scriptInventory,gml_Script_inventoryAdd,gml_Script_inventoryEquipItem,gml_Script_armor_check,gml_Script_inventoryQuickFreeSpace,gml_Script_inventoryItemExists,gml_Script_inventorySetQuick,gml_Script_quickEvent,gml_Script_getQuickSlotItemId,gml_Script_getSelectedItemId,gml_Script_getSelectedItemIdInt,gml_Script_inventoryGetPosition,gml_Script_inventoryGetId,gml_GlobalScript_scriptItem,gml_Script_getItemInstance,gml_Script_getBlockSubtype,gml_Script_getItemUsage,gml_Script_loadSpriteData,gml_Script_itemSetProperties,gml_Script____struct___10_40_temporalItemPopulate_40_scriptItem,gml_Script____struct___11_40_temporalItemPopulate_40_scriptItem,gml_Script____struct___12_40_temporalItemPopulate_40_scriptItem,gml_Script_temporalItemPopulate,gml_GlobalScript_scriptNetworking,gml_Script_connect_to_server,gml_Script____struct___14_40____struct___13_40_create_network_packet_40_scriptNetworking,gml_Script____struct___13_40_create_network_packet_40_scriptNetworking,gml_Script_create_network_packet,gml_Script_send_network_packet,gml_Script_serialize_network_packet,gml_Script____struct___16_40____struct___15_40_server_responses_40_scriptNetworking,gml_Script____struct___15_40_server_responses_40_scriptNetworking,gml_Script____struct___18_40____struct___17_40_server_responses_40_scriptNetworking,gml_Script____struct___17_40_server_responses_40_scriptNetworking,gml_Script_server_responses,gml_Script_online_value_validate,gml_Script_allowed_room,gml_Script____struct___19_40_remove_online_players_40_scriptNetworking,gml_Script_remove_online_players,gml_Script_display_emoticon,gml_Script____struct___20_40_user_login_40_scriptNetworking,gml_Script_user_login,gml_Script____struct___21_40_user_registration_40_scriptNetworking,gml_Script_user_registration,gml_GlobalScript_scriptRecipes,gml_Script____struct___23_40____struct___22_40_temporalRecipePopulate_40_scriptRecipes,gml_Script____struct___22_40_temporalRecipePopulate_40_scriptRecipes,gml_Script_temporalRecipePopulate,gml_GlobalScript_scriptSeeds,gml_Script_seedToTree,gml_GlobalScript_scriptUtilities,gml_Script_move_snap_grid,gml_Script_angleCalculation,gml_Script_rectangleMouseCollision,gml_Script_moveTo,gml_Script_fps_fix_speed,gml_Script_dec_to_hex,gml_Script_is_string_numeric,gml_GlobalScript_scriptWindows,gml_Script_window_create,gml_Script_window_control_add,gml_Script_label_new,gml_Script_textbox_new,gml_Script_checkbox_new,gml_Script_draw_own_button,gml_Script____struct___24_40_text_round_box_40_scriptWindows,gml_Script_text_round_box,gml_Script_textbox_change,gml_GlobalScript_scriptWorld,gml_Script_world_update_surface,gml_Script_world_get_room,gml_Script_world_set_room,gml_Script_world_player_spawn,gml_Script_world_add_instance,gml_Script_world_get_chunk,gml_Script_world_get_first_column,gml_Script_world_get_latest_column,gml_Script_world_get_first_row,gml_Script_world_get_latest_row,gml_Script_world_sequence_to_xposition,gml_Script_world_sequence_to_yposition,gml_Script____struct___25_40_generateWorld_40_scriptWorld,gml_Script_generateWorld,gml_Script____struct___26_40_gml_Object_objectBlock_Create_0,gml_Script____struct___28_40____struct___27_40_gml_Object_objectBlock_Other_10,gml_Script____struct___27_40_gml_Object_objectBlock_Other_10,gml_Script____struct___30_40____struct___29_40_gml_Object_objectEntrance_Other_10,gml_Script____struct___29_40_gml_Object_objectEntrance_Other_10,gml_Script____struct___31_40_gml_Object_objectManager_Create_0,gml_Script____struct___33_40____struct___32_40_gml_Object_objectManager_Create_0,gml_Script____struct___35_40____struct___34_40____struct___32_40_gml_Object_objectManager_Create_0,gml_Script____struct___34_40____struct___32_40_gml_Object_objectManager_Create_0,gml_Script____struct___32_40_gml_Object_objectManager_Create_0,gml_Script____struct___36_40_gml_Object_objectManager_Create_0,gml_Script____struct___37_40_gml_Object_objectManager_Create_0,gml_Script____struct___38_40_gml_Object_objectManager_Create_0,gml_Script____struct___39_40_gml_Object_objectManager_Create_0,gml_Script____struct___40_40_gml_Object_objectManager_Step_0,gml_Script____struct___41_40_gml_Object_objectManager_Step_0,gml_Script____struct___42_40_gml_Object_objectManager_Step_0,gml_Script____struct___43_40_gml_Object_objectManager_Other_62,gml_Script____struct___44_40_gml_Object_objectManager_Other_62,gml_Script____struct___45_40_gml_Object_objectManager_Draw_64,gml_Script____struct___48_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0,gml_Script____struct___49_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0,gml_Script____struct___50_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0,gml_Script____struct___51_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0,gml_Script____struct___52_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0,gml_Script____struct___53_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0,gml_Script____struct___54_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0,gml_Script____struct___55_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0,gml_Script____struct___56_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0,gml_Script____struct___57_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0,gml_Script____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0,gml_Script____struct___60_40____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0,gml_Script____struct___61_40____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0,gml_Script____struct___62_40____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0,gml_Script____struct___63_40____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0,gml_Script____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0,gml_Script____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0,gml_Script____struct___64_40____struct___46_40_gml_Object_objectPlayer_Create_0,gml_Script____struct___65_40____struct___46_40_gml_Object_objectPlayer_Create_0,gml_Script____struct___66_40____struct___46_40_gml_Object_objectPlayer_Create_0,gml_Script____struct___67_40____struct___46_40_gml_Object_objectPlayer_Create_0,gml_Script____struct___46_40_gml_Object_objectPlayer_Create_0,gml_Script____struct___68_40_gml_Object_objectPlayer_Step_0,gml_Script____struct___69_40_gml_Object_objectPlayer_Step_0,gml_Script____struct___70_40_gml_Object_objectPlayer_Step_0,gml_Script____struct___71_40_gml_Object_objectTree_Other_10,gml_Script____struct___72_40_gml_Object_objectTree_Other_10];
 const kgml_GlobalScript_scriptAnimation=100000;
 const kgml_Script_updateAnimationAngle=100001;
 const kgml_GlobalScript_scriptBuffers=100002;
@@ -9186,83 +12256,83 @@ const kgml_Script_buffer_write_string=100005;
 const kgml_Script_buffer_send_message=100006;
 const kgml_Script_buffer_send_message_all=100007;
 const kgml_Script_buffer_send_message_exception=100008;
-const kgml_GlobalScript_scriptChat=100009;
-const kgml_Script____struct___0_40_chatSendMessage_40_scriptChat=100010;
-const kgml_Script_chatSendMessage=100011;
-const kgml_Script____struct___1_40_chatDisplayMessage_40_scriptChat=100012;
-const kgml_Script_chatDisplayMessage=100013;
-const kgml_GlobalScript_scriptConfiguration=100014;
-const kgml_Script_Configuration=100015;
-const kgml_GlobalScript_scriptConstants=100016;
-const kgml_Script_scriptConstants=100017;
-const kgml_GlobalScript_scriptDraw=100018;
-const kgml_Script_draw_text_shadow=100019;
-const kgml_Script_chatDraw=100020;
-const kgml_Script_surfaceUpdate=100021;
-const kgml_GlobalScript_scriptInventory=100022;
-const kgml_Script____struct___3_40____struct___2_40_inventoryCreate_40_scriptInventory=100023;
-const kgml_Script____struct___4_40____struct___2_40_inventoryCreate_40_scriptInventory=100024;
-const kgml_Script____struct___2_40_inventoryCreate_40_scriptInventory=100025;
-const kgml_Script_anon_40_237_40____struct___5_40_inventoryCreate_40_scriptInventory=100026;
-const kgml_Script____struct___5_40_inventoryCreate_40_scriptInventory=100027;
-const kgml_Script_anon_40_569_40____struct___6_40_inventoryCreate_40_scriptInventory=100028;
-const kgml_Script____struct___6_40_inventoryCreate_40_scriptInventory=100029;
-const kgml_Script_anon_40_695_40____struct___7_40_inventoryCreate_40_scriptInventory=100030;
-const kgml_Script____struct___7_40_inventoryCreate_40_scriptInventory=100031;
-const kgml_Script_anon_40_821_40____struct___8_40_inventoryCreate_40_scriptInventory=100032;
-const kgml_Script____struct___8_40_inventoryCreate_40_scriptInventory=100033;
-const kgml_Script_inventoryCreate=100034;
-const kgml_Script____struct___9_40_inventoryAdd_40_scriptInventory=100035;
-const kgml_Script_inventoryAdd=100036;
-const kgml_Script_inventoryEquipItem=100037;
-const kgml_Script_armor_check=100038;
-const kgml_Script_inventoryQuickFreeSpace=100039;
-const kgml_Script_inventoryItemExists=100040;
-const kgml_Script_inventorySetQuick=100041;
-const kgml_Script_quickEvent=100042;
-const kgml_Script_getQuickSlotItemId=100043;
-const kgml_Script_getSelectedItemId=100044;
-const kgml_Script_getSelectedItemIdInt=100045;
-const kgml_Script_inventoryGetPosition=100046;
-const kgml_Script_inventoryGetId=100047;
-const kgml_GlobalScript_scriptItem=100048;
-const kgml_Script_getItemInstance=100049;
-const kgml_Script_getBlockSubtype=100050;
-const kgml_Script_getItemUsage=100051;
-const kgml_Script____struct___10_40_temporalItemPopulate_40_scriptItem=100052;
-const kgml_Script____struct___11_40_temporalItemPopulate_40_scriptItem=100053;
-const kgml_Script____struct___12_40_temporalItemPopulate_40_scriptItem=100054;
-const kgml_Script____struct___13_40_temporalItemPopulate_40_scriptItem=100055;
-const kgml_Script____struct___14_40_temporalItemPopulate_40_scriptItem=100056;
-const kgml_Script____struct___15_40_temporalItemPopulate_40_scriptItem=100057;
-const kgml_Script____struct___16_40_temporalItemPopulate_40_scriptItem=100058;
-const kgml_Script____struct___17_40_temporalItemPopulate_40_scriptItem=100059;
-const kgml_Script____struct___18_40_temporalItemPopulate_40_scriptItem=100060;
+const kgml_GlobalScript_scriptCamera=100009;
+const kgml_Script_camera_get_gui_x_proportion=100010;
+const kgml_Script_camera_get_gui_y_proportion=100011;
+const kgml_GlobalScript_scriptChat=100012;
+const kgml_Script____struct___0_40_chatSendMessage_40_scriptChat=100013;
+const kgml_Script_chatSendMessage=100014;
+const kgml_Script____struct___1_40_chatDisplayMessage_40_scriptChat=100015;
+const kgml_Script_chatDisplayMessage=100016;
+const kgml_GlobalScript_scriptConfiguration=100017;
+const kgml_Script_Configuration=100018;
+const kgml_GlobalScript_scriptConstants=100019;
+const kgml_Script_scriptConstants=100020;
+const kgml_GlobalScript_scriptDraw=100021;
+const kgml_Script_draw_text_shadow=100022;
+const kgml_Script_draw_text_shadow2=100023;
+const kgml_Script_chatDraw=100024;
+const kgml_Script_surfaceUpdate=100025;
+const kgml_GlobalScript_scriptInventory=100026;
+const kgml_Script____struct___3_40____struct___2_40_inventoryCreate_40_scriptInventory=100027;
+const kgml_Script____struct___4_40____struct___2_40_inventoryCreate_40_scriptInventory=100028;
+const kgml_Script____struct___2_40_inventoryCreate_40_scriptInventory=100029;
+const kgml_Script_anon_40_237_40____struct___5_40_inventoryCreate_40_scriptInventory=100030;
+const kgml_Script____struct___5_40_inventoryCreate_40_scriptInventory=100031;
+const kgml_Script_anon_40_569_40____struct___6_40_inventoryCreate_40_scriptInventory=100032;
+const kgml_Script____struct___6_40_inventoryCreate_40_scriptInventory=100033;
+const kgml_Script_anon_40_695_40____struct___7_40_inventoryCreate_40_scriptInventory=100034;
+const kgml_Script____struct___7_40_inventoryCreate_40_scriptInventory=100035;
+const kgml_Script_anon_40_821_40____struct___8_40_inventoryCreate_40_scriptInventory=100036;
+const kgml_Script____struct___8_40_inventoryCreate_40_scriptInventory=100037;
+const kgml_Script_inventoryCreate=100038;
+const kgml_Script____struct___9_40_inventoryAdd_40_scriptInventory=100039;
+const kgml_Script_inventoryAdd=100040;
+const kgml_Script_inventoryEquipItem=100041;
+const kgml_Script_armor_check=100042;
+const kgml_Script_inventoryQuickFreeSpace=100043;
+const kgml_Script_inventoryItemExists=100044;
+const kgml_Script_inventorySetQuick=100045;
+const kgml_Script_quickEvent=100046;
+const kgml_Script_getQuickSlotItemId=100047;
+const kgml_Script_getSelectedItemId=100048;
+const kgml_Script_getSelectedItemIdInt=100049;
+const kgml_Script_inventoryGetPosition=100050;
+const kgml_Script_inventoryGetId=100051;
+const kgml_GlobalScript_scriptItem=100052;
+const kgml_Script_getItemInstance=100053;
+const kgml_Script_getBlockSubtype=100054;
+const kgml_Script_getItemUsage=100055;
+const kgml_Script_loadSpriteData=100056;
+const kgml_Script_itemSetProperties=100057;
+const kgml_Script____struct___10_40_temporalItemPopulate_40_scriptItem=100058;
+const kgml_Script____struct___11_40_temporalItemPopulate_40_scriptItem=100059;
+const kgml_Script____struct___12_40_temporalItemPopulate_40_scriptItem=100060;
 const kgml_Script_temporalItemPopulate=100061;
 const kgml_GlobalScript_scriptNetworking=100062;
 const kgml_Script_connect_to_server=100063;
-const kgml_Script____struct___20_40____struct___19_40_create_network_packet_40_scriptNetworking=100064;
-const kgml_Script____struct___19_40_create_network_packet_40_scriptNetworking=100065;
+const kgml_Script____struct___14_40____struct___13_40_create_network_packet_40_scriptNetworking=100064;
+const kgml_Script____struct___13_40_create_network_packet_40_scriptNetworking=100065;
 const kgml_Script_create_network_packet=100066;
 const kgml_Script_send_network_packet=100067;
 const kgml_Script_serialize_network_packet=100068;
-const kgml_Script____struct___22_40____struct___21_40_server_responses_40_scriptNetworking=100069;
-const kgml_Script____struct___21_40_server_responses_40_scriptNetworking=100070;
-const kgml_Script____struct___24_40____struct___23_40_server_responses_40_scriptNetworking=100071;
-const kgml_Script____struct___23_40_server_responses_40_scriptNetworking=100072;
+const kgml_Script____struct___16_40____struct___15_40_server_responses_40_scriptNetworking=100069;
+const kgml_Script____struct___15_40_server_responses_40_scriptNetworking=100070;
+const kgml_Script____struct___18_40____struct___17_40_server_responses_40_scriptNetworking=100071;
+const kgml_Script____struct___17_40_server_responses_40_scriptNetworking=100072;
 const kgml_Script_server_responses=100073;
 const kgml_Script_online_value_validate=100074;
 const kgml_Script_allowed_room=100075;
-const kgml_Script____struct___25_40_remove_online_players_40_scriptNetworking=100076;
+const kgml_Script____struct___19_40_remove_online_players_40_scriptNetworking=100076;
 const kgml_Script_remove_online_players=100077;
 const kgml_Script_display_emoticon=100078;
-const kgml_Script____struct___26_40_user_login_40_scriptNetworking=100079;
+const kgml_Script____struct___20_40_user_login_40_scriptNetworking=100079;
 const kgml_Script_user_login=100080;
-const kgml_Script____struct___27_40_user_registration_40_scriptNetworking=100081;
+const kgml_Script____struct___21_40_user_registration_40_scriptNetworking=100081;
 const kgml_Script_user_registration=100082;
 const kgml_GlobalScript_scriptRecipes=100083;
-const kgml_Script____struct___29_40____struct___28_40_temporalRecipePopulate_40_scriptRecipes=100084;
-const kgml_Script____struct___28_40_temporalRecipePopulate_40_scriptRecipes=100085;
+const kgml_Script____struct___23_40____struct___22_40_temporalRecipePopulate_40_scriptRecipes=100084;
+const kgml_Script____struct___22_40_temporalRecipePopulate_40_scriptRecipes=100085;
 const kgml_Script_temporalRecipePopulate=100086;
 const kgml_GlobalScript_scriptSeeds=100087;
 const kgml_Script_seedToTree=100088;
@@ -9271,56 +12341,81 @@ const kgml_Script_move_snap_grid=100090;
 const kgml_Script_angleCalculation=100091;
 const kgml_Script_rectangleMouseCollision=100092;
 const kgml_Script_moveTo=100093;
-const kgml_GlobalScript_scriptWorld=100094;
-const kgml_Script_world_update_surface=100095;
-const kgml_Script_world_add_instance=100096;
-const kgml_Script_world_get_chunk=100097;
-const kgml_Script_world_get_first_column=100098;
-const kgml_Script_world_get_latest_column=100099;
-const kgml_Script_world_get_first_row=100100;
-const kgml_Script_world_get_latest_row=100101;
-const kgml_Script____struct___30_40_generateWorld_40_scriptWorld=100102;
-const kgml_Script_generateWorld=100103;
-const kgml_Script____struct___31_40_gml_Object_objectBlock_Create_0=100104;
-const kgml_Script____struct___33_40____struct___32_40_gml_Object_objectBlock_Other_10=100105;
-const kgml_Script____struct___32_40_gml_Object_objectBlock_Other_10=100106;
-const kgml_Script____struct___35_40____struct___34_40_gml_Object_objectEntrance_Other_10=100107;
-const kgml_Script____struct___34_40_gml_Object_objectEntrance_Other_10=100108;
-const kgml_Script____struct___37_40____struct___36_40_gml_Object_objectManager_Create_0=100109;
-const kgml_Script____struct___39_40____struct___38_40____struct___36_40_gml_Object_objectManager_Create_0=100110;
-const kgml_Script____struct___38_40____struct___36_40_gml_Object_objectManager_Create_0=100111;
-const kgml_Script____struct___36_40_gml_Object_objectManager_Create_0=100112;
-const kgml_Script____struct___40_40_gml_Object_objectManager_Create_0=100113;
-const kgml_Script____struct___41_40_gml_Object_objectManager_Create_0=100114;
-const kgml_Script____struct___42_40_gml_Object_objectManager_Create_0=100115;
-const kgml_Script____struct___43_40_gml_Object_objectManager_Create_0=100116;
-const kgml_Script____struct___44_40_gml_Object_objectManager_Step_0=100117;
-const kgml_Script____struct___45_40_gml_Object_objectManager_Step_0=100118;
-const kgml_Script____struct___46_40_gml_Object_objectManager_Step_0=100119;
-const kgml_Script____struct___49_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0=100120;
-const kgml_Script____struct___50_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0=100121;
-const kgml_Script____struct___51_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0=100122;
-const kgml_Script____struct___52_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0=100123;
-const kgml_Script____struct___53_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0=100124;
-const kgml_Script____struct___54_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0=100125;
-const kgml_Script____struct___55_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0=100126;
-const kgml_Script____struct___56_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0=100127;
-const kgml_Script____struct___57_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0=100128;
-const kgml_Script____struct___58_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0=100129;
-const kgml_Script____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0=100130;
-const kgml_Script____struct___61_40____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0=100131;
-const kgml_Script____struct___62_40____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0=100132;
-const kgml_Script____struct___63_40____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0=100133;
-const kgml_Script____struct___64_40____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0=100134;
-const kgml_Script____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0=100135;
-const kgml_Script____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0=100136;
-const kgml_Script____struct___65_40____struct___47_40_gml_Object_objectPlayer_Create_0=100137;
-const kgml_Script____struct___66_40____struct___47_40_gml_Object_objectPlayer_Create_0=100138;
-const kgml_Script____struct___67_40____struct___47_40_gml_Object_objectPlayer_Create_0=100139;
-const kgml_Script____struct___68_40____struct___47_40_gml_Object_objectPlayer_Create_0=100140;
-const kgml_Script____struct___47_40_gml_Object_objectPlayer_Create_0=100141;
-const kgml_Script____struct___69_40_gml_Object_objectTree_Other_10=100142;
-const kgml_Script____struct___70_40_gml_Object_objectTree_Other_10=100143;
+const kgml_Script_fps_fix_speed=100094;
+const kgml_Script_dec_to_hex=100095;
+const kgml_Script_is_string_numeric=100096;
+const kgml_GlobalScript_scriptWindows=100097;
+const kgml_Script_window_create=100098;
+const kgml_Script_window_control_add=100099;
+const kgml_Script_label_new=100100;
+const kgml_Script_textbox_new=100101;
+const kgml_Script_checkbox_new=100102;
+const kgml_Script_draw_own_button=100103;
+const kgml_Script____struct___24_40_text_round_box_40_scriptWindows=100104;
+const kgml_Script_text_round_box=100105;
+const kgml_Script_textbox_change=100106;
+const kgml_GlobalScript_scriptWorld=100107;
+const kgml_Script_world_update_surface=100108;
+const kgml_Script_world_get_room=100109;
+const kgml_Script_world_set_room=100110;
+const kgml_Script_world_player_spawn=100111;
+const kgml_Script_world_add_instance=100112;
+const kgml_Script_world_get_chunk=100113;
+const kgml_Script_world_get_first_column=100114;
+const kgml_Script_world_get_latest_column=100115;
+const kgml_Script_world_get_first_row=100116;
+const kgml_Script_world_get_latest_row=100117;
+const kgml_Script_world_sequence_to_xposition=100118;
+const kgml_Script_world_sequence_to_yposition=100119;
+const kgml_Script____struct___25_40_generateWorld_40_scriptWorld=100120;
+const kgml_Script_generateWorld=100121;
+const kgml_Script____struct___26_40_gml_Object_objectBlock_Create_0=100122;
+const kgml_Script____struct___28_40____struct___27_40_gml_Object_objectBlock_Other_10=100123;
+const kgml_Script____struct___27_40_gml_Object_objectBlock_Other_10=100124;
+const kgml_Script____struct___30_40____struct___29_40_gml_Object_objectEntrance_Other_10=100125;
+const kgml_Script____struct___29_40_gml_Object_objectEntrance_Other_10=100126;
+const kgml_Script____struct___31_40_gml_Object_objectManager_Create_0=100127;
+const kgml_Script____struct___33_40____struct___32_40_gml_Object_objectManager_Create_0=100128;
+const kgml_Script____struct___35_40____struct___34_40____struct___32_40_gml_Object_objectManager_Create_0=100129;
+const kgml_Script____struct___34_40____struct___32_40_gml_Object_objectManager_Create_0=100130;
+const kgml_Script____struct___32_40_gml_Object_objectManager_Create_0=100131;
+const kgml_Script____struct___36_40_gml_Object_objectManager_Create_0=100132;
+const kgml_Script____struct___37_40_gml_Object_objectManager_Create_0=100133;
+const kgml_Script____struct___38_40_gml_Object_objectManager_Create_0=100134;
+const kgml_Script____struct___39_40_gml_Object_objectManager_Create_0=100135;
+const kgml_Script____struct___40_40_gml_Object_objectManager_Step_0=100136;
+const kgml_Script____struct___41_40_gml_Object_objectManager_Step_0=100137;
+const kgml_Script____struct___42_40_gml_Object_objectManager_Step_0=100138;
+const kgml_Script____struct___43_40_gml_Object_objectManager_Other_62=100139;
+const kgml_Script____struct___44_40_gml_Object_objectManager_Other_62=100140;
+const kgml_Script____struct___45_40_gml_Object_objectManager_Draw_64=100141;
+const kgml_Script____struct___48_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0=100142;
+const kgml_Script____struct___49_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0=100143;
+const kgml_Script____struct___50_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0=100144;
+const kgml_Script____struct___51_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0=100145;
+const kgml_Script____struct___52_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0=100146;
+const kgml_Script____struct___53_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0=100147;
+const kgml_Script____struct___54_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0=100148;
+const kgml_Script____struct___55_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0=100149;
+const kgml_Script____struct___56_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0=100150;
+const kgml_Script____struct___57_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0=100151;
+const kgml_Script____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0=100152;
+const kgml_Script____struct___60_40____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0=100153;
+const kgml_Script____struct___61_40____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0=100154;
+const kgml_Script____struct___62_40____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0=100155;
+const kgml_Script____struct___63_40____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0=100156;
+const kgml_Script____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0=100157;
+const kgml_Script____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0=100158;
+const kgml_Script____struct___64_40____struct___46_40_gml_Object_objectPlayer_Create_0=100159;
+const kgml_Script____struct___65_40____struct___46_40_gml_Object_objectPlayer_Create_0=100160;
+const kgml_Script____struct___66_40____struct___46_40_gml_Object_objectPlayer_Create_0=100161;
+const kgml_Script____struct___67_40____struct___46_40_gml_Object_objectPlayer_Create_0=100162;
+const kgml_Script____struct___46_40_gml_Object_objectPlayer_Create_0=100163;
+const kgml_Script____struct___68_40_gml_Object_objectPlayer_Step_0=100164;
+const kgml_Script____struct___69_40_gml_Object_objectPlayer_Step_0=100165;
+const kgml_Script____struct___70_40_gml_Object_objectPlayer_Step_0=100166;
+const kgml_Script____struct___71_40_gml_Object_objectTree_Other_10=100167;
+const kgml_Script____struct___72_40_gml_Object_objectTree_Other_10=100168;
 var __yyg__SetImageIndexGML=
 function(frame)
 {
@@ -9352,122 +12447,126 @@ gml_Script____struct___11_40_temporalItemPopulate_40_scriptItem.__yyg__is_constr
 gml_Script____struct___11_40_temporalItemPopulate_40_scriptItem.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
 gml_Script____struct___12_40_temporalItemPopulate_40_scriptItem.__yyg__is_constructor=!0;
 gml_Script____struct___12_40_temporalItemPopulate_40_scriptItem.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___13_40_temporalItemPopulate_40_scriptItem.__yyg__is_constructor=!0;
-gml_Script____struct___13_40_temporalItemPopulate_40_scriptItem.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___14_40_temporalItemPopulate_40_scriptItem.__yyg__is_constructor=!0;
-gml_Script____struct___14_40_temporalItemPopulate_40_scriptItem.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___15_40_temporalItemPopulate_40_scriptItem.__yyg__is_constructor=!0;
-gml_Script____struct___15_40_temporalItemPopulate_40_scriptItem.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___16_40_temporalItemPopulate_40_scriptItem.__yyg__is_constructor=!0;
-gml_Script____struct___16_40_temporalItemPopulate_40_scriptItem.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___17_40_temporalItemPopulate_40_scriptItem.__yyg__is_constructor=!0;
-gml_Script____struct___17_40_temporalItemPopulate_40_scriptItem.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___18_40_temporalItemPopulate_40_scriptItem.__yyg__is_constructor=!0;
-gml_Script____struct___18_40_temporalItemPopulate_40_scriptItem.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___20_40____struct___19_40_create_network_packet_40_scriptNetworking.__yyg__is_constructor=!0;
-gml_Script____struct___20_40____struct___19_40_create_network_packet_40_scriptNetworking.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___19_40_create_network_packet_40_scriptNetworking.__yyg__is_constructor=!0;
-gml_Script____struct___19_40_create_network_packet_40_scriptNetworking.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___22_40____struct___21_40_server_responses_40_scriptNetworking.__yyg__is_constructor=!0;
-gml_Script____struct___22_40____struct___21_40_server_responses_40_scriptNetworking.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___21_40_server_responses_40_scriptNetworking.__yyg__is_constructor=!0;
-gml_Script____struct___21_40_server_responses_40_scriptNetworking.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___24_40____struct___23_40_server_responses_40_scriptNetworking.__yyg__is_constructor=!0;
-gml_Script____struct___24_40____struct___23_40_server_responses_40_scriptNetworking.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___23_40_server_responses_40_scriptNetworking.__yyg__is_constructor=!0;
-gml_Script____struct___23_40_server_responses_40_scriptNetworking.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___25_40_remove_online_players_40_scriptNetworking.__yyg__is_constructor=!0;
-gml_Script____struct___25_40_remove_online_players_40_scriptNetworking.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___26_40_user_login_40_scriptNetworking.__yyg__is_constructor=!0;
-gml_Script____struct___26_40_user_login_40_scriptNetworking.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___27_40_user_registration_40_scriptNetworking.__yyg__is_constructor=!0;
-gml_Script____struct___27_40_user_registration_40_scriptNetworking.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___29_40____struct___28_40_temporalRecipePopulate_40_scriptRecipes.__yyg__is_constructor=!0;
-gml_Script____struct___29_40____struct___28_40_temporalRecipePopulate_40_scriptRecipes.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___28_40_temporalRecipePopulate_40_scriptRecipes.__yyg__is_constructor=!0;
-gml_Script____struct___28_40_temporalRecipePopulate_40_scriptRecipes.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___30_40_generateWorld_40_scriptWorld.__yyg__is_constructor=!0;
-gml_Script____struct___30_40_generateWorld_40_scriptWorld.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___31_40_gml_Object_objectBlock_Create_0.__yyg__is_constructor=!0;
-gml_Script____struct___31_40_gml_Object_objectBlock_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___33_40____struct___32_40_gml_Object_objectBlock_Other_10.__yyg__is_constructor=!0;
-gml_Script____struct___33_40____struct___32_40_gml_Object_objectBlock_Other_10.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___32_40_gml_Object_objectBlock_Other_10.__yyg__is_constructor=!0;
-gml_Script____struct___32_40_gml_Object_objectBlock_Other_10.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___35_40____struct___34_40_gml_Object_objectEntrance_Other_10.__yyg__is_constructor=!0;
-gml_Script____struct___35_40____struct___34_40_gml_Object_objectEntrance_Other_10.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___34_40_gml_Object_objectEntrance_Other_10.__yyg__is_constructor=!0;
-gml_Script____struct___34_40_gml_Object_objectEntrance_Other_10.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___37_40____struct___36_40_gml_Object_objectManager_Create_0.__yyg__is_constructor=!0;
-gml_Script____struct___37_40____struct___36_40_gml_Object_objectManager_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___39_40____struct___38_40____struct___36_40_gml_Object_objectManager_Create_0.__yyg__is_constructor=!0;
-gml_Script____struct___39_40____struct___38_40____struct___36_40_gml_Object_objectManager_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___38_40____struct___36_40_gml_Object_objectManager_Create_0.__yyg__is_constructor=!0;
-gml_Script____struct___38_40____struct___36_40_gml_Object_objectManager_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___14_40____struct___13_40_create_network_packet_40_scriptNetworking.__yyg__is_constructor=!0;
+gml_Script____struct___14_40____struct___13_40_create_network_packet_40_scriptNetworking.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___13_40_create_network_packet_40_scriptNetworking.__yyg__is_constructor=!0;
+gml_Script____struct___13_40_create_network_packet_40_scriptNetworking.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___16_40____struct___15_40_server_responses_40_scriptNetworking.__yyg__is_constructor=!0;
+gml_Script____struct___16_40____struct___15_40_server_responses_40_scriptNetworking.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___15_40_server_responses_40_scriptNetworking.__yyg__is_constructor=!0;
+gml_Script____struct___15_40_server_responses_40_scriptNetworking.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___18_40____struct___17_40_server_responses_40_scriptNetworking.__yyg__is_constructor=!0;
+gml_Script____struct___18_40____struct___17_40_server_responses_40_scriptNetworking.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___17_40_server_responses_40_scriptNetworking.__yyg__is_constructor=!0;
+gml_Script____struct___17_40_server_responses_40_scriptNetworking.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___19_40_remove_online_players_40_scriptNetworking.__yyg__is_constructor=!0;
+gml_Script____struct___19_40_remove_online_players_40_scriptNetworking.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___20_40_user_login_40_scriptNetworking.__yyg__is_constructor=!0;
+gml_Script____struct___20_40_user_login_40_scriptNetworking.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___21_40_user_registration_40_scriptNetworking.__yyg__is_constructor=!0;
+gml_Script____struct___21_40_user_registration_40_scriptNetworking.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___23_40____struct___22_40_temporalRecipePopulate_40_scriptRecipes.__yyg__is_constructor=!0;
+gml_Script____struct___23_40____struct___22_40_temporalRecipePopulate_40_scriptRecipes.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___22_40_temporalRecipePopulate_40_scriptRecipes.__yyg__is_constructor=!0;
+gml_Script____struct___22_40_temporalRecipePopulate_40_scriptRecipes.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___24_40_text_round_box_40_scriptWindows.__yyg__is_constructor=!0;
+gml_Script____struct___24_40_text_round_box_40_scriptWindows.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___25_40_generateWorld_40_scriptWorld.__yyg__is_constructor=!0;
+gml_Script____struct___25_40_generateWorld_40_scriptWorld.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___26_40_gml_Object_objectBlock_Create_0.__yyg__is_constructor=!0;
+gml_Script____struct___26_40_gml_Object_objectBlock_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___28_40____struct___27_40_gml_Object_objectBlock_Other_10.__yyg__is_constructor=!0;
+gml_Script____struct___28_40____struct___27_40_gml_Object_objectBlock_Other_10.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___27_40_gml_Object_objectBlock_Other_10.__yyg__is_constructor=!0;
+gml_Script____struct___27_40_gml_Object_objectBlock_Other_10.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___30_40____struct___29_40_gml_Object_objectEntrance_Other_10.__yyg__is_constructor=!0;
+gml_Script____struct___30_40____struct___29_40_gml_Object_objectEntrance_Other_10.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___29_40_gml_Object_objectEntrance_Other_10.__yyg__is_constructor=!0;
+gml_Script____struct___29_40_gml_Object_objectEntrance_Other_10.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___31_40_gml_Object_objectManager_Create_0.__yyg__is_constructor=!0;
+gml_Script____struct___31_40_gml_Object_objectManager_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___33_40____struct___32_40_gml_Object_objectManager_Create_0.__yyg__is_constructor=!0;
+gml_Script____struct___33_40____struct___32_40_gml_Object_objectManager_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___35_40____struct___34_40____struct___32_40_gml_Object_objectManager_Create_0.__yyg__is_constructor=!0;
+gml_Script____struct___35_40____struct___34_40____struct___32_40_gml_Object_objectManager_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___34_40____struct___32_40_gml_Object_objectManager_Create_0.__yyg__is_constructor=!0;
+gml_Script____struct___34_40____struct___32_40_gml_Object_objectManager_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___32_40_gml_Object_objectManager_Create_0.__yyg__is_constructor=!0;
+gml_Script____struct___32_40_gml_Object_objectManager_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
 gml_Script____struct___36_40_gml_Object_objectManager_Create_0.__yyg__is_constructor=!0;
 gml_Script____struct___36_40_gml_Object_objectManager_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___40_40_gml_Object_objectManager_Create_0.__yyg__is_constructor=!0;
-gml_Script____struct___40_40_gml_Object_objectManager_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___41_40_gml_Object_objectManager_Create_0.__yyg__is_constructor=!0;
-gml_Script____struct___41_40_gml_Object_objectManager_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___42_40_gml_Object_objectManager_Create_0.__yyg__is_constructor=!0;
-gml_Script____struct___42_40_gml_Object_objectManager_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___43_40_gml_Object_objectManager_Create_0.__yyg__is_constructor=!0;
-gml_Script____struct___43_40_gml_Object_objectManager_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___44_40_gml_Object_objectManager_Step_0.__yyg__is_constructor=!0;
-gml_Script____struct___44_40_gml_Object_objectManager_Step_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___45_40_gml_Object_objectManager_Step_0.__yyg__is_constructor=!0;
-gml_Script____struct___45_40_gml_Object_objectManager_Step_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___46_40_gml_Object_objectManager_Step_0.__yyg__is_constructor=!0;
-gml_Script____struct___46_40_gml_Object_objectManager_Step_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___49_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.__yyg__is_constructor=!0;
-gml_Script____struct___49_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___50_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.__yyg__is_constructor=!0;
-gml_Script____struct___50_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___51_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.__yyg__is_constructor=!0;
-gml_Script____struct___51_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___52_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.__yyg__is_constructor=!0;
-gml_Script____struct___52_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___53_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.__yyg__is_constructor=!0;
-gml_Script____struct___53_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___54_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.__yyg__is_constructor=!0;
-gml_Script____struct___54_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___55_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.__yyg__is_constructor=!0;
-gml_Script____struct___55_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___56_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.__yyg__is_constructor=!0;
-gml_Script____struct___56_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___57_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.__yyg__is_constructor=!0;
-gml_Script____struct___57_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___58_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.__yyg__is_constructor=!0;
-gml_Script____struct___58_40____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.__yyg__is_constructor=!0;
-gml_Script____struct___48_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___61_40____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0.__yyg__is_constructor=!0;
-gml_Script____struct___61_40____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___62_40____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0.__yyg__is_constructor=!0;
-gml_Script____struct___62_40____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___63_40____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0.__yyg__is_constructor=!0;
-gml_Script____struct___63_40____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___64_40____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0.__yyg__is_constructor=!0;
-gml_Script____struct___64_40____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0.__yyg__is_constructor=!0;
-gml_Script____struct___60_40____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0.__yyg__is_constructor=!0;
-gml_Script____struct___59_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___65_40____struct___47_40_gml_Object_objectPlayer_Create_0.__yyg__is_constructor=!0;
-gml_Script____struct___65_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___66_40____struct___47_40_gml_Object_objectPlayer_Create_0.__yyg__is_constructor=!0;
-gml_Script____struct___66_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___67_40____struct___47_40_gml_Object_objectPlayer_Create_0.__yyg__is_constructor=!0;
-gml_Script____struct___67_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___68_40____struct___47_40_gml_Object_objectPlayer_Create_0.__yyg__is_constructor=!0;
-gml_Script____struct___68_40____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___47_40_gml_Object_objectPlayer_Create_0.__yyg__is_constructor=!0;
-gml_Script____struct___47_40_gml_Object_objectPlayer_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___69_40_gml_Object_objectTree_Other_10.__yyg__is_constructor=!0;
-gml_Script____struct___69_40_gml_Object_objectTree_Other_10.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___70_40_gml_Object_objectTree_Other_10.__yyg__is_constructor=!0;
-gml_Script____struct___70_40_gml_Object_objectTree_Other_10.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___37_40_gml_Object_objectManager_Create_0.__yyg__is_constructor=!0;
+gml_Script____struct___37_40_gml_Object_objectManager_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___38_40_gml_Object_objectManager_Create_0.__yyg__is_constructor=!0;
+gml_Script____struct___38_40_gml_Object_objectManager_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___39_40_gml_Object_objectManager_Create_0.__yyg__is_constructor=!0;
+gml_Script____struct___39_40_gml_Object_objectManager_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___40_40_gml_Object_objectManager_Step_0.__yyg__is_constructor=!0;
+gml_Script____struct___40_40_gml_Object_objectManager_Step_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___41_40_gml_Object_objectManager_Step_0.__yyg__is_constructor=!0;
+gml_Script____struct___41_40_gml_Object_objectManager_Step_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___42_40_gml_Object_objectManager_Step_0.__yyg__is_constructor=!0;
+gml_Script____struct___42_40_gml_Object_objectManager_Step_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___43_40_gml_Object_objectManager_Other_62.__yyg__is_constructor=!0;
+gml_Script____struct___43_40_gml_Object_objectManager_Other_62.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___44_40_gml_Object_objectManager_Other_62.__yyg__is_constructor=!0;
+gml_Script____struct___44_40_gml_Object_objectManager_Other_62.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___45_40_gml_Object_objectManager_Draw_64.__yyg__is_constructor=!0;
+gml_Script____struct___45_40_gml_Object_objectManager_Draw_64.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___48_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.__yyg__is_constructor=!0;
+gml_Script____struct___48_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___49_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.__yyg__is_constructor=!0;
+gml_Script____struct___49_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___50_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.__yyg__is_constructor=!0;
+gml_Script____struct___50_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___51_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.__yyg__is_constructor=!0;
+gml_Script____struct___51_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___52_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.__yyg__is_constructor=!0;
+gml_Script____struct___52_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___53_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.__yyg__is_constructor=!0;
+gml_Script____struct___53_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___54_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.__yyg__is_constructor=!0;
+gml_Script____struct___54_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___55_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.__yyg__is_constructor=!0;
+gml_Script____struct___55_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___56_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.__yyg__is_constructor=!0;
+gml_Script____struct___56_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___57_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.__yyg__is_constructor=!0;
+gml_Script____struct___57_40____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.__yyg__is_constructor=!0;
+gml_Script____struct___47_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___60_40____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0.__yyg__is_constructor=!0;
+gml_Script____struct___60_40____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___61_40____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0.__yyg__is_constructor=!0;
+gml_Script____struct___61_40____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___62_40____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0.__yyg__is_constructor=!0;
+gml_Script____struct___62_40____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___63_40____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0.__yyg__is_constructor=!0;
+gml_Script____struct___63_40____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0.__yyg__is_constructor=!0;
+gml_Script____struct___59_40____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0.__yyg__is_constructor=!0;
+gml_Script____struct___58_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___64_40____struct___46_40_gml_Object_objectPlayer_Create_0.__yyg__is_constructor=!0;
+gml_Script____struct___64_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___65_40____struct___46_40_gml_Object_objectPlayer_Create_0.__yyg__is_constructor=!0;
+gml_Script____struct___65_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___66_40____struct___46_40_gml_Object_objectPlayer_Create_0.__yyg__is_constructor=!0;
+gml_Script____struct___66_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___67_40____struct___46_40_gml_Object_objectPlayer_Create_0.__yyg__is_constructor=!0;
+gml_Script____struct___67_40____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___46_40_gml_Object_objectPlayer_Create_0.__yyg__is_constructor=!0;
+gml_Script____struct___46_40_gml_Object_objectPlayer_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___68_40_gml_Object_objectPlayer_Step_0.__yyg__is_constructor=!0;
+gml_Script____struct___68_40_gml_Object_objectPlayer_Step_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___69_40_gml_Object_objectPlayer_Step_0.__yyg__is_constructor=!0;
+gml_Script____struct___69_40_gml_Object_objectPlayer_Step_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___70_40_gml_Object_objectPlayer_Step_0.__yyg__is_constructor=!0;
+gml_Script____struct___70_40_gml_Object_objectPlayer_Step_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___71_40_gml_Object_objectTree_Other_10.__yyg__is_constructor=!0;
+gml_Script____struct___71_40_gml_Object_objectTree_Other_10.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___72_40_gml_Object_objectTree_Other_10.__yyg__is_constructor=!0;
+gml_Script____struct___72_40_gml_Object_objectTree_Other_10.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
 var g_instance_names=
 {
 	"x":[!0,!0,!0,null,null],"y":[!0,!0,!0,null,null],"xprevious":[!0,!0,!0,null,null],"yprevious":[!0,!0,!0,null,null],"xstart":[!0,!0,!0,null,null],"ystart":[!0,!0,!0,null,null],"hspeed":[!0,!0,!0,null,null],"vspeed":[!0,!0,!0,null,null],"direction":[!0,!0,!0,null,null],"speed":[!0,!0,!0,null,null],"friction":[!0,!0,!0,null,null],"gravity":[!0,!0,!0,null,null],"gravity_direction":[!0,!0,!0,null,null],"in_collision_tree":[!0,!1,!0,null,null],"object_index":[!0,!1,!1,null,null],"id":[!0,!1,!1,null,null],"alarm":[!0,!0,!0,null,null],"solid":[!0,!0,!0,null,null],"visible":[!0,!0,!0,null,null],"persistent":[!0,!0,!0,null,null],"managed":[!0,!1,!0,null,null],"depth":[!0,!0,!0,null,null],"bbox_left":[!0,!1,!1,null,null],"bbox_right":[!0,!1,!1,null,null],"bbox_top":[!0,!1,!1,null,null],"bbox_bottom":[!0,!1,!1,null,null],"sprite_index":[!0,!0,!0,null,null],"image_index":[!0,!0,!0,null,"SetImageIndexGML"],"image_single":[!0,!0,!0,null,null],"image_number":[!0,!1,!1,null,null],"sprite_width":[!0,!1,!1,null,null],"sprite_height":[!0,!1,!1,null,null],"sprite_xoffset":[!0,!1,!1,null,null],"sprite_yoffset":[!0,!1,!1,null,null],"image_xscale":[!0,!0,!0,null,null],"image_yscale":[!0,!0,!0,null,null],"image_angle":[!0,!0,!0,null,null],"image_alpha":[!0,!0,!0,null,null],"image_blend":[!0,!0,!0,null,null],"image_speed":[!0,!0,!0,null,null],"mask_index":[!0,!0,!0,null,null],"path_index":[!0,!1,!1,null,null],"path_position":[!0,!0,!0,null,null],"path_positionprevious":[!0,!0,!0,null,null],"path_speed":[!0,!0,!0,null,null],"path_scale":[!0,!0,!0,null,null],"path_orientation":[!0,!0,!0,null,null],"path_endaction":[!0,!0,!0,null,null],"timeline_index":[!0,!0,!0,null,null],"timeline_position":[!0,!0,!0,null,null],"timeline_speed":[!0,!0,!0,null,null],"timeline_running":[!0,!0,!0,null,null],"timeline_loop":[!0,!0,!0,null,null],"phy_rotation":[!0,!0,!0,null,null],"phy_position_x":[!0,!0,!0,null,null],"phy_position_y":[!0,!0,!0,null,null],"phy_angular_velocity":[!0,!0,!0,null,null],"phy_linear_velocity_x":[!0,!0,!0,null,null],"phy_linear_velocity_y":[!0,!0,!0,null,null],"phy_speed_x":[!0,!0,!0,null,null],"phy_speed_y":[!0,!0,!0,null,null],"phy_speed":[!0,!1,!0,null,null],"phy_angular_damping":[!0,!0,!0,null,null],"phy_linear_damping":[!0,!0,!0,null,null],"phy_bullet":[!0,!0,!0,null,null],"phy_fixed_rotation":[!0,!0,!0,null,null],"phy_active":[!0,!0,!0,null,null],"phy_mass":[!0,!1,!0,null,null],"phy_inertia":[!0,!1,!0,null,null],"phy_com_x":[!0,!1,!0,null,null],"phy_com_y":[!0,!1,!0,null,null],"phy_dynamic":[!0,!1,!0,null,null],"phy_kinematic":[!0,!1,!0,null,null],"phy_sleeping":[!0,!1,!0,null,null],"phy_position_xprevious":[!0,!0,!0,null,null],"phy_position_yprevious":[!0,!0,!0,null,null],"phy_collision_points":[!0,!1,!0,null,null],"layer":[!0,!0,!0,null,null],"in_sequence":[!0,!1,!0,null,null],"sequence_instance":[!0,!1,!0,null,null],"drawn_by_sequence":[!0,!1,!0,null,null],"on_ui_layer":[!0,!1,!0,null,null],"phy_collision_x":[!0,!1,!0,null,null],"phy_collision_y":[!0,!1,!0,null,null],"phy_col_normal_x":[!0,!1,!0,null,null],"phy_col_normal_y":[!0,!1,!0,null,null]}
@@ -12831,60 +15930,49 @@ var _Rk=_Nk;
 var _Sl=[];
 var _Tl=0;
 
-function _fm(_gm,_B4,_C4,_Ei,_kh,_hm)
+function _vm(_wm,_xm,_ym,_zm)
 {
-	return _im(_gm,yyGetInt32(_Ei),yyGetBool(_hm),_jm,_B4,_C4,_kh,
-function(_km)
+	var _Am=[];
+	for(var i=0;i<_wm.length;++i)
 	{
-		var _lm=_km._mm(_B4,_C4,_kh);
-		if(!_lm)
+		var _Bm=_wm[i];
+		if(_Bm instanceof _qm)
 		{
-			return _jm		}
-		return _nm(_om,_km.id)	}
-	)}
-;
-
-function collision_point(_gm,_B4,_C4,_Ei,_kh,_hm)
-{
-	_B4=yyGetReal(_B4);
-	_C4=yyGetReal(_C4);
-	_kh=yyGetBool(_kh);
-	if(_Ei instanceof _qm)
-	{
-		var _rm=_Ei.type;
-		if(_rm==_sm)
-		{
-			if(_tm(_B4,_C4,_Ei,null,_kh))
+			var _rm=_Bm.type;
+			if(_rm==_sm)
 			{
-				return _Ei			}
-			return _jm		}
-		else 
-		{
-			var id=_fm(_gm,_B4,_C4,_Ei,_kh,_hm);
-			return id		}
-	}
-	else if(_Ei instanceof Array)
-	{
-		for(var i=0;i<_Ei.length;i++)
-		{
-			var _um=_Ei[i];
-			if((_um instanceof _qm)&&(_um.type==_sm))
-			{
-				if(_tm(_B4,_C4,_um,null,_kh))
+				var _Cm=_Dm._Em();
+				var _Fm=_Dm._Gm(_Cm,_Bm.value);
+				var _ra=_Fm.x-_ym;
+				var _sa=_Fm.y-_zm;
+				var _Hm=(_ra*_ra)+(_sa*_sa);
+				var _9j=
 				{
-					return _um				}
-			}
-			else 
+					_Im:_Bm,_Jm:_Hm				}
+				;
+				_Am.push(_9j);
+				_Bm=null			}
+			else _Bm=yyInst(null,null,yyGetInt32(_Bm))		}
+		if(_Bm)
+		{
+			var _ra=_Bm.x-_ym;
+			var _sa=_Bm.y-_zm;
+			var _Hm=(_ra*_ra)+(_sa*_sa);
+			var _9j=
 			{
-				var id=_fm(_gm,_B4,_C4,_um,_kh,_hm);
-				if(id!=_jm)return id			}
-		}
-		return _jm	}
-	else 
-	{
-		var id=_fm(_gm,_B4,_C4,_Ei,_kh,_hm);
-		return id;
+				_Im:_nm(_om,_Bm.id),_Jm:_Hm			}
+			;
+			_Am.push(_9j)		}
 	}
+	_Am.sort(
+function(_t3,_s3)
+	{
+		return _t3._Jm-_s3._Jm;
+	}
+	);
+	for(var i=0;i<_Am.length;++i)
+	{
+		_xm._me(_Am[i]._Im)	}
 }
 ;
 
@@ -12945,6 +16033,66 @@ function collision_rectangle(_gm,_66,_76,_z5,_A5,_Ei,_kh,_hm)
 		return id;
 	}
 }
+;
+
+function _Qm(_gm,_66,_76,_z5,_A5,_Ei,_kh,_hm,_37)
+{
+	_66=yyGetReal(_66);
+	_76=yyGetReal(_76);
+	_z5=yyGetReal(_z5);
+	_A5=yyGetReal(_A5);
+	_kh=yyGetBool(_kh);
+	return _im(_gm,yyGetInt32(_Ei),yyGetBool(_hm),_jm,_66,_76,_z5,_A5,_kh,
+function(_km)
+	{
+		if(_km._Om(_66,_76,_z5,_A5,_kh))
+		{
+			_37.push(_nm(_om,_km.id))		}
+		return _jm	}
+	)}
+;
+
+function collision_rectangle_list(_gm,_66,_76,_z5,_A5,_Ei,_kh,_hm,_37,_Km)
+{
+	_66=yyGetReal(_66);
+	_76=yyGetReal(_76);
+	_z5=yyGetReal(_z5);
+	_A5=yyGetReal(_A5);
+	_kh=yyGetBool(_kh);
+	var _Ki=_Ii._P4(yyGetInt32(_37));
+	if(!_Ki)
+	{
+		yyError("Error: invalid ds_list ID (instance_position_list)");
+		return 0	}
+	var _Lm=false;
+	var _Mm=[];
+	if(_Ei instanceof _qm)
+	{
+		var _rm=_Ei.type;
+		if(_rm==_sm)
+		{
+			_Pm(_66,_76,_z5,_A5,_Ei,_Mm,_kh);
+			_Lm=true		}
+	}
+	else if(_Ei instanceof Array)
+	{
+		for(var i=0;i<_Ei.length;i++)
+		{
+			var _um=_Ei[i];
+			if((_um instanceof _qm)&&(_um.type==_sm))
+			{
+				_Pm(_66,_76,_z5,_A5,_um,_Mm,_kh)			}
+			else 
+			{
+				_Qm(_gm,_66,_76,_z5,_A5,_um,_kh,_hm,_Mm)			}
+		}
+		_Lm=true	}
+	if(!_Lm)_Qm(_gm,_66,_76,_z5,_A5,_Ei,_kh,_hm,_Mm);
+	var _E7=_Mm.length;
+	var _Rm=(_66+_z5)*0.5;
+	var _Sm=(_76+_A5)*0.5;
+	_vm(_Mm,_Ki,_Rm,_Sm,_Km);
+	return _E7}
 ;
 
 function _Ln()
@@ -14946,14 +18094,6 @@ function show_message(_8v)
 	if(!_6g)return;
 	alert(_6g)}
 
-function show_question(_pv)
-{
-	if(window.confirm)
-	{
-		return confirm(yyGetString(_pv)||"")?1.0:0.0	}
-	_ab("show_question()");
-	return 0}
-
 function _sv(_tv)
 {
 	var _H4=document.getElementById(_uv);
@@ -15231,10 +18371,6 @@ function get_string_async(_pv,_rv)
 	_nv(_ov,_yu,[yyGetString(_pv),yyGetString(_rv)]);
 	return _ov++}
 
-function get_string(_pv,_rv)
-{
-	return prompt(yyGetString(_pv),yyGetString(_rv))}
-
 function _Mv()
 {
 	if(_zv)
@@ -15481,6 +18617,13 @@ function()
 	}
 	this._rw=i}
 ;
+
+function file_exists(_Aw)
+{
+	_Aw=yyGetString(_Aw);
+	var _lk=_Ew(_Aw,true);
+	if(_lk==true)return true;
+	return _Ew(_Aw,false)}
 const _Sw=new RegExp("@i64@([0-9a-f]+?)\\$i64\\$","i");
 
 function _Tw(_Uw)
@@ -16138,6 +19281,10 @@ function _pz(data)
 	while(i<data.length);
 	_oz=_Ff.join('');
 	return _oz}
+
+function sha1_file(_Aw)
+{
+	return "unsupported"}
 var _vz=0;
 var _wz="";
 
@@ -16670,6 +19817,10 @@ function draw_light_get(_y8)
 function draw_get_lighting()
 {
 	return _Wn()}
+
+function draw_roundrect(_66,_76,_z5,_A5,_6C)
+{
+	draw_roundrect_color_ext(_66,_76,_z5,_A5,10,10,_Lx,_Lx,_6C)}
 
 function draw_roundrect_ext(_66,_76,_z5,_A5,_7C,_8C,_6C)
 {
@@ -17271,17 +20422,286 @@ function _8E()
 {
 	_9E=true}
 ;
-var _eF=null;
 
-function instance_find(_Ei,_xF)
+function _lE(_mE,_nE)
 {
-	_xF=yyGetInt32(_xF);
-	var _yF=GetWithArray(yyGetInt32(_Ei));
-	if(_yF==null)return _jm;
-	if(_xF>=_yF.length)return _jm;
-	var _cw=_yF[_xF];
-	if((_cw.active)&&(!_cw.marked))return _nm(_om,_cw.id);
-	return _jm}
+	if((_mE.status<200)||(_mE.status>=300))
+	{
+		_nE._pe=_oE	}
+	else 
+	{
+		_nE._pe=_pE	}
+	try
+	{
+		_nE._qE=_mE.responseText	}
+	catch(e)
+	{
+		_nE._qE=""	}
+}
+
+function _rE(_mE,_sE)
+{
+	if(_mE.readyState!=4)return;
+	var _ke=_Gv(_mE);
+	if(_ke)
+	{
+		_ke._tE=_mE.status;
+		_ke._qe=true;
+		_ke._uE=ds_map_create();
+		var _vE=_mE.getAllResponseHeaders().split("\r\n");
+		for(var _E5 in _vE)
+		{
+			if(!_vE.hasOwnProperty(_E5))continue;
+			var _wE=_vE[_E5].split(": ");
+			if(_wE.length==2)
+			{
+				ds_map_add(_ke._uE,_wE[0],_wE[1])			}
+		}
+		if(_sE)
+		{
+			_sE(_mE,_ke)		}
+	}
+}
+
+function _xE(_yE)
+{
+	var _zE=
+	{
+	}
+	;
+	_le._me(_AE,_yE,_BE,_zE);
+	setTimeout(
+function()
+	{
+		var _ke=_Gv(_zE);
+		if(_ke)
+		{
+			_ke._tE=404;
+			_ke._qe=true;
+			_ke._pe=_oE;
+			_ke._qE=""		}
+	}
+	,500);
+	return _AE++}
+
+function _CE(_Yb,_yE,_DE,_Zl,_sE,_EE)
+{
+	try
+	{
+		var _FE=_GE(_yE,_DE);
+		_le._me(_AE,_yE,_BE,_FE._HE);
+		if(_EE!==undefined)
+		{
+			_FE._HE.responseType=_EE		}
+		if(_FE._IE)
+		{
+			_JE(_Yb,_yE,_DE,_Zl,_FE._HE,_FE._KE,_sE)		}
+		else 
+		{
+			_LE(_Yb,_yE,_DE,_Zl,_FE._HE,_sE)		}
+	}
+	catch(e)
+	{
+		return _xE(_yE)	}
+	return _AE++}
+
+function _GE(_yE,_DE)
+{
+	var _FE=
+	{
+		_HE:null,_KE:true,_IE:false	}
+	;
+	if((_yE.substring(0,7)!="http://")&&(_yE.substring(0,8)!="https://"))
+	{
+		_FE._KE=false	}
+	else 
+	{
+		var _ME="";
+		if(_yE.substring(0,7)=="http://")
+		{
+			_ME=_yE.substring(7)		}
+		if(_yE.substring(0,8)=="https://")
+		{
+			_ME=_yE.substring(8)		}
+		if(_ME.substring(0,document.domain.length)==document.domain)
+		{
+			_FE._KE=false		}
+	}
+	if((_FE._KE)&&(window.XDomainRequest))
+	{
+		_FE._HE=new XDomainRequest();
+		_FE._KE=true;
+		_FE._IE=true	}
+	else 
+	{
+		if(window.XMLHttpRequest)
+		{
+			_FE._HE=new XMLHttpRequest();
+			_FE._KE=false;
+			_FE._IE=(_NE==_OE)&&(_PE._QE<=9.0)		}
+		else if(window.ActiveXObject)
+		{
+			if(new ActiveXObject("Microsoft.XMLHTTP"))
+			{
+				_FE._HE=new ActiveXObject("Microsoft.XMLHTTP")			}
+			else 
+			{
+				_FE._HE=new ActiveXObject("Msxml2.XMLHTTP")			}
+		}
+		if(_RE==="use-credentials")
+		{
+			_FE._HE._SE=true		}
+	}
+	return _FE}
+
+function _LE(_Yb,_yE,_DE,_Zl,_mE,_sE)
+{
+	try
+	{
+		_mE.open(_Yb,_yE,true);
+		if(_DE!==null)
+		{
+			for(var _wE in _DE)
+			{
+				if(!_DE.hasOwnProperty(_wE))continue;
+				try
+				{
+					_mE.setRequestHeader(_DE[_wE].key,_DE[_wE].value)				}
+				catch(e)
+				{
+					debug("Unable to set request header "+_DE[_wE].key+":"+_DE[_wE].value+" "+e.message)				}
+			}
+		}
+		else if(_Yb=="POST")
+		{
+			_mE.setRequestHeader("Content-Type","application/x-www-form-urlencoded")		}
+		_mE.onreadystatechange=
+function()
+		{
+			_rE(_mE,_sE)		}
+		;
+		_mE.send(_Zl)	}
+	catch(e)
+	{
+		debug(e.message)	}
+}
+
+function _JE(_Yb,_yE,_DE,_Zl,_mE,_TE,_sE)
+{
+	_mE.open(_Yb,_yE);
+	_mE.ontimeout=
+function(_q2)
+	{
+		_UE(_q2,_mE)	}
+	;
+	_mE.onerror=
+function(_q2)
+	{
+		_UE(_q2,_mE)	}
+	;
+	if(_TE)
+	{
+		_mE.onload=
+function(_q2)
+		{
+			_VE(_q2,_mE,200)		}
+	}
+	else 
+	{
+		_mE.onload=
+function(_q2)
+		{
+		}
+		;
+		_mE.onreadystatechange=
+function()
+		{
+			if(_mE.readyState==4)
+			{
+				_VE(null,_mE,_mE.status)			}
+		}
+	}
+	if(_DE!==null)
+	{
+		for(var _wE in _DE)
+		{
+			if(!_DE.hasOwnProperty(_wE))continue;
+			try
+			{
+				_mE.setRequestHeader(_DE[_wE].key,_DE[_wE].value)			}
+			catch(e)
+			{
+				debug("Unable to set request header "+_DE[_wE].key+":"+_DE[_wE].value+" "+e.message)			}
+		}
+	}
+	_mE._WE=
+function()
+	{
+	}
+	;
+	_mE.send(_Zl)}
+
+function _VE(_q2,_mE,_XE)
+{
+	var _ke=_Gv(_mE);
+	if(_ke)
+	{
+		_ke._qe=true;
+		if((_XE>=200)&&(_XE<300))
+		{
+			_ke._pe=_pE;
+			_ke._tE=_XE		}
+		else 
+		{
+			_ke._pe=_oE;
+			_ke._tE=404;
+		}
+		_ke._qE=_mE.responseText;
+		_ke._uE=-1	}
+}
+
+function _UE(_q2,_mE)
+{
+	var _ke=_Gv(_mE);
+	if(_ke)
+	{
+		_ke._qe=true;
+		_ke._pe=_oE;
+		_ke._qE="";
+		_ke._tE=404;
+		_ke._uE=-1	}
+}
+
+function http_get(_yE)
+{
+	return _CE("GET",yyGetString(_yE),null,"",_lE)}
+
+function http_get_file(_yE,_YE)
+{
+	_YE=yyGetString(_YE);
+	var _ZE=
+function(_mE,_nE)
+	{
+		if(_mE.response)
+		{
+			try
+			{
+				var __E=String.fromCharCode.apply(null,new Uint8Array(_mE.response));
+				_xj(_YE,__E);
+				_nE._pe=_pE;
+				_nE._qE=_YE			}
+			catch(e)
+			{
+				debug(e.message);
+				_nE._pe=_oE			}
+		}
+		else 
+		{
+			_nE._pe=_oE		}
+	}
+	;
+	return _CE("GET",yyGetString(_yE),null,"",_ZE,'arraybuffer')}
+var _eF=null;
 
 function instance_exists(_Ei)
 {
@@ -17473,102 +20893,6 @@ function _Pm(_B4,_C4,_z5,_A5,_QF,_RF,_SF)
 	}
 	return false}
 
-function _tm(_B4,_C4,_QF,_RF,_SF)
-{
-	var _Cm=_Dm._Em();
-	var _TF=null;
-	var _UF=null;
-	var _Fm=_Dm._Gm(_Cm,_QF.value);
-	if(_Fm!=null)
-	{
-		_TF=_Fm._VF;
-		_UF=_Fm	}
-	if((_UF!=null)&&(_UF._WF===_XF)&&(_UF._YF!=null)&&(_TF!=null))
-	{
-		var _vk=_sk._tk(_UF._ZF);
-		if(_vk==null)
-		{
-			_cw._ic(_Y5,__5);
-			_cw._uG=_vG;
-			yyError("Tilemap_InstancePlace() - could not find tileset for this map",false);
-			return false		}
-		var __F=_O4._P4(_vk.spriteindex);
-		if((__F==null)||(__F._E7==0))
-		{
-			return false		}
-		var _0G=__F._1E()/_vk.tilewidth;
-		var _1G=__F._1E();
-		var tilewidth,tileheight;
-		var _2G=__F._Q5[0];
-		tilewidth=_vk.tilewidth;
-		tileheight=_vk.tileheight;
-		var _3G=1.0/tilewidth;
-		var _4G=1.0/tileheight;
-		var _5G=new _3w();
-		_5G.left=_UF._6G+_TF._7G;
-		_5G.top=_UF._8G+_TF._9G;
-		_5G.right=_5G.left+(_UF._aG*tilewidth);
-		_5G.bottom=_5G.top+(_UF._bG*tileheight);
-		var _R5=_B4;
-		var _U5=_C4;
-		var _cG=_UF._6G+_TF._7G;
-		var _dG=_UF._8G+_TF._9G;
-		_R5-=_cG;
-		_R5*=_3G;
-		_U5-=_dG;
-		_U5*=_4G;
-		_R5=~~_R5;
-		_U5=~~_U5;
-		if((_R5<0)||(_U5<0)||(_R5>=_UF._aG)||(_U5>=_UF._bG))
-		{
-			return false		}
-		var _eG=_Dm._fG();
-		_eG&=_UF._gG;
-		var index=(_U5*_UF._aG)+_R5;
-		index=~~index;
-		var _HF=_UF._YF[index];
-		_HF&=_eG;
-		var _hG=(_HF>>_iG)&_jG;
-		if(_hG==0)return false;
-		_hG=_vk._kG(_hG,_UF._lG);
-		if(_hG>0)
-		{
-			if(__F._oG()&&_SF)
-			{
-				var _mG=[new _nG(),new _nG(),new _nG(),new _nG()];
-				var _EF=[new _KF(),new _KF(),new _KF(),new _KF()];
-				_mG[3].x=_mG[0].x=_5G.left+tilewidth*_R5;
-				_mG[1].x=_mG[2].x=_mG[0].x+tilewidth;
-				_mG[0].y=_mG[1].y=_5G.top+tileheight*_U5;
-				_mG[2].y=_mG[3].y=_mG[1].y+tileheight;
-				var _FF=~~(_hG/_0G);
-				var _GF=~~(_hG%_0G);
-				_DF(_EF,_FF,_GF,tilewidth,tileheight,_HF);
-				var _wG=((_B4+0.5)-_mG[0].x)/tilewidth;
-				var _xG=((_C4+0.5)-_mG[0].y)/tileheight;
-				var _yG=_EF[0]._74+_wG*(_EF[1]._74-_EF[0]._74)+_xG*(_EF[3]._74-_EF[0]._74);
-				var _zG=_EF[0]._84+_wG*(_EF[1]._84-_EF[0]._84)+_xG*(_EF[3]._84-_EF[0]._84);
-				var ui=~~_yG;
-				var _AG=~~_zG;
-				if((ui<0)||(ui>=__F._1E()))return false;
-				if((_AG<0)||(_AG>=__F._2E()))return false;
-				if(__F._BG(ui,_AG,_2G))
-				{
-					if(_RF!=null)
-					{
-						_RF.push(_QF)					}
-					return true				}
-			}
-			else 
-			{
-				if(_RF!=null)
-				{
-					_RF.push(_QF)				}
-				return true			}
-		}
-	}
-	return false}
-
 function _CG(_DG,_Nh,_EG,_FG,_GG,_HG,_IG,_JG)
 {
 	var _R5=(_S5(_DG,_GG));
@@ -17753,6 +21077,43 @@ function instance_place(_gm,_B4,_C4,_Ei)
 {
 	var id=_UG(_gm,_B4,_C4,_Ei,null);
 	return id}
+
+function instance_place_list(_gm,_B4,_C4,_Ei,_37,_Km)
+{
+	_B4=yyGetReal(_B4);
+	_C4=yyGetReal(_C4);
+	var _Ki=_Ii._P4(yyGetInt32(_37));
+	if(!_Ki)
+	{
+		yyError("Error: invalid ds_list ID (instance_place_list)");
+		return 0	}
+	var _Mm=[];
+	var _Lm=false;
+	if(_Ei instanceof _qm)
+	{
+		var _rm=_Ei.type;
+		if(_rm==_sm)
+		{
+			_KG(_gm,_B4,_C4,_Ei,_Mm,true);
+			_Lm=true		}
+	}
+	else if(_Ei instanceof Array)
+	{
+		for(var i=0;i<_Ei.length;i++)
+		{
+			var _um=_Ei[i];
+			if((_um instanceof _qm)&&(_um.type==_sm))
+			{
+				_KG(_gm,_B4,_C4,_um,_Mm,true)			}
+			else 
+			{
+				_VG(_gm,_B4,_C4,_um,_Mm)			}
+		}
+		_Lm=true	}
+	if(!_Lm)_VG(_gm,_B4,_C4,_Ei,_Mm);
+	var _E7=_Mm.length;
+	_vm(_Mm,_Ki,_B4,_C4,_Km);
+	return _E7}
 
 function _WG(_gm,_XG)
 {
@@ -18057,6 +21418,23 @@ function mouse_wheel_down()
 {
 	return _QH}
 
+function mouse_clear(_dm)
+{
+	_dm=yyGetInt32(_dm);
+	if(_dm==-1)
+	{
+		mouse_clear(1);
+		mouse_clear(2);
+		mouse_clear(3)	}
+	else if(_dm>=1&&_dm<=3)
+	{
+		var i=_dm-1;
+		_af._md[i]=0;
+		_af._hd[i]=0;
+		_af._ld[i]=0;
+		_df&=~(1<<i)	}
+}
+
 function keyboard_check(_kj)
 {
 	return _af._RH[yyGetInt32(_kj)]}
@@ -18064,6 +21442,10 @@ function keyboard_check(_kj)
 function keyboard_check_pressed(_kj)
 {
 	return _af._SH[yyGetInt32(_kj)]}
+
+function display_mouse_get_x()
+{
+	return(_af._UH-_Se.left)}
 var _YH=0,_ZH=1,__H=2,_0I=3,_1I=4,_2I=5,_3I=6;
 var _4I=0,_5I=1,_GH=2,_6I=3,_7I=4,_XF=5,_8I=6,_9I=7,_aI=8,_bI=9;
 var _cI=31;
@@ -19064,6 +22446,17 @@ function(_3K,_KL)
 	}
 	return null}
 ;
+_JJ.prototype._LL=
+function(_3K,_ML)
+{
+	if(_3K==null)return null;
+	for(var i=_3K._FH.length-1;i>=0;i--)
+	{
+		var _UF=_3K._FH._P4(i);
+		if(_UF==null||_UF===undefined)continue;
+		if(_UF._WF==_ML)return _UF	}
+	return null}
+;
 _JJ.prototype._PL=
 function(_hK,_ZK)
 {
@@ -19522,11 +22915,125 @@ function()
 {
 	return this._SJ}
 ;
+
+function _SM(room,_TM)
+{
+	if(typeof(_TM)==="string")return _Dm._DH(room,yyGetString(_TM));
+	return _Dm._EH(room,yyGetInt32(_TM))}
+;
+
+function layer_get_id(_Z2)
+{
+	var room=_Dm._Em();
+	if(room==null)return -1;
+	var _TF=_Dm._DH(room,yyGetString(_Z2));
+	if(_TF!=null)
+	{
+		return _TF._3d	}
+	return -1}
+;
+
+function _DN(_EN)
+{
+	var room=_Dm._Em();
+	var _UF=_Dm._Gm(room,_EN);
+	if((_UF!=null)&&(_UF._WF===_XF))return _UF;
+	return null}
+
+function layer_tilemap_get_id(_sf)
+{
+	var room=_Dm._Em();
+	if(room===null)return _nm(_sm,-1);
+	var layer=_SM(room,_sf);
+	if(layer!=null)
+	{
+		var _1c=_Dm._LL(layer,_XF);
+		if(_1c!=null&&_1c._WF==_XF)
+		{
+			return _nm(_sm,_1c._3d)		}
+	}
+	return _nm(_sm,-1)}
+;
+
+function layer_tilemap_exists(_sf,_WM)
+{
+	var room=_Dm._Em();
+	if(room===null)return false;
+	var layer=_SM(room,_sf);
+	if(layer!=null)
+	{
+		var _1c=_Dm._pK(layer,yyGetInt32(_WM));
+		if(_1c!=null&&_1c._WF==_XF)
+		{
+			return true		}
+	}
+	return false}
+;
+
+function tilemap_set(_sf,_WM,_bN,_cN)
+{
+	_bN=yyGetInt32(_bN);
+	_cN=yyGetInt32(_cN);
+	var _UF=_DN(yyGetInt32(_sf));
+	if(_UF!=null)
+	{
+		if(_bN<0)
+		{
+			debug("tilemap_set_tile called with negative x coord, fails");
+			return 		}
+		if(_cN<0)
+		{
+			debug("tilemap_set_tile called with negative y coord, fails");
+			return 		}
+		if(_bN>=_UF._aG)
+		{
+			debug("tilemap_set_tile called with x coord greater than map width, fails");
+			return 		}
+		if(_cN>=_UF._bG)
+		{
+			debug("tilemap_set_tile called with y coord greater than map height, fails");
+			return 		}
+		var x=_bN;
+		var y=_cN;
+		var _5M=_sk._tk(_UF._ZF);
+		var _IN=yyGetInt32(_WM);
+		var _hG=((_IN>>_iG)&_jG);
+		if(_5M!=null&&_hG>=_5M.tilecount)
+		{
+			debug("layer_tilemap_set_tile() - tile index outside tile set count");
+			return 		}
+		var index=(y*_UF._aG)+x;
+		_UF._YF[index]=_IN	}
+}
+;
 /*@constructor */
 function _JL()
 {
 	this._1c=-1;
 	this.layer=-1}
+;
+
+function tilemap_clear(_sf,_WM)
+{
+	var room=_Dm._Em();
+	var _C3=_Dm._tK(room,yyGetInt32(_sf));
+	if(_C3==null)
+	{
+		return 	}
+	var _UF=_C3._1c;
+	var _3K=_C3.layer;
+	if((_UF!=null)&&(_UF._WF===_XF)&&(_3K!=null))
+	{
+		var _HF=yyGetInt32(_WM);
+		var index=0;
+		for(var i=0;i<_UF._aG;i++)
+		{
+			for(var _a5=0;_a5<_UF._bG;_a5++,index++)
+			{
+				_UF._YF[index]=_HF			}
+		}
+	}
+}
 ;
 
 function _0O(_ti,_Xy)
@@ -19871,6 +23378,11 @@ function log10(_B4)
 {
 	return Math.log(yyGetReal(_B4))/Math.LN10}
 
+function logn(_xF,_B4)
+{
+	return Math.log(yyGetReal(_B4))/Math.log(yyGetReal(_xF));
+}
+
 function mean()
 {
 	var _Ni=arguments;
@@ -19906,6 +23418,11 @@ function dot_product_3d_normalised(_66,_76,_7P,_z5,_A5,_8P)
 	var _uP=Math.sqrt(_z5*_z5+_A5*_A5+_8P*_8P);
 	return(_66*_z5+_76*_A5+_7P*_8P)/(_tP*_uP)}
 var dot_product_3d_normalized=dot_product_3d_normalised;
+
+function is_real(_B4)
+{
+	if(typeof(_B4)=="number")return true;
+	else return false}
 
 function YYInstanceof(_B4)
 {
@@ -22734,6 +26251,14 @@ function sprite_get_name(_V2)
 	if(_kw==null)return "";
 	return _kw.pName}
 
+function sprite_set_offset(_V2,_GB,_HB)
+{
+	var _kw=_O4._P4(yyGetInt32(_V2));
+	if(_kw==null)return;
+	_kw.xOrigin=yyGetReal(_GB);
+	_kw.yOrigin=yyGetReal(_HB);
+	_kw._s91()}
+
 function sprite_set_alpha_from_sprite(_ti,_sh)
 {
 	var _Li=_O4._P4(yyGetInt32(_ti));
@@ -22913,6 +26438,123 @@ function _S91(_F3,__e,_B4,_C4,_oh,_ph,_Bk,_Ck)
 	return _F3}
 compile_if_used(sprite_add_from_surface=_S91);
 
+function sprite_delete(_F3)
+{
+	return _O4._Rj(yyGetInt32(_F3))}
+
+function sprite_duplicate(_F3)
+{
+	var _kw=_O4._P4(yyGetInt32(_F3));
+	if(_kw==null)return 0;
+	var _F91=new _K91();
+	var _ZN=_O4._L91(_F91);
+	_F91.pName=_kw.pName+".copy";
+	_F91.width=_kw.width;
+	_F91.height=_kw.height;
+	_F91._uG._rh(_kw._uG);
+	_F91.transparent=_kw.transparent;
+	_F91.smooth=_kw.smooth;
+	_F91.preload=_kw.preload;
+	_F91._r91=_kw._r91;
+	_F91._M91=_kw._M91;
+	_F91.xOrigin=_kw.xOrigin;
+	_F91.yOrigin=_kw.yOrigin;
+	_F91._1l=true;
+	_F91._P5=_kw._P5;
+	_F91._T91=_kw._T91;
+	_F91._P91=_kw._P91;
+	_F91.playbackspeedtype=_kw.playbackspeedtype;
+	_F91.playbackspeed=_kw.playbackspeed;
+	_F91._Q91=_kw._Q91;
+	_F91._Q5=[];
+	_F91._O3=[];
+	_F91.Masks=[];
+	for(var i=0;i<_kw._P5;i++)
+	{
+		var _N3=new _Kk();
+		_F91._O3[i]=_N3;
+		_N3._1l(_kw._O3[i]);
+		var __k=_0l(_kw._O3[i]);
+		_N3.tp=_2l(__k);
+		_N3.x=0;
+		_N3.y=0;
+		_N3.texture=_R3[_N3.tp];
+		_N3.texture.complete=true	}
+	return _ZN}
+
+function sprite_add(_tj,_U91,_Bk,_Ck,_I91,_J91,_V91)
+{
+	_tj=yyGetString(_tj);
+	_U91=yyGetInt32(_U91);
+	if(_U91<0)return -1;
+	if(_U91==0)_U91=1;
+	var _F91=new _K91();
+	_F91._W91=true;
+	if(_tj.substring(0,5)=="file:")return -1;
+	_F91.pName=_tj;
+	if(_V91!=undefined)
+	{
+		if(_V91)
+		{
+			_F91._Y7=true		}
+	}
+	var _ZN=_O4._L91(_F91);
+	if(_tj.endsWith('.json'))
+	{
+		_F91._X91(_tj,
+function(err)
+		{
+			var _Pj=_le._me(_ZN,_tj,_Y91,
+			{
+			}
+			);
+			_Pj._qe=true;
+			_Pj._pe=err?_Lv:_Hv		}
+		);
+		return _ZN	}
+	var _yl=_tj;
+	var _24=_V7(_yl);
+	_R3[_24].onload=_zl;
+	_R3[_24].onerror=_Al;
+	_le._me(_ZN,_tj,_Y91,_R3[_24]);
+	_F91.width=-1;
+	_F91.height=-1;
+	_F91._uG=new _3w();
+	_F91._uG.right=0;
+	_F91._uG.bottom=0;
+	_F91.transparent=_Bk;
+	_F91.smooth=yyGetBool(_Ck);
+	_F91.preload=true;
+	_F91._r91=0;
+	_F91._M91=_N91._O91;
+	_F91.xOrigin=yyGetInt32(_I91);
+	_F91.yOrigin=yyGetInt32(_J91);
+	_F91._1l=false;
+	_F91._P5=_U91;
+	_F91._T91=0;
+	_F91._P91=false;
+	_F91._Q91=false;
+	_F91._Q5=[];
+	_F91._O3=[];
+	_F91.Masks=[];
+	for(var i=0;i<_U91;i++)
+	{
+		var _N3=new _Kk();
+		_F91._O3[i]=_N3;
+		_N3.x=0;
+		_N3.y=0;
+		_N3.w=0;
+		_N3.h=0;
+		_N3.XOffset=0;
+		_N3.YOffset=0;
+		_N3.CropWidth=0;
+		_N3.CropHeight=0;
+		_N3.ow=_N3.w;
+		_N3.oh=_N3.h;
+		_N3.tp=_24;
+		_N3.texture=_R3[_N3.tp]	}
+	return _ZN}
+
 function sprite_get_texture(_wa1,_xa1)
 {
 	_wa1=_rN(_wa1,_P01,_O4.Sprites.length,_O4.Sprites);
@@ -23071,6 +26713,65 @@ function string_pos(_ib1,_pv)
 	var _lb1=_kb1.indexOf(_jb1);
 	return _9b1(_kb1,_lb1)}
 
+function string_copy(_pv,_V2,_Vc)
+{
+	_pv=yyGetString(_pv);
+	_V2=yyGetInt32(_V2);
+	_Vc=yyGetInt32(_Vc);
+	if(_V2<1)
+	{
+		_V2=1	}
+	_V2--;
+	var _fb1=_V2;
+	var _gb1=0;
+	while(_gb1<_V2) 
+	{
+		var _hb1=_pv.charCodeAt(_gb1);
+		if(0xD800<=_hb1&&_hb1<=0xDFFF)
+		{
+			_fb1++		}
+		_gb1++	}
+	var _ob1=_Vc;
+	_gb1=0;
+	while(_gb1<_Vc) 
+	{
+		var _hb1=_pv.charCodeAt(_fb1+_gb1);
+		if(0xD800<=_hb1&&_hb1<=0xDFFF)
+		{
+			_ob1++		}
+		_gb1++	}
+	return _pv.substring(_fb1,_fb1+_ob1)}
+
+function string_char_at(_pv,_V2)
+{
+	var _kb1=yyGetString(_pv);
+	var _pb1=yyGetInt32(_V2);
+	--_pb1;
+	if((_kb1.length==0)||(string_length(_kb1)<=_pb1))
+	{
+		return ""	}
+	var _WR=0;
+	var _qb1=_pb1;
+	if(_qb1<0)
+	{
+		_qb1=0	}
+	var _1h=_kb1.length;
+	while((_qb1>0)&&(_WR<_1h)) 
+	{
+		var _Ya1=_kb1.charCodeAt(_WR);
+		if(0xD800<=_Ya1&&_Ya1<=0xDFFF)
+		{
+			++_WR		}
+		++_WR;
+		--_qb1	}
+	_qb1=_WR;
+	var _rb1=_kb1.charCodeAt(_qb1);
+	if(0xD800<=_rb1&&_rb1<=0xDFFF)
+	{
+		var _1b1=_kb1.charCodeAt(_qb1+1);
+		return String.fromCharCode(_rb1,_1b1)	}
+	return String.fromCharCode(_rb1)}
+
 function string_delete(_pv,_V2,_Vc)
 {
 	var _kb1=yyGetString(_pv);
@@ -23101,6 +26802,25 @@ function string_delete(_pv,_V2,_Vc)
 		--_WR	}
 	return(_kb1.substring(0,_qb1)+_kb1.substring(_yb1,_kb1.length))}
 
+function string_insert(_ib1,_pv,_V2)
+{
+	var _jb1=yyGetString(_ib1);
+	var _kb1=yyGetString(_pv);
+	var _pb1=yyGetInt32(_V2);
+	var _WR=0;
+	var _qb1=_pb1-1;
+	var _1h=_kb1.length;
+	while((_qb1>0)&&(_WR<_1h)) 
+	{
+		var _Ya1=_kb1.charCodeAt(_WR);
+		if(0xD800<=_Ya1&&_Ya1<=0xDFFF)
+		{
+			++_WR		}
+		++_WR;
+		--_qb1	}
+	_qb1=_WR;
+	return(_kb1.substring(0,_qb1)+_jb1+_kb1.substring(_qb1,_pv.length))}
+
 function string_replace(_pv,_ib1,_zb1)
 {
 	var _kb1=yyGetString(_pv);
@@ -23112,9 +26832,44 @@ function string_replace(_pv,_ib1,_zb1)
 		return _kb1	}
 	return _kb1.replace(_jb1,_Ab1)}
 
+function string_replace_all(_pv,_ib1,_zb1)
+{
+	var _kb1=yyGetString(_pv);
+	if(_kb1.length===0)return "";
+	var _jb1=yyGetString(_ib1);
+	if(_jb1.length===0)return _kb1;
+	var _Ab1=yyGetString(_zb1);
+	var _Bb1=_jb1.length;
+	var _Cb1="";
+	var i=_kb1.indexOf(_jb1);
+	var _sj=0;
+	while(i>=0) 
+	{
+		_Cb1+=_kb1.substring(_sj,i)+_Ab1;
+		_sj=i+_Bb1;
+		i=_kb1.indexOf(_jb1,_sj)	}
+	return _sj>0?_Cb1+_kb1.substring(_sj):_kb1}
+
 function string_lower(_pv)
 {
 	return yyGetString(_pv).toLowerCase()}
+
+function string_upper(_pv)
+{
+	return yyGetString(_pv).toUpperCase()}
+
+function string_letters(_pv)
+{
+	var _rg="";
+	var _kb1=yyGetString(_pv);
+	for(var i=0;i<_kb1.length;i++)
+	{
+		var c=_kb1[i];
+		if((c>='A'&&c<='Z')||(c>='a'&&c<='z'))
+		{
+			_rg=_rg+c		}
+	}
+	return _rg}
 
 function string_digits(_pv)
 {
@@ -62045,6 +65800,144 @@ function _EL2()
 	this._Ij=null;
 	this._HL2=_wL2;
 	this._qe=false}
+
+function _zl(_q2)
+{
+	var _N3,_Q3,_ke=_Gv(_q2.currentTarget);
+	if(!_ke)return;
+	_ke._qe=true;
+	_ke._pe=_Hv;
+	if(_ke._HL2==_Y91)
+	{
+		var _kw=_O4._P4(_ke._GL2);
+		if(_kw==undefined)
+		{
+			_ke._pe=_Lv;
+			return 		}
+		if(_kw===null)
+		{
+			_ke._pe=_Lv;
+			return 		}
+		if(!_kw._O3)
+		{
+			_ke._pe=_Lv;
+			return 		}
+		if(!_kw._O3[0])
+		{
+			_ke._pe=_Lv;
+			return 		}
+		if(!_kw._O3[0].texture)
+		{
+			_ke._pe=_Lv;
+			return 		}
+		_Q3=_kw._O3[0].texture;
+		_Q3._08=undefined;
+		var w=_Q3.width;
+		var h=_Q3.height;
+		var _IL2=Math.floor(w/_kw._P5);
+		var x=0;
+		_kw.width=_IL2;
+		_kw.height=h;
+		_kw._uG.right=_IL2;
+		_kw._uG.bottom=h;
+		_kw._s91();
+		for(var i=0;i<_kw._P5;i++)
+		{
+			_N3=_kw._O3[i];
+			_N3.x=x;
+			_N3.w=_IL2;
+			_N3.h=h;
+			_N3.CropWidth=_N3.w;
+			_N3.CropHeight=_N3.h;
+			_N3.ow=_N3.w;
+			_N3.oh=_N3.h;
+			_N3._D7=[];
+			_N3._E7=0;
+			_N3._F7=4;
+			x+=_IL2		}
+		if(_s7)
+		{
+			if(_kw._Y7!=undefined)
+			{
+				if(_kw._Y7==true)
+				{
+					for(var i=0;i<_kw._P5;i++)
+					{
+						__7(_kw._O3[i]);
+						if(_kw._O3[i].texture._08)
+						{
+							_18(_N3.texture._08)						}
+					}
+				}
+			}
+		}
+		return 	}
+	if(_ke._HL2==_Bl)
+	{
+		var _vk=_sk._tk(_ke._GL2);
+		if(_vk===null)return;
+		_N3=_vk._yk;
+		_Q3=_N3.texture;
+		_Q3._08=undefined;
+		_N3.w=_Q3.width;
+		_N3.h=_Q3.height;
+		_N3.CropWidth=_N3.w;
+		_N3.CropHeight=_N3.h;
+		_N3.ow=_N3.w;
+		_N3.oh=_N3.h;
+		_N3._D7=[];
+		_N3._E7=0;
+		_N3._F7=4;
+		return 	}
+	if(_ke._HL2==_h91)
+	{
+		_ke._Ij.complete=true;
+		var _g91=_5B._P4(_ke._GL2);
+		_g91._H71(_R41[_ke._FL2]);
+		return 	}
+	if(_ke._HL2==_yL2)
+	{
+		var _iq=_ke._Ij;
+		if(_iq.status!=200)
+		{
+			_ke._pe=_iq.status		}
+		else 
+		{
+			var _Q9=_4F._P4(_ke._Ij._JL2);
+			var offset=_ke._Ij._KL2;
+			var _LL2=false;
+			var size=_ke._Ij._ML2;
+			var _Kg=_ke._Ij.response;
+			if(_Kg)
+			{
+				var _NL2=new Uint8Array(_Kg);
+				var _Yb=0;
+				if(size==-1)
+				{
+					size=_NL2.byteLength;
+					_LL2=true;
+					_Yb=_Q9._HL2;
+					_Q9._HL2=_8i				}
+				if(size>_NL2.byteLength)size=_NL2.byteLength;
+				var _OL2=buffer_tell(_ke._Ij._JL2);
+				_Q9._XS(_hi,offset);
+				for(var i=0;i<_NL2.byteLength;i++)
+				{
+					var _t3=_NL2[i];
+					_Q9._9F(_aF,_t3)				}
+				_Q9._XS(_hi,_OL2);
+				if(_LL2)_Q9._HL2=_Yb;
+			}
+		}
+		return 	}
+}
+
+function _Al(_q2)
+{
+	var _ke=_Gv(_q2.currentTarget);
+	if(!_ke)return;
+	_ke._qe=true;
+	_ke._pe=_Lv}
 /*@constructor */
 function _pH2()
 {
@@ -67257,6 +71150,21 @@ function _c_2(_WZ2)
 	if(_WZ2.substring(1,1)==":")return false;
 	return true}
 
+function _d_2(_yE)
+{
+	try
+	{
+		var _e_2=new XMLHttpRequest();
+		_e_2.open('HEAD',_yE,false);
+		_e_2.send();
+		_mP2=_e_2.status;
+		var _f_2=(_e_2.status!=404&&_e_2.status!=0);
+		return _f_2	}
+	catch(e)
+	{
+		return false	}
+}
+
 function _h_2(_Sq2,_hr2)
 {
 	try
@@ -67269,6 +71177,23 @@ function _h_2(_Sq2,_hr2)
 	catch(e)
 	{
 		return null	}
+}
+
+function _xj(_tj,_nE)
+{
+	if(_j_2)
+	{
+		return false	}
+	else if(_Fw)
+	{
+		try
+		{
+			window.localStorage[_Gw(_tj)]=_nE;
+			return true		}
+		catch(_fi)
+		{
+			return false		}
+	}
 }
 
 function _Bj(_WZ2,_XZ2)
@@ -67303,6 +71228,38 @@ function _k_2(_WZ2,_XZ2,_l_2)
 		if((_ke==null)||(_ke==undefined))return null;
 		if(_mP2==404)return null	}
 	return _ke}
+
+function _Ew(_WZ2,_XZ2)
+{
+	var _ke=null;
+	if(_WZ2.substring(0,5)=="file:")return null;
+	if(_XZ2)
+	{
+		if(_j_2)
+		{
+			return false		}
+		else if(_Fw)
+		{
+			try
+			{
+				var name=_Gw(_WZ2);
+				if(window.localStorage[name]!==undefined)
+				{
+					return true				}
+				return false			}
+			catch(_fi)
+			{
+				return false			}
+		}
+	}
+	else 
+	{
+		if(!_c_2(_WZ2))
+		{
+			return false		}
+		_WZ2=_O51(_WZ2);
+		return _d_2(_WZ2)	}
+}
 var _m_2=new _3w(0,0,0,0);
 var _3z=null;
 var _5z=-1;
@@ -85119,7 +89076,30 @@ function(x)
  * @param {spine.Skeleton} _skeleton
  *
  * @returns {[width: Number, height: Number]?}
- */_K91.prototype._il3=
+ */_K91.prototype._gl3=
+function(_z8)
+{
+	var _Pg=new _3w();
+	_z8._M4();
+	if(this._hl3(_z8,_Pg))
+	{
+		var width=_fl3(_Pg.right-_Pg.left+0.5);
+		var height=_fl3(_Pg.bottom-_Pg.top+0.5);
+		return [width,height]	}
+	var skins=_z8.data.skins;
+	for(var i=0;i<skins.length;++i)
+	{
+		_z8._73(skins[i]);
+		_z8._M4();
+		if(this._hl3(_z8,_Pg))
+		{
+			var width=_fl3(_Pg.right-_Pg.left+0.5);
+			var height=_fl3(_Pg.bottom-_Pg.top+0.5);
+			return [width,height]		}
+	}
+	return null}
+;
+_K91.prototype._il3=
 function(_z8)
 {
 	var _Pg=new _3w();
@@ -85653,6 +89633,149 @@ function(_F3,_B4,_C4,_I8)
 		this._jD._f8(_F3,_B4,_C4,1,1,0,0xffffff,_I8)	}
 	;
 	this._P5=_9l3}
+;
+_K91.prototype._X91=
+function(_tj,_af1)
+{
+	var _em3=
+function(_tj,_af1)
+	{
+		var _fm3='Could not load file contents!';
+		var _D41=new XMLHttpRequest();
+		_D41.open('GET',_O51(_tj),true);
+		_D41.send();
+		_D41.onload=
+function()
+		{
+			if(_af1)
+			{
+				_af1((_D41.status==200)?null:_fm3,_D41.response||_D41.responseText)			}
+		}
+		;
+		_D41.onerror=
+function()
+		{
+			if(_af1)
+			{
+				_af1(_fm3)			}
+		}
+	}
+	;
+	var _gm3=
+function(_hm3)
+	{
+		var _Px=_hm3.split('\n');
+		var _fY1=[];
+		var current=undefined;
+		var _im3=true;
+		var _jm3=new RegExp('^size*:\\s*(\\d+)\\s*,\\s*(\\d+)$');
+		for(var i=0;i<_Px.length;++i)
+		{
+			var _Su=_Px[i].trim();
+			if(_im3)
+			{
+				if(current!=undefined)
+				{
+					if(current.width===undefined||current.height===undefined)
+					{
+						return undefined					}
+					_fY1.push(current)				}
+				current=
+				{
+					name:_Su				}
+				;
+				_im3=false			}
+			else 
+			{
+				if(_Su=='')
+				{
+					_im3=true				}
+				else if(current!=undefined)
+				{
+					var _G5=_Su.match(_jm3);
+					if(_G5)
+					{
+						current.width=parseInt(_G5[1]);
+						current.height=parseInt(_G5[2])					}
+				}
+			}
+		}
+		if(current!=undefined)
+		{
+			if(current.width===undefined||current.height===undefined)
+			{
+				return undefined			}
+			_fY1.push(current)		}
+		return _fY1	}
+	;
+	var _UL=this;
+	var _km3=_tj.slice(0,-5)+'.atlas';
+	var _lm3=2;
+	var _mm3=false;
+	var _i4;
+	var _fY1;
+	var _nm3=
+function(err)
+	{
+		if(_mm3)
+		{
+			return 		}
+		if(err)
+		{
+			_mm3=true;
+			if(_af1)
+			{
+				_af1(err)			}
+			return 		}
+		if(--_lm3==0)
+		{
+			var _ne2=
+			{
+				json:json,_i4:_i4,_N7:_fY1.length,_O7:_fY1,			}
+			;
+			_UL._dm3(_ne2);
+			var size=_UL._gl3((new _02(_UL._jD))._a2);
+			if(size instanceof Array)
+			{
+				_UL.width=size[0];
+				_UL.height=size[1]			}
+			var _Pg=_UL._il3((new _02(_UL._jD))._a2);
+			if(_Pg)
+			{
+				_UL._r91=1;
+				_UL._M91=_N91._O91;
+				_UL._uG=_Pg;
+				_UL._uG.top*=-1.0;
+				_UL._uG.bottom*=-1.0;
+				_UL._x91()			}
+			if(_af1)
+			{
+				_af1()			}
+		}
+	}
+	;
+	_em3(_tj,
+function(_U31,_om3)
+	{
+		if(!_U31)
+		{
+			json=_om3		}
+		_nm3(_U31)	}
+	);
+	_em3(_km3,
+function(_U31,_om3)
+	{
+		if(!_U31)
+		{
+			_i4=_om3;
+			_fY1=_gm3(_i4);
+			if(_fY1===undefined)
+			{
+				_nm3('Invalid atlas format!');
+				return 			}
+		}
+		_nm3(_U31)	}
+	)}
 ;
 _K91.prototype._pm3=
 function(_qm3)
@@ -86314,6 +90437,34 @@ function(_F3)
 	{
 		return this._O3[_F3]	}
 	return null}
+;
+_K91.prototype._x91=
+function()
+{
+	var self=this;
+	var _Cn3=
+function(_Ki)
+	{
+		var __i=_Ki.__i;
+		for(var i=0;i<__i.length;i++)
+		{
+			var _Bm=__i[i];
+			var _Dn3;
+			if(_Bm.mask_index>=0)
+			{
+				_Dn3=_O4._P4(_Bm.mask_index)			}
+			else 
+			{
+				_Dn3=_O4._P4(_Bm.sprite_index);
+			}
+			if(_Dn3===self)
+			{
+				_Bm._LG=true			}
+		}
+	}
+	;
+	_Cn3(_F2._zF);
+	_Cn3(_F2._pH)}
 ;
 /*@constructor */
 function _gH2()
@@ -88146,25 +92297,6 @@ function __yy_gml_array_check_index_set(_3P)
 	if(_3P<0)yyError("index out of range");
 	return _3P}
 
-function __yy_gml_array_check_index_chain(_3P,_FG)
-{
-	if(!(_FG instanceof Array))
-	{
-		_FG=[];
-		_FG._4q3=__p3	}
-	_3P=yyGetInt32(_3P);
-	if(_3P<0)yyError("index out of range");
-	var index=_3P;
-	if(!(_FG[index] instanceof Array))
-	{
-		_FG[index]=[];
-		_FG[index]._4q3=__p3	}
-	else if(_FG[index]._4q3!=__p3)
-	{
-		_FG[index]=_FG[index].slice();
-		_FG[index]._4q3=__p3	}
-	return index}
-
 function __yy_gml_errCheck(_3P)
 {
 	if(_3P===undefined)
@@ -88231,6 +92363,30 @@ const _mq3=(_nj,_Pc,_281)=>
 		_nj[_a5]=_aC	}
 }
 ;
+
+function variable_global_exists(_Bq3)
+{
+	var _C3=false;
+	if((typeof g_var2obf!=="undefined")&&(g_var2obf[_Bq3]!=undefined))
+	{
+		_C3=g_global_names[g_var2obf[_Bq3]]	}
+	else 
+	{
+		_C3=g_global_names[_Bq3]	}
+	if(_C3==undefined)
+	{
+		if((typeof g_var2obf!=="undefined")&&(g_var2obf[_Bq3]!=undefined))
+		{
+			_C3=global.hasOwnProperty(g_var2obf[_Bq3]);
+		}
+		else 
+		{
+			_C3=global.hasOwnProperty("gml"+_Bq3)		}
+	}
+	else 
+	{
+		_C3=true	}
+	return _C3}
 
 function variable_global_get(_Bq3)
 {
@@ -88679,6 +92835,10 @@ function struct_exists(__e,_Z2)
 function struct_get_names(__e)
 {
 	return variable_instance_get_names(__e)}
+
+function struct_names_count(__e)
+{
+	return variable_instance_names_count(__e)}
 
 function struct_remove(__e,_Bq3)
 {
