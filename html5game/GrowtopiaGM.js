@@ -3478,7 +3478,7 @@ var JSON_game=
 		"filt+fx":"filt+fx","gx_mod_wallpaper":"gx_mod_wallpaper","nullish":"nullish","login_sso":"login_sso","operagx-yyc":"operagx-yyc","mqtt":"mqtt","audio-fx":"audio-fx","intellisense":"intellisense","test":"test","custom_env":"custom_env","filt+fx":"filt+fx","gx_mod_wallpaper":"gx_mod_wallpaper","gx_mod_gamestrip":"gx_mod_gamestrip","live_wallpaper_subscription":"live_wallpaper_subscription","code-editor":"code-editor","strip_unused_assets":"strip_unused_assets","update-process":"update-process","package-manager":"package-manager","prefab-library":"prefab-library","svg":"svg"	}
 	,Options:
 	{
-		debugMode:!1,AssetCompilerMajorVersion:2,AssetCompilerMinorVersion:0,AssetCompilerBuildVersion:0,GameSpeed:60,DrawColour:4294967295,xscreensize:1280,yscreensize:720,gameId:0,gameGuid:"47b341f1-019f-42be-b6dc-b68f015e45c4",fullScreen:!1,interpolatePixels:!1,showCursor:!0,scale:1,allowFullScreenKey:!0,freezeOnLostFocus:!1,showLoadingBar:!1,displayErrors:!1,writeErrors:!1,abortErrors:!1,variableErrors:!0,outputDebugToConsole:!0,WebGL:1,WebGLPreserveDrawingBuffer:0,CollisionCompatibility:!0,UseNewAudio:!0,GameDir:"html5game",Config:"Default",ViewColour:0,CreateEventOrder:!1,UseParticles:!0,UseBuiltinFont:!0,LocalRunAlert:!0,crc:0,ProjectName:"GrowtopiaGM",md5:[207,191,1,0,0,0,0,0,0,0,0,0,0,0,0,0],MajorVersion:1,MinorVersion:0,BuildVersion:0,RevisionVersion:0,DisplayName:"Created with GameMaker Studio 2",UseFBExtension:!1,tm:1747376270,AllowStatistics:"True"	}
+		debugMode:!1,AssetCompilerMajorVersion:2,AssetCompilerMinorVersion:0,AssetCompilerBuildVersion:0,GameSpeed:60,DrawColour:4294967295,xscreensize:1280,yscreensize:720,gameId:0,gameGuid:"47b341f1-019f-42be-b6dc-b68f015e45c4",fullScreen:!1,interpolatePixels:!1,showCursor:!0,scale:1,allowFullScreenKey:!0,freezeOnLostFocus:!1,showLoadingBar:!1,displayErrors:!1,writeErrors:!1,abortErrors:!1,variableErrors:!0,outputDebugToConsole:!0,WebGL:1,WebGLPreserveDrawingBuffer:0,CollisionCompatibility:!0,UseNewAudio:!0,GameDir:"html5game",Config:"Default",ViewColour:0,CreateEventOrder:!1,UseParticles:!0,UseBuiltinFont:!0,LocalRunAlert:!0,crc:0,ProjectName:"GrowtopiaGM",md5:[207,191,1,0,0,0,0,0,0,0,0,0,0,0,0,0],MajorVersion:1,MinorVersion:0,BuildVersion:0,RevisionVersion:0,DisplayName:"Created with GameMaker Studio 2",UseFBExtension:!1,tm:1747383763,AllowStatistics:"True"	}
 }
 ;
 
@@ -5034,8 +5034,9 @@ function gml_Script_connect_to_server(_inst,_other)
 {
 
 		{
+		show_debug_message(string("Connecting {0}:14800...",(yyGetBool(global.gmlserver_local)?"127.0.0.1":"comunidadgm.org")));
 		yyInst(_inst,_other,global.gmlserver).gmlsocket=network_create_socket((yyGetBool(global.gmlserver_local)?6:7));
-		network_connect_raw_async(yyInst(_inst,_other,global.gmlserver).gmlsocket,(yyGetBool(global.gmlserver_local)?"127.0.0.1":"comunidadgm.org"),16000);
+		network_connect_raw_async(yyInst(_inst,_other,global.gmlserver).gmlsocket,(yyGetBool(global.gmlserver_local)?"127.0.0.1":"comunidadgm.org"),14800);
 	}
 }
 
