@@ -2,11 +2,11 @@ const GAME_NAME = "GrowtopiaGM";
 const GAME_VERSION = "1.0.0.0";
 
 const CACHE_NAME = JSON.stringify({"name": GAME_NAME, "version": GAME_VERSION});
-const CACHE_FILES = ["runner.data",
-"runner.js",
-"runner.wasm",
-"audio-worklet.js",
-"game.unx"
+const CACHE_FILES = ["game.unx",
+"GrowtopiaGM.data",
+"GrowtopiaGM.html",
+"GrowtopiaGM.js",
+"GrowtopiaGM.wasm"
 ];
 
 self.addEventListener("fetch", (event) => {
