@@ -2,8 +2,8 @@
 "GrowtopiaGM.data",
 "GrowtopiaGM.html",
 "GrowtopiaGM.js",
-"GrowtopiaGM.wasm" ], "manifestFilesMD5" : [ "c1bba8b436d3f29b9d0a78023c774295",
+"GrowtopiaGM.wasm" ], "manifestFilesMD5" : [ "6ea30d89ffeb8a5ccb6bbd988e4aa51f",
 "8bd77e7ec0ec8a821e9017a6e98f43de",
 "a394970f7134e10f9458e207b1860112",
-"f076695cd0deec7768652bfd96f8fe54",
-"255125ea7b04ba64da5a80aaa1b5d97a" ], "mainJS" : "GrowtopiaGM.js",  "unx": "game.unx", "index": "index.html", "runner": {"version": "2024.1400.0.815", "yyc": true}}
+"b87797ef255ea1a111e776fb7c676765",
+"1bfad6e55159ed6a4e22fdd0dbbc355d" ], "mainJS" : "GrowtopiaGM.js",  "unx": "game.unx", "index": "index.html", "runner": {"version": "2024.1400.0.815", "yyc": true}}
