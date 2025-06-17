@@ -340,18 +340,6 @@
       tabindex="-1"
     >
     </canvas>
-    <div id="pauseMenuContainer" hidden>
-      <div id="pauseMenuBorder">
-        <div id="pauseMenu">
-          <button id="resumeButton" onclick="resume()">
-            Resume
-          </button>
-          <button id="quitButton" onclick="quitIfSupported()">
-            Quit
-          </button>
-        </div>
-        </div>
-    </div>
     <div class="loading">
       <div class="spinner" id="spinner"></div>
       <div class="emscripten" id="status">Downloading...</div>
@@ -362,32 +350,6 @@
     </div>
     <div class="multiplayer-stats" id="multiplayer-stats">
       [no stats available]
-    </div>
-    <div class="output-container" id="output-container">
-      <button class="output-button" onclick="toggleConsole()">
-        Toggle Console
-      </button>
-      <button id="QRButton" class="output-button" onclick="toggleQRCode()">
-        Show QRCode
-      </button>
-      <button id="QR2Button" class="output-button" onclick="toggleQRCode2()">
-        Show Opera GX QRCode
-      </button>
-      <!--
-      <button id="webglbutton" class="output-button" onclick="toggleWebGLContext()">
-        Lose WebGL Context
-      </button>
-      -->
-      <button class="output-button" id="stats-button" style="visibility: hidden" onclick="toggleStats()">
-        Toggle Stats
-      </button>
-      <button class="output-button" id="share-button" style="visibility: hidden" onclick="navigator.clipboard.writeText(window.shareUrl)">
-        Copy Share Url
-      </button>
-      <button class="output-button" id="log-state-button" onclick="log_next_game_state()" style="visibility: hidden">
-        Log State
-      </button>
-      <textarea id="output" rows="8"></textarea>
     </div>
 
     <div id="message-container">
